@@ -1,0 +1,1 @@
+window.SOURCE_CONTENT["b27f6ee6c822d5b4"]={"text": "﻿应用,主题,定位,代码事实,判断边界\r\nCash Drama,AB分组,bm2.t(String),ab_test_group 非空时直接返回,不能作为按启动次数轮换词表\r\nCoin Short,AB分组,tk2.s(String),ab_test_group 非空时直接返回,不能作为按启动次数轮换词表\r\nDramivo,在线策略,zg.c.e / zg.c.a / yg.a.run,30秒调用门槛及策略解析/缓存,未闭合在线策略到关键词赋值\r\n三款,计数依据,nq.q.do / nn.d0.d,事件1004701不比较新旧词表,事件数量不能计为换词次数\r\n"};
