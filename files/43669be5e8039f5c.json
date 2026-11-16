@@ -1,0 +1,2906 @@
+{
+  "input": "D:\\python daima\\outputs\\drama_competitor_analysis_20261116\\sources\\com.smartnettools.studio.dramapop\\business_bytecode.txt",
+  "calls_seen": 483,
+  "decoded": 483,
+  "unresolved": 0,
+  "records": [
+    {
+      "class": "LM3/l;",
+      "method": "b ()Ljava/lang/String;",
+      "decoded": "attr_network",
+      "source_offset_in_method": 341
+    },
+    {
+      "class": "LM3/l;",
+      "method": "d (Lcom/adjust/sdk/AdjustAttribution;)V",
+      "decoded": "attr_network",
+      "source_offset_in_method": 696
+    },
+    {
+      "class": "LM3/l;",
+      "method": "d (Lcom/adjust/sdk/AdjustAttribution;)V",
+      "decoded": "untrusted",
+      "source_offset_in_method": 1307
+    },
+    {
+      "class": "LM3/l;",
+      "method": "d (Lcom/adjust/sdk/AdjustAttribution;)V",
+      "decoded": "is_suspect",
+      "source_offset_in_method": 1986
+    },
+    {
+      "class": "LM3/l;",
+      "method": "d (Lcom/adjust/sdk/AdjustAttribution;)V",
+      "decoded": "organic",
+      "source_offset_in_method": 2428
+    },
+    {
+      "class": "LT3/h;",
+      "method": "i (I)Ljava/lang/String;",
+      "decoded": "unknown",
+      "source_offset_in_method": 522
+    },
+    {
+      "class": "LT3/h;",
+      "method": "i (I)Ljava/lang/String;",
+      "decoded": "banner",
+      "source_offset_in_method": 896
+    },
+    {
+      "class": "LT3/h;",
+      "method": "i (I)Ljava/lang/String;",
+      "decoded": "splash",
+      "source_offset_in_method": 1270
+    },
+    {
+      "class": "LT3/h;",
+      "method": "i (I)Ljava/lang/String;",
+      "decoded": "native",
+      "source_offset_in_method": 1644
+    },
+    {
+      "class": "LT3/h;",
+      "method": "i (I)Ljava/lang/String;",
+      "decoded": "reward",
+      "source_offset_in_method": 2018
+    },
+    {
+      "class": "LT3/h;",
+      "method": "i (I)Ljava/lang/String;",
+      "decoded": "interstitial",
+      "source_offset_in_method": 2400
+    },
+    {
+      "class": "Lc/b;",
+      "method": "a ()LIc/h;",
+      "decoded": "topon_sdk",
+      "source_offset_in_method": 1580
+    },
+    {
+      "class": "Lc/b;",
+      "method": "a ()LIc/h;",
+      "decoded": "applovin_max_sdk",
+      "source_offset_in_method": 2151
+    },
+    {
+      "class": "Lc/b;",
+      "method": "a ()LIc/h;",
+      "decoded": "applovin_max_sdk",
+      "source_offset_in_method": 3171
+    },
+    {
+      "class": "Lc/b;",
+      "method": "a ()LIc/h;",
+      "decoded": "applovin_max_sdk",
+      "source_offset_in_method": 3664
+    },
+    {
+      "class": "Lc/b;",
+      "method": "a ()LIc/h;",
+      "decoded": "topon_sdk",
+      "source_offset_in_method": 4038
+    },
+    {
+      "class": "Lc/b;",
+      "method": "a ()LIc/h;",
+      "decoded": "topon_sdk",
+      "source_offset_in_method": 4519
+    },
+    {
+      "class": "Lc/b;",
+      "method": "a ()LIc/h;",
+      "decoded": "-",
+      "source_offset_in_method": 10187
+    },
+    {
+      "class": "Lc/b;",
+      "method": "a ()LIc/h;",
+      "decoded": "@",
+      "source_offset_in_method": 10779
+    },
+    {
+      "class": "Lc/b;",
+      "method": "a ()LIc/h;",
+      "decoded": "0:50#2:100",
+      "source_offset_in_method": 11850
+    },
+    {
+      "class": "Lg/b;",
+      "method": "<clinit> ()V",
+      "decoded": "lastPrice",
+      "source_offset_in_method": 286
+    },
+    {
+      "class": "Lg/b;",
+      "method": "<clinit> ()V",
+      "decoded": "consecutive",
+      "source_offset_in_method": 695
+    },
+    {
+      "class": "Lg/b;",
+      "method": "a ()LQ3/e;",
+      "decoded": "interstitial_price_compare_json",
+      "source_offset_in_method": 357
+    },
+    {
+      "class": "Lg/b;",
+      "method": "b (D Ljava/lang/String;)V",
+      "decoded": "interstitial_price_compare_json",
+      "source_offset_in_method": 2572
+    },
+    {
+      "class": "Lj/c;",
+      "method": "a (Ljava/lang/String;)Lj/c;",
+      "decoded": "keyActReportInterval",
+      "source_offset_in_method": 498
+    },
+    {
+      "class": "Lj/c;",
+      "method": "a (Ljava/lang/String;)Lj/c;",
+      "decoded": "keyActionReportList",
+      "source_offset_in_method": 985
+    },
+    {
+      "class": "Lj/c;",
+      "method": "a (Ljava/lang/String;)Lj/c;",
+      "decoded": "country",
+      "source_offset_in_method": 2082
+    },
+    {
+      "class": "Lj/c;",
+      "method": "a (Ljava/lang/String;)Lj/c;",
+      "decoded": "cpm",
+      "source_offset_in_method": 2592
+    },
+    {
+      "class": "Lj/c;",
+      "method": "a (Ljava/lang/String;)Lj/c;",
+      "decoded": "count",
+      "source_offset_in_method": 3068
+    },
+    {
+      "class": "Lj/c;",
+      "method": "a (Ljava/lang/String;)Lj/c;",
+      "decoded": "extraList",
+      "source_offset_in_method": 3538
+    },
+    {
+      "class": "Lj/c;",
+      "method": "a (Ljava/lang/String;)Lj/c;",
+      "decoded": "name",
+      "source_offset_in_method": 4535
+    },
+    {
+      "class": "Lj/c;",
+      "method": "a (Ljava/lang/String;)Lj/c;",
+      "decoded": "cpm",
+      "source_offset_in_method": 5059
+    },
+    {
+      "class": "Lj/c;",
+      "method": "a (Ljava/lang/String;)Lj/c;",
+      "decoded": "count",
+      "source_offset_in_method": 5549
+    },
+    {
+      "class": "Lj/c;",
+      "method": "a (Ljava/lang/String;)Lj/c;",
+      "decoded": "revenueReportCondition",
+      "source_offset_in_method": 6460
+    },
+    {
+      "class": "Lj/c;",
+      "method": "a (Ljava/lang/String;)Lj/c;",
+      "decoded": "revenueCnt",
+      "source_offset_in_method": 7072
+    },
+    {
+      "class": "Lj/c;",
+      "method": "a (Ljava/lang/String;)Lj/c;",
+      "decoded": "minRevenueVal",
+      "source_offset_in_method": 7550
+    },
+    {
+      "class": "Lj/c;",
+      "method": "a (Ljava/lang/String;)Lj/c;",
+      "decoded": "rrr",
+      "source_offset_in_method": 8065
+    },
+    {
+      "class": "Lj/c;",
+      "method": "a (Ljava/lang/String;)Lj/c;",
+      "decoded": "reportRatioInfo",
+      "source_offset_in_method": 8544
+    },
+    {
+      "class": "Lj/c;",
+      "method": "a (Ljava/lang/String;)Lj/c;",
+      "decoded": "appActivated",
+      "source_offset_in_method": 9156
+    },
+    {
+      "class": "Lj/c;",
+      "method": "a (Ljava/lang/String;)Lj/c;",
+      "decoded": "appAdShowSuccess",
+      "source_offset_in_method": 9638
+    },
+    {
+      "class": "Lj/c;",
+      "method": "a (Ljava/lang/String;)Lj/c;",
+      "decoded": "levelAchieved",
+      "source_offset_in_method": 10116
+    },
+    {
+      "class": "Lj/c;",
+      "method": "a (Ljava/lang/String;)Lj/c;",
+      "decoded": "adRevenue",
+      "source_offset_in_method": 10586
+    },
+    {
+      "class": "Lj/c;",
+      "method": "a (Ljava/lang/String;)Lj/c;",
+      "decoded": "appInfo",
+      "source_offset_in_method": 11099
+    },
+    {
+      "class": "Lj/c;",
+      "method": "a (Ljava/lang/String;)Lj/c;",
+      "decoded": "appId",
+      "source_offset_in_method": 11680
+    },
+    {
+      "class": "Lj/c;",
+      "method": "a (Ljava/lang/String;)Lj/c;",
+      "decoded": "appKey",
+      "source_offset_in_method": 12194
+    },
+    {
+      "class": "Lj/c;",
+      "method": "a (Ljava/lang/String;)Lj/c;",
+      "decoded": "adId",
+      "source_offset_in_method": 12708
+    },
+    {
+      "class": "Lj/c;",
+      "method": "a (Ljava/lang/String;)Lj/c;",
+      "decoded": "nativeAdId",
+      "source_offset_in_method": 13230
+    },
+    {
+      "class": "Lj/c;",
+      "method": "a (Ljava/lang/String;)Lj/c;",
+      "decoded": "splashAdId",
+      "source_offset_in_method": 13752
+    },
+    {
+      "class": "Lj/c;",
+      "method": "a (Ljava/lang/String;)Lj/c;",
+      "decoded": "maxSdkKey",
+      "source_offset_in_method": 14270
+    },
+    {
+      "class": "Lj/c;",
+      "method": "a (Ljava/lang/String;)Lj/c;",
+      "decoded": "maxAdId",
+      "source_offset_in_method": 14788
+    },
+    {
+      "class": "Lj/c;",
+      "method": "a (Ljava/lang/String;)Lj/c;",
+      "decoded": "maxNativeAdId",
+      "source_offset_in_method": 15314
+    },
+    {
+      "class": "Lj/c;",
+      "method": "a (Ljava/lang/String;)Lj/c;",
+      "decoded": "maxSplashAdId",
+      "source_offset_in_method": 15840
+    },
+    {
+      "class": "Lj/c;",
+      "method": "a (Ljava/lang/String;)Lj/c;",
+      "decoded": "mediation",
+      "source_offset_in_method": 16401
+    },
+    {
+      "class": "Lj/c;",
+      "method": "a (Ljava/lang/String;)Lj/c;",
+      "decoded": "mediationRatio",
+      "source_offset_in_method": 16880
+    },
+    {
+      "class": "Lj/c;",
+      "method": "a (Ljava/lang/String;)Lj/c;",
+      "decoded": "mediationNetworkRatio",
+      "source_offset_in_method": 17415
+    },
+    {
+      "class": "Lj/c;",
+      "method": "a (Ljava/lang/String;)Lj/c;",
+      "decoded": "mediationSwitchImmed",
+      "source_offset_in_method": 17950
+    },
+    {
+      "class": "Lj/c;",
+      "method": "a (Ljava/lang/String;)Lj/c;",
+      "decoded": "mediationPriceCompare",
+      "source_offset_in_method": 18437
+    },
+    {
+      "class": "Lj/c;",
+      "method": "a (Ljava/lang/String;)Lj/c;",
+      "decoded": "mediationPriceCompareV1",
+      "source_offset_in_method": 18928
+    },
+    {
+      "class": "Ll4/c;",
+      "method": "a (Lcom/freetools/freereels/FreereelsApp;)Ljava/lang/String;",
+      "decoded": "country",
+      "source_offset_in_method": 453
+    },
+    {
+      "class": "Ll4/c;",
+      "method": "a (Lcom/freetools/freereels/FreereelsApp;)Ljava/lang/String;",
+      "decoded": "US",
+      "source_offset_in_method": 1354
+    },
+    {
+      "class": "Ll4/c;",
+      "method": "a (Lcom/freetools/freereels/FreereelsApp;)Ljava/lang/String;",
+      "decoded": "GB",
+      "source_offset_in_method": 1826
+    },
+    {
+      "class": "Ll4/c;",
+      "method": "a (Lcom/freetools/freereels/FreereelsApp;)Ljava/lang/String;",
+      "decoded": "phone",
+      "source_offset_in_method": 2302
+    },
+    {
+      "class": "Lv4/d;",
+      "method": "X ()Z",
+      "decoded": "user_source",
+      "source_offset_in_method": 518
+    },
+    {
+      "class": "LA7/g;",
+      "method": "run ()V",
+      "decoded": "user_source",
+      "source_offset_in_method": 1660
+    },
+    {
+      "class": "LA7/v;",
+      "method": "onSdkInitialized (Lcom/applovin/sdk/AppLovinSdkConfiguration;)V",
+      "decoded": "country",
+      "source_offset_in_method": 763
+    },
+    {
+      "class": "LA7/v;",
+      "method": "onSdkInitialized (Lcom/applovin/sdk/AppLovinSdkConfiguration;)V",
+      "decoded": "CN",
+      "source_offset_in_method": 1234
+    },
+    {
+      "class": "LA7/v;",
+      "method": "onSdkInitialized (Lcom/applovin/sdk/AppLovinSdkConfiguration;)V",
+      "decoded": "is_suspect",
+      "source_offset_in_method": 2039
+    },
+    {
+      "class": "Lcom/freetools/freereels/FreereelsApp;",
+      "method": "onCreate ()V",
+      "decoded": "sdkKey",
+      "source_offset_in_method": 4039
+    },
+    {
+      "class": "Lcom/freetools/freereels/FreereelsApp;",
+      "method": "onCreate ()V",
+      "decoded": "interstitialId",
+      "source_offset_in_method": 4562
+    },
+    {
+      "class": "Lcom/freetools/freereels/FreereelsApp;",
+      "method": "onCreate ()V",
+      "decoded": "nativeId",
+      "source_offset_in_method": 5102
+    },
+    {
+      "class": "Lcom/freetools/freereels/FreereelsApp;",
+      "method": "onCreate ()V",
+      "decoded": "splashId",
+      "source_offset_in_method": 5642
+    },
+    {
+      "class": "Lcom/freetools/freereels/FreereelsApp;",
+      "method": "onCreate ()V",
+      "decoded": "appId",
+      "source_offset_in_method": 6270
+    },
+    {
+      "class": "Lcom/freetools/freereels/FreereelsApp;",
+      "method": "onCreate ()V",
+      "decoded": "appKey",
+      "source_offset_in_method": 6781
+    },
+    {
+      "class": "Lcom/freetools/freereels/FreereelsApp;",
+      "method": "onCreate ()V",
+      "decoded": "interstitialId",
+      "source_offset_in_method": 7304
+    },
+    {
+      "class": "Lcom/freetools/freereels/FreereelsApp;",
+      "method": "onCreate ()V",
+      "decoded": "nativeId",
+      "source_offset_in_method": 7844
+    },
+    {
+      "class": "Lcom/freetools/freereels/FreereelsApp;",
+      "method": "onCreate ()V",
+      "decoded": "splashId",
+      "source_offset_in_method": 8276
+    },
+    {
+      "class": "Lcom/freetools/freereels/FreereelsApp;",
+      "method": "onCreate ()V",
+      "decoded": "app_token",
+      "source_offset_in_method": 8962
+    },
+    {
+      "class": "Lcom/freetools/freereels/FreereelsApp;",
+      "method": "onCreate ()V",
+      "decoded": "app_activated",
+      "source_offset_in_method": 9539
+    },
+    {
+      "class": "Lcom/freetools/freereels/FreereelsApp;",
+      "method": "onCreate ()V",
+      "decoded": "app_activated",
+      "source_offset_in_method": 9900
+    },
+    {
+      "class": "Lcom/freetools/freereels/FreereelsApp;",
+      "method": "onCreate ()V",
+      "decoded": "app_ad_show_success",
+      "source_offset_in_method": 10495
+    },
+    {
+      "class": "Lcom/freetools/freereels/FreereelsApp;",
+      "method": "onCreate ()V",
+      "decoded": "app_ad_show_success",
+      "source_offset_in_method": 10864
+    },
+    {
+      "class": "Lcom/freetools/freereels/FreereelsApp;",
+      "method": "onCreate ()V",
+      "decoded": "user_active_open",
+      "source_offset_in_method": 11455
+    },
+    {
+      "class": "Lcom/freetools/freereels/FreereelsApp;",
+      "method": "onCreate ()V",
+      "decoded": "user_active_open",
+      "source_offset_in_method": 11820
+    },
+    {
+      "class": "Lcom/freetools/freereels/FreereelsApp;",
+      "method": "onCreate ()V",
+      "decoded": "level_achieved_a1",
+      "source_offset_in_method": 12411
+    },
+    {
+      "class": "Lcom/freetools/freereels/FreereelsApp;",
+      "method": "onCreate ()V",
+      "decoded": "level_achieved_a1",
+      "source_offset_in_method": 12776
+    },
+    {
+      "class": "Lcom/freetools/freereels/FreereelsApp;",
+      "method": "onCreate ()V",
+      "decoded": "level_achieved_a2",
+      "source_offset_in_method": 13367
+    },
+    {
+      "class": "Lcom/freetools/freereels/FreereelsApp;",
+      "method": "onCreate ()V",
+      "decoded": "level_achieved_a2",
+      "source_offset_in_method": 13732
+    },
+    {
+      "class": "Lcom/freetools/freereels/FreereelsApp;",
+      "method": "onCreate ()V",
+      "decoded": "level_achieved_a3",
+      "source_offset_in_method": 14323
+    },
+    {
+      "class": "Lcom/freetools/freereels/FreereelsApp;",
+      "method": "onCreate ()V",
+      "decoded": "level_achieved_a3",
+      "source_offset_in_method": 14688
+    },
+    {
+      "class": "Lcom/freetools/freereels/FreereelsApp;",
+      "method": "onCreate ()V",
+      "decoded": "level_achieved_a4",
+      "source_offset_in_method": 15279
+    },
+    {
+      "class": "Lcom/freetools/freereels/FreereelsApp;",
+      "method": "onCreate ()V",
+      "decoded": "level_achieved_a4",
+      "source_offset_in_method": 15644
+    },
+    {
+      "class": "Lcom/freetools/freereels/FreereelsApp;",
+      "method": "onCreate ()V",
+      "decoded": "level_achieved_a5",
+      "source_offset_in_method": 16235
+    },
+    {
+      "class": "Lcom/freetools/freereels/FreereelsApp;",
+      "method": "onCreate ()V",
+      "decoded": "level_achieved_a5",
+      "source_offset_in_method": 16600
+    },
+    {
+      "class": "Lcom/freetools/freereels/FreereelsApp;",
+      "method": "onCreate ()V",
+      "decoded": "level_achieved_a6",
+      "source_offset_in_method": 17191
+    },
+    {
+      "class": "Lcom/freetools/freereels/FreereelsApp;",
+      "method": "onCreate ()V",
+      "decoded": "level_achieved_a6",
+      "source_offset_in_method": 17556
+    },
+    {
+      "class": "Lcom/freetools/freereels/FreereelsApp;",
+      "method": "onCreate ()V",
+      "decoded": "level_achieved",
+      "source_offset_in_method": 18143
+    },
+    {
+      "class": "Lcom/freetools/freereels/FreereelsApp;",
+      "method": "onCreate ()V",
+      "decoded": "trigger_attribution",
+      "source_offset_in_method": 18674
+    },
+    {
+      "class": "Lcom/freetools/freereels/FreereelsApp;",
+      "method": "onCreate ()V",
+      "decoded": "activity",
+      "source_offset_in_method": 19584
+    },
+    {
+      "class": "Lcom/freetools/freereels/FreereelsApp;",
+      "method": "onCreate ()V",
+      "decoded": "uap_pref",
+      "source_offset_in_method": 21486
+    },
+    {
+      "class": "Lcom/freetools/freereels/FreereelsApp;",
+      "method": "onCreate ()V",
+      "decoded": "is_suspect",
+      "source_offset_in_method": 22128
+    },
+    {
+      "class": "Lcom/freetools/freereels/FreereelsApp;",
+      "method": "onCreate ()V",
+      "decoded": "unknown",
+      "source_offset_in_method": 23378
+    },
+    {
+      "class": "Lcom/freetools/freereels/FreereelsApp;",
+      "method": "onCreate ()V",
+      "decoded": "is_suspect",
+      "source_offset_in_method": 24471
+    },
+    {
+      "class": "Lcom/freetools/freereels/FreereelsApp;",
+      "method": "onCreate ()V",
+      "decoded": "CN",
+      "source_offset_in_method": 24888
+    },
+    {
+      "class": "Lcom/freetools/freereels/FreereelsApp;",
+      "method": "onCreate ()V",
+      "decoded": "is_suspect",
+      "source_offset_in_method": 25615
+    },
+    {
+      "class": "Lcom/freetools/freereels/FreereelsApp;",
+      "method": "onCreate ()V",
+      "decoded": "unknown",
+      "source_offset_in_method": 26804
+    },
+    {
+      "class": "Lcom/freetools/freereels/FreereelsApp;",
+      "method": "onCreate ()V",
+      "decoded": "adb_enabled",
+      "source_offset_in_method": 27244
+    },
+    {
+      "class": "Lcom/freetools/freereels/FreereelsApp;",
+      "method": "onCreate ()V",
+      "decoded": "development_settings_enabled",
+      "source_offset_in_method": 28313
+    },
+    {
+      "class": "Lcom/freetools/freereels/FreereelsApp;",
+      "method": "onCreate ()V",
+      "decoded": "phone",
+      "source_offset_in_method": 29067
+    },
+    {
+      "class": "Lcom/freetools/freereels/FreereelsApp;",
+      "method": "onCreate ()V",
+      "decoded": "sim_card",
+      "source_offset_in_method": 29805
+    },
+    {
+      "class": "Lcom/freetools/freereels/FreereelsApp;",
+      "method": "onCreate ()V",
+      "decoded": "none",
+      "source_offset_in_method": 30172
+    },
+    {
+      "class": "Lcom/freetools/freereels/FreereelsApp;",
+      "method": "onCreate ()V",
+      "decoded": "is_suspect",
+      "source_offset_in_method": 31062
+    },
+    {
+      "class": "Lcom/freetools/freereels/FreereelsApp;",
+      "method": "onCreate ()V",
+      "decoded": "user_source",
+      "source_offset_in_method": 31612
+    },
+    {
+      "class": "Lcom/freetools/freereels/FreereelsApp;",
+      "method": "onCreate ()V",
+      "decoded": "ad_strategy",
+      "source_offset_in_method": 32366
+    },
+    {
+      "class": "Lcom/freetools/freereels/FreereelsApp;",
+      "method": "onCreate ()V",
+      "decoded": "production",
+      "source_offset_in_method": 33210
+    },
+    {
+      "class": "Lcom/freetools/freereels/FreereelsApp;",
+      "method": "onCreate ()V",
+      "decoded": "user_source",
+      "source_offset_in_method": 34163
+    },
+    {
+      "class": "Lcom/freetools/freereels/FreereelsApp;",
+      "method": "onCreate ()V",
+      "decoded": "user_id",
+      "source_offset_in_method": 35190
+    },
+    {
+      "class": "Lcom/freetools/freereels/FreereelsApp;",
+      "method": "onCreate ()V",
+      "decoded": "user_id",
+      "source_offset_in_method": 35550
+    },
+    {
+      "class": "Lcom/freetools/freereels/FreereelsApp;",
+      "method": "onCreate ()V",
+      "decoded": "user_id",
+      "source_offset_in_method": 36399
+    },
+    {
+      "class": "Lcom/freetools/freereels/FreereelsApp;",
+      "method": "onCreate ()V",
+      "decoded": "register_time",
+      "source_offset_in_method": 36971
+    },
+    {
+      "class": "Lcom/freetools/freereels/FreereelsApp;",
+      "method": "onCreate ()V",
+      "decoded": "appstore",
+      "source_offset_in_method": 37529
+    },
+    {
+      "class": "Lcom/freetools/freereels/FreereelsApp;",
+      "method": "onCreate ()V",
+      "decoded": "user_source",
+      "source_offset_in_method": 38974
+    },
+    {
+      "class": "Lcom/freetools/freereels/FreereelsApp;",
+      "method": "onCreate ()V",
+      "decoded": "install_referrer_cnt",
+      "source_offset_in_method": 40139
+    },
+    {
+      "class": "Lcom/freetools/freereels/FreereelsApp;",
+      "method": "onCreate ()V",
+      "decoded": "install_referrer_cnt",
+      "source_offset_in_method": 40761
+    },
+    {
+      "class": "Lcom/freetools/freereels/FreereelsApp;",
+      "method": "onCreate ()V",
+      "decoded": "report_bit_json",
+      "source_offset_in_method": 42304
+    },
+    {
+      "class": "Lcom/freetools/freereels/FreereelsApp;",
+      "method": "onCreate ()V",
+      "decoded": "FirebaseApp.initializeApp error",
+      "source_offset_in_method": 46242
+    },
+    {
+      "class": "Lcom/freetools/freereels/FreereelsApp;",
+      "method": "onCreate ()V",
+      "decoded": "FirebaseManager.initRemoteConfig error",
+      "source_offset_in_method": 48724
+    },
+    {
+      "class": "Lcom/freetools/freereels/FreereelsApp;",
+      "method": "onCreate ()V",
+      "decoded": "FirebaseAnalytics.getInstance error",
+      "source_offset_in_method": 50113
+    },
+    {
+      "class": "Lcom/freetools/freereels/ui/SplashActivity;",
+      "method": "onActivityResult (I I Landroid/content/Intent;)V",
+      "decoded": "android.app.role.HOME",
+      "source_offset_in_method": 1661
+    },
+    {
+      "class": "Lcom/freetools/freereels/ui/SplashActivity;",
+      "method": "onActivityResult (I I Landroid/content/Intent;)V",
+      "decoded": "android.app.role.HOME",
+      "source_offset_in_method": 2197
+    },
+    {
+      "class": "Lcom/freetools/freereels/ui/d;",
+      "method": "invokeSuspend (Ljava/lang/Object;)Ljava/lang/Object;",
+      "decoded": "splash_pop_launcher",
+      "source_offset_in_method": 2997
+    },
+    {
+      "class": "Lcom/freetools/freereels/ui/d;",
+      "method": "invokeSuspend (Ljava/lang/Object;)Ljava/lang/Object;",
+      "decoded": "splash_pop_launcher",
+      "source_offset_in_method": 3499
+    },
+    {
+      "class": "Lcom/freetools/freereels/ui/d;",
+      "method": "invokeSuspend (Ljava/lang/Object;)Ljava/lang/Object;",
+      "decoded": "android.app.role.HOME",
+      "source_offset_in_method": 4578
+    },
+    {
+      "class": "Lcom/freetools/freereels/ui/d;",
+      "method": "invokeSuspend (Ljava/lang/Object;)Ljava/lang/Object;",
+      "decoded": "android.app.role.HOME",
+      "source_offset_in_method": 5114
+    },
+    {
+      "class": "Lcom/freetools/freereels/ui/d;",
+      "method": "invokeSuspend (Ljava/lang/Object;)Ljava/lang/Object;",
+      "decoded": "android.app.role.HOME",
+      "source_offset_in_method": 5623
+    },
+    {
+      "class": "Ln9/B0;",
+      "method": "h ()Ljava/lang/String;",
+      "decoded": "register_time",
+      "source_offset_in_method": 345
+    },
+    {
+      "class": "Ln9/B0;",
+      "method": "h ()Ljava/lang/String;",
+      "decoded": "yyyyMMddHHmm",
+      "source_offset_in_method": 1156
+    },
+    {
+      "class": "Ln9/B0;",
+      "method": "h ()Ljava/lang/String;",
+      "decoded": "GMT+08:00",
+      "source_offset_in_method": 1686
+    },
+    {
+      "class": "Ln9/B0;",
+      "method": "h ()Ljava/lang/String;",
+      "decoded": "register_time",
+      "source_offset_in_method": 2500
+    },
+    {
+      "class": "Lj8/z;",
+      "method": "b (Ljava/lang/String;)V",
+      "decoded": "tiktok_s",
+      "source_offset_in_method": 438
+    },
+    {
+      "class": "Lj8/z;",
+      "method": "b (Ljava/lang/String;)V",
+      "decoded": "paid_traffic_s",
+      "source_offset_in_method": 956
+    },
+    {
+      "class": "Lj8/z;",
+      "method": "b (Ljava/lang/String;)V",
+      "decoded": "singular",
+      "source_offset_in_method": 1444
+    },
+    {
+      "class": "Lj8/z;",
+      "method": "b (Ljava/lang/String;)V",
+      "decoded": "adjust",
+      "source_offset_in_method": 1928
+    },
+    {
+      "class": "Lj8/z;",
+      "method": "b (Ljava/lang/String;)V",
+      "decoded": "utm_content",
+      "source_offset_in_method": 2442
+    },
+    {
+      "class": "Lj8/z;",
+      "method": "b (Ljava/lang/String;)V",
+      "decoded": "app",
+      "source_offset_in_method": 2922
+    },
+    {
+      "class": "Lj8/z;",
+      "method": "b (Ljava/lang/String;)V",
+      "decoded": "source",
+      "source_offset_in_method": 3406
+    },
+    {
+      "class": "Lj8/z;",
+      "method": "b (Ljava/lang/String;)V",
+      "decoded": "data",
+      "source_offset_in_method": 3890
+    },
+    {
+      "class": "Lj8/z;",
+      "method": "b (Ljava/lang/String;)V",
+      "decoded": "nonce",
+      "source_offset_in_method": 4374
+    },
+    {
+      "class": "Lj8/z;",
+      "method": "b (Ljava/lang/String;)V",
+      "decoded": "gclid",
+      "source_offset_in_method": 4921
+    },
+    {
+      "class": "Lj8/z;",
+      "method": "b (Ljava/lang/String;)V",
+      "decoded": "gbraid",
+      "source_offset_in_method": 5405
+    },
+    {
+      "class": "Lj8/z;",
+      "method": "b (Ljava/lang/String;)V",
+      "decoded": "gad_source",
+      "source_offset_in_method": 5897
+    },
+    {
+      "class": "Lj8/z;",
+      "method": "b (Ljava/lang/String;)V",
+      "decoded": "install_referrer_cnt",
+      "source_offset_in_method": 6549
+    },
+    {
+      "class": "Lhb/c;",
+      "method": "a ()V",
+      "decoded": "LC_FIRST_SHOW_SPLASH_BOOLEAN",
+      "source_offset_in_method": 1639
+    },
+    {
+      "class": "Lhb/c;",
+      "method": "a ()V",
+      "decoded": "LC_FIRST_SHOW_SPLASH_BOOLEAN",
+      "source_offset_in_method": 3079
+    },
+    {
+      "class": "Lhb/c;",
+      "method": "a ()V",
+      "decoded": "app_splash",
+      "source_offset_in_method": 4441
+    },
+    {
+      "class": "LIc/e;",
+      "method": "accept (Ljava/lang/Object;)V",
+      "decoded": "firebase_ad_impression_google_ads_only",
+      "source_offset_in_method": 641
+    },
+    {
+      "class": "LIc/e;",
+      "method": "accept (Ljava/lang/Object;)V",
+      "decoded": "google_ads_network_list",
+      "source_offset_in_method": 1455
+    },
+    {
+      "class": "LIc/e;",
+      "method": "accept (Ljava/lang/Object;)V",
+      "decoded": "google",
+      "source_offset_in_method": 1804
+    },
+    {
+      "class": "LIc/e;",
+      "method": "accept (Ljava/lang/Object;)V",
+      "decoded": "###",
+      "source_offset_in_method": 2977
+    },
+    {
+      "class": "LIc/e;",
+      "method": "accept (Ljava/lang/Object;)V",
+      "decoded": "ad_format",
+      "source_offset_in_method": 3969
+    },
+    {
+      "class": "LIc/e;",
+      "method": "accept (Ljava/lang/Object;)V",
+      "decoded": "value",
+      "source_offset_in_method": 4502
+    },
+    {
+      "class": "LIc/e;",
+      "method": "accept (Ljava/lang/Object;)V",
+      "decoded": "currency",
+      "source_offset_in_method": 5116
+    },
+    {
+      "class": "LIc/e;",
+      "method": "accept (Ljava/lang/Object;)V",
+      "decoded": "ad_platform",
+      "source_offset_in_method": 5679
+    },
+    {
+      "class": "LIc/e;",
+      "method": "accept (Ljava/lang/Object;)V",
+      "decoded": "ad_impression",
+      "source_offset_in_method": 6246
+    },
+    {
+      "class": "LIc/e;",
+      "method": "accept (Ljava/lang/Object;)V",
+      "decoded": "taichi_data_json",
+      "source_offset_in_method": 7343
+    },
+    {
+      "class": "LIc/e;",
+      "method": "accept (Ljava/lang/Object;)V",
+      "decoded": "totalRevenue",
+      "source_offset_in_method": 8167
+    },
+    {
+      "class": "LIc/e;",
+      "method": "accept (Ljava/lang/Object;)V",
+      "decoded": "pendingRevenue",
+      "source_offset_in_method": 8657
+    },
+    {
+      "class": "LIc/e;",
+      "method": "accept (Ljava/lang/Object;)V",
+      "decoded": "reached",
+      "source_offset_in_method": 9139
+    },
+    {
+      "class": "LIc/e;",
+      "method": "accept (Ljava/lang/Object;)V",
+      "decoded": "value",
+      "source_offset_in_method": 15167
+    },
+    {
+      "class": "LIc/e;",
+      "method": "accept (Ljava/lang/Object;)V",
+      "decoded": "currency",
+      "source_offset_in_method": 15622
+    },
+    {
+      "class": "LIc/e;",
+      "method": "accept (Ljava/lang/Object;)V",
+      "decoded": "USD",
+      "source_offset_in_method": 15970
+    },
+    {
+      "class": "LIc/e;",
+      "method": "accept (Ljava/lang/Object;)V",
+      "decoded": "value",
+      "source_offset_in_method": 17690
+    },
+    {
+      "class": "LIc/e;",
+      "method": "accept (Ljava/lang/Object;)V",
+      "decoded": "currency",
+      "source_offset_in_method": 18140
+    },
+    {
+      "class": "LIc/e;",
+      "method": "accept (Ljava/lang/Object;)V",
+      "decoded": "USD",
+      "source_offset_in_method": 18485
+    },
+    {
+      "class": "LIc/e;",
+      "method": "accept (Ljava/lang/Object;)V",
+      "decoded": "totalRevenue",
+      "source_offset_in_method": 19150
+    },
+    {
+      "class": "LIc/e;",
+      "method": "accept (Ljava/lang/Object;)V",
+      "decoded": "pendingRevenue",
+      "source_offset_in_method": 19744
+    },
+    {
+      "class": "LIc/e;",
+      "method": "accept (Ljava/lang/Object;)V",
+      "decoded": "reached",
+      "source_offset_in_method": 20330
+    },
+    {
+      "class": "LIc/e;",
+      "method": "accept (Ljava/lang/Object;)V",
+      "decoded": "taichi_data_json",
+      "source_offset_in_method": 20886
+    },
+    {
+      "class": "LIc/f;",
+      "method": "e (I Lcom/thinkup/core/api/TUAdInfo; Ljava/lang/String;)V",
+      "decoded": "empty",
+      "source_offset_in_method": 352
+    },
+    {
+      "class": "LIc/f;",
+      "method": "e (I Lcom/thinkup/core/api/TUAdInfo; Ljava/lang/String;)V",
+      "decoded": "topon_sdk",
+      "source_offset_in_method": 947
+    },
+    {
+      "class": "LIc/f;",
+      "method": "e (I Lcom/thinkup/core/api/TUAdInfo; Ljava/lang/String;)V",
+      "decoded": "country",
+      "source_offset_in_method": 1890
+    },
+    {
+      "class": "LIc/f;",
+      "method": "e (I Lcom/thinkup/core/api/TUAdInfo; Ljava/lang/String;)V",
+      "decoded": "CN",
+      "source_offset_in_method": 2361
+    },
+    {
+      "class": "LIc/f;",
+      "method": "e (I Lcom/thinkup/core/api/TUAdInfo; Ljava/lang/String;)V",
+      "decoded": "is_suspect",
+      "source_offset_in_method": 3188
+    },
+    {
+      "class": "LIc/f;",
+      "method": "e (I Lcom/thinkup/core/api/TUAdInfo; Ljava/lang/String;)V",
+      "decoded": "topon_sdk",
+      "source_offset_in_method": 3873
+    },
+    {
+      "class": "LIc/f;",
+      "method": "e (I Lcom/thinkup/core/api/TUAdInfo; Ljava/lang/String;)V",
+      "decoded": "minor_ad_cpm",
+      "source_offset_in_method": 4296
+    },
+    {
+      "class": "LIc/f;",
+      "method": "e (I Lcom/thinkup/core/api/TUAdInfo; Ljava/lang/String;)V",
+      "decoded": "minor_ad_cpm",
+      "source_offset_in_method": 4911
+    },
+    {
+      "class": "LIc/f;",
+      "method": "e (I Lcom/thinkup/core/api/TUAdInfo; Ljava/lang/String;)V",
+      "decoded": "topon_sdk",
+      "source_offset_in_method": 5953
+    },
+    {
+      "class": "LIc/f;",
+      "method": "e (I Lcom/thinkup/core/api/TUAdInfo; Ljava/lang/String;)V",
+      "decoded": "minor_ad_cpm",
+      "source_offset_in_method": 6409
+    },
+    {
+      "class": "LIc/f;",
+      "method": "e (I Lcom/thinkup/core/api/TUAdInfo; Ljava/lang/String;)V",
+      "decoded": "minor_ad_cpm",
+      "source_offset_in_method": 7031
+    },
+    {
+      "class": "LIc/f;",
+      "method": "f (LIc/f; I Lcom/thinkup/core/api/TUAdInfo; Ljava/lang/String;)V",
+      "decoded": "empty",
+      "source_offset_in_method": 480
+    },
+    {
+      "class": "LIc/f;",
+      "method": "f (LIc/f; I Lcom/thinkup/core/api/TUAdInfo; Ljava/lang/String;)V",
+      "decoded": "topon_sdk",
+      "source_offset_in_method": 874
+    },
+    {
+      "class": "LIc/f;",
+      "method": "c ()V",
+      "decoded": "_TODO",
+      "source_offset_in_method": 353
+    },
+    {
+      "class": "LIc/f;",
+      "method": "d ()V",
+      "decoded": "_TODO",
+      "source_offset_in_method": 353
+    },
+    {
+      "class": "LIc/g;",
+      "method": "f (I Lcom/applovin/mediation/MaxAd; Ljava/lang/String;)V",
+      "decoded": "empty",
+      "source_offset_in_method": 376
+    },
+    {
+      "class": "LIc/g;",
+      "method": "f (I Lcom/applovin/mediation/MaxAd; Ljava/lang/String;)V",
+      "decoded": "applovin_max_sdk",
+      "source_offset_in_method": 912
+    },
+    {
+      "class": "LIc/g;",
+      "method": "f (I Lcom/applovin/mediation/MaxAd; Ljava/lang/String;)V",
+      "decoded": "country",
+      "source_offset_in_method": 2454
+    },
+    {
+      "class": "LIc/g;",
+      "method": "f (I Lcom/applovin/mediation/MaxAd; Ljava/lang/String;)V",
+      "decoded": "CN",
+      "source_offset_in_method": 2925
+    },
+    {
+      "class": "LIc/g;",
+      "method": "f (I Lcom/applovin/mediation/MaxAd; Ljava/lang/String;)V",
+      "decoded": "is_suspect",
+      "source_offset_in_method": 3752
+    },
+    {
+      "class": "LIc/g;",
+      "method": "f (I Lcom/applovin/mediation/MaxAd; Ljava/lang/String;)V",
+      "decoded": "applovin_max_sdk",
+      "source_offset_in_method": 4350
+    },
+    {
+      "class": "LIc/g;",
+      "method": "f (I Lcom/applovin/mediation/MaxAd; Ljava/lang/String;)V",
+      "decoded": "minor_ad_cpm",
+      "source_offset_in_method": 4773
+    },
+    {
+      "class": "LIc/g;",
+      "method": "f (I Lcom/applovin/mediation/MaxAd; Ljava/lang/String;)V",
+      "decoded": "minor_ad_cpm",
+      "source_offset_in_method": 5388
+    },
+    {
+      "class": "LIc/g;",
+      "method": "f (I Lcom/applovin/mediation/MaxAd; Ljava/lang/String;)V",
+      "decoded": "applovin_max_sdk",
+      "source_offset_in_method": 6442
+    },
+    {
+      "class": "LIc/g;",
+      "method": "f (I Lcom/applovin/mediation/MaxAd; Ljava/lang/String;)V",
+      "decoded": "minor_ad_cpm",
+      "source_offset_in_method": 6895
+    },
+    {
+      "class": "LIc/g;",
+      "method": "f (I Lcom/applovin/mediation/MaxAd; Ljava/lang/String;)V",
+      "decoded": "minor_ad_cpm",
+      "source_offset_in_method": 7517
+    },
+    {
+      "class": "LIc/g;",
+      "method": "g (LIc/g; I Lcom/applovin/mediation/MaxAd; Ljava/lang/String;)V",
+      "decoded": "empty",
+      "source_offset_in_method": 479
+    },
+    {
+      "class": "LIc/g;",
+      "method": "g (LIc/g; I Lcom/applovin/mediation/MaxAd; Ljava/lang/String;)V",
+      "decoded": "applovin_max_sdk",
+      "source_offset_in_method": 885
+    },
+    {
+      "class": "LIc/g;",
+      "method": "c ()V",
+      "decoded": "max",
+      "source_offset_in_method": 1734
+    },
+    {
+      "class": "LIc/g;",
+      "method": "d (Z)V",
+      "decoded": "_TODO",
+      "source_offset_in_method": 354
+    },
+    {
+      "class": "LIc/g;",
+      "method": "h (Z)V",
+      "decoded": "_TODO",
+      "source_offset_in_method": 354
+    },
+    {
+      "class": "LJc/a;",
+      "method": "<clinit> ()V",
+      "decoded": "google",
+      "source_offset_in_method": 282
+    },
+    {
+      "class": "LJc/c;",
+      "method": "<clinit> ()V",
+      "decoded": "MAX_SDK_KEY_TODO",
+      "source_offset_in_method": 298
+    },
+    {
+      "class": "LJc/c;",
+      "method": "<clinit> ()V",
+      "decoded": "MAX_INTERSTITIAL_ID_TODO",
+      "source_offset_in_method": 724
+    },
+    {
+      "class": "LJc/c;",
+      "method": "<clinit> ()V",
+      "decoded": "MAX_NATIVE_ID_TODO",
+      "source_offset_in_method": 1142
+    },
+    {
+      "class": "LJc/c;",
+      "method": "<clinit> ()V",
+      "decoded": "SPLASH_ID_TODO",
+      "source_offset_in_method": 1556
+    },
+    {
+      "class": "LJc/d;",
+      "method": "<clinit> ()V",
+      "decoded": "TOPON_APP_ID_TODO",
+      "source_offset_in_method": 298
+    },
+    {
+      "class": "LJc/d;",
+      "method": "<clinit> ()V",
+      "decoded": "TOPON_APP_KEY_TODO",
+      "source_offset_in_method": 716
+    },
+    {
+      "class": "LJc/d;",
+      "method": "<clinit> ()V",
+      "decoded": "TOPON_INTERSTITIAL_ID_TODO",
+      "source_offset_in_method": 1146
+    },
+    {
+      "class": "LJc/d;",
+      "method": "<clinit> ()V",
+      "decoded": "TOPON_SPLASH_ID_TODO",
+      "source_offset_in_method": 1793
+    },
+    {
+      "class": "LNc/a;",
+      "method": "<clinit> ()V",
+      "decoded": "dev-keys",
+      "source_offset_in_method": 286
+    },
+    {
+      "class": "LNc/a;",
+      "method": "<clinit> ()V",
+      "decoded": "x86",
+      "source_offset_in_method": 631
+    },
+    {
+      "class": "LNc/a;",
+      "method": "<clinit> ()V",
+      "decoded": "userdebug",
+      "source_offset_in_method": 984
+    },
+    {
+      "class": "LNc/a;",
+      "method": "<clinit> ()V",
+      "decoded": "test-keys",
+      "source_offset_in_method": 1337
+    },
+    {
+      "class": "LNc/a;",
+      "method": "<clinit> ()V",
+      "decoded": "cuttlefish",
+      "source_offset_in_method": 1956
+    },
+    {
+      "class": "LNc/a;",
+      "method": "<clinit> ()V",
+      "decoded": "only",
+      "source_offset_in_method": 2305
+    },
+    {
+      "class": "LNc/a;",
+      "method": "<clinit> ()V",
+      "decoded": "generic",
+      "source_offset_in_method": 2912
+    },
+    {
+      "class": "LNc/a;",
+      "method": "<clinit> ()V",
+      "decoded": "generic",
+      "source_offset_in_method": 3265
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "userdebug",
+      "source_offset_in_method": 373
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "OnePlus",
+      "source_offset_in_method": 813
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "OnePlus",
+      "source_offset_in_method": 1166
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "OnePlus8Pro",
+      "source_offset_in_method": 1523
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "real_brand",
+      "source_offset_in_method": 2274
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "OnePlus",
+      "source_offset_in_method": 2627
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "A0001",
+      "source_offset_in_method": 2976
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "r34lx.9734f42u1arxx",
+      "source_offset_in_method": 3345
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "google",
+      "source_offset_in_method": 4222
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "Google",
+      "source_offset_in_method": 4571
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "mainline",
+      "source_offset_in_method": 4925
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "qd4a.200805.003",
+      "source_offset_in_method": 5287
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "none",
+      "source_offset_in_method": 6031
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "google",
+      "source_offset_in_method": 6836
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "LGE",
+      "source_offset_in_method": 7181
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "Nexus 5X",
+      "source_offset_in_method": 7535
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "osm1.180201.031",
+      "source_offset_in_method": 7897
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "google",
+      "source_offset_in_method": 8641
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "LGE",
+      "source_offset_in_method": 8986
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "Nexus 5",
+      "source_offset_in_method": 9340
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "m4b30z",
+      "source_offset_in_method": 9690
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "Infinix",
+      "source_offset_in_method": 10438
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "INFINIX MOBILITY LIMITED",
+      "source_offset_in_method": 10814
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "Infinix X660B",
+      "source_offset_in_method": 11180
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "Infinix",
+      "source_offset_in_method": 11948
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "INFINIX MOBILITY LIMITED",
+      "source_offset_in_method": 12328
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "Infinix X626",
+      "source_offset_in_method": 12694
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "Infinix",
+      "source_offset_in_method": 13471
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "INFINIX MOBILITY LIMITED",
+      "source_offset_in_method": 13851
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "Infinix X626B",
+      "source_offset_in_method": 14221
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "Infinix",
+      "source_offset_in_method": 14998
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "INFINIX MOBILITY LIMITED",
+      "source_offset_in_method": 15378
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "Infinix X682C",
+      "source_offset_in_method": 15748
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "US",
+      "source_offset_in_method": 16102
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "TECNO",
+      "source_offset_in_method": 16916
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "TECNO MOBILE LIMITED",
+      "source_offset_in_method": 17292
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "TECNO KE5j",
+      "source_offset_in_method": 17658
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "TECNO",
+      "source_offset_in_method": 18431
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "TECNO MOBILE LIMITED",
+      "source_offset_in_method": 18807
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "TECNO CG6",
+      "source_offset_in_method": 19169
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "TECNO",
+      "source_offset_in_method": 19942
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "TECNO",
+      "source_offset_in_method": 20298
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "TECNO AD9",
+      "source_offset_in_method": 20660
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "none",
+      "source_offset_in_method": 21018
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "TECNO",
+      "source_offset_in_method": 21762
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "TECNO",
+      "source_offset_in_method": 22118
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "TECNO KI8",
+      "source_offset_in_method": 22480
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "US",
+      "source_offset_in_method": 22834
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "TECNO",
+      "source_offset_in_method": 23581
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "TECNO",
+      "source_offset_in_method": 23933
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "TECNO KI8",
+      "source_offset_in_method": 24291
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "none",
+      "source_offset_in_method": 24645
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "US",
+      "source_offset_in_method": 24995
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "HONOR",
+      "source_offset_in_method": 25823
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "HUAWEI",
+      "source_offset_in_method": 26175
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "HRY-LX1T",
+      "source_offset_in_method": 26533
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "qkr1.191246.002",
+      "source_offset_in_method": 26899
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "samsung",
+      "source_offset_in_method": 27692
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "samsung",
+      "source_offset_in_method": 28048
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "SM-A307GN",
+      "source_offset_in_method": 28406
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "samsung",
+      "source_offset_in_method": 29217
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "samsung",
+      "source_offset_in_method": 29577
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "SM-A235F",
+      "source_offset_in_method": 29939
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "tp1a.220624.014",
+      "source_offset_in_method": 30309
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "Xiaomi",
+      "source_offset_in_method": 31057
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "Xiaomi",
+      "source_offset_in_method": 31407
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "Mi 9X",
+      "source_offset_in_method": 31757
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "eng.jenkin.20230426.180904",
+      "source_offset_in_method": 32135
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "userdebug",
+      "source_offset_in_method": 32930
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "Xiaomi",
+      "source_offset_in_method": 33371
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "Xiaomi",
+      "source_offset_in_method": 33727
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "HM NOTE 1W",
+      "source_offset_in_method": 34093
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "5.12.3",
+      "source_offset_in_method": 34451
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "US",
+      "source_offset_in_method": 34845
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "Redmi",
+      "source_offset_in_method": 35601
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "Xiaomi",
+      "source_offset_in_method": 35951
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "21121119SG",
+      "source_offset_in_method": 36309
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "23.6.29",
+      "source_offset_in_method": 36663
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "none",
+      "source_offset_in_method": 37013
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "US",
+      "source_offset_in_method": 37359
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "Redmi",
+      "source_offset_in_method": 38173
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "Xiaomi",
+      "source_offset_in_method": 38525
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "24040RA98R",
+      "source_offset_in_method": 38887
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "V816.0.24.2.18.UNOJPXM",
+      "source_offset_in_method": 39265
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "US",
+      "source_offset_in_method": 39615
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "Redmi",
+      "source_offset_in_method": 40373
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "Xiaomi",
+      "source_offset_in_method": 40723
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "24040RA98R",
+      "source_offset_in_method": 41081
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "V816.0.24.2.18.UNOJPXM",
+      "source_offset_in_method": 41455
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "none",
+      "source_offset_in_method": 41805
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "US",
+      "source_offset_in_method": 42151
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "Sony",
+      "source_offset_in_method": 42933
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "Sony",
+      "source_offset_in_method": 43289
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "F3111",
+      "source_offset_in_method": 43647
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "33.3.a.0.131",
+      "source_offset_in_method": 44013
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "US",
+      "source_offset_in_method": 44407
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "HUAWEI",
+      "source_offset_in_method": 45174
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "HUAWEI",
+      "source_offset_in_method": 45530
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "TAS-L29",
+      "source_offset_in_method": 45892
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "11.0.0",
+      "source_offset_in_method": 46250
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "TECNO",
+      "source_offset_in_method": 47036
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "TECNO",
+      "source_offset_in_method": 47392
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "none",
+      "source_offset_in_method": 47750
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "US",
+      "source_offset_in_method": 48104
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "userdebug",
+      "source_offset_in_method": 48466
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "POCO",
+      "source_offset_in_method": 49234
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "Xiaomi",
+      "source_offset_in_method": 49590
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "none",
+      "source_offset_in_method": 49948
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "US",
+      "source_offset_in_method": 50302
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "POCO",
+      "source_offset_in_method": 51260
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "Xiaomi",
+      "source_offset_in_method": 51616
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "none",
+      "source_offset_in_method": 51974
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "IN",
+      "source_offset_in_method": 52328
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "Redmi",
+      "source_offset_in_method": 53084
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "Xiaomi",
+      "source_offset_in_method": 53440
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "none",
+      "source_offset_in_method": 53798
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "US",
+      "source_offset_in_method": 54152
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "Redmi",
+      "source_offset_in_method": 54908
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "Xiaomi",
+      "source_offset_in_method": 55264
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "none",
+      "source_offset_in_method": 55622
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "US",
+      "source_offset_in_method": 55976
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "Redmi",
+      "source_offset_in_method": 56934
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "Xiaomi",
+      "source_offset_in_method": 57290
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "none",
+      "source_offset_in_method": 57648
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "IN",
+      "source_offset_in_method": 58002
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "xiaomi",
+      "source_offset_in_method": 58758
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "Xiaomi",
+      "source_offset_in_method": 59114
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "none",
+      "source_offset_in_method": 59472
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "IN",
+      "source_offset_in_method": 59826
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "Xiaomi",
+      "source_offset_in_method": 60618
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "Xiaomi",
+      "source_offset_in_method": 60974
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "none",
+      "source_offset_in_method": 61332
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "IN",
+      "source_offset_in_method": 61686
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "HTC",
+      "source_offset_in_method": 62474
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "HTC",
+      "source_offset_in_method": 62826
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "HTC One S",
+      "source_offset_in_method": 63188
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "iml74k",
+      "source_offset_in_method": 63546
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "US",
+      "source_offset_in_method": 63940
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "iQOO",
+      "source_offset_in_method": 64671
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "vivo",
+      "source_offset_in_method": 65027
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "none",
+      "source_offset_in_method": 65385
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "US",
+      "source_offset_in_method": 65739
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "vivo",
+      "source_offset_in_method": 66733
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "vivo",
+      "source_offset_in_method": 67089
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "none",
+      "source_offset_in_method": 67447
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "US",
+      "source_offset_in_method": 67801
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "vivo",
+      "source_offset_in_method": 68795
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "vivo",
+      "source_offset_in_method": 69151
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "none",
+      "source_offset_in_method": 69509
+    },
+    {
+      "class": "LNc/b;",
+      "method": "<clinit> ()V",
+      "decoded": "AS",
+      "source_offset_in_method": 69863
+    },
+    {
+      "class": "Lrg/a;",
+      "method": "<clinit> ()V",
+      "decoded": "applovin_max_sdk",
+      "source_offset_in_method": 298
+    },
+    {
+      "class": "Lrg/a;",
+      "method": "<clinit> ()V",
+      "decoded": "topon_sdk",
+      "source_offset_in_method": 704
+    },
+    {
+      "class": "Lrg/a;",
+      "method": "<clinit> ()V",
+      "decoded": "applovin_max_sdk",
+      "source_offset_in_method": 1122
+    },
+    {
+      "class": "Lrg/a;",
+      "method": "<clinit> ()V",
+      "decoded": "topon_sdk",
+      "source_offset_in_method": 1475
+    },
+    {
+      "class": "Lyg/a;",
+      "method": "run ()V",
+      "decoded": "ad_strategy",
+      "source_offset_in_method": 4015
+    },
+    {
+      "class": "Lyg/a;",
+      "method": "run ()V",
+      "decoded": "keyActReportInterval",
+      "source_offset_in_method": 4460
+    },
+    {
+      "class": "Lyg/a;",
+      "method": "run ()V",
+      "decoded": "country",
+      "source_offset_in_method": 5760
+    },
+    {
+      "class": "Lyg/a;",
+      "method": "run ()V",
+      "decoded": "cpm",
+      "source_offset_in_method": 6260
+    },
+    {
+      "class": "Lyg/a;",
+      "method": "run ()V",
+      "decoded": "count",
+      "source_offset_in_method": 6846
+    },
+    {
+      "class": "Lyg/a;",
+      "method": "run ()V",
+      "decoded": "name",
+      "source_offset_in_method": 8051
+    },
+    {
+      "class": "Lyg/a;",
+      "method": "run ()V",
+      "decoded": "cpm",
+      "source_offset_in_method": 8538
+    },
+    {
+      "class": "Lyg/a;",
+      "method": "run ()V",
+      "decoded": "count",
+      "source_offset_in_method": 9177
+    },
+    {
+      "class": "Lyg/a;",
+      "method": "run ()V",
+      "decoded": "extraList",
+      "source_offset_in_method": 10031
+    },
+    {
+      "class": "Lyg/a;",
+      "method": "run ()V",
+      "decoded": "keyActionReportList",
+      "source_offset_in_method": 10749
+    },
+    {
+      "class": "Lyg/a;",
+      "method": "run ()V",
+      "decoded": "revenueCnt",
+      "source_offset_in_method": 11375
+    },
+    {
+      "class": "Lyg/a;",
+      "method": "run ()V",
+      "decoded": "minRevenueVal",
+      "source_offset_in_method": 11960
+    },
+    {
+      "class": "Lyg/a;",
+      "method": "run ()V",
+      "decoded": "revenueReportCondition",
+      "source_offset_in_method": 12589
+    },
+    {
+      "class": "Lyg/a;",
+      "method": "run ()V",
+      "decoded": "rrr",
+      "source_offset_in_method": 13019
+    },
+    {
+      "class": "Lyg/a;",
+      "method": "run ()V",
+      "decoded": "appActivated",
+      "source_offset_in_method": 13784
+    },
+    {
+      "class": "Lyg/a;",
+      "method": "run ()V",
+      "decoded": "appAdShowSuccess",
+      "source_offset_in_method": 14373
+    },
+    {
+      "class": "Lyg/a;",
+      "method": "run ()V",
+      "decoded": "levelAchieved",
+      "source_offset_in_method": 14958
+    },
+    {
+      "class": "Lyg/a;",
+      "method": "run ()V",
+      "decoded": "adRevenue",
+      "source_offset_in_method": 15535
+    },
+    {
+      "class": "Lyg/a;",
+      "method": "run ()V",
+      "decoded": "reportRatioInfo",
+      "source_offset_in_method": 16145
+    },
+    {
+      "class": "Lyg/a;",
+      "method": "run ()V",
+      "decoded": "appId",
+      "source_offset_in_method": 16767
+    },
+    {
+      "class": "Lyg/a;",
+      "method": "run ()V",
+      "decoded": "appKey",
+      "source_offset_in_method": 17257
+    },
+    {
+      "class": "Lyg/a;",
+      "method": "run ()V",
+      "decoded": "adId",
+      "source_offset_in_method": 17747
+    },
+    {
+      "class": "Lyg/a;",
+      "method": "run ()V",
+      "decoded": "nativeAdId",
+      "source_offset_in_method": 18245
+    },
+    {
+      "class": "Lyg/a;",
+      "method": "run ()V",
+      "decoded": "splashAdId",
+      "source_offset_in_method": 18743
+    },
+    {
+      "class": "Lyg/a;",
+      "method": "run ()V",
+      "decoded": "maxSdkKey",
+      "source_offset_in_method": 19237
+    },
+    {
+      "class": "Lyg/a;",
+      "method": "run ()V",
+      "decoded": "maxAdId",
+      "source_offset_in_method": 19731
+    },
+    {
+      "class": "Lyg/a;",
+      "method": "run ()V",
+      "decoded": "maxNativeAdId",
+      "source_offset_in_method": 20233
+    },
+    {
+      "class": "Lyg/a;",
+      "method": "run ()V",
+      "decoded": "maxSplashAdId",
+      "source_offset_in_method": 20735
+    },
+    {
+      "class": "Lyg/a;",
+      "method": "run ()V",
+      "decoded": "appInfo",
+      "source_offset_in_method": 21254
+    },
+    {
+      "class": "Lyg/a;",
+      "method": "run ()V",
+      "decoded": "mediation",
+      "source_offset_in_method": 21692
+    },
+    {
+      "class": "Lyg/a;",
+      "method": "run ()V",
+      "decoded": "mediationRatio",
+      "source_offset_in_method": 22277
+    },
+    {
+      "class": "Lyg/a;",
+      "method": "run ()V",
+      "decoded": "mediationNetworkRatio",
+      "source_offset_in_method": 22787
+    },
+    {
+      "class": "Lyg/a;",
+      "method": "run ()V",
+      "decoded": "mediationSwitchImmed",
+      "source_offset_in_method": 23297
+    },
+    {
+      "class": "Lyg/a;",
+      "method": "run ()V",
+      "decoded": "mediationPriceCompare",
+      "source_offset_in_method": 23890
+    },
+    {
+      "class": "Lyg/a;",
+      "method": "run ()V",
+      "decoded": "mediationPriceCompareV1",
+      "source_offset_in_method": 24487
+    },
+    {
+      "class": "Lyg/b;",
+      "method": "a (Ljava/lang/String;)I",
+      "decoded": "#",
+      "source_offset_in_method": 394
+    },
+    {
+      "class": "Lyg/b;",
+      "method": "a (Ljava/lang/String;)I",
+      "decoded": ":",
+      "source_offset_in_method": 1205
+    },
+    {
+      "class": "Lzg/a;",
+      "method": "<clinit> ()V",
+      "decoded": "taichi_2_5_event_config",
+      "source_offset_in_method": 306
+    },
+    {
+      "class": "Lzg/a;",
+      "method": "<clinit> ()V",
+      "decoded": "taichi_3_0_revenue_config",
+      "source_offset_in_method": 736
+    },
+    {
+      "class": "Lzg/a;",
+      "method": "<clinit> ()V",
+      "decoded": "taichi_ad_ltv_reach_",
+      "source_offset_in_method": 1158
+    },
+    {
+      "class": "Lzg/a;",
+      "method": "<clinit> ()V",
+      "decoded": "taichi_ad_revenue",
+      "source_offset_in_method": 1576
+    },
+    {
+      "class": "Lzg/c;",
+      "method": "c (I Ljava/lang/String; D Ljava/lang/String; Ljava/lang/String;)V",
+      "decoded": "ad_type",
+      "source_offset_in_method": 441
+    },
+    {
+      "class": "Lzg/c;",
+      "method": "c (I Ljava/lang/String; D Ljava/lang/String; Ljava/lang/String;)V",
+      "decoded": "ad_revenue",
+      "source_offset_in_method": 995
+    },
+    {
+      "class": "Lzg/c;",
+      "method": "c (I Ljava/lang/String; D Ljava/lang/String; Ljava/lang/String;)V",
+      "decoded": "ad_scene",
+      "source_offset_in_method": 1445
+    },
+    {
+      "class": "Lzg/c;",
+      "method": "c (I Ljava/lang/String; D Ljava/lang/String; Ljava/lang/String;)V",
+      "decoded": "ad_platform",
+      "source_offset_in_method": 1912
+    },
+    {
+      "class": "Lzg/c;",
+      "method": "c (I Ljava/lang/String; D Ljava/lang/String; Ljava/lang/String;)V",
+      "decoded": "ad_source",
+      "source_offset_in_method": 2375
+    },
+    {
+      "class": "Lzg/c;",
+      "method": "c (I Ljava/lang/String; D Ljava/lang/String; Ljava/lang/String;)V",
+      "decoded": "empty",
+      "source_offset_in_method": 2829
+    },
+    {
+      "class": "Lzg/c;",
+      "method": "c (I Ljava/lang/String; D Ljava/lang/String; Ljava/lang/String;)V",
+      "decoded": "inner_ad_show",
+      "source_offset_in_method": 3300
+    },
+    {
+      "class": "Lzg/c;",
+      "method": "d (I Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)V",
+      "decoded": "ad_type",
+      "source_offset_in_method": 439
+    },
+    {
+      "class": "Lzg/c;",
+      "method": "d (I Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)V",
+      "decoded": "ad_scene",
+      "source_offset_in_method": 989
+    },
+    {
+      "class": "Lzg/c;",
+      "method": "d (I Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)V",
+      "decoded": "ad_platform",
+      "source_offset_in_method": 1456
+    },
+    {
+      "class": "Lzg/c;",
+      "method": "d (I Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)V",
+      "decoded": "ad_source",
+      "source_offset_in_method": 1919
+    },
+    {
+      "class": "Lzg/c;",
+      "method": "d (I Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)V",
+      "decoded": "empty",
+      "source_offset_in_method": 2373
+    },
+    {
+      "class": "Lzg/c;",
+      "method": "d (I Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)V",
+      "decoded": "inner_ad_click",
+      "source_offset_in_method": 2844
+    },
+    {
+      "class": "Lzg/c;",
+      "method": "g (Ljava/lang/String;)V",
+      "decoded": "attr_network",
+      "source_offset_in_method": 1066
+    },
+    {
+      "class": "Lzg/c;",
+      "method": "a (LM9/e; Lcom/google/android/gms/tasks/Task;)V",
+      "decoded": "ad_strategy_json_config",
+      "source_offset_in_method": 920
+    },
+    {
+      "class": "Lzg/c;",
+      "method": "a (LM9/e; Lcom/google/android/gms/tasks/Task;)V",
+      "decoded": "server_attributed",
+      "source_offset_in_method": 1815
+    },
+    {
+      "class": "Lzg/d;",
+      "method": "a (Ljava/lang/String; Ljava/util/List;)V",
+      "decoded": "is_suspect",
+      "source_offset_in_method": 1228
+    },
+    {
+      "class": "Lzg/e;",
+      "method": "a (I Ljava/lang/String;)Z",
+      "decoded": "report_bit_json",
+      "source_offset_in_method": 1278
+    },
+    {
+      "class": "Lzg/g;",
+      "method": "a ()V",
+      "decoded": "user_price_data",
+      "source_offset_in_method": 415
+    },
+    {
+      "class": "Lzg/g;",
+      "method": "a ()V",
+      "decoded": "totalCpm",
+      "source_offset_in_method": 1228
+    },
+    {
+      "class": "Lzg/g;",
+      "method": "a ()V",
+      "decoded": "count",
+      "source_offset_in_method": 1705
+    },
+    {
+      "class": "Lzg/g;",
+      "method": "a ()V",
+      "decoded": "reported",
+      "source_offset_in_method": 2176
+    },
+    {
+      "class": "Lzg/g;",
+      "method": "a ()V",
+      "decoded": "extraReportedList",
+      "source_offset_in_method": 2949
+    },
+    {
+      "class": "Lzg/g;",
+      "method": "a ()V",
+      "decoded": "revenueCount",
+      "source_offset_in_method": 3578
+    },
+    {
+      "class": "Lzg/g;",
+      "method": "a ()V",
+      "decoded": "revenueCpm",
+      "source_offset_in_method": 4053
+    },
+    {
+      "class": "Lzg/g;",
+      "method": "b (I Ljava/lang/String; D)V",
+      "decoded": "appAdShowSuccess",
+      "source_offset_in_method": 904
+    },
+    {
+      "class": "Lzg/g;",
+      "method": "b (I Ljava/lang/String; D)V",
+      "decoded": "ad_show_success_frq",
+      "source_offset_in_method": 1462
+    },
+    {
+      "class": "Lzg/g;",
+      "method": "b (I Ljava/lang/String; D)V",
+      "decoded": ":",
+      "source_offset_in_method": 2633
+    },
+    {
+      "class": "Lzg/g;",
+      "method": "b (I Ljava/lang/String; D)V",
+      "decoded": ":",
+      "source_offset_in_method": 3654
+    },
+    {
+      "class": "Lzg/g;",
+      "method": "b (I Ljava/lang/String; D)V",
+      "decoded": ":",
+      "source_offset_in_method": 4661
+    },
+    {
+      "class": "Lzg/g;",
+      "method": "b (I Ljava/lang/String; D)V",
+      "decoded": "ad_show_success_frq",
+      "source_offset_in_method": 5435
+    },
+    {
+      "class": "Lzg/g;",
+      "method": "b (I Ljava/lang/String; D)V",
+      "decoded": "app_ad_show_success",
+      "source_offset_in_method": 5954
+    },
+    {
+      "class": "Lzg/g;",
+      "method": "b (I Ljava/lang/String; D)V",
+      "decoded": "DEFAULT",
+      "source_offset_in_method": 7902
+    },
+    {
+      "class": "Lzg/g;",
+      "method": "b (I Ljava/lang/String; D)V",
+      "decoded": "DEFAULT",
+      "source_offset_in_method": 9140
+    },
+    {
+      "class": "Lzg/g;",
+      "method": "b (I Ljava/lang/String; D)V",
+      "decoded": "#",
+      "source_offset_in_method": 9844
+    },
+    {
+      "class": "Lzg/g;",
+      "method": "b (I Ljava/lang/String; D)V",
+      "decoded": "levelAchieved",
+      "source_offset_in_method": 11106
+    },
+    {
+      "class": "Lzg/g;",
+      "method": "b (I Ljava/lang/String; D)V",
+      "decoded": "yyyyMMddHHmm",
+      "source_offset_in_method": 11943
+    },
+    {
+      "class": "Lzg/g;",
+      "method": "b (I Ljava/lang/String; D)V",
+      "decoded": "GMT+08:00",
+      "source_offset_in_method": 12479
+    },
+    {
+      "class": "Lzg/g;",
+      "method": "b (I Ljava/lang/String; D)V",
+      "decoded": "attr_level",
+      "source_offset_in_method": 14405
+    },
+    {
+      "class": "Lzg/g;",
+      "method": "b (I Ljava/lang/String; D)V",
+      "decoded": "attr_level",
+      "source_offset_in_method": 14917
+    },
+    {
+      "class": "Lzg/g;",
+      "method": "b (I Ljava/lang/String; D)V",
+      "decoded": "level_achieved_",
+      "source_offset_in_method": 16996
+    },
+    {
+      "class": "Lzg/g;",
+      "method": "b (I Ljava/lang/String; D)V",
+      "decoded": "adRevenue",
+      "source_offset_in_method": 19352
+    },
+    {
+      "class": "Lzg/g;",
+      "method": "b (I Ljava/lang/String; D)V",
+      "decoded": "applovin_max_sdk",
+      "source_offset_in_method": 20667
+    },
+    {
+      "class": "Lzg/g;",
+      "method": "b (I Ljava/lang/String; D)V",
+      "decoded": "applovin_max_sdk",
+      "source_offset_in_method": 21159
+    },
+    {
+      "class": "Lzg/g;",
+      "method": "b (I Ljava/lang/String; D)V",
+      "decoded": "topon_sdk",
+      "source_offset_in_method": 21530
+    },
+    {
+      "class": "Lzg/g;",
+      "method": "b (I Ljava/lang/String; D)V",
+      "decoded": "topon_sdk",
+      "source_offset_in_method": 22010
+    },
+    {
+      "class": "Lzg/g;",
+      "method": "b (I Ljava/lang/String; D)V",
+      "decoded": "topon_sdk",
+      "source_offset_in_method": 22381
+    },
+    {
+      "class": "Lzg/g;",
+      "method": "b (I Ljava/lang/String; D)V",
+      "decoded": "USD",
+      "source_offset_in_method": 22927
+    },
+    {
+      "class": "Lzg/g;",
+      "method": "b (I Ljava/lang/String; D)V",
+      "decoded": "USD",
+      "source_offset_in_method": 23900
+    },
+    {
+      "class": "Lzg/g;",
+      "method": "b (I Ljava/lang/String; D)V",
+      "decoded": "user_price_data",
+      "source_offset_in_method": 24501
+    },
+    {
+      "class": "Lzg/g;",
+      "method": "b (I Ljava/lang/String; D)V",
+      "decoded": "totalCpm",
+      "source_offset_in_method": 24975
+    },
+    {
+      "class": "Lzg/g;",
+      "method": "b (I Ljava/lang/String; D)V",
+      "decoded": "count",
+      "source_offset_in_method": 25556
+    },
+    {
+      "class": "Lzg/g;",
+      "method": "b (I Ljava/lang/String; D)V",
+      "decoded": "reported",
+      "source_offset_in_method": 26134
+    },
+    {
+      "class": "Lzg/g;",
+      "method": "b (I Ljava/lang/String; D)V",
+      "decoded": "extraReportedList",
+      "source_offset_in_method": 26732
+    },
+    {
+      "class": "Lzg/g;",
+      "method": "b (I Ljava/lang/String; D)V",
+      "decoded": "revenueCount",
+      "source_offset_in_method": 27234
+    },
+    {
+      "class": "Lzg/g;",
+      "method": "b (I Ljava/lang/String; D)V",
+      "decoded": "revenueCpm",
+      "source_offset_in_method": 27816
+    },
+    {
+      "class": "Lzg/j;",
+      "method": "accept (Ljava/lang/Object;)V",
+      "decoded": "applovin_max_ad_package_prefix_list",
+      "source_offset_in_method": 1212
+    },
+    {
+      "class": "Lzg/j;",
+      "method": "accept (Ljava/lang/Object;)V",
+      "decoded": "com.applovin",
+      "source_offset_in_method": 1569
+    },
+    {
+      "class": "Lzg/j;",
+      "method": "accept (Ljava/lang/Object;)V",
+      "decoded": "###",
+      "source_offset_in_method": 2346
+    },
+    {
+      "class": "Lzg/l;",
+      "method": "a (Landroid/app/Activity;)V",
+      "decoded": "applovin_max_ad_finish",
+      "source_offset_in_method": 608
+    },
+    {
+      "class": "Lzg/m;",
+      "method": "a (I)V",
+      "decoded": "user_source",
+      "source_offset_in_method": 530
+    },
+    {
+      "class": "Lzg/m;",
+      "method": "a (I)V",
+      "decoded": "value",
+      "source_offset_in_method": 1165
+    },
+    {
+      "class": "Lzg/m;",
+      "method": "a (I)V",
+      "decoded": "user_attributed",
+      "source_offset_in_method": 1821
+    }
+  ]
+}

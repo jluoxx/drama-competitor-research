@@ -1,0 +1,168 @@
+    @Override // com.google.android.gms.internal.ads.zzbqh
+    public final void zza(Object obj, Map map) {
+        AdRequest adRequestBuild;
+        AdSize adSize;
+        if (((Boolean) com.google.android.gms.ads.internal.client.zzba.zzc().zzd(zzbjg.zzkT)).booleanValue()) {
+            zzeen zzeenVar = new zzeen();
+            String str = (String) map.get(HandleInvocationsFromAdViewer.KEY_AD_UNIT_ID);
+            if (!TextUtils.isEmpty(str)) {
+                zzeenVar.zzh(str);
+            }
+            String str2 = (String) map.get("format");
+            if (!TextUtils.isEmpty(str2)) {
+                zzeenVar.zzi(str2);
+            }
+            if (((Boolean) com.google.android.gms.ads.internal.client.zzba.zzc().zzd(zzbjg.zzkV)).booleanValue()) {
+                boolean z4 = false;
+                if (map.containsKey("isGamRequest") && ((String) map.get("isGamRequest")).equals("1")) {
+                    z4 = true;
+                }
+                zzeenVar.zzn(z4);
+                if (zzeenVar.zzg()) {
+                    AdManagerAdRequest.Builder builder = new AdManagerAdRequest.Builder();
+                    if (map.containsKey("keywords")) {
+                        Iterator it = zzc((String) map.get("keywords"), "keywords").iterator();
+                        while (it.hasNext()) {
+                            builder.addKeyword((String) it.next());
+                        }
+                    }
+                    builder.addNetworkExtrasBundle(AdMobAdapter.class, zzb(map));
+                    if (map.containsKey("customTargeting")) {
+                        try {
+                            JSONObject jSONObject = new JSONObject((String) map.get("customTargeting"));
+                            Iterator<String> itKeys = jSONObject.keys();
+                            while (itKeys.hasNext()) {
+                                String next = itKeys.next();
+                                builder.addCustomTargeting(next, jSONObject.getString(next));
+                            }
+                        } catch (JSONException e) {
+                            com.google.android.gms.ads.internal.zzt.zzh().zzh(e, "OutOfContextTestingGmsgHandler.generateAdManagerAdRequest");
+                        }
+                    }
+                    if (map.containsKey("contentUrl") && !TextUtils.isEmpty((CharSequence) map.get("contentUrl"))) {
+                        builder.setContentUrl((String) map.get("contentUrl"));
+                    }
+                    if (map.containsKey("neighboringContentUrlStrings")) {
+                        builder.setNeighboringContentUrls(zzc((String) map.get("neighboringContentUrlStrings"), "neighboringContentUrlStrings"));
+                    }
+                    if (map.containsKey("requestAgent")) {
+                        builder.setRequestAgent((String) map.get("requestAgent"));
+                    }
+                    if (map.containsKey("publisherProvidedId")) {
+                        builder.setPublisherProvidedId((String) map.get("publisherProvidedId"));
+                    }
+                    if (map.containsKey("categoryExclusions")) {
+                        Iterator it2 = zzc((String) map.get("categoryExclusions"), "categoryExclusions").iterator();
+                        while (it2.hasNext()) {
+                            builder.addCategoryExclusion((String) it2.next());
+                        }
+                    }
+                    adRequestBuild = builder.build();
+                } else {
+                    AdRequest.Builder builder2 = new AdRequest.Builder();
+                    if (map.containsKey("keywords")) {
+                        Iterator it3 = zzc((String) map.get("keywords"), "keywords").iterator();
+                        while (it3.hasNext()) {
+                            builder2.addKeyword((String) it3.next());
+                        }
+                    }
+                    builder2.addNetworkExtrasBundle(AdMobAdapter.class, zzb(map));
+                    if (map.containsKey("customTargeting")) {
+                        try {
+                            JSONObject jSONObject2 = new JSONObject((String) map.get("customTargeting"));
+                            Iterator<String> itKeys2 = jSONObject2.keys();
+                            while (itKeys2.hasNext()) {
+                                String next2 = itKeys2.next();
+                                builder2.addCustomTargeting(next2, jSONObject2.getString(next2));
+                            }
+                        } catch (JSONException e10) {
+                            com.google.android.gms.ads.internal.zzt.zzh().zzh(e10, "OutOfContextTestingGmsgHandler.generateAdMobAdRequest");
+                        }
+                    }
+                    if (map.containsKey("contentUrl") && !TextUtils.isEmpty((CharSequence) map.get("contentUrl"))) {
+                        builder2.setContentUrl((String) map.get("contentUrl"));
+                    }
+                    if (map.containsKey("neighboringContentUrlStrings")) {
+                        builder2.setNeighboringContentUrls(zzc((String) map.get("neighboringContentUrlStrings"), "neighboringContentUrlStrings"));
+                    }
+                    if (map.containsKey("requestAgent")) {
+                        builder2.setRequestAgent((String) map.get("requestAgent"));
+                    }
+                    adRequestBuild = builder2.build();
+                }
+                zzeenVar.zzj(adRequestBuild);
+                String str3 = (String) map.get("width");
+                String str4 = (String) map.get("height");
+                if (TextUtils.isEmpty(str3) || TextUtils.isEmpty(str4)) {
+                    adSize = AdSize.BANNER;
+                } else {
+                    try {
+                        adSize = new AdSize(Integer.parseInt(str3), Integer.parseInt(str4));
+                    } catch (NumberFormatException e11) {
+                        com.google.android.gms.ads.internal.zzt.zzh().zzh(e11, "OutOfContextTestingGmsgHandler.generateAdSize");
+                        adSize = AdSize.BANNER;
+                    }
+                }
+                zzeenVar.zzk(adSize);
+                if (map.containsKey("clickToExpandRequested") || map.containsKey("customControlsRequested") || map.containsKey("startMuted")) {
+                    VideoOptions.Builder builder3 = new VideoOptions.Builder();
+                    if (map.containsKey("startMuted")) {
+                        builder3.setStartMuted(((String) map.get("startMuted")).equals("1"));
+                    }
+                    if (map.containsKey("customControlsRequested")) {
+                        builder3.setCustomControlsRequested(((String) map.get("customControlsRequested")).equals("1"));
+                    }
+                    if (map.containsKey("clickToExpandRequested")) {
+                        builder3.setClickToExpandRequested(((String) map.get("clickToExpandRequested")).equals("1"));
+                    }
+                    zzeenVar.zzm(builder3.build());
+                }
+                if (map.containsKey("customMuteThisAdRequested") || map.containsKey("disableImageLoading") || map.containsKey("mediaAspectRatio") || map.containsKey("preferredAdChoicesPosition") || map.containsKey("shouldRequestMultipleImages") || (zzeenVar.zzf() != null && zzeenVar.zzb().equals("NATIVE"))) {
+                    NativeAdOptions.Builder builder4 = new NativeAdOptions.Builder();
+                    if (map.containsKey("disableImageLoading")) {
+                        builder4.setReturnUrlsForImageAssets(((String) map.get("disableImageLoading")).equals("1"));
+                    }
+                    if (map.containsKey("mediaAspectRatio")) {
+                        String str5 = (String) map.get("mediaAspectRatio");
+                        if (!TextUtils.isEmpty(str5)) {
+                            try {
+                                builder4.setMediaAspectRatio(Integer.parseInt(str5));
+                            } catch (NumberFormatException e12) {
+                                com.google.android.gms.ads.internal.zzt.zzh().zzh(e12, "OutOfContextTestingGmsgHandler.generateNativeAdOptionsBuilder.mediaAspectRatio");
+                            }
+                        }
+                    }
+                    if (map.containsKey("shouldRequestMultipleImages")) {
+                        builder4.setRequestMultipleImages(((String) map.get("shouldRequestMultipleImages")).equals("1"));
+                    }
+                    if (map.containsKey("preferredAdChoicesPosition")) {
+                        String str6 = (String) map.get("preferredAdChoicesPosition");
+                        if (!TextUtils.isEmpty(str6)) {
+                            try {
+                                builder4.setAdChoicesPlacement(Integer.parseInt(str6));
+                            } catch (NumberFormatException e13) {
+                                com.google.android.gms.ads.internal.zzt.zzh().zzh(e13, "OutOfContextTestingGmsgHandler.generateNativeAdOptionsBuilder.preferredAdChoicesPosition");
+                            }
+                        }
+                    }
+                    if (map.containsKey("customMuteThisAdRequested")) {
+                        builder4.setRequestCustomMuteThisAd(((String) map.get("customMuteThisAdRequested")).equals("1"));
+                    }
+                    VideoOptions videoOptionsZzf = zzeenVar.zzf();
+                    if (videoOptionsZzf != null) {
+                        builder4.setVideoOptions(videoOptionsZzf);
+                    }
+                    zzeenVar.zzl(builder4.build());
+                }
+            }
+            String str7 = (String) map.get("action");
+            if (TextUtils.isEmpty(str7) || TextUtils.isEmpty(zzeenVar.zza())) {
+                return;
+            }
+            if (str7.equals("load") && !TextUtils.isEmpty(zzeenVar.zzb())) {
+                this.zza.zzb(zzeenVar);
+            } else if (str7.equals("show")) {
+                this.zza.zzc(zzeenVar.zza());
+            }
+        }
+    }

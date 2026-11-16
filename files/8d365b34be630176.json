@@ -1,0 +1,670 @@
+{
+  "package": "com.sunriseskywaysnake",
+  "base_sha256": "e915f5593adc73929b5e8c78707ee921807843521439af862571d05262056f6e",
+  "stats": {
+    "dex": 14,
+    "classes": 106748,
+    "methods": 686318,
+    "instructions": 8928250
+  },
+  "elapsed_seconds": 182.61091685295105,
+  "apk_inventory": [
+    {
+      "apk": "base.apk",
+      "bytes": 117417661,
+      "sha256": "e915f5593adc73929b5e8c78707ee921807843521439af862571d05262056f6e",
+      "dex": [
+        {
+          "name": "classes.dex",
+          "bytes": 10994564,
+          "sha256": "82b69e8ad3216eeaab5aef2b9208aebf5ded4ea1326b4ff8d14e59c1d09d775b"
+        },
+        {
+          "name": "classes10.dex",
+          "bytes": 9657072,
+          "sha256": "adf81a59cb84149edbb9f63e9afdc9652094df3689ecd7391c6482769e12caa7"
+        },
+        {
+          "name": "classes11.dex",
+          "bytes": 9239884,
+          "sha256": "a53082be3a94e5298927a8b18325493a7d9633813a6b24abc1cecf496fc01172"
+        },
+        {
+          "name": "classes12.dex",
+          "bytes": 6835148,
+          "sha256": "661cc0f45bdde0c626516e67448444711ac28dd25d567744c1bb889234abba99"
+        },
+        {
+          "name": "classes13.dex",
+          "bytes": 10106916,
+          "sha256": "f225d90ebbb1e39707cbb8906b8e1365d9fe721418bda19cd6ae50f9f4167e4d"
+        },
+        {
+          "name": "classes14.dex",
+          "bytes": 3837712,
+          "sha256": "2396a8933a508501d753d33c157e6640c81dc3494d9188bdc8f794f58485254c"
+        },
+        {
+          "name": "classes2.dex",
+          "bytes": 42148,
+          "sha256": "91b44aa615c0fb802ebb8e678bd5563d9940617b1c48395a27d23026c0aeab9e"
+        },
+        {
+          "name": "classes3.dex",
+          "bytes": 9624136,
+          "sha256": "055dd5575f7a786c0fcbe40ade8b6aa27f2fa9cf424f71aac7647dd333288d26"
+        },
+        {
+          "name": "classes4.dex",
+          "bytes": 9538876,
+          "sha256": "560c47337d6256bd08bb9206881ce56d4fd70cd55d03700bf96915240a7776da"
+        },
+        {
+          "name": "classes5.dex",
+          "bytes": 7668356,
+          "sha256": "2feb4e9e552ddbc64a5f3d9207209350b76d660662f8a1d6b87ae7cfad2c684a"
+        },
+        {
+          "name": "classes6.dex",
+          "bytes": 8430160,
+          "sha256": "f0d0575ad178a90a64c8baeb06a0cc484067de867a7dc29b968e767d303a1825"
+        },
+        {
+          "name": "classes7.dex",
+          "bytes": 7904220,
+          "sha256": "8bf811c1cc7bead9f2a2e93cba65844e42fa703ed71cdad77fce755a5f1e9ddf"
+        },
+        {
+          "name": "classes8.dex",
+          "bytes": 3604500,
+          "sha256": "1b60606ab7e65cf1cc4ff8b2016e372e2e7e102b929b76fe3bcd92561ead73f6"
+        },
+        {
+          "name": "classes9.dex",
+          "bytes": 9908344,
+          "sha256": "3e9834a096f92acb167952f383b4b46654fb3e63de9259e054c6b425f76ac3d8"
+        }
+      ],
+      "native": [],
+      "embedded_code": [
+        {
+          "path": "assets/ad-viewer/omid-session-client-v1.js",
+          "bytes": 68100,
+          "extension_only": true
+        },
+        {
+          "path": "assets/ad-viewer/omsdk-v1.js",
+          "bytes": 43924,
+          "extension_only": true
+        },
+        {
+          "path": "assets/android_bridge.js",
+          "bytes": 10422,
+          "extension_only": true
+        },
+        {
+          "path": "assets/audience_network/classes.dex",
+          "magic": "6465780a30333500",
+          "bytes": 57076
+        },
+        {
+          "path": "assets/audience_network/classes.dex",
+          "bytes": 57076,
+          "extension_only": true
+        },
+        {
+          "path": "assets/audience_network/classes2.dex",
+          "magic": "6465780a30333500",
+          "bytes": 5237600
+        },
+        {
+          "path": "assets/audience_network/classes2.dex",
+          "bytes": 5237600,
+          "extension_only": true
+        },
+        {
+          "path": "assets/com.moloco.sdk.xenoss.sdkdevkit.mraid.js",
+          "bytes": 17240,
+          "extension_only": true
+        },
+        {
+          "path": "assets/mraid-bridge.js",
+          "bytes": 7969,
+          "extension_only": true
+        },
+        {
+          "path": "assets/mraid.js",
+          "bytes": 14400,
+          "extension_only": true
+        },
+        {
+          "path": "assets/mraid3.js",
+          "bytes": 34522,
+          "extension_only": true
+        },
+        {
+          "path": "assets/omsdk-1.6.5.js",
+          "bytes": 49724,
+          "extension_only": true
+        },
+        {
+          "path": "assets/taurusx_mraid.js",
+          "bytes": 34577,
+          "extension_only": true
+        },
+        {
+          "path": "assets/ui.js",
+          "bytes": 4073,
+          "extension_only": true
+        }
+      ]
+    },
+    {
+      "apk": "split_config.ar.apk",
+      "bytes": 106905,
+      "sha256": "9a9797cd6a71064dfb411afade4aa4443b37214d8b36e48604a5c5efadbed057",
+      "dex": [],
+      "native": [],
+      "embedded_code": []
+    },
+    {
+      "apk": "split_config.arm64_v8a.apk",
+      "bytes": 11476268,
+      "sha256": "78c62ae87b0221742d910fed476bc6fa39f4888853f55c14c3dab7ee7b9a003a",
+      "dex": [],
+      "native": [
+        {
+          "path": "lib/arm64-v8a/libByteVC1_dec.so",
+          "bytes": 478536,
+          "sha256": "550a253bb921ad036f942acfb7b0d14e134d5ee82caa43781c6e2f2396353501",
+          "keyword_matches": []
+        },
+        {
+          "path": "lib/arm64-v8a/libEncryptorP.so",
+          "bytes": 75744,
+          "sha256": "745352e1b6710983e5602908837089da98d6367357264792cd08a5f8e5f3f659",
+          "keyword_matches": []
+        },
+        {
+          "path": "lib/arm64-v8a/libVolcBaseLog.so",
+          "bytes": 526640,
+          "sha256": "87c57ca4e4212da4e0e3aaa087a4f164a12d9dfc33af4ed75ee99dae318afd45",
+          "keyword_matches": []
+        },
+        {
+          "path": "lib/arm64-v8a/liballiance.so",
+          "bytes": 223400,
+          "sha256": "1a9b3956247457f11306c9af1cc41ee844f0cca3615ff4c05aa91a95d4e192e9",
+          "keyword_matches": []
+        },
+        {
+          "path": "lib/arm64-v8a/libapminsighta.so",
+          "bytes": 102256,
+          "sha256": "b1a70dabf68e95e1910bb080dbe1c78ae628a0bf7332f7ba41db23d9bbe282c0",
+          "keyword_matches": []
+        },
+        {
+          "path": "lib/arm64-v8a/libapminsightb.so",
+          "bytes": 124352,
+          "sha256": "c36885b7189dc5173627ff9afb5a49cb94420b9b98341536b4476b792babab61",
+          "keyword_matches": []
+        },
+        {
+          "path": "lib/arm64-v8a/libapmps.so",
+          "bytes": 102256,
+          "sha256": "b3c6eb015333b67cb17653847ce3861659a7790f09694a483349d7dc10bb1080",
+          "keyword_matches": []
+        },
+        {
+          "path": "lib/arm64-v8a/libapmpsb.so",
+          "bytes": 124352,
+          "sha256": "1b1cf78e13d098a0752ec0f8c3f9b140a920450f4cd6699efb908cd3a7e766aa",
+          "keyword_matches": []
+        },
+        {
+          "path": "lib/arm64-v8a/libapplovin-native-crash-reporter.so",
+          "bytes": 843152,
+          "sha256": "235209c7846a1c4d22fe7401a6a9d110447b3c83a183c92a3d0e7052bed0ea3b",
+          "keyword_matches": []
+        },
+        {
+          "path": "lib/arm64-v8a/libavmdlbase.so",
+          "bytes": 182328,
+          "sha256": "c414cd77e0f4f140d0b2fee4bbdc92485b6587d456a62104654045e71e209a7a",
+          "keyword_matches": []
+        },
+        {
+          "path": "lib/arm64-v8a/libavmdlv2.so",
+          "bytes": 1739112,
+          "sha256": "40b69919ea9073b13c32c0913556bb68aabf2225aa8394f1ced8b03ccecb1861",
+          "keyword_matches": []
+        },
+        {
+          "path": "lib/arm64-v8a/libbuffer_pgl.so",
+          "bytes": 9000,
+          "sha256": "d416381c202993e4a03fd6ae0c5b407f1531f61fc45f518ad5b7f4620d5a2133",
+          "keyword_matches": []
+        },
+        {
+          "path": "lib/arm64-v8a/libcachemodule.so",
+          "bytes": 2071272,
+          "sha256": "ff3ab19da1c239d675e9e6c2ad88948ee2c3b49527f5e240dd18317f0a4a6aa0",
+          "keyword_matches": []
+        },
+        {
+          "path": "lib/arm64-v8a/libdatastore_shared_counter.so",
+          "bytes": 7112,
+          "sha256": "d3e48717c9aa147e0ab21063ba0e8e0211cabf8bf40b222640829519edbf58e1",
+          "keyword_matches": []
+        },
+        {
+          "path": "lib/arm64-v8a/libffavc.so",
+          "bytes": 993640,
+          "sha256": "6d9101d6dbd0145b25921639386c5232d7c352946b6ba486601d03380d7ddb49",
+          "keyword_matches": []
+        },
+        {
+          "path": "lib/arm64-v8a/libfile_lock_pgl.so",
+          "bytes": 6312,
+          "sha256": "d14096b150b4b2f21263fdb4f1c61eea3fcd76804c776de2395b13dfbe1d8ca0",
+          "keyword_matches": []
+        },
+        {
+          "path": "lib/arm64-v8a/libkste.so",
+          "bytes": 264240,
+          "sha256": "cc8db6aad028257886028ca14f80d77d18659369fcf8908514ac040758bdda00",
+          "keyword_matches": []
+        },
+        {
+          "path": "lib/arm64-v8a/libmvarmor.so",
+          "bytes": 68776,
+          "sha256": "79c29854ee88df97f511c39b0a097bf03dfddf8b054f447e0f25abd3e0eb492a",
+          "keyword_matches": []
+        },
+        {
+          "path": "lib/arm64-v8a/libnms.so",
+          "bytes": 302248,
+          "sha256": "c3708e40e93f33b30595c5e19ee1328a7ab62e98050849c798035bba6ade03de",
+          "keyword_matches": []
+        },
+        {
+          "path": "lib/arm64-v8a/libpag.so",
+          "bytes": 3078648,
+          "sha256": "c98fa35fbb4390c656c5e2b7bc0217f3c624a1f333258cf10a37831f88be0005",
+          "keyword_matches": []
+        },
+        {
+          "path": "lib/arm64-v8a/libpglarmor.so",
+          "bytes": 68776,
+          "sha256": "69218eb7accd450feb707bfe9fa6533c390a2c0bf63b5c685c5548c18a0fe716",
+          "keyword_matches": []
+        },
+        {
+          "path": "lib/arm64-v8a/libpreload.so",
+          "bytes": 1624288,
+          "sha256": "c110af3dd6dcb80317900a59e0da536cf00922705958b08040d676bbc44f64f2",
+          "keyword_matches": []
+        },
+        {
+          "path": "lib/arm64-v8a/libsgcore.so",
+          "bytes": 265456,
+          "sha256": "2af68ea1f4dcb72e02a21c0e7dd0577d9a687e60defe9834161ede9b49dff5fc",
+          "keyword_matches": []
+        },
+        {
+          "path": "lib/arm64-v8a/libsigner.so",
+          "bytes": 1366632,
+          "sha256": "55353b7539894b40c6a8997f0734486cd71bddf1b0f4a0810a22ae8e15ffd2bc",
+          "keyword_matches": []
+        },
+        {
+          "path": "lib/arm64-v8a/libtexturerender_native.so",
+          "bytes": 231488,
+          "sha256": "c40226b9eba04e3544d562cbb2f69b5a8b651c48c621513f757a3587017b2fe9",
+          "keyword_matches": []
+        },
+        {
+          "path": "lib/arm64-v8a/libtt_ugen_layout.so",
+          "bytes": 440672,
+          "sha256": "6356784adf27dac5d18cd14a052d4ab9c161fb74eb4df3d4107d00f2549edeb2",
+          "keyword_matches": []
+        },
+        {
+          "path": "lib/arm64-v8a/libttboringssl.so",
+          "bytes": 369256,
+          "sha256": "b23ac903d5c9635965714fd4a50903d4d57c36627e9cb7b0f8e9f8c39d00e4da",
+          "keyword_matches": []
+        },
+        {
+          "path": "lib/arm64-v8a/libttcrypto.so",
+          "bytes": 1243424,
+          "sha256": "e00af8aea7a2d571eae5b321095301cafed73553fb4788611b5abbba9317305a",
+          "keyword_matches": []
+        },
+        {
+          "path": "lib/arm64-v8a/libttffmpeg.so",
+          "bytes": 3146360,
+          "sha256": "c8e6e01687c84a39992269d76aae53f0b16e775a7ccc1f19ad52e8b317118392",
+          "keyword_matches": []
+        },
+        {
+          "path": "lib/arm64-v8a/libttlicense2.so",
+          "bytes": 477312,
+          "sha256": "6ab1b2ba87c2de18fab10aa4bc80c86cfffd5bb3ef898b8ab5c36ca552305800",
+          "keyword_matches": []
+        },
+        {
+          "path": "lib/arm64-v8a/libttmplayer.so",
+          "bytes": 5304232,
+          "sha256": "622d39754c9188a599ca91dcadada43bc1b8da70acff9d057aaac436dfa0deae",
+          "keyword_matches": []
+        },
+        {
+          "path": "lib/arm64-v8a/libttmverify.so",
+          "bytes": 18112,
+          "sha256": "b544855399dd2f55fc4efc619af0958e756b4be29847da7359852f827640dfc4",
+          "keyword_matches": []
+        },
+        {
+          "path": "lib/arm64-v8a/libttmverifylite.so",
+          "bytes": 34672,
+          "sha256": "dfe8852204c1c724a6b0aa16077e60cfa1d43e8891235923d4840e7c28aaffe9",
+          "keyword_matches": []
+        },
+        {
+          "path": "lib/arm64-v8a/libvcbasekit.so",
+          "bytes": 1001864,
+          "sha256": "d1303c7a74f57a955982a513a6fee9968fdcd889ad0067b5cc1e30b29be971e3",
+          "keyword_matches": []
+        },
+        {
+          "path": "lib/arm64-v8a/libvcn.so",
+          "bytes": 559184,
+          "sha256": "a757b67e8a8741fc9c4436cc11b8473161a84fb26e9c639bbd30aac1c5dc8865",
+          "keyword_matches": []
+        },
+        {
+          "path": "lib/arm64-v8a/libvcnverify.so",
+          "bytes": 18184,
+          "sha256": "e3bed97d3fb5094d7bfaa500bc0c3b5bc17066917a544e7d622fb22d074aa831",
+          "keyword_matches": []
+        },
+        {
+          "path": "lib/arm64-v8a/libvcnverifylite.so",
+          "bytes": 34640,
+          "sha256": "af195e7f5fefe8f10eaf7a773f6d3e040aa6a2c509136e60fad7a6f332203eda",
+          "keyword_matches": []
+        },
+        {
+          "path": "lib/arm64-v8a/libverbanr.so",
+          "bytes": 365600,
+          "sha256": "3dc167de331fe8cf6ce25ab799342df7d20429c03e5330aab74a0d863bb46759",
+          "keyword_matches": []
+        },
+        {
+          "path": "lib/arm64-v8a/libvideodec.so",
+          "bytes": 51248,
+          "sha256": "ad067ea05585010deaeb13a5005dafd4ef94be87cb16389f64b79caaa5a4ec56",
+          "keyword_matches": []
+        },
+        {
+          "path": "lib/arm64-v8a/libweapon.so",
+          "bytes": 742032,
+          "sha256": "0be94d93f4cee2906f29940e6724b6f48d51b1cc267cecd54a3c55a3e8c974e6",
+          "keyword_matches": []
+        }
+      ],
+      "embedded_code": []
+    },
+    {
+      "apk": "split_config.de.apk",
+      "bytes": 70041,
+      "sha256": "55948aa3e69deebe31d4c8ded62bfa8b3c3f30c9b86c0eb679caed67c522b503",
+      "dex": [],
+      "native": [],
+      "embedded_code": []
+    },
+    {
+      "apk": "split_config.en.apk",
+      "bytes": 172782,
+      "sha256": "b5054e7a839afce04c823fd4ae0f6476c5582ff4994c506e635d352cf49a40e9",
+      "dex": [],
+      "native": [],
+      "embedded_code": []
+    },
+    {
+      "apk": "split_config.es.apk",
+      "bytes": 176537,
+      "sha256": "28676b4f7d0341bc4e8a3fee3a7dd7777b9d9ee9df51deb37081ec17fffc83fe",
+      "dex": [],
+      "native": [],
+      "embedded_code": []
+    },
+    {
+      "apk": "split_config.fa.apk",
+      "bytes": 61849,
+      "sha256": "bcbe32f7227b2a97843ac8a07014a61bdb95f90acf63d8d1d236dfa4d3eb4db6",
+      "dex": [],
+      "native": [],
+      "embedded_code": []
+    },
+    {
+      "apk": "split_config.fr.apk",
+      "bytes": 78233,
+      "sha256": "86393f86274163ce5133294f01802340d689fb6bb7977daced83b48a33e3a5a3",
+      "dex": [],
+      "native": [],
+      "embedded_code": []
+    },
+    {
+      "apk": "split_config.hi.apk",
+      "bytes": 65945,
+      "sha256": "5523ff056e1cfe4173ff6adc4afa183458b45ed75500183ee657d859938515bc",
+      "dex": [],
+      "native": [],
+      "embedded_code": []
+    },
+    {
+      "apk": "split_config.in.apk",
+      "bytes": 74137,
+      "sha256": "e2d485db0c8ccf69d44da5ef893303087df9be115aaa9a2c6dff7a2e78405427",
+      "dex": [],
+      "native": [],
+      "embedded_code": []
+    },
+    {
+      "apk": "split_config.it.apk",
+      "bytes": 61849,
+      "sha256": "f422d91ea308ba2d8b07b2617188c2154a84cc3b3d4b82e6b3b23cfef10918fe",
+      "dex": [],
+      "native": [],
+      "embedded_code": []
+    },
+    {
+      "apk": "split_config.iw.apk",
+      "bytes": 61849,
+      "sha256": "8581695a1eb334d7057052e7535485ad5ec53f5a64de1491ac61aa7a50228bec",
+      "dex": [],
+      "native": [],
+      "embedded_code": []
+    },
+    {
+      "apk": "split_config.ja.apk",
+      "bytes": 78233,
+      "sha256": "924d139060d5a3863dcbdc7f614ecadba98f816915f68f264f4e865425d5f6fa",
+      "dex": [],
+      "native": [],
+      "embedded_code": []
+    },
+    {
+      "apk": "split_config.ko.apk",
+      "bytes": 74137,
+      "sha256": "3070594824a96053ec0040efac7f8ceaf2c5fd28f203668f810840efe0f7730e",
+      "dex": [],
+      "native": [],
+      "embedded_code": []
+    },
+    {
+      "apk": "split_config.ms.apk",
+      "bytes": 74137,
+      "sha256": "97394d562ca2a13f5fcbecc449dfebc46b0b7ca8b75a6c0a9939a4e777b6151c",
+      "dex": [],
+      "native": [],
+      "embedded_code": []
+    },
+    {
+      "apk": "split_config.nl.apk",
+      "bytes": 49561,
+      "sha256": "dde9ff0ecd785f5c716773351cb0c558a9e5078fd9a75f52cfc8e68eee7d12f3",
+      "dex": [],
+      "native": [],
+      "embedded_code": []
+    },
+    {
+      "apk": "split_config.pl.apk",
+      "bytes": 53657,
+      "sha256": "202e9fed027e0fd5dcfe9146658a53b2d01deb816af976842ef9cb4cedd8bc4b",
+      "dex": [],
+      "native": [],
+      "embedded_code": []
+    },
+    {
+      "apk": "split_config.pt.apk",
+      "bytes": 90521,
+      "sha256": "64af090765ce9d3d0740d40010d4b9c02d6612395d7a27587a44068b0dd69f35",
+      "dex": [],
+      "native": [],
+      "embedded_code": []
+    },
+    {
+      "apk": "split_config.ro.apk",
+      "bytes": 57753,
+      "sha256": "e90ce619e61baa365fe6215935dd726a9c76a2258e9e23700ac7cf9dfa147ec2",
+      "dex": [],
+      "native": [],
+      "embedded_code": []
+    },
+    {
+      "apk": "split_config.ru.apk",
+      "bytes": 86425,
+      "sha256": "ff3da51c542fdae5077221480ed55996723bc278dc4eb91076a928e15e9643e2",
+      "dex": [],
+      "native": [],
+      "embedded_code": []
+    },
+    {
+      "apk": "split_config.tr.apk",
+      "bytes": 90862,
+      "sha256": "7376f3464b9aeed6d47e4ed663102a20bda2098b797d637abb49a6a8aad03bce",
+      "dex": [],
+      "native": [],
+      "embedded_code": []
+    },
+    {
+      "apk": "split_config.uz.apk",
+      "bytes": 57753,
+      "sha256": "341f43b52400dc8824b4e2bf6f3ec89f9afc99843df69b91dfa1da3e35416671",
+      "dex": [],
+      "native": [],
+      "embedded_code": []
+    },
+    {
+      "apk": "split_config.vi.apk",
+      "bytes": 74137,
+      "sha256": "d724919d3bda9146dd86aef6370677fd937bcdbd43b00940be78d5116a4cb71e",
+      "dex": [],
+      "native": [],
+      "embedded_code": []
+    },
+    {
+      "apk": "split_config.xxhdpi.apk",
+      "bytes": 264311,
+      "sha256": "a8f8de3570924d576c3f1be75a81671fdfa76c0ffe6f853fb23b54d8a4136b01",
+      "dex": [],
+      "native": [],
+      "embedded_code": []
+    },
+    {
+      "apk": "split_config.zh.apk",
+      "bytes": 160429,
+      "sha256": "07e6737732b411e171992b0ebb3625f6fa60ca6b2f51c8cf7104a5b7b452e292",
+      "dex": [],
+      "native": [],
+      "embedded_code": []
+    }
+  ],
+  "string_hits": [
+    {
+      "apk": "base.apk",
+      "dex": "classes10.dex",
+      "string": "CONTENT_KEYWORDS"
+    },
+    {
+      "apk": "base.apk",
+      "dex": "classes10.dex",
+      "string": "addKeyword"
+    },
+    {
+      "apk": "base.apk",
+      "dex": "classes10.dex",
+      "string": "admob_keywords"
+    },
+    {
+      "apk": "base.apk",
+      "dex": "classes10.dex",
+      "string": "setLocalExtra"
+    },
+    {
+      "apk": "base.apk",
+      "dex": "classes12.dex",
+      "string": "setKeywords"
+    },
+    {
+      "apk": "base.apk",
+      "dex": "classes13.dex",
+      "string": "setKeywords"
+    },
+    {
+      "apk": "base.apk",
+      "dex": "classes4.dex",
+      "string": "`setExtraParameter()` is an incorrect method for passing `amazon_ad_response` or `amazon_ad_error`. Please use the following method: `setLocalExtraParameter()`. Also note that this exception occurs in development builds only."
+    },
+    {
+      "apk": "base.apk",
+      "dex": "classes4.dex",
+      "string": "setLocalExtraParameter"
+    },
+    {
+      "apk": "base.apk",
+      "dex": "classes4.dex",
+      "string": "setLocalExtraParameter(key="
+    },
+    {
+      "apk": "base.apk",
+      "dex": "classes5.dex",
+      "string": "addKeyword"
+    },
+    {
+      "apk": "base.apk",
+      "dex": "classes5.dex",
+      "string": "setKeywords"
+    },
+    {
+      "apk": "base.apk",
+      "dex": "classes5.dex",
+      "string": "setKeywordsBytes"
+    },
+    {
+      "apk": "base.apk",
+      "dex": "classes6.dex",
+      "string": "addKeyword"
+    },
+    {
+      "apk": "base.apk",
+      "dex": "classes9.dex",
+      "string": "setKeyWordPN"
+    }
+  ],
+  "asset_hits": [],
+  "hit_methods": 35
+}

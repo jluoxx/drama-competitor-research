@@ -1,0 +1,1485 @@
+{
+  "all_split_hashes_match_previous_manifest": true,
+  "apk_count": 3,
+  "embedded_dex": [
+    {
+      "apk": "base.apk",
+      "path": "assets/audience_network/classes.dex",
+      "sha256": "215dbef81a8373f008ab324db1d90458ccd44273b3621c331fa1f42374b6a70a",
+      "classes": 3605,
+      "class_namespaces": [
+        "Deprecated;",
+        "DeprecatedSinceKotlin;",
+        "Metadata;",
+        "annotation",
+        "checkerframework",
+        "facebook",
+        "google",
+        "jvm"
+      ],
+      "keyword_strings": [],
+      "admob_method_hits": []
+    }
+  ],
+  "generic_asset_hits": [
+    {
+      "apk": "base.apk",
+      "path": "resources.arsc",
+      "encoding": "utf-8",
+      "matches": [
+        "able/abc_vector_test.xml\u0000<<res/drawable/admob_close_button_black_circle_white_cross.xml\u0000<<res/drawable/admob_close_button_white_circle_black_cros",
+        "k_circle_white_cross.xml\u0000<<res/drawable/admob_close_button_white_circle_black_cross.xml\u0000//res/drawable/admob_close_button_white_cross.xml\u0000%%res/d",
+        "e_circle_black_cross.xml\u0000//res/drawable/admob_close_button_white_cross.xml\u0000%%res/drawable/all_apps_button_icon.xml\u0000!!res/drawable/all_apps_divide",
+        "ml\u0000,,res/drawable/applovin_ic_mediation_admob.xml\u000099res/drawable/applovin_ic_mediation_amazon_marketplace.xml\u0000//res/drawable/applovin_ic_mediatio",
+        "_confirmation_activity.xml\u0000!!res/layout/admob_empty_layout.xml\u0000\u0017\u0017res/layout/all_apps.xml\u0000\u001e\u001eres/layout/all_apps_button.xml\u0000\u001f\u001fres/layout/all_apps_d",
+        "error\u0000\u001d\u001dAd will auto-close in _SEC_ s\u0000\b\bAdMob - \u0000\u0011\u0011Add automatically\u0000\u0017\u0017Add icon to Home screen\u0000\u001c\u001cAdd the reason you think bad\u0000\u0012\u0012Add to Home scree",
+        "evice in service country\u0000\u0015\u0015Please enter keywords\u0000==Please press \"Continue\" if you choose to start using our app.\u0000\u0014\u0014Please select reason\u0000&&Please up",
+        "a\u0000!!Actualitza Serveis de Google Play\u0000\u0007\u0007AdMob -\u0000\u0006\u0006Alerta\u0000\u000b\u000bAlternativa\u0000\"\"Amaga els controls del reproductor\u0000-.Amaga les opcions de configuració a",
+        "tioner\u0000\u0011\u00117.1 surroundsound\u0000\b\tAcceptér\u0000\u0007\tAdMob –\u0000\u0011\u0012Afslut fuld skærm\u0000\u0006\u0006Afspil\u0000\u0011\u0011Afspilningsstatus\u0000\u0005\u0005Afvis\u0000\u0007\bAktivér\u0000\r\u000eAktivér Bland\u0000\u001d\u001eAktivér Goog",
+        "iten\" ist voll.\u0000\b\bAblehnen\u0000\b\bAbsenden\u0000\u0007\nAdMob –\u0000\n\nAktivieren\u0000\t\tAktiviert\u0000\r\rAktualisieren\u0000\u0016\u0016Aktuelle Auswahl: %1$s\u0000\u000f\u000fAktueller Anruf\u0000>?Aktueller M",
+        "Actualizar os servizos de Google Play\u0000\u0006\u0006AdMob:\u0000\u0005\u0005Alt +\u0000&'As descargas están agardando pola rede\u0000&'As descargas están agardando pola wifi\u0000\u001b\u001cAs des",
+        "ାର୍‍ କରନ୍ତୁ\u0000\u00175AM କିମ୍ବା PM ଚୟନ କରନ୍ତୁ\u0000\u0005\u0005AdMob\u0000!GGoogle Play ସେବା ସମ୍ପର୍କିତ ସମସ୍ୟା\u0000#MGoogle Play ସେବାଗୁଡ଼ିକ ଅପଡେଟ୍ କରନ୍ତୁ\u0000$PGoogle Play ସେବାଗୁଡ଼ିକ ପ",
+        "\r\u00157.1 محیط آواز\u0000\u0013\u001eAM یا PM منتخب کریں\u0000\t\u000bAdMob - ‎\u0000\u0005\u0007Alt+‎\u0000\u0006\bCtrl+‎\u0000\n\fFunction+‎\u0000\u0006\bMenu+‎\u0000\u0006\bMeta+‎\u0000\u0007\tShift+‎\u0000\u0005\u0007Sym+‎\u0000\u0006\tVR موڈ\u0000\u0005\nآئیکن\u0000\u0002\u0004آج\u0000\u0007\tآج %1",
+        "a più tardi.\u0000\b\bConsenti\u000066Consentire ad AdMob di creare un evento di calendario?\u0000FFConsentire ad AdMob di memorizzare l'immagine nella galleria I",
+        "n evento di calendario?\u0000FFConsentire ad AdMob di memorizzare l'immagine nella galleria Immagini?\u0000))Consentire all'app di inviarti notifiche?\u0000\u0017\u0017Co",
+        "anešimo\u0000\u001a „%1$s“, yra %2$d pranešimų\u0000\t\u000f„AdMob“ –\u0000\u0007\u000b„Alt“ +\u0000\b\f„Ctrl“ +\u0000\f\u0010„Function“ +\u0000\u001d\"„Google Play“ paslaugų klaida\u0000$)„Google Play“ paslaugų pas",
+        "oogle Play, okwamanje abuyekezwayo.\u0000\t\tI-AdMob -\u0000\b\bI-Stereo\u0000\u0018\u0018Ibanga elingavumelekile.\u0000\b\bIbhokisi\u0000\u0006\u0006Idethi\u0000\u0010\u0010Idethi yokuphela\u0000\u000f\u000fIdethi yokuqala\u0000\u0016\u0018",
+        "skaujošā skaņa\u0000\u0014\u00187.1 ieskaujošā skaņa\u0000\u0007\nAdMob —\u0000\u0012\u0014Aizvērt izklājlapu\u0000\r\u000eAizvērt joslu\u0000\u001b\u001eAizvērt navigācijas izvēlni\u0000\u0019\u001dAizvērt pilnekrāna režīmu\u0000\u0017\u001c",
+        "ding\u0000\u001e\u001eadaptive_icon_drawable_wrapper\u0000++admob_close_button_black_circle_white_cross\u0000++admob_close_button_white_circle_black_cross\u0000\u001e\u001eadmob_close_b",
+        "close_button_black_circle_white_cross\u0000++admob_close_button_white_circle_black_cross\u0000\u001e\u001eadmob_close_button_white_cross\u0000\u0014\u0014all_apps_button_icon\u0000\u0010\u0010all"
+      ]
+    }
+  ],
+  "generic_native_hits": [
+    {
+      "apk": "config.arm64_v8a.apk",
+      "path": "lib/arm64-v8a/libttffmpeg.so",
+      "matches": [
+        "Line %d: unknown keyword '%s'",
+        "keywords"
+      ]
+    }
+  ],
+  "dex_literal_strings": [
+    {
+      "dex": "classes.dex",
+      "string": "\n\nIf you use Google AdMob or Google Ad Manager, make sure that the integrated CMP is included in the list of Google-certified CMPs at: https://support.google.com/admob/answer/13554116"
+    },
+    {
+      "dex": "classes.dex",
+      "string": "ADMOB"
+    },
+    {
+      "dex": "classes.dex",
+      "string": "Ad Revenue from AdMob was reported"
+    },
+    {
+      "dex": "classes.dex",
+      "string": "AdMob"
+    },
+    {
+      "dex": "classes.dex",
+      "string": "By January 16, 2024, if you use Google AdMob or Google Ad Manager, you must also use a Google-certified CMP. Test your app in EEA and UK regions to ensure that this warning doesn't appear in those regions.\n\nFor more details, see:\nhttps://support.google.com/admob/answer/13554116"
+    },
+    {
+      "dex": "classes.dex",
+      "string": "KeywordNode [keywordValue="
+    },
+    {
+      "dex": "classes.dex",
+      "string": "Lcom/google/ads/mediation/admob/AdMobAdapter;"
+    },
+    {
+      "dex": "classes.dex",
+      "string": "Lio/appmetrica/analytics/adrevenue/admob/v23/BuildConfig;"
+    },
+    {
+      "dex": "classes.dex",
+      "string": "Lio/appmetrica/analytics/adrevenue/admob/v23/R;"
+    },
+    {
+      "dex": "classes.dex",
+      "string": "Lio/appmetrica/analytics/adrevenue/admob/v23/impl/a;"
+    },
+    {
+      "dex": "classes.dex",
+      "string": "Lio/appmetrica/analytics/adrevenue/admob/v23/impl/b;"
+    },
+    {
+      "dex": "classes.dex",
+      "string": "Lio/appmetrica/analytics/adrevenue/admob/v23/impl/c;"
+    },
+    {
+      "dex": "classes.dex",
+      "string": "Lio/appmetrica/analytics/adrevenue/admob/v23/impl/d;"
+    },
+    {
+      "dex": "classes.dex",
+      "string": "Lio/appmetrica/analytics/adrevenue/admob/v23/impl/e;"
+    },
+    {
+      "dex": "classes.dex",
+      "string": "Lio/appmetrica/analytics/adrevenue/admob/v23/impl/f;"
+    },
+    {
+      "dex": "classes.dex",
+      "string": "Lio/appmetrica/analytics/adrevenue/admob/v23/impl/g;"
+    },
+    {
+      "dex": "classes.dex",
+      "string": "Lio/appmetrica/analytics/adrevenue/admob/v23/impl/h;"
+    },
+    {
+      "dex": "classes.dex",
+      "string": "Lio/appmetrica/analytics/adrevenue/admob/v23/impl/i;"
+    },
+    {
+      "dex": "classes.dex",
+      "string": "Lio/appmetrica/analytics/adrevenue/admob/v23/internal/AdMobClientModuleEntryPoint;"
+    },
+    {
+      "dex": "classes.dex",
+      "string": "Mismatched AdMob adapter ("
+    },
+    {
+      "dex": "classes.dex",
+      "string": "ad-revenue-admob-v23"
+    },
+    {
+      "dex": "classes.dex",
+      "string": "admob"
+    },
+    {
+      "dex": "classes.dex",
+      "string": "admob_ad_choices_placement"
+    },
+    {
+      "dex": "classes.dex",
+      "string": "admob_close_button_black_circle_white_cross"
+    },
+    {
+      "dex": "classes.dex",
+      "string": "admob_close_button_white_circle_black_cross"
+    },
+    {
+      "dex": "classes.dex",
+      "string": "applovin_ic_mediation_admob"
+    },
+    {
+      "dex": "classes.dex",
+      "string": "google_content_url"
+    },
+    {
+      "dex": "classes.dex",
+      "string": "io.appmetrica.analytics.adrevenue.admob.v23"
+    },
+    {
+      "dex": "classes.dex",
+      "string": "validate_admob_adapter_sdk_version"
+    },
+    {
+      "dex": "classes2.dex",
+      "string": "\n%bidmachine/protobuf/adcom/adcom.proto\u0012\u0019bidmachine.protobuf.adcom\u001a\u0019google/protobuf/any.proto\u001a\u001cgoogle/protobuf/struct.proto\"¸#\n\u0007Context\u00123\n\u0003app\u0018\u0001 \u0001(\u000b2&.bidmachine.protobuf.adcom.Context.App\u00129\n\u0006device\u0018\u0002 \u0001(\u000b2).bidmachine.protobuf.adcom.Context.Device\u00125\n\u0004regs\u0018\u0003 \u0001(\u000b2'.bidmachine.protobuf.adcom.Context.Regs\u0012E\n\frestrictions\u0018\u0004 \u0001(\u000b2/.bidmachine.protobuf.adcom.Context.Restrictions\u00125\n\u0004user\u0018\u0005 \u0001(\u000b2'.bidmachine.protobuf.adcom.Context.User\u0012$\n\u0003ext\u0018\u0007 \u0001(\u000b2\u0017.google.protobuf.Struct\u0012'\n\text_proto\u0018\u0006 \u0003(\u000b2\u0014.google.protobuf.Any\u001aò\r\n\u0003App\u0012\n\n\u0002id\u0018\u0001 \u0001(\t\u0012\f\n\u0004name\u0018\u0002 \u0001(\t\u0012=\n\u0003pub\u0018\u0003 \u0001(\u000b20.bidmachine.protobuf.adcom.Context.App.Publisher\u0012?\n\u0007content\u0018\u0004 \u0001(\u000b2..bidmachine.protobuf.adcom.Context.App.Content\u0012\u000e\n\u0006domain\u0018\u0005 \u0001(\t\u0012\u000b\n\u0003cat\u0018\u0006 \u0003(\t\u0012\u000f\n\u0007sectcat\u0018\u0007 \u0003(\t\u0012\u000f\n\u0007pagecat\u0018\b \u0003(\t\u0012;\n\u0006cattax\u0018\t \u0001(\u000e2+.bidmachine.protobuf.adcom.CategoryTaxonomy\u0012\u0012\n\nprivpolicy\u0018\n \u0001(\b\u0012\u0010\n\bkeywords\u0018\u000b \u0001(\t\u0012\u000e\n\u0006bundle\u0018\f \u0001(\t\u0012\u000f\n\u0007storeid\u0018\r \u0001(\t\u0012\u0010\n\bstoreurl\u0018\u000e \u0001(\t\u0012\u000b\n\u0003ver\u0018\u000f \u0001(\t\u0012\f\n\u0004paid\u0018\u0010 \u0001(\b\u0012?\n\u0007release\u0018\u0013 \u0001(\u000b2..bidmachine.protobuf.adcom.Context.App.Release\u0012$\n\u0003ext\u0018\u0012 \u0001(\u000b2\u0017.google.protobuf.Struct\u0012'\n\text_proto\u0018\u0011 \u0003(\u000b2\u0014.google.protobuf.Any\u001aÎ\u0001\n\tPublisher\u0012\n\n\u0002id\u0018\u0001 \u0001(\t\u0012\f\n\u0004name\u0018\u0002 \u0001(\t\u0012\u000e\n\u0006domain\u0018\u0003 \u0001(\t\u0012\u000b\n\u0003cat\u0018\u0004 \u0003(\t\u0012;\n\u0006cattax\u0018\u0005 \u0001(\u000e2+.bidmachine.protobuf.adcom.CategoryTaxonomy\u0012$\n\u0003ext\u0018\u0007 \u0001(\u000b2\u0017.google.protobuf.Struct\u0012'\n\text_proto\u0018\u0006 \u0003(\u000b2\u0014.google.protobuf.Any\u001a¶\u0007\n\u0007Content\u0012\n\n\u0002id\u0018\u0001 \u0001(\t\u0012\u000f\n\u0007episode\u0018\u0002 \u0001(\r\u0012\r\n\u0005title\u0018\u0003 \u0001(\t\u0012\u000e\n\u0006series\u0018\u0004 \u0001(\t\u0012\u000e\n\u0006season\u0018\u0005 \u0001(\t\u0012\u000e\n\u0006artist\u0018\u0006 \u0001(\t\u0012\r\n\u0005genre\u0018\u0007 \u0001(\t\u0012\r\n\u0005album\u0018\b \u0001(\t\u0012\f\n\u0004isrc\u0018\t \u0001(\t\u0012\u000b\n\u0003url\u0018\n \u0001(\t\u0012\u000b\n\u0003cat\u0018\u000b \u0003(\t\u0012;\n\u0006cattax\u0018\f \u0001(\u000e2+.bidmachine.protobuf.adcom.CategoryTaxonomy\u0012;\n"
+    },
+    {
+      "dex": "classes2.dex",
+      "string": "ADMOB"
+    },
+    {
+      "dex": "classes2.dex",
+      "string": "ADMOB_GOOGLE_SERVICES"
+    },
+    {
+      "dex": "classes2.dex",
+      "string": "AdMob (Google Play Services) Mediation"
+    },
+    {
+      "dex": "classes2.dex",
+      "string": "IABannerForAdmob"
+    },
+    {
+      "dex": "classes2.dex",
+      "string": "IAInterstitialForAdmob"
+    },
+    {
+      "dex": "classes2.dex",
+      "string": "IARectangleForAdmob"
+    },
+    {
+      "dex": "classes2.dex",
+      "string": "IA_LOG_FOR_ADMOB_BANNER"
+    },
+    {
+      "dex": "classes2.dex",
+      "string": "IA_LOG_FOR_ADMOB_INTERSTITIAL"
+    },
+    {
+      "dex": "classes2.dex",
+      "string": "IA_LOG_FOR_ADMOB_RECTANGLE"
+    },
+    {
+      "dex": "classes2.dex",
+      "string": "KEYWORDS"
+    },
+    {
+      "dex": "classes2.dex",
+      "string": "KEYWORDS_FIELD_NUMBER"
+    },
+    {
+      "dex": "classes2.dex",
+      "string": "KEYWORD_SEPARATOR"
+    },
+    {
+      "dex": "classes2.dex",
+      "string": "Keyword"
+    },
+    {
+      "dex": "classes2.dex",
+      "string": "Keywords"
+    },
+    {
+      "dex": "classes2.dex",
+      "string": "Lcom/facebook/ads/ExtraHints$Keyword;"
+    },
+    {
+      "dex": "classes2.dex",
+      "string": "Lcom/google/ads/mediation/admob/AdMobAdapter;"
+    },
+    {
+      "dex": "classes2.dex",
+      "string": "[Lcom/facebook/ads/ExtraHints$Keyword;"
+    },
+    {
+      "dex": "classes2.dex",
+      "string": "addKeyword"
+    },
+    {
+      "dex": "classes2.dex",
+      "string": "admob"
+    },
+    {
+      "dex": "classes2.dex",
+      "string": "admob_watermark"
+    },
+    {
+      "dex": "classes2.dex",
+      "string": "clearKeywords"
+    },
+    {
+      "dex": "classes2.dex",
+      "string": "getKeywords"
+    },
+    {
+      "dex": "classes2.dex",
+      "string": "getKeywordsBytes"
+    },
+    {
+      "dex": "classes2.dex",
+      "string": "hasKeywords"
+    },
+    {
+      "dex": "classes2.dex",
+      "string": "hasOptionalKeyword"
+    },
+    {
+      "dex": "classes2.dex",
+      "string": "keyword"
+    },
+    {
+      "dex": "classes2.dex",
+      "string": "keyword is invalid"
+    },
+    {
+      "dex": "classes2.dex",
+      "string": "keywords"
+    },
+    {
+      "dex": "classes2.dex",
+      "string": "keywords_"
+    },
+    {
+      "dex": "classes2.dex",
+      "string": "mergeKeywords"
+    },
+    {
+      "dex": "classes2.dex",
+      "string": "setKeywords"
+    },
+    {
+      "dex": "classes2.dex",
+      "string": "setKeywordsBytes"
+    },
+    {
+      "dex": "classes2.dex",
+      "string": "val$keyword"
+    },
+    {
+      "dex": "classes2.dex",
+      "string": "web_behavior_keyword"
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "\n\n******************************************************************************\n* Invalid application ID. Follow instructions here:                          *\n* https://goo.gle/admob-android-update-manifest                              *\n* to find your app ID.                                                       *\n* Google Ad Manager publishers should follow instructions here:              *\n* https://goo.gle/ad-manager-android-update-manifest.                        *\n******************************************************************************\n\n"
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "\n\n******************************************************************************\n* Missing application ID. AdMob publishers should follow the instructions    *\n* here:                                                                      *\n* https://goo.gle/admob-android-update-manifest.                             *\n* to add a valid App ID inside the AndroidManifest.                          *\n* Google Ad Manager publishers should follow instructions here:              *\n* https://goo.gle/ad-manager-android-update-manifest.                        *\n******************************************************************************\n\n"
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "ADMOB"
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "ALTER TABLE apps ADD COLUMN admob_app_id TEXT;"
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "ALTER TABLE apps ADD COLUMN linked_admob_app_id TEXT;"
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "Ad inspector cannot be opened because the device is not in test mode. See https://developers.google.com/admob/android/test-ads#enable_test_devices for more information."
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "AdMob - "
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "AdMob Offline Notifications"
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "AdMob ad impression logged from app. Potentially duplicative."
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "AdMob exception reporter failed reporting the exception."
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "AdMobClearcutLogger.modify"
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "AdMobCustomTabs can only work with Activity context. Bailing out."
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "AdMobCustomTabsAdapter overlay is closed."
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "AdMobCustomTabsAdapter overlay is created."
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "AdMobCustomTabsAdapter overlay is destroyed."
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "AdMobCustomTabsAdapter overlay is paused."
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "AdMobCustomTabsAdapter overlay is restarted."
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "AdMobCustomTabsAdapter overlay is resumed."
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "AdMobCustomTabsAdapter overlay is started."
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "AdMobCustomTabsAdapter overlay is stopped."
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "AdMobHandler.handleMessage"
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "AdMobOfflineBufferedPings.db"
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "AdMobPlusIdlessListener.onSharedPreferenceChanged"
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "Delay close AdMobCustomTabsAdapter overlay."
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "Destroying AdMobCustomTabsAdapter adapter."
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "Google Play Service is out of date, the Google Mobile Ads SDK will not integrate with Firebase. Admob/Firebase integration requires updated Google Play Service."
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "Interstitials that show when your app is in the background are a violation of AdMob policies and may lead to blocked ad serving. To learn more, visit  https://goo.gle/admob-interstitial-policies"
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "Interstitials that show when your app is in the background are a violation of AdMob policies and may lead to blocked ad serving. To learn more, visit https://goo.gle/admob-interstitial-policies"
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "Lcom/google/ads/mediation/admob/AdMobAdapter;"
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "Opening AdMobCustomTabsAdapter overlay."
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "OutOfContextTestingGmsgHandler.generateAdMobAdRequest"
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "Pausing AdMobCustomTabsAdapter adapter."
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "Publisher provided Google AdMob App ID in manifest: "
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "Resuming AdMobCustomTabsAdapter adapter."
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "Rewarded ads that show when your app is in the background are a violation of AdMob policies and may lead to blocked ad serving. To learn more, visit https://goo.gle/admob-interstitial-policies"
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "SCAR_REQUEST_TYPE_ADMOB"
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "The Google Mobile Ads SDK will not integrate with Firebase. Admob/Firebase integration requires the latest Firebase SDK jar, but Firebase SDK is either missing or out of date"
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "adMobAppId"
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "addKeyword"
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "admob"
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "admobVideoStreams"
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "admob_app_id"
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "admob_close_button_black_circle_white_cross"
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "admob_close_button_white_circle_black_cross"
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "admob_close_button_white_cross"
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "admob_empty_layout"
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "admob_module_version"
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "admob_user_agent"
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "admob_volley"
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "com.google.ads.mediation.admob.AdMobAdapter"
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "com.google.ads.mediation.admob.AdMobCustomTabsAdapter"
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "gads:native:enable_scroll_view_type_by_keyword"
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "gads:native:scrollable_container_keywords"
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "gads:signal:paid_v1_3p_on_admob:enabled"
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "getKeywords"
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "https://admob-gmats.uc.r.appspot.com/"
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "https://imasdk.googleapis.com/admob/sdkloader/native_video.html"
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "keywords"
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "linked_admob_app_id"
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "loadJavascriptEngine > ADMOB_UI_HANDLER.postDelayed: Lock acquired"
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "loadJavascriptEngine > ADMOB_UI_HANDLER.postDelayed: Lock released"
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "loadJavascriptEngine > ADMOB_UI_HANDLER.postDelayed: Lock released, the promise is already settled"
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "loadJavascriptEngine > ADMOB_UI_HANDLER.postDelayed: Trying to acquire lock"
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "loadJavascriptEngine > Before calling ADMOB_UI_HANDLER.postDelayed"
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "peekKeyword"
+    },
+    {
+      "dex": "classes3.dex",
+      "string": "setAdMobAppId"
+    },
+    {
+      "dex": "classes4.dex",
+      "string": "ADMOB"
+    },
+    {
+      "dex": "classes4.dex",
+      "string": "AdMob"
+    },
+    {
+      "dex": "classes4.dex",
+      "string": "Admob"
+    },
+    {
+      "dex": "classes4.dex",
+      "string": "KeyWordInfo"
+    },
+    {
+      "dex": "classes4.dex",
+      "string": "Lcom/mbridge/msdk/out/MBBidNativeHandler$KeyWordInfo;"
+    },
+    {
+      "dex": "classes4.dex",
+      "string": "Lcom/mbridge/msdk/out/MBNativeHandler$KeyWordInfo;"
+    },
+    {
+      "dex": "classes4.dex",
+      "string": "Lcom/mbridge/msdk/out/reveue/MBridgeRevenueParamsEntityForAdmob;"
+    },
+    {
+      "dex": "classes4.dex",
+      "string": "admob_"
+    },
+    {
+      "dex": "classes4.dex",
+      "string": "admob_init"
+    },
+    {
+      "dex": "classes4.dex",
+      "string": "admob_m_sw"
+    },
+    {
+      "dex": "classes4.dex",
+      "string": "getKeyWordPN"
+    },
+    {
+      "dex": "classes4.dex",
+      "string": "keyWordPN"
+    },
+    {
+      "dex": "classes4.dex",
+      "string": "keyword"
+    },
+    {
+      "dex": "classes4.dex",
+      "string": "setAdmobResponseInfo"
+    },
+    {
+      "dex": "classes4.dex",
+      "string": "setAdmobRevenueInfo"
+    },
+    {
+      "dex": "classes4.dex",
+      "string": "setKeyWordPN"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "ADMOB_ADSOURCE_ID"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "ADMOB_HYBRID_STATUS"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "ADMOB_INIT_MODE"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "ADMOB_IS_COLLAPSIBLE"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "AdMob"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "AdMobTUInitManager"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Admob"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Admob QueryInfo is empty."
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Admob QueryInfo.generate() error: "
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Admob splash show fail: "
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Admob: show(), activity = null"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "AdmobTUBannerAdapter"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "AdmobTUConst"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "AdmobTUInterstitialAdapter"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "AdmobTUNativeAd"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "AdmobTURewardedVideoAdapter"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "AdmobTUSplashAdapter"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Admob_INTERSTITIAL_IMAGE"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Admob_INTERSTITIAL_VIDEO"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Admob_NATIVE_IMAGE"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Admob_NATIVE_VIDEO"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Admob_NETWORK"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "CONTENT_KEYWORDS"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/google/ads/mediation/admob/AdMobAdapter;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/core/api/TUSharedPlacementConfig$1;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/core/api/TUSharedPlacementConfig$Builder;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/core/api/TUSharedPlacementConfig;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/AdMobTUInitManager$d0;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/AdMobTUInitManager$dd$d0;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/AdMobTUInitManager$dd;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/AdMobTUInitManager;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/AdmobBidRequestInfo;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/AdmobTUAdapter$d0;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/AdmobTUAdapter$dd$d0;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/AdmobTUAdapter$dd;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/AdmobTUAdapter;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/AdmobTUBannerAdapter$d0$d0;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/AdmobTUBannerAdapter$d0;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/AdmobTUBannerAdapter$dd$d0;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/AdmobTUBannerAdapter$dd$dd;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/AdmobTUBannerAdapter$dd;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/AdmobTUBannerAdapter;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/AdmobTUConst$DEBUGGER_CONFIG;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/AdmobTUConst$ORIENTATION;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/AdmobTUConst$REWARD_EXTRA;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/AdmobTUConst;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/AdmobTUInterstitialAdapter$d0$d0;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/AdmobTUInterstitialAdapter$d0;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/AdmobTUInterstitialAdapter$dd;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/AdmobTUInterstitialAdapter$dm;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/AdmobTUInterstitialAdapter$dn$d0;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/AdmobTUInterstitialAdapter$dn;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/AdmobTUInterstitialAdapter;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/AdmobTUNativeAd$LoadCallbackListener;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/AdmobTUNativeAd$d0;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/AdmobTUNativeAd$dd;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/AdmobTUNativeAd$dm;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/AdmobTUNativeAd$dn;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/AdmobTUNativeAd;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/AdmobTURewardedVideoAdapter$d0;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/AdmobTURewardedVideoAdapter$dd$d0$d0;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/AdmobTURewardedVideoAdapter$dd$d0;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/AdmobTURewardedVideoAdapter$dd;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/AdmobTURewardedVideoAdapter$dm$d0$d0;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/AdmobTURewardedVideoAdapter$dm$d0;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/AdmobTURewardedVideoAdapter$dm;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/AdmobTURewardedVideoAdapter$dn$d0;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/AdmobTURewardedVideoAdapter$dn;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/AdmobTURewardedVideoAdapter$do;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/AdmobTURewardedVideoAdapter;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/AdmobTUSplashAdapter$d0;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/AdmobTUSplashAdapter$dd$d0;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/AdmobTUSplashAdapter$dd;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/AdmobTUSplashAdapter$dm;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/AdmobTUSplashAdapter$dn$d0;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/AdmobTUSplashAdapter$dn;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/AdmobTUSplashAdapter;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/BuildConfig;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/GoogleAdTUAdapter$d0;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/GoogleAdTUAdapter;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/GoogleAdTUBannerAdapter$d0;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/GoogleAdTUBannerAdapter$dd;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/GoogleAdTUBannerAdapter;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/GoogleAdTUConst$ORIENTATION;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/GoogleAdTUConst$REWARD_EXTRA;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/GoogleAdTUConst;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/GoogleAdTUInterstitialAdapter$d0;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/GoogleAdTUInterstitialAdapter$dd;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/GoogleAdTUInterstitialAdapter$dm;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/GoogleAdTUInterstitialAdapter$dn;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/GoogleAdTUInterstitialAdapter;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/GoogleAdTUNativeAd$LoadCallbackListener;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/GoogleAdTUNativeAd$d0;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/GoogleAdTUNativeAd$dd;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/GoogleAdTUNativeAd;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/GoogleAdTURewardedVideoAdapter$d0$d0;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/GoogleAdTURewardedVideoAdapter$d0;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/GoogleAdTURewardedVideoAdapter$dd;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/GoogleAdTURewardedVideoAdapter$dm;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/GoogleAdTURewardedVideoAdapter;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/GoogleAdTUSplashAdapter$d0;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/GoogleAdTUSplashAdapter$dd;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/GoogleAdTUSplashAdapter$dm;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/GoogleAdTUSplashAdapter$dn;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/GoogleAdTUSplashAdapter;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lcom/thinkup/network/admob/R;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "Lnet/pubnative/lite/sdk/utils/PrebidUtils$KeywordMode;"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "MEDIATION_PROVIDER_ADMOB"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "MEDIATION_PROVIDER_ADMOB_VALUE"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "NETWORK_AGENT_EVENT_TYPE_ADMOB_INIT"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "TUSharedPlacementConfig{rewardVideoLocalExtra="
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "addKeyword"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "admob_adsource_id"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "admob_bid_type"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "admob_clbn_sw"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "admob_content_urls"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "admob_hybrid_status"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "admob_init"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "admob_init_adsource_id"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "admob_init_mode"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "admob_is_collapsible"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "admob_keywords"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "admob_m_sw"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "admob_reward_amount"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "admob_reward_type"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "admob_show_with_pay_info"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "admob_token_adsource_id"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "com.thinkup.network.admob"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "getSharedPlacementId"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "loadSharedPlacement: sharedPlaceInfo = null"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "setAdmobAppMuted"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "setSharedPlacementConfig"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "setSharedPlacementConfig: "
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "setSharedPlacementConfig: null"
+    },
+    {
+      "dex": "classes5.dex",
+      "string": "sharedPlacementIdError"
+    },
+    {
+      "dex": "classes6.dex",
+      "string": ", keywords="
+    },
+    {
+      "dex": "classes6.dex",
+      "string": "getKeywords"
+    },
+    {
+      "dex": "classes6.dex",
+      "string": "io.appmetrica.analytics.adrevenue.admob.v23.internal.AdMobClientModuleEntryPoint"
+    },
+    {
+      "dex": "classes6.dex",
+      "string": "keywords"
+    },
+    {
+      "dex": "classes6.dex",
+      "string": "setKeywords"
+    },
+    {
+      "dex": "classes7.dex",
+      "string": "\tnet.pubnative.hybid.adapters.admob.mediation.HyBidMediationBannerCustomEvent\n"
+    },
+    {
+      "dex": "classes7.dex",
+      "string": "\tnet.pubnative.hybid.adapters.admob.mediation.HyBidMediationInterstitialCustomEvent\n"
+    },
+    {
+      "dex": "classes7.dex",
+      "string": "\tnet.pubnative.hybid.adapters.admob.mediation.HyBidMediationLeaderboardCustomEvent\n"
+    },
+    {
+      "dex": "classes7.dex",
+      "string": "\tnet.pubnative.hybid.adapters.admob.mediation.HyBidMediationMRectCustomEvent\n"
+    },
+    {
+      "dex": "classes7.dex",
+      "string": "\tnet.pubnative.hybid.adapters.admob.mediation.HyBidMediationNativeCustomEvent\n"
+    },
+    {
+      "dex": "classes7.dex",
+      "string": "\tnet.pubnative.hybid.adapters.admob.mediation.HyBidMediationRewardedVideoCustomEvent\n"
+    },
+    {
+      "dex": "classes7.dex",
+      "string": "\n%bidmachine/protobuf/sdk/context.proto\u0012\u001fbidmachine.protobuf.sdk.context\u001a\u001fgoogle/protobuf/timestamp.proto\u001a\u001egoogle/protobuf/wrappers.proto\u001a%bidmachine/protobuf/adcom/adcom.proto\"µ\u0002\n\u000eContextualData\u0012\u0011\n\tplacement\u0018\u0001 \u0001(\t\u0012\u0015\n\rmediator_name\u0018\u0002 \u0001(\t\u0012L\n\u0004data\u0018\u0003 \u0001(\u000b2>.bidmachine.protobuf.sdk.context.ContextualData.ImpressionData\u001aª\u0001\n\u000eImpressionData\u0012\r\n\u0005imimd\u0018\u0001 \u0001(\r\u0012\u000b\n\u0003imd\u0018\u0002 \u0001(\r\u0012\f\n\u0004imwp\u0018\u0003 \u0001(\u0002\u0012\n\n\u0002wp\u0018\u0004 \u0001(\u0002\u0012\u0010\n\bimbundle\u0018\u0005 \u0001(\t\u0012\u000e\n\u0006bundle\u0018\u0006 \u0001(\t\u0012\u0010\n\bimagency\u0018\u0007 \u0001(\t\u0012\u000e\n\u0006agency\u0018\b \u0001(\t\u0012\u000e\n\u0006imcurl\u0018\t \u0001(\t\u0012\u000e\n\u0006clcurl\u0018\n \u0001(\t\"Ô\u0002\n\u0007Session\u0012\u0012\n\nsession_id\u0018\u0001 \u0001(\t\u0012A\n\u0007context\u0018\u0002 \u0001(\u000b20.bidmachine.protobuf.sdk.context.Session.Context\u001añ\u0001\n\u0007Context\u0012\u0017\n\u000fsessionduration\u0018\u0001 \u0001(\u0004\u0012\n\n\u0002sc\u0018\u0002 \u0001(\r\u0012\u0011\n\tretention\u0018\u0003 \u0001(\r\u0012=\n\u0004data\u0018\u0004 \u0003(\u000b2/.bidmachine.protobuf.sdk.context.ContextualData\u0012\u001d\n\u0015last_session_duration\u0018\u0005 \u0001(\u0004\u0012'\n\u0003iap\u0018\u0006 \u0001(\u000b2\u001a.google.protobuf.BoolValue\u0012'\n\u0003iaa\u0018\u0007 \u0001(\u000b2\u001a.google.protobuf.BoolValue\"B\n\u0003SDK\u0012\u000b\n\u0003sdk\u0018\u0001 \u0001(\t\u0012\u000e\n\u0006sdkver\u0018\u0002 \u0001(\t\u0012\u000e\n\u0006omidpn\u0018\u0003 \u0001(\t\u0012\u000e\n\u0006omidpv\u0018\u0004 \u0001(\t\"î\u0004\n\u0003App\u0012\u0010\n\bapp_name\u0018\u0001 \u0001(\t\u0012\u000f\n\u0007app_ver\u0018\u0002 \u0001(\t\u0012?\n\u0007release\u0018\u0003 \u0001(\u000b2..bidmachine.protobuf.adcom.Context.App.Release\u00120\n\finstall_time\u0018\u0004 \u0001(\u000b2\u001a.google.protobuf.Timestamp\u00125\n\u0011first_launch_time\u0018\u0005 \u0001(\u000b2\u001a.google.protobuf.Timestamp\u0012\u0010\n\bstorecat\u0018\u0006 \u0001(\t\u0012\u0013\n\u000bstoresubcat\u0018\u0007 \u0003(\t\u0012\u000f\n\u0007fmwname\u0018\b \u0001(\t\u0012\u001c\n\u0014install_referrer_url\u0018\t \u0001(\t\u0012D\n install_referrer_click_timestamp\u0018\n \u0001(\u000b2\u001a.google.protobuf.Timestamp\u0012K\n'install_referrer_click_server_timestamp\u0018\f \u0001(\u000b2\u001a.google.protobuf.Timestamp\u0012B\n\u001einstall_begin_server_timestamp\u0018\r \u0001(\u000b2\u001a.google.protobuf.Timestamp\u0012\u0017\n\u000finstall_version\u0018\u000e \u0001(\t\u0012\u001e\n\u0016is_google_play_instant\u0018\u000f \u0001(\b\u00124\n\u0010sdk_install_time\u0018\u0010 \u0001(\u000b2\u001a.g"
+    },
+    {
+      "dex": "classes7.dex",
+      "string": "ADMOB_MEDIATION_BANNER_ADAPTER_CLASS"
+    },
+    {
+      "dex": "classes7.dex",
+      "string": "ADMOB_MEDIATION_INTERSTITIAL_ADAPTER_CLASS"
+    },
+    {
+      "dex": "classes7.dex",
+      "string": "ADMOB_MEDIATION_LEADERBOARD_ADAPTER_CLASS"
+    },
+    {
+      "dex": "classes7.dex",
+      "string": "ADMOB_MEDIATION_MRECT_ADAPTER_CLASS"
+    },
+    {
+      "dex": "classes7.dex",
+      "string": "ADMOB_MEDIATION_NATIVE_ADAPTER_CLASS"
+    },
+    {
+      "dex": "classes7.dex",
+      "string": "ADMOB_MEDIATION_REWARDED_ADAPTER_CLASS"
+    },
+    {
+      "dex": "classes7.dex",
+      "string": "ColourKeywords"
+    },
+    {
+      "dex": "classes7.dex",
+      "string": "FontSizeKeywords"
+    },
+    {
+      "dex": "classes7.dex",
+      "string": "FontStretchKeywords"
+    },
+    {
+      "dex": "classes7.dex",
+      "string": "FontWeightKeywords"
+    },
+    {
+      "dex": "classes7.dex",
+      "string": "KEYWORDS_FIELD_NUMBER"
+    },
+    {
+      "dex": "classes7.dex",
+      "string": "KeywordMode"
+    },
+    {
+      "dex": "classes7.dex",
+      "string": "Keywords"
+    },
+    {
+      "dex": "classes7.dex",
+      "string": "Lnet/pubnative/lite/sdk/utils/HeaderBiddingUtils$KeywordMode;"
+    },
+    {
+      "dex": "classes7.dex",
+      "string": "Lnet/pubnative/lite/sdk/utils/PrebidUtils$KeywordMode;"
+    },
+    {
+      "dex": "classes7.dex",
+      "string": "Lnet/pubnative/lite/sdk/utils/svgparser/utils/SVGParserImpl$ColourKeywords;"
+    },
+    {
+      "dex": "classes7.dex",
+      "string": "Lnet/pubnative/lite/sdk/utils/svgparser/utils/SVGParserImpl$FontSizeKeywords;"
+    },
+    {
+      "dex": "classes7.dex",
+      "string": "Lnet/pubnative/lite/sdk/utils/svgparser/utils/SVGParserImpl$FontStretchKeywords;"
+    },
+    {
+      "dex": "classes7.dex",
+      "string": "Lnet/pubnative/lite/sdk/utils/svgparser/utils/SVGParserImpl$FontWeightKeywords;"
+    },
+    {
+      "dex": "classes7.dex",
+      "string": "[Lnet/pubnative/lite/sdk/utils/HeaderBiddingUtils$KeywordMode;"
+    },
+    {
+      "dex": "classes7.dex",
+      "string": "[Lnet/pubnative/lite/sdk/utils/PrebidUtils$KeywordMode;"
+    },
+    {
+      "dex": "classes7.dex",
+      "string": "aspectRatioKeywords"
+    },
+    {
+      "dex": "classes7.dex",
+      "string": "clearKeywords"
+    },
+    {
+      "dex": "classes7.dex",
+      "string": "colourKeywords"
+    },
+    {
+      "dex": "classes7.dex",
+      "string": "fontSizeKeywords"
+    },
+    {
+      "dex": "classes7.dex",
+      "string": "fontStretchKeywords"
+    },
+    {
+      "dex": "classes7.dex",
+      "string": "fontWeightKeywords"
+    },
+    {
+      "dex": "classes7.dex",
+      "string": "getHeaderBiddingKeywords"
+    },
+    {
+      "dex": "classes7.dex",
+      "string": "getHeaderBiddingKeywordsBundle"
+    },
+    {
+      "dex": "classes7.dex",
+      "string": "getHeaderBiddingKeywordsSet"
+    },
+    {
+      "dex": "classes7.dex",
+      "string": "getKeywords"
+    },
+    {
+      "dex": "classes7.dex",
+      "string": "getKeywordsBuilder"
+    },
+    {
+      "dex": "classes7.dex",
+      "string": "getKeywordsFieldBuilder"
+    },
+    {
+      "dex": "classes7.dex",
+      "string": "getKeywordsOrBuilder"
+    },
+    {
+      "dex": "classes7.dex",
+      "string": "getPrebidKeywords"
+    },
+    {
+      "dex": "classes7.dex",
+      "string": "getPrebidKeywordsBundle"
+    },
+    {
+      "dex": "classes7.dex",
+      "string": "getPrebidKeywordsSet"
+    },
+    {
+      "dex": "classes7.dex",
+      "string": "hasKeywords"
+    },
+    {
+      "dex": "classes7.dex",
+      "string": "keywords"
+    },
+    {
+      "dex": "classes7.dex",
+      "string": "keywordsBuilder_"
+    },
+    {
+      "dex": "classes7.dex",
+      "string": "keywords_"
+    },
+    {
+      "dex": "classes7.dex",
+      "string": "mScreenKeywords"
+    },
+    {
+      "dex": "classes7.dex",
+      "string": "mapKeywordMode"
+    },
+    {
+      "dex": "classes7.dex",
+      "string": "mergeKeywords"
+    },
+    {
+      "dex": "classes7.dex",
+      "string": "net.pubnative.hybid.adapters.admob.mediation.HyBidMediationBannerCustomEvent"
+    },
+    {
+      "dex": "classes7.dex",
+      "string": "net.pubnative.hybid.adapters.admob.mediation.HyBidMediationInterstitialCustomEvent"
+    },
+    {
+      "dex": "classes7.dex",
+      "string": "net.pubnative.hybid.adapters.admob.mediation.HyBidMediationLeaderboardCustomEvent"
+    },
+    {
+      "dex": "classes7.dex",
+      "string": "net.pubnative.hybid.adapters.admob.mediation.HyBidMediationMRectCustomEvent"
+    },
+    {
+      "dex": "classes7.dex",
+      "string": "net.pubnative.hybid.adapters.admob.mediation.HyBidMediationNativeCustomEvent"
+    },
+    {
+      "dex": "classes7.dex",
+      "string": "net.pubnative.hybid.adapters.admob.mediation.HyBidMediationRewardedVideoCustomEvent"
+    },
+    {
+      "dex": "classes7.dex",
+      "string": "parseColourKeyword"
+    },
+    {
+      "dex": "classes7.dex",
+      "string": "sKeywords"
+    },
+    {
+      "dex": "classes7.dex",
+      "string": "setKeywords"
+    },
+    {
+      "dex": "classes7.dex",
+      "string": "setScreenKeywords"
+    },
+    {
+      "dex": "classes8.dex",
+      "string": "ADMOB"
+    },
+    {
+      "dex": "classes8.dex",
+      "string": "AdMob"
+    },
+    {
+      "dex": "classes8.dex",
+      "string": "AdMobAppOpenAdAdapter"
+    },
+    {
+      "dex": "classes8.dex",
+      "string": "AdMobBannerAdapter"
+    },
+    {
+      "dex": "classes8.dex",
+      "string": "AdMobInterstitialAdapter"
+    },
+    {
+      "dex": "classes8.dex",
+      "string": "AdMobNativeAdapter"
+    },
+    {
+      "dex": "classes8.dex",
+      "string": "AdMobRewardedAdapter"
+    },
+    {
+      "dex": "classes8.dex",
+      "string": "admob"
+    }
+  ]
+}

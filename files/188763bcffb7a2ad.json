@@ -1,0 +1,693 @@
+[
+  {
+    "query": "060_shared_set_refs.stdout",
+    "references_total": 0,
+    "selected_references": []
+  },
+  {
+    "query": "061_banner_wrapper.stdout",
+    "references_total": 4,
+    "selected_references": [
+      {
+        "caller": "Lcom/thinkup/banner/api/TUBannerView;->loadAd(ILcom/thinkup/core/api/TUAdRequest;)V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-virtual",
+        "kind": "method",
+        "offset": "000e",
+        "target": "Lcom/thinkup/banner/d/d;->m()Lcom/thinkup/core/common/d0;"
+      },
+      {
+        "caller": "Lcom/thinkup/banner/api/TUBannerView;->entryAdScenario(Ljava/lang/String;)V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-virtual",
+        "kind": "method",
+        "offset": "000a",
+        "target": "Lcom/thinkup/banner/d/d;->m()Lcom/thinkup/core/common/d0;"
+      },
+      {
+        "caller": "Lcom/thinkup/banner/api/TUBannerView;->entryAdScenario(Ljava/lang/String;Ljava/util/Map;)V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-virtual",
+        "kind": "method",
+        "offset": "000a",
+        "target": "Lcom/thinkup/banner/d/d;->m()Lcom/thinkup/core/common/d0;"
+      },
+      {
+        "caller": "Lcom/thinkup/banner/api/TUBannerView;->setLocalExtra(Ljava/util/Map;)V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-virtual",
+        "kind": "method",
+        "offset": "0014",
+        "target": "Lcom/thinkup/banner/d/d;->m(Ljava/util/Map;)V"
+      }
+    ]
+  },
+  {
+    "query": "062_interstitial_wrapper.stdout",
+    "references_total": 3,
+    "selected_references": [
+      {
+        "caller": "Lcom/thinkup/interstitial/api/TUInterstitial;->destroyAd()V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-virtual",
+        "kind": "method",
+        "offset": "0004",
+        "target": "Lcom/thinkup/interstitial/d/m;->n()V"
+      },
+      {
+        "caller": "Lcom/thinkup/interstitial/api/TUInterstitial;->setLocalExtra(Ljava/util/Map;)V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-virtual",
+        "kind": "method",
+        "offset": "0014",
+        "target": "Lcom/thinkup/interstitial/d/m;->n(Ljava/util/Map;)V"
+      },
+      {
+        "caller": "Lcom/thinkup/interstitial/d/m$3;->run()V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-static",
+        "kind": "method",
+        "offset": "0077",
+        "target": "Lcom/thinkup/interstitial/d/m;->n(Lcom/thinkup/interstitial/d/m;)Ljava/lang/String;"
+      }
+    ]
+  },
+  {
+    "query": "063_interstitial_cache.stdout",
+    "references_total": 27,
+    "selected_references": [
+      {
+        "caller": "Lcom/thinkup/interstitial/api/TUInterstitialAutoAd;->addPlacementId(Lcom/thinkup/core/api/TUAdRequest;[Ljava/lang/String;)V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-static",
+        "kind": "method",
+        "offset": "0000",
+        "target": "Lcom/thinkup/interstitial/d/o;->d()Lcom/thinkup/interstitial/d/o;"
+      },
+      {
+        "caller": "Lcom/thinkup/interstitial/api/TUInterstitialAutoAd;->addPlacementId(Lcom/thinkup/core/api/TUAdRequest;[Ljava/lang/String;)V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-virtual",
+        "kind": "method",
+        "offset": "0004",
+        "target": "Lcom/thinkup/interstitial/d/o;->d(Lcom/thinkup/core/api/TUAdRequest;[Ljava/lang/String;)V"
+      },
+      {
+        "caller": "Lcom/thinkup/interstitial/api/TUInterstitialAutoAd;->checkAdStatus(Ljava/lang/String;)Lcom/thinkup/core/api/TUAdStatusInfo;",
+        "dex": "classes9.dex",
+        "instruction": "invoke-static",
+        "kind": "method",
+        "offset": "0000",
+        "target": "Lcom/thinkup/interstitial/d/o;->d()Lcom/thinkup/interstitial/d/o;"
+      },
+      {
+        "caller": "Lcom/thinkup/interstitial/api/TUInterstitialAutoAd;->checkValidAdCaches(Ljava/lang/String;)Ljava/util/List;",
+        "dex": "classes9.dex",
+        "instruction": "invoke-static",
+        "kind": "method",
+        "offset": "0000",
+        "target": "Lcom/thinkup/interstitial/d/o;->d()Lcom/thinkup/interstitial/d/o;"
+      },
+      {
+        "caller": "Lcom/thinkup/interstitial/api/TUInterstitialAutoAd;->entryAdScenario(Ljava/lang/String;Ljava/lang/String;)V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-static",
+        "kind": "method",
+        "offset": "0000",
+        "target": "Lcom/thinkup/interstitial/d/o;->d()Lcom/thinkup/interstitial/d/o;"
+      },
+      {
+        "caller": "Lcom/thinkup/interstitial/api/TUInterstitialAutoAd;->entryAdScenario(Ljava/lang/String;Ljava/lang/String;)V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-static",
+        "kind": "method",
+        "offset": "0004",
+        "target": "Lcom/thinkup/interstitial/d/o;->d(Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;)V"
+      },
+      {
+        "caller": "Lcom/thinkup/interstitial/api/TUInterstitialAutoAd;->entryAdScenario(Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;)V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-static",
+        "kind": "method",
+        "offset": "0000",
+        "target": "Lcom/thinkup/interstitial/d/o;->d()Lcom/thinkup/interstitial/d/o;"
+      },
+      {
+        "caller": "Lcom/thinkup/interstitial/api/TUInterstitialAutoAd;->entryAdScenario(Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;)V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-static",
+        "kind": "method",
+        "offset": "0003",
+        "target": "Lcom/thinkup/interstitial/d/o;->d(Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;)V"
+      },
+      {
+        "caller": "Lcom/thinkup/interstitial/api/TUInterstitialAutoAd;->init(Landroid/content/Context;[Ljava/lang/String;Lcom/thinkup/interstitial/api/TUInterstitialAutoLoadListener;Lcom/thinkup/core/api/TUAdRequest;)V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-static",
+        "kind": "method",
+        "offset": "0000",
+        "target": "Lcom/thinkup/interstitial/d/o;->d()Lcom/thinkup/interstitial/d/o;"
+      },
+      {
+        "caller": "Lcom/thinkup/interstitial/api/TUInterstitialAutoAd;->init(Landroid/content/Context;[Ljava/lang/String;Lcom/thinkup/interstitial/api/TUInterstitialAutoLoadListener;Lcom/thinkup/core/api/TUAdRequest;)V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-virtual",
+        "kind": "method",
+        "offset": "0004",
+        "target": "Lcom/thinkup/interstitial/d/o;->d(Landroid/content/Context;[Ljava/lang/String;Lcom/thinkup/interstitial/api/TUInterstitialAutoLoadListener;Lcom/thinkup/core/api/TUAdRequest;)V"
+      },
+      {
+        "caller": "Lcom/thinkup/interstitial/api/TUInterstitialAutoAd;->isAdReady(Ljava/lang/String;)Z",
+        "dex": "classes9.dex",
+        "instruction": "invoke-static",
+        "kind": "method",
+        "offset": "0000",
+        "target": "Lcom/thinkup/interstitial/d/o;->d()Lcom/thinkup/interstitial/d/o;"
+      },
+      {
+        "caller": "Lcom/thinkup/interstitial/api/TUInterstitialAutoAd;->removePlacementId([Ljava/lang/String;)V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-static",
+        "kind": "method",
+        "offset": "0000",
+        "target": "Lcom/thinkup/interstitial/d/o;->d()Lcom/thinkup/interstitial/d/o;"
+      },
+      {
+        "caller": "Lcom/thinkup/interstitial/api/TUInterstitialAutoAd;->removePlacementId([Ljava/lang/String;)V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-static",
+        "kind": "method",
+        "offset": "0003",
+        "target": "Lcom/thinkup/interstitial/d/o;->d([Ljava/lang/String;)V"
+      },
+      {
+        "caller": "Lcom/thinkup/interstitial/api/TUInterstitialAutoAd;->setAutoLoadListener(Lcom/thinkup/interstitial/api/TUInterstitialAutoLoadListener;)V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-static",
+        "kind": "method",
+        "offset": "0000",
+        "target": "Lcom/thinkup/interstitial/d/o;->d()Lcom/thinkup/interstitial/d/o;"
+      },
+      {
+        "caller": "Lcom/thinkup/interstitial/api/TUInterstitialAutoAd;->setAutoLoadListener(Lcom/thinkup/interstitial/api/TUInterstitialAutoLoadListener;)V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-virtual",
+        "kind": "method",
+        "offset": "0004",
+        "target": "Lcom/thinkup/interstitial/d/o;->d(Lcom/thinkup/interstitial/api/TUInterstitialAutoLoadListener;)V"
+      },
+      {
+        "caller": "Lcom/thinkup/interstitial/api/TUInterstitialAutoAd;->setLocalExtra(Ljava/lang/String;Ljava/util/Map;)V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-static",
+        "kind": "method",
+        "offset": "0000",
+        "target": "Lcom/thinkup/interstitial/d/o;->d()Lcom/thinkup/interstitial/d/o;"
+      },
+      {
+        "caller": "Lcom/thinkup/interstitial/api/TUInterstitialAutoAd;->setLocalExtra(Ljava/lang/String;Ljava/util/Map;)V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-static",
+        "kind": "method",
+        "offset": "0003",
+        "target": "Lcom/thinkup/interstitial/d/o;->d(Ljava/lang/String;Ljava/util/Map;)V"
+      },
+      {
+        "caller": "Lcom/thinkup/interstitial/api/TUInterstitialAutoAd;->setNativeAdCustomRender(Lcom/thinkup/core/api/TUNativeAdCustomRender;)V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-static",
+        "kind": "method",
+        "offset": "0000",
+        "target": "Lcom/thinkup/interstitial/d/o;->d()Lcom/thinkup/interstitial/d/o;"
+      },
+      {
+        "caller": "Lcom/thinkup/interstitial/api/TUInterstitialAutoAd;->setNativeAdCustomRender(Lcom/thinkup/core/api/TUNativeAdCustomRender;)V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-virtual",
+        "kind": "method",
+        "offset": "0004",
+        "target": "Lcom/thinkup/interstitial/d/o;->d(Lcom/thinkup/core/api/TUNativeAdCustomRender;)V"
+      },
+      {
+        "caller": "Lcom/thinkup/interstitial/api/TUInterstitialAutoAd;->show(Landroid/app/Activity;Ljava/lang/String;Lcom/thinkup/core/api/TUShowConfig;Lcom/thinkup/interstitial/api/TUInterstitialAutoEventListener;Lcom/thinkup/core/api/TUAdRevenueListener;)V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-static",
+        "kind": "method",
+        "offset": "0000",
+        "target": "Lcom/thinkup/interstitial/d/o;->d()Lcom/thinkup/interstitial/d/o;"
+      },
+      {
+        "caller": "Lcom/thinkup/interstitial/api/TUInterstitialAutoAd;->show(Landroid/app/Activity;Ljava/lang/String;Lcom/thinkup/core/api/TUShowConfig;Lcom/thinkup/interstitial/api/TUInterstitialAutoEventListener;Lcom/thinkup/core/api/TUAdRevenueListener;)V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-virtual/range",
+        "kind": "method",
+        "offset": "0009",
+        "target": "Lcom/thinkup/interstitial/d/o;->d(Landroid/app/Activity;Ljava/lang/String;Lcom/thinkup/core/api/TUShowConfig;Lcom/thinkup/interstitial/api/TUInterstitialAutoEventListener;Lcom/thinkup/core/api/TUAdRevenueListener;)V"
+      },
+      {
+        "caller": "Lcom/thinkup/interstitial/d/o$1$1;->run()V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-static",
+        "kind": "method",
+        "offset": "0004",
+        "target": "Lcom/thinkup/interstitial/d/o;->d(Lcom/thinkup/interstitial/d/o;)Lcom/thinkup/interstitial/api/TUInterstitialAutoLoadListener;"
+      },
+      {
+        "caller": "Lcom/thinkup/interstitial/d/o$1$1;->run()V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-static",
+        "kind": "method",
+        "offset": "000e",
+        "target": "Lcom/thinkup/interstitial/d/o;->d(Lcom/thinkup/interstitial/d/o;)Lcom/thinkup/interstitial/api/TUInterstitialAutoLoadListener;"
+      },
+      {
+        "caller": "Lcom/thinkup/interstitial/d/o$1$2;->run()V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-static",
+        "kind": "method",
+        "offset": "0004",
+        "target": "Lcom/thinkup/interstitial/d/o;->d(Lcom/thinkup/interstitial/d/o;)Lcom/thinkup/interstitial/api/TUInterstitialAutoLoadListener;"
+      },
+      {
+        "caller": "Lcom/thinkup/interstitial/d/o$1$2;->run()V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-static",
+        "kind": "method",
+        "offset": "000e",
+        "target": "Lcom/thinkup/interstitial/d/o;->d(Lcom/thinkup/interstitial/d/o;)Lcom/thinkup/interstitial/api/TUInterstitialAutoLoadListener;"
+      },
+      {
+        "caller": "Lcom/thinkup/interstitial/d/o;->d(Ljava/lang/String;)V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-static",
+        "kind": "method",
+        "offset": "0000",
+        "target": "Lcom/thinkup/interstitial/d/o;->d()Lcom/thinkup/interstitial/d/o;"
+      },
+      {
+        "caller": "Lcom/thinkup/interstitial/d/o;->d(Ljava/lang/String;Lcom/thinkup/core/api/AdError;)V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-static",
+        "kind": "method",
+        "offset": "0000",
+        "target": "Lcom/thinkup/interstitial/d/o;->d()Lcom/thinkup/interstitial/d/o;"
+      }
+    ]
+  },
+  {
+    "query": "064_mediavideo_wrapper.stdout",
+    "references_total": 4,
+    "selected_references": [
+      {
+        "caller": "Lcom/thinkup/mediavideo/api/TUMediaVideo;->loadAd(ILcom/thinkup/core/api/TUAdRequest;)V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-virtual",
+        "kind": "method",
+        "offset": "000f",
+        "target": "Lcom/thinkup/mediavideo/d/d;->m()Lcom/thinkup/core/common/d0;"
+      },
+      {
+        "caller": "Lcom/thinkup/mediavideo/api/TUMediaVideo;->entryAdScenario(Ljava/lang/String;)V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-virtual",
+        "kind": "method",
+        "offset": "000a",
+        "target": "Lcom/thinkup/mediavideo/d/d;->m()Lcom/thinkup/core/common/d0;"
+      },
+      {
+        "caller": "Lcom/thinkup/mediavideo/api/TUMediaVideo;->entryAdScenario(Ljava/lang/String;Ljava/util/Map;)V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-virtual",
+        "kind": "method",
+        "offset": "000a",
+        "target": "Lcom/thinkup/mediavideo/d/d;->m()Lcom/thinkup/core/common/d0;"
+      },
+      {
+        "caller": "Lcom/thinkup/mediavideo/api/TUMediaVideo;->setLocalExtra(Ljava/util/Map;)V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-virtual",
+        "kind": "method",
+        "offset": "0014",
+        "target": "Lcom/thinkup/mediavideo/d/d;->m(Ljava/util/Map;)V"
+      }
+    ]
+  },
+  {
+    "query": "065_native_wrapper.stdout",
+    "references_total": 2,
+    "selected_references": [
+      {
+        "caller": "Lcom/thinkup/nativead/api/TUNative;->destroyAd()V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-virtual",
+        "kind": "method",
+        "offset": "0004",
+        "target": "Lcom/thinkup/nativead/d/d;->n()V"
+      },
+      {
+        "caller": "Lcom/thinkup/nativead/api/TUNative;->setLocalExtra(Ljava/util/Map;)V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-virtual",
+        "kind": "method",
+        "offset": "0014",
+        "target": "Lcom/thinkup/nativead/d/d;->n(Ljava/util/Map;)V"
+      }
+    ]
+  },
+  {
+    "query": "066_reward_wrapper.stdout",
+    "references_total": 3,
+    "selected_references": [
+      {
+        "caller": "Lcom/thinkup/rewardvideo/api/TURewardVideoAd;->destroyAd()V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-virtual",
+        "kind": "method",
+        "offset": "0004",
+        "target": "Lcom/thinkup/rewardvideo/d/d;->n()V"
+      },
+      {
+        "caller": "Lcom/thinkup/rewardvideo/api/TURewardVideoAd;->setLocalExtra(Ljava/util/Map;)V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-virtual",
+        "kind": "method",
+        "offset": "0014",
+        "target": "Lcom/thinkup/rewardvideo/d/d;->n(Ljava/util/Map;)V"
+      },
+      {
+        "caller": "Lcom/thinkup/rewardvideo/d/d$1;->run()V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-static",
+        "kind": "method",
+        "offset": "0068",
+        "target": "Lcom/thinkup/rewardvideo/d/d;->n(Lcom/thinkup/rewardvideo/d/d;)Ljava/lang/String;"
+      }
+    ]
+  },
+  {
+    "query": "067_reward_cache.stdout",
+    "references_total": 27,
+    "selected_references": [
+      {
+        "caller": "Lcom/thinkup/rewardvideo/api/TURewardVideoAutoAd;->addPlacementId(Lcom/thinkup/core/api/TUAdRequest;[Ljava/lang/String;)V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-static",
+        "kind": "method",
+        "offset": "0000",
+        "target": "Lcom/thinkup/rewardvideo/d/n;->d()Lcom/thinkup/rewardvideo/d/n;"
+      },
+      {
+        "caller": "Lcom/thinkup/rewardvideo/api/TURewardVideoAutoAd;->addPlacementId(Lcom/thinkup/core/api/TUAdRequest;[Ljava/lang/String;)V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-virtual",
+        "kind": "method",
+        "offset": "0004",
+        "target": "Lcom/thinkup/rewardvideo/d/n;->d(Lcom/thinkup/core/api/TUAdRequest;[Ljava/lang/String;)V"
+      },
+      {
+        "caller": "Lcom/thinkup/rewardvideo/api/TURewardVideoAutoAd;->checkAdStatus(Ljava/lang/String;)Lcom/thinkup/core/api/TUAdStatusInfo;",
+        "dex": "classes9.dex",
+        "instruction": "invoke-static",
+        "kind": "method",
+        "offset": "0000",
+        "target": "Lcom/thinkup/rewardvideo/d/n;->d()Lcom/thinkup/rewardvideo/d/n;"
+      },
+      {
+        "caller": "Lcom/thinkup/rewardvideo/api/TURewardVideoAutoAd;->checkValidAdCaches(Ljava/lang/String;)Ljava/util/List;",
+        "dex": "classes9.dex",
+        "instruction": "invoke-static",
+        "kind": "method",
+        "offset": "0000",
+        "target": "Lcom/thinkup/rewardvideo/d/n;->d()Lcom/thinkup/rewardvideo/d/n;"
+      },
+      {
+        "caller": "Lcom/thinkup/rewardvideo/api/TURewardVideoAutoAd;->entryAdScenario(Ljava/lang/String;Ljava/lang/String;)V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-static",
+        "kind": "method",
+        "offset": "0000",
+        "target": "Lcom/thinkup/rewardvideo/d/n;->d()Lcom/thinkup/rewardvideo/d/n;"
+      },
+      {
+        "caller": "Lcom/thinkup/rewardvideo/api/TURewardVideoAutoAd;->entryAdScenario(Ljava/lang/String;Ljava/lang/String;)V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-static",
+        "kind": "method",
+        "offset": "0004",
+        "target": "Lcom/thinkup/rewardvideo/d/n;->d(Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;)V"
+      },
+      {
+        "caller": "Lcom/thinkup/rewardvideo/api/TURewardVideoAutoAd;->entryAdScenario(Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;)V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-static",
+        "kind": "method",
+        "offset": "0000",
+        "target": "Lcom/thinkup/rewardvideo/d/n;->d()Lcom/thinkup/rewardvideo/d/n;"
+      },
+      {
+        "caller": "Lcom/thinkup/rewardvideo/api/TURewardVideoAutoAd;->entryAdScenario(Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;)V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-static",
+        "kind": "method",
+        "offset": "0003",
+        "target": "Lcom/thinkup/rewardvideo/d/n;->d(Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;)V"
+      },
+      {
+        "caller": "Lcom/thinkup/rewardvideo/api/TURewardVideoAutoAd;->init(Landroid/content/Context;[Ljava/lang/String;Lcom/thinkup/rewardvideo/api/TURewardVideoAutoLoadListener;Lcom/thinkup/core/api/TUAdRequest;)V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-static",
+        "kind": "method",
+        "offset": "0000",
+        "target": "Lcom/thinkup/rewardvideo/d/n;->d()Lcom/thinkup/rewardvideo/d/n;"
+      },
+      {
+        "caller": "Lcom/thinkup/rewardvideo/api/TURewardVideoAutoAd;->init(Landroid/content/Context;[Ljava/lang/String;Lcom/thinkup/rewardvideo/api/TURewardVideoAutoLoadListener;Lcom/thinkup/core/api/TUAdRequest;)V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-virtual",
+        "kind": "method",
+        "offset": "0004",
+        "target": "Lcom/thinkup/rewardvideo/d/n;->d(Landroid/content/Context;[Ljava/lang/String;Lcom/thinkup/rewardvideo/api/TURewardVideoAutoLoadListener;Lcom/thinkup/core/api/TUAdRequest;)V"
+      },
+      {
+        "caller": "Lcom/thinkup/rewardvideo/api/TURewardVideoAutoAd;->isAdReady(Ljava/lang/String;)Z",
+        "dex": "classes9.dex",
+        "instruction": "invoke-static",
+        "kind": "method",
+        "offset": "0000",
+        "target": "Lcom/thinkup/rewardvideo/d/n;->d()Lcom/thinkup/rewardvideo/d/n;"
+      },
+      {
+        "caller": "Lcom/thinkup/rewardvideo/api/TURewardVideoAutoAd;->removePlacementId([Ljava/lang/String;)V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-static",
+        "kind": "method",
+        "offset": "0000",
+        "target": "Lcom/thinkup/rewardvideo/d/n;->d()Lcom/thinkup/rewardvideo/d/n;"
+      },
+      {
+        "caller": "Lcom/thinkup/rewardvideo/api/TURewardVideoAutoAd;->removePlacementId([Ljava/lang/String;)V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-static",
+        "kind": "method",
+        "offset": "0003",
+        "target": "Lcom/thinkup/rewardvideo/d/n;->d([Ljava/lang/String;)V"
+      },
+      {
+        "caller": "Lcom/thinkup/rewardvideo/api/TURewardVideoAutoAd;->setAutoLoadListener(Lcom/thinkup/rewardvideo/api/TURewardVideoAutoLoadListener;)V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-static",
+        "kind": "method",
+        "offset": "0000",
+        "target": "Lcom/thinkup/rewardvideo/d/n;->d()Lcom/thinkup/rewardvideo/d/n;"
+      },
+      {
+        "caller": "Lcom/thinkup/rewardvideo/api/TURewardVideoAutoAd;->setAutoLoadListener(Lcom/thinkup/rewardvideo/api/TURewardVideoAutoLoadListener;)V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-virtual",
+        "kind": "method",
+        "offset": "0004",
+        "target": "Lcom/thinkup/rewardvideo/d/n;->d(Lcom/thinkup/rewardvideo/api/TURewardVideoAutoLoadListener;)V"
+      },
+      {
+        "caller": "Lcom/thinkup/rewardvideo/api/TURewardVideoAutoAd;->setLocalExtra(Ljava/lang/String;Ljava/util/Map;)V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-static",
+        "kind": "method",
+        "offset": "0000",
+        "target": "Lcom/thinkup/rewardvideo/d/n;->d()Lcom/thinkup/rewardvideo/d/n;"
+      },
+      {
+        "caller": "Lcom/thinkup/rewardvideo/api/TURewardVideoAutoAd;->setLocalExtra(Ljava/lang/String;Ljava/util/Map;)V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-static",
+        "kind": "method",
+        "offset": "0003",
+        "target": "Lcom/thinkup/rewardvideo/d/n;->d(Ljava/lang/String;Ljava/util/Map;)V"
+      },
+      {
+        "caller": "Lcom/thinkup/rewardvideo/api/TURewardVideoAutoAd;->setNativeAdCustomRender(Lcom/thinkup/core/api/TUNativeAdCustomRender;)V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-static",
+        "kind": "method",
+        "offset": "0000",
+        "target": "Lcom/thinkup/rewardvideo/d/n;->d()Lcom/thinkup/rewardvideo/d/n;"
+      },
+      {
+        "caller": "Lcom/thinkup/rewardvideo/api/TURewardVideoAutoAd;->setNativeAdCustomRender(Lcom/thinkup/core/api/TUNativeAdCustomRender;)V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-virtual",
+        "kind": "method",
+        "offset": "0004",
+        "target": "Lcom/thinkup/rewardvideo/d/n;->d(Lcom/thinkup/core/api/TUNativeAdCustomRender;)V"
+      },
+      {
+        "caller": "Lcom/thinkup/rewardvideo/api/TURewardVideoAutoAd;->show(Landroid/app/Activity;Ljava/lang/String;Lcom/thinkup/core/api/TUShowConfig;Lcom/thinkup/rewardvideo/api/TURewardVideoAutoEventListener;Lcom/thinkup/core/api/TUAdRevenueListener;)V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-static",
+        "kind": "method",
+        "offset": "0000",
+        "target": "Lcom/thinkup/rewardvideo/d/n;->d()Lcom/thinkup/rewardvideo/d/n;"
+      },
+      {
+        "caller": "Lcom/thinkup/rewardvideo/api/TURewardVideoAutoAd;->show(Landroid/app/Activity;Ljava/lang/String;Lcom/thinkup/core/api/TUShowConfig;Lcom/thinkup/rewardvideo/api/TURewardVideoAutoEventListener;Lcom/thinkup/core/api/TUAdRevenueListener;)V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-virtual/range",
+        "kind": "method",
+        "offset": "0009",
+        "target": "Lcom/thinkup/rewardvideo/d/n;->d(Landroid/app/Activity;Ljava/lang/String;Lcom/thinkup/core/api/TUShowConfig;Lcom/thinkup/rewardvideo/api/TURewardVideoAutoEventListener;Lcom/thinkup/core/api/TUAdRevenueListener;)V"
+      },
+      {
+        "caller": "Lcom/thinkup/rewardvideo/d/n$1$1;->run()V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-static",
+        "kind": "method",
+        "offset": "0004",
+        "target": "Lcom/thinkup/rewardvideo/d/n;->d(Lcom/thinkup/rewardvideo/d/n;)Lcom/thinkup/rewardvideo/api/TURewardVideoAutoLoadListener;"
+      },
+      {
+        "caller": "Lcom/thinkup/rewardvideo/d/n$1$1;->run()V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-static",
+        "kind": "method",
+        "offset": "000e",
+        "target": "Lcom/thinkup/rewardvideo/d/n;->d(Lcom/thinkup/rewardvideo/d/n;)Lcom/thinkup/rewardvideo/api/TURewardVideoAutoLoadListener;"
+      },
+      {
+        "caller": "Lcom/thinkup/rewardvideo/d/n$1$2;->run()V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-static",
+        "kind": "method",
+        "offset": "0004",
+        "target": "Lcom/thinkup/rewardvideo/d/n;->d(Lcom/thinkup/rewardvideo/d/n;)Lcom/thinkup/rewardvideo/api/TURewardVideoAutoLoadListener;"
+      },
+      {
+        "caller": "Lcom/thinkup/rewardvideo/d/n$1$2;->run()V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-static",
+        "kind": "method",
+        "offset": "000e",
+        "target": "Lcom/thinkup/rewardvideo/d/n;->d(Lcom/thinkup/rewardvideo/d/n;)Lcom/thinkup/rewardvideo/api/TURewardVideoAutoLoadListener;"
+      },
+      {
+        "caller": "Lcom/thinkup/rewardvideo/d/n;->d(Ljava/lang/String;)V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-static",
+        "kind": "method",
+        "offset": "0000",
+        "target": "Lcom/thinkup/rewardvideo/d/n;->d()Lcom/thinkup/rewardvideo/d/n;"
+      },
+      {
+        "caller": "Lcom/thinkup/rewardvideo/d/n;->d(Ljava/lang/String;Lcom/thinkup/core/api/AdError;)V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-static",
+        "kind": "method",
+        "offset": "0000",
+        "target": "Lcom/thinkup/rewardvideo/d/n;->d()Lcom/thinkup/rewardvideo/d/n;"
+      }
+    ]
+  },
+  {
+    "query": "068_splash_wrapper.stdout",
+    "references_total": 3,
+    "selected_references": [
+      {
+        "caller": "Lcom/thinkup/splashad/api/TUSplashAd;->loadAd(Lcom/thinkup/core/api/TUAdRequest;I)V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-virtual",
+        "kind": "method",
+        "offset": "004d",
+        "target": "Lcom/thinkup/splashad/d/n;->n()V"
+      },
+      {
+        "caller": "Lcom/thinkup/splashad/api/TUSplashAd;->setLocalExtra(Ljava/util/Map;)V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-virtual",
+        "kind": "method",
+        "offset": "0014",
+        "target": "Lcom/thinkup/splashad/d/n;->n(Ljava/util/Map;)V"
+      },
+      {
+        "caller": "Lcom/thinkup/splashad/d/n$1;->run()V",
+        "dex": "classes9.dex",
+        "instruction": "invoke-static",
+        "kind": "method",
+        "offset": "0077",
+        "target": "Lcom/thinkup/splashad/d/n;->n(Lcom/thinkup/splashad/d/n;)Ljava/lang/String;"
+      }
+    ]
+  },
+  {
+    "query": "069_local_map_field.stdout",
+    "references_total": 712,
+    "selected_references": [
+      {
+        "caller": "Lcom/thinkup/core/common/d0;->m(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Lcom/thinkup/core/q/md;Lcom/thinkup/core/common/dm/m0;Lcom/thinkup/core/common/dm/ddd;)V",
+        "dex": "classes9.dex",
+        "instruction": "iput-object",
+        "kind": "field",
+        "offset": "0176",
+        "target": "Lcom/thinkup/core/common/dd;->dm:Ljava/util/Map;"
+      },
+      {
+        "caller": "Lcom/thinkup/core/common/d0;->m(Lcom/thinkup/core/common/d0;Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Lcom/thinkup/core/q/md;Lcom/thinkup/core/common/dm/m0;Lcom/thinkup/core/common/dm/ddd;)V",
+        "dex": "classes9.dex",
+        "instruction": "iput-object",
+        "kind": "field",
+        "offset": "0176",
+        "target": "Lcom/thinkup/core/common/dd;->dm:Ljava/util/Map;"
+      },
+      {
+        "caller": "Lcom/thinkup/core/common/dd;->d(ILjava/util/List;Lcom/thinkup/core/common/do$d;)V",
+        "dex": "classes9.dex",
+        "instruction": "iget-object",
+        "kind": "field",
+        "offset": "0078",
+        "target": "Lcom/thinkup/core/common/dd;->dm:Ljava/util/Map;"
+      },
+      {
+        "caller": "Lcom/thinkup/core/common/dd;->d(Lcom/thinkup/core/common/dd;Lcom/thinkup/core/common/nq/q;Lcom/thinkup/core/common/dm/m0;Lcom/thinkup/core/common/dm/m0q;)V",
+        "dex": "classes9.dex",
+        "instruction": "iget-object",
+        "kind": "field",
+        "offset": "001d",
+        "target": "Lcom/thinkup/core/common/dd;->dm:Ljava/util/Map;"
+      },
+      {
+        "caller": "Lcom/thinkup/core/common/dd;->d(Lcom/thinkup/core/common/nq/q;Lcom/thinkup/core/common/dm/m0;Lcom/thinkup/core/common/dm/m0q;)V",
+        "dex": "classes9.dex",
+        "instruction": "iget-object",
+        "kind": "field",
+        "offset": "001d",
+        "target": "Lcom/thinkup/core/common/dd;->dm:Ljava/util/Map;"
+      },
+      {
+        "caller": "Lcom/thinkup/core/common/dd;->d(Ljava/util/Map;)V",
+        "dex": "classes9.dex",
+        "instruction": "iput-object",
+        "kind": "field",
+        "offset": "0000",
+        "target": "Lcom/thinkup/core/common/dd;->dm:Ljava/util/Map;"
+      }
+    ]
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Cash Drama",
+    "package": "com.xj.cash.drama",
+    "apk_count": 25,
+    "dex": 13,
+    "classes": 106700,
+    "methods": 685736,
+    "instructions": 8924678,
+    "embedded_dex": 2,
+    "all_split_hashes_match": true,
+    "base_sha256": "5c21f181b3a5f2632d00dde6a1939d0fddd2bb05869539ca565edec19974f7fd"
+  },
+  {
+    "name": "Coin Short",
+    "package": "com.sunriseskywaysnake",
+    "apk_count": 25,
+    "dex": 14,
+    "classes": 106748,
+    "methods": 686318,
+    "instructions": 8928250,
+    "embedded_dex": 2,
+    "all_split_hashes_match": true,
+    "base_sha256": "e915f5593adc73929b5e8c78707ee921807843521439af862571d05262056f6e"
+  },
+  {
+    "name": "Dramivo",
+    "package": "com.smartnettools.studio.dramapop",
+    "apk_count": 3,
+    "dex": 8,
+    "classes": 61070,
+    "methods": 388664,
+    "instructions": 6045018,
+    "embedded_dex": 1,
+    "all_split_hashes_match": true,
+    "base_sha256": "5b074f04f27d01ddf7816723e192f7b3577f9994bf13a37195869668e9861cf9"
+  }
+]
