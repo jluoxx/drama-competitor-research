@@ -1,0 +1,175 @@
+{
+  "job": {
+    "id": "090_verified_callback",
+    "package": "com.sunriseskywaysnake",
+    "tool": "inspect_android_method",
+    "args": {
+      "path": "D:\\python daima\\outputs\\apk_extract_20261116\\com.sunriseskywaysnake\\base.apk",
+      "class_name": "com.kingtar.face.ad.KTarAdFacade$1",
+      "method_name": "c"
+    }
+  },
+  "start": "2026-11-16T04:22:35.226Z",
+  "end": "2026-11-16T04:24:14.461Z",
+  "result": {
+    "_meta": {
+      "provenance": {
+        "untrusted_content": true,
+        "source": "analysis_target"
+      }
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"evidence_id\":\"ev_c8119554e4a729be8e1c4712c9e79674ca8558756fd0d17224d7e333c7130589\",\"subject\":{\"name\":\"base.apk\",\"digest\":{\"sha256\":\"e915f5593adc73929b5e8c78707ee921807843521439af862571d05262056f6e\"},\"local_path\":\"D:\\\\python daima\\\\outputs\\\\apk_extract_20261116\\\\com.sunriseskywaysnake\\\\base.apk\",\"format\":\"apk\",\"architecture\":null},\"provider\":{\"id\":\"jadx\",\"name\":\"JADX headless\",\"version\":\"0.7.1\"},\"analysis_profile\":null,\"predicate_type\":\"rea.analysis\",\"operation\":\"inspect_android_method\",\"parameters\":{\"path\":\"D:\\\\python daima\\\\outputs\\\\apk_extract_20261116\\\\com.sunriseskywaysnake\\\\base.apk\",\"class_name\":\"com.kingtar.face.ad.KTarAdFacade$1\",\"method_name\":\"c\"},\"raw_result\":{\"server\":{\"name\":\"rea-jadx-bridge\",\"version\":\"7\"},\"bridge_sha256\":\"e5044a8312dd0731f53af3f095508b3e5cff54df6b971c95d4305e2f39b4fa30\",\"jar_sha256\":\"6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75\",\"loaded\":{\"state\":\"LOADED\",\"apk_path\":\"C:\\\\Users\\\\asus\\\\AppData\\\\Local\\\\Temp\\\\rea-android-879df5845d17fd80e0f364bb6b3b2f21\\\\target.apk\",\"class_count\":61349,\"resource_count\":3249,\"threads\":1,\"resources\":\"full\"},\"calls\":[{\"operation\":\"rea_jvm_status\",\"input\":{},\"response\":{\"content\":[{\"type\":\"text\",\"text\":\"{\\\"java_version\\\":\\\"17.0.12\\\",\\\"available_processors\\\":3,\\\"engine_reported_version\\\":\\\"0.7.1\\\",\\\"metadata_scope\\\":\\\"parsed_members\\\",\\\"max_heap_bytes\\\":3221225472}\"}],\"isError\":false}},{\"operation\":\"load_apk\",\"input\":{\"path\":\"C:\\\\Users\\\\asus\\\\AppData\\\\Local\\\\Temp\\\\rea-android-879df5845d17fd80e0f364bb6b3b2f21\\\\target.apk\",\"threads\":1,\"resources\":\"full\"},\"response\":{\"content\":[{\"type\":\"text\",\"text\":\"{\\\"state\\\":\\\"LOADED\\\",\\\"apk_path\\\":\\\"C:\\\\\\\\Users\\\\\\\\asus\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Temp\\\\\\\\rea-android-879df5845d17fd80e0f364bb6b3b2f21\\\\\\\\target.apk\\\",\\\"class_count\\\":61349,\\\"raw_class_count\\\":61349,\\\"resource_count\\\":3249,\\\"load_duration_ms\\\":61380,\\\"decompile_timeout_ms\\\":90000,\\\"threads\\\":1,\\\"code_cache_size\\\":64,\\\"resources\\\":\\\"full\\\"}\"}],\"isError\":false}},{\"operation\":\"get_class_summary\",\"input\":{\"class_name\":\"com.kingtar.face.ad.KTarAdFacade$1\"},\"response\":{\"content\":[{\"type\":\"text\",\"text\":\"{\\\"method_count\\\":8,\\\"raw_name\\\":\\\"com.kingtar.face.ad.KTarAdFacade$1\\\",\\\"fields\\\":[{\\\"def_pos\\\":0,\\\"name\\\":\\\"d\\\",\\\"type\\\":\\\"boolean\\\"},{\\\"def_pos\\\":0,\\\"name\\\":\\\"e\\\",\\\"type\\\":\\\"com.kingtar.face.ad.KTarAdFacade\\\"}],\\\"methods\\\":[{\\\"name\\\":\\\"\\\\u003cinit\\\\u003e\\\",\\\"is_constructor\\\":true,\\\"dex_descriptor\\\":\\\"(Lcom/kingtar/face/ad/KTarAdFacade;Lu24;)V\\\",\\\"signature\\\":\\\"\\\\u003cinit\\\\u003e(com.kingtar.face.ad.KTarAdFacade, u24\\\\u003cjava.lang.Boolean\\\\u003e): void\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"O\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"(Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V\\\",\\\"signature\\\":\\\"O(java.lang.Integer, java.lang.String, java.lang.String, java.lang.String): void\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"c\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"(La83;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;\\\",\\\"signature\\\":\\\"c(a83, kotlin.coroutines.Continuation\\\\u003c? super kotlin.Unit\\\\u003e): java.lang.Object\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"d\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"()V\\\",\\\"signature\\\":\\\"d(): void\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"e\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"(La83;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;\\\",\\\"signature\\\":\\\"e(a83, kotlin.coroutines.Continuation\\\\u003c? super kotlin.Unit\\\\u003e): java.lang.Object\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"f\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"()V\\\",\\\"signature\\\":\\\"f(): void\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"i\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"(Ljava/lang/String;)V\\\",\\\"signature\\\":\\\"i(java.lang.String): void\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"o\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"()V\\\",\\\"signature\\\":\\\"o(): void\\\",\\\"def_pos\\\":0}],\\\"inner_classes\\\":[],\\\"inner_class_count\\\":0,\\\"name\\\":\\\"AnonymousClass1\\\",\\\"field_count\\\":2,\\\"full_name\\\":\\\"com.kingtar.face.ad.KTarAdFacade.AnonymousClass1\\\"}\"}],\"isError\":false}},{\"operation\":\"get_method_body\",\"input\":{\"class_name\":\"com.kingtar.face.ad.KTarAdFacade$1\",\"method_name\":\"c\",\"overload_index\":0,\"smali_fallback\":true},\"response\":{\"content\":[{\"type\":\"text\",\"text\":\"{\\\"full_name\\\":\\\"com.kingtar.face.ad.KTarAdFacade.1.c\\\",\\\"overload_index\\\":0,\\\"method_name\\\":\\\"c\\\",\\\"overload_count\\\":1,\\\"dex_descriptor\\\":\\\"(La83;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;\\\",\\\"class_name\\\":\\\"com.kingtar.face.ad.KTarAdFacade.AnonymousClass1\\\",\\\"mode\\\":\\\"java\\\",\\\"body\\\":\\\"        /* JADX WARN: Code duplicated, block: B:7:0x0013  */\\\\r\\\\n        @Override // defpackage.b83\\\\r\\\\n        public Object c(KTarAdRespInfo kTarAdRespInfo, Continuation\\\\u003c? super Unit\\\\u003e continuation) {\\\\r\\\\n            KTarAdFacade$1$onRewardVerify$1 kTarAdFacade$1$onRewardVerify$1;\\\\r\\\\n            AnonymousClass1 anonymousClass1;\\\\r\\\\n            if (continuation instanceof KTarAdFacade$1$onRewardVerify$1) {\\\\r\\\\n                kTarAdFacade$1$onRewardVerify$1 \\\\u003d (KTarAdFacade$1$onRewardVerify$1) continuation;\\\\r\\\\n                int i \\\\u003d kTarAdFacade$1$onRewardVerify$1.label;\\\\r\\\\n                if ((i \\\\u0026 Integer.MIN_VALUE) !\\\\u003d 0) {\\\\r\\\\n                    kTarAdFacade$1$onRewardVerify$1.label \\\\u003d i - Integer.MIN_VALUE;\\\\r\\\\n                } else {\\\\r\\\\n                    kTarAdFacade$1$onRewardVerify$1 \\\\u003d new KTarAdFacade$1$onRewardVerify$1(this, continuation);\\\\r\\\\n                }\\\\r\\\\n            } else {\\\\r\\\\n                kTarAdFacade$1$onRewardVerify$1 \\\\u003d new KTarAdFacade$1$onRewardVerify$1(this, continuation);\\\\r\\\\n            }\\\\r\\\\n            Object objE \\\\u003d kTarAdFacade$1$onRewardVerify$1.result;\\\\r\\\\n            Object coroutine_suspended \\\\u003d IntrinsicsKt__IntrinsicsKt.getCOROUTINE_SUSPENDED();\\\\r\\\\n            int i2 \\\\u003d kTarAdFacade$1$onRewardVerify$1.label;\\\\r\\\\n            if (i2 !\\\\u003d 0) {\\\\r\\\\n                if (i2 \\\\u003d\\\\u003d 1) {\\\\r\\\\n                    kTarAdRespInfo \\\\u003d (KTarAdRespInfo) kTarAdFacade$1$onRewardVerify$1.L$1;\\\\r\\\\n                    anonymousClass1 \\\\u003d (AnonymousClass1) kTarAdFacade$1$onRewardVerify$1.L$0;\\\\r\\\\n                    ResultKt.throwOnFailure(objE);\\\\r\\\\n                } else {\\\\r\\\\n                    if (i2 !\\\\u003d 2) {\\\\r\\\\n                        throw new IllegalStateException(\\\\\\\"call to \\\\u0027resume\\\\u0027 before \\\\u0027invoke\\\\u0027 with coroutine\\\\\\\");\\\\r\\\\n                    }\\\\r\\\\n                    ResultKt.throwOnFailure(objE);\\\\r\\\\n                }\\\\r\\\\n            }\\\\r\\\\n            ResultKt.throwOnFailure(objE);\\\\r\\\\n            kTarAdFacade$1$onRewardVerify$1.L$0 \\\\u003d this;\\\\r\\\\n            kTarAdFacade$1$onRewardVerify$1.L$1 \\\\u003d kTarAdRespInfo;\\\\r\\\\n            kTarAdFacade$1$onRewardVerify$1.label \\\\u003d 1;\\\\r\\\\n            if (super.c(kTarAdRespInfo, kTarAdFacade$1$onRewardVerify$1) \\\\u003d\\\\u003d coroutine_suspended) {\\\\r\\\\n                return coroutine_suspended;\\\\r\\\\n            }\\\\r\\\\n            anonymousClass1 \\\\u003d this;\\\\r\\\\n            pe3.e(anonymousClass1.getF8747a(), \\\\\\\"KTarAdSampleListener onRewardVerify\\\\\\\");\\\\r\\\\n            pe3.e(anonymousClass1.getF8747a(), \\\\\\\"callback\\\\u003d\\\\\\\" + KTarAdFacade.this.getO() + \\\\\\\" resp\\\\u003d\\\\\\\" + kTarAdRespInfo);\\\\r\\\\n            KTarAdFacade.this.f(AdFacadeEnum.AD_AWARD_RESP);\\\\r\\\\n            wi3 wi3VarA \\\\u003d ne1.a();\\\\r\\\\n            KTarAdFacade$1$onRewardVerify$2 kTarAdFacade$1$onRewardVerify$2 \\\\u003d new KTarAdFacade$1$onRewardVerify$2(KTarAdFacade.this, kTarAdRespInfo, null);\\\\r\\\\n            kTarAdFacade$1$onRewardVerify$1.L$0 \\\\u003d null;\\\\r\\\\n            kTarAdFacade$1$onRewardVerify$1.L$1 \\\\u003d null;\\\\r\\\\n            kTarAdFacade$1$onRewardVerify$1.label \\\\u003d 2;\\\\r\\\\n            objE \\\\u003d x10.e(wi3VarA, kTarAdFacade$1$onRewardVerify$2, kTarAdFacade$1$onRewardVerify$1);\\\\r\\\\n            return objE \\\\u003d\\\\u003d coroutine_suspended ? coroutine_suspended : objE;\\\\r\\\\n        }\\\",\\\"markers\\\":[],\\\"fell_back\\\":false}\"}],\"isError\":false}}]},\"normalized_result\":{\"engine\":{\"name\":\"jadx-headless-mcp\",\"version\":\"0.7.1\",\"artifact_sha256\":\"6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75\",\"source_revision\":\"5844800a486d2248fa949b74c9896285f5b54de2\",\"worker_count\":1,\"heap_limit_mib\":3072},\"class_name\":\"com.kingtar.face.ad.KTarAdFacade.AnonymousClass1\",\"method\":{\"name\":\"c\",\"reported_signature\":\"c(a83, kotlin.coroutines.Continuation<? super kotlin.Unit>): java.lang.Object\",\"overload_index\":0,\"is_constructor\":false,\"dex_descriptor\":\"(La83;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;\"},\"overload_count\":1,\"representation\":\"java\",\"body_status\":\"available\",\"fell_back\":false,\"markers\":[],\"source\":{\"status\":\"complete\",\"text\":\"        /* JADX WARN: Code duplicated, block: B:7:0x0013  */\\r\\n        @Override // defpackage.b83\\r\\n        public Object c(KTarAdRespInfo kTarAdRespInfo, Continuation<? super Unit> continuation) {\\r\\n            KTarAdFacade$1$onRewardVerify$1 kTarAdFacade$1$onRewardVerify$1;\\r\\n            AnonymousClass1 anonymousClass1;\\r\\n            if (continuation instanceof KTarAdFacade$1$onRewardVerify$1) {\\r\\n                kTarAdFacade$1$onRewardVerify$1 = (KTarAdFacade$1$onRewardVerify$1) continuation;\\r\\n                int i = kTarAdFacade$1$onRewardVerify$1.label;\\r\\n                if ((i & Integer.MIN_VALUE) != 0) {\\r\\n                    kTarAdFacade$1$onRewardVerify$1.label = i - Integer.MIN_VALUE;\\r\\n                } else {\\r\\n                    kTarAdFacade$1$onRewardVerify$1 = new KTarAdFacade$1$onRewardVerify$1(this, continuation);\\r\\n                }\\r\\n            } else {\\r\\n                kTarAdFacade$1$onRewardVerify$1 = new KTarAdFacade$1$onRewardVerify$1(this, continuation);\\r\\n            }\\r\\n            Object objE = kTarAdFacade$1$onRewardVerify$1.result;\\r\\n            Object coroutine_suspended = IntrinsicsKt__IntrinsicsKt.getCOROUTINE_SUSPENDED();\\r\\n            int i2 = kTarAdFacade$1$onRewardVerify$1.label;\\r\\n            if (i2 != 0) {\\r\\n                if (i2 == 1) {\\r\\n                    kTarAdRespInfo = (KTarAdRespInfo) kTarAdFacade$1$onRewardVerify$1.L$1;\\r\\n                    anonymousClass1 = (AnonymousClass1) kTarAdFacade$1$onRewardVerify$1.L$0;\\r\\n                    ResultKt.throwOnFailure(objE);\\r\\n                } else {\\r\\n                    if (i2 != 2) {\\r\\n                        throw new IllegalStateException(\\\"call to 'resume' before 'invoke' with coroutine\\\");\\r\\n                    }\\r\\n                    ResultKt.throwOnFailure(objE);\\r\\n                }\\r\\n            }\\r\\n            ResultKt.throwOnFailure(objE);\\r\\n            kTarAdFacade$1$onRewardVerify$1.L$0 = this;\\r\\n            kTarAdFacade$1$onRewardVerify$1.L$1 = kTarAdRespInfo;\\r\\n            kTarAdFacade$1$onRewardVerify$1.label = 1;\\r\\n            if (super.c(kTarAdRespInfo, kTarAdFacade$1$onRewardVerify$1) == coroutine_suspended) {\\r\\n                return coroutine_suspended;\\r\\n            }\\r\\n            anonymousClass1 = this;\\r\\n            pe3.e(anonymousClass1.getF8747a(), \\\"KTarAdSampleListener onRewardVerify\\\");\\r\\n            pe3.e(anonymousClass1.getF8747a(), \\\"callback=\\\" + KTarAdFacade.this.getO() + \\\" resp=\\\" + kTarAdRespInfo);\\r\\n            KTarAdFacade.this.f(AdFacadeEnum.AD_AWARD_RESP);\\r\\n            wi3 wi3VarA = ne1.a();\\r\\n            KTarAdFacade$1$onRewardVerify$2 kTarAdFacade$1$onRewardVerify$2 = new KTarAdFacade$1$onRewardVerify$2(KTarAdFacade.this, kTarAdRespInfo, null);\\r\\n            kTarAdFacade$1$onRewardVerify$1.L$0 = null;\\r\\n            kTarAdFacade$1$onRewardVerify$1.L$1 = null;\\r\\n            kTarAdFacade$1$onRewardVerify$1.label = 2;\\r\\n            objE = x10.e(wi3VarA, kTarAdFacade$1$onRewardVerify$2, kTarAdFacade$1$onRewardVerify$1);\\r\\n            return objE == coroutine_suspended ? coroutine_suspended : objE;\\r\\n        }\",\"reported_total_bytes\":null}},\"confidence\":\"derived\",\"authority\":\"shipped-artifact\",\"environment\":null,\"limitations\":[\"Static decompiler observations do not establish runtime behavior; the APK is never executed.\",\"Method signatures use provider display types; DEX prototypes come from frozen JADX metadata. Display names may be aliases, and overload indices are local to this engine and artifact.\",\"Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.\",\"Incoming reference totals count JADX using nodes. Direct invoke entries within a using method report raw DEX code-unit offsets and method indexes, but coverage is limited to those nodes and directly matched invokes; it does not establish every possible dynamic or reflective call site.\",\"Manifest summaries are parsed once by REA's bridge from the exact root AndroidManifest.xml resource, using namespace-aware XML attributes; decoded XML is retained. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider.\"],\"relationship_coverage\":null,\"locations\":[],\"evidence_links\":[]}"
+      }
+    ],
+    "structuredContent": {
+      "evidence_id": "ev_c8119554e4a729be8e1c4712c9e79674ca8558756fd0d17224d7e333c7130589",
+      "subject": {
+        "name": "base.apk",
+        "digest": {
+          "sha256": "e915f5593adc73929b5e8c78707ee921807843521439af862571d05262056f6e"
+        },
+        "local_path": "D:\\python daima\\outputs\\apk_extract_20261116\\com.sunriseskywaysnake\\base.apk",
+        "format": "apk",
+        "architecture": null
+      },
+      "provider": {
+        "id": "jadx",
+        "name": "JADX headless",
+        "version": "0.7.1"
+      },
+      "analysis_profile": null,
+      "predicate_type": "rea.analysis",
+      "operation": "inspect_android_method",
+      "parameters": {
+        "path": "D:\\python daima\\outputs\\apk_extract_20261116\\com.sunriseskywaysnake\\base.apk",
+        "class_name": "com.kingtar.face.ad.KTarAdFacade$1",
+        "method_name": "c"
+      },
+      "raw_result": {
+        "server": {
+          "name": "rea-jadx-bridge",
+          "version": "7"
+        },
+        "bridge_sha256": "e5044a8312dd0731f53af3f095508b3e5cff54df6b971c95d4305e2f39b4fa30",
+        "jar_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+        "loaded": {
+          "state": "LOADED",
+          "apk_path": "C:\\Users\\asus\\AppData\\Local\\Temp\\rea-android-879df5845d17fd80e0f364bb6b3b2f21\\target.apk",
+          "class_count": 61349,
+          "resource_count": 3249,
+          "threads": 1,
+          "resources": "full"
+        },
+        "calls": [
+          {
+            "operation": "rea_jvm_status",
+            "input": {},
+            "response": {
+              "content": [
+                {
+                  "type": "text",
+                  "text": "{\"java_version\":\"17.0.12\",\"available_processors\":3,\"engine_reported_version\":\"0.7.1\",\"metadata_scope\":\"parsed_members\",\"max_heap_bytes\":3221225472}"
+                }
+              ],
+              "isError": false
+            }
+          },
+          {
+            "operation": "load_apk",
+            "input": {
+              "path": "C:\\Users\\asus\\AppData\\Local\\Temp\\rea-android-879df5845d17fd80e0f364bb6b3b2f21\\target.apk",
+              "threads": 1,
+              "resources": "full"
+            },
+            "response": {
+              "content": [
+                {
+                  "type": "text",
+                  "text": "{\"state\":\"LOADED\",\"apk_path\":\"C:\\\\Users\\\\asus\\\\AppData\\\\Local\\\\Temp\\\\rea-android-879df5845d17fd80e0f364bb6b3b2f21\\\\target.apk\",\"class_count\":61349,\"raw_class_count\":61349,\"resource_count\":3249,\"load_duration_ms\":61380,\"decompile_timeout_ms\":90000,\"threads\":1,\"code_cache_size\":64,\"resources\":\"full\"}"
+                }
+              ],
+              "isError": false
+            }
+          },
+          {
+            "operation": "get_class_summary",
+            "input": {
+              "class_name": "com.kingtar.face.ad.KTarAdFacade$1"
+            },
+            "response": {
+              "content": [
+                {
+                  "type": "text",
+                  "text": "{\"method_count\":8,\"raw_name\":\"com.kingtar.face.ad.KTarAdFacade$1\",\"fields\":[{\"def_pos\":0,\"name\":\"d\",\"type\":\"boolean\"},{\"def_pos\":0,\"name\":\"e\",\"type\":\"com.kingtar.face.ad.KTarAdFacade\"}],\"methods\":[{\"name\":\"\\u003cinit\\u003e\",\"is_constructor\":true,\"dex_descriptor\":\"(Lcom/kingtar/face/ad/KTarAdFacade;Lu24;)V\",\"signature\":\"\\u003cinit\\u003e(com.kingtar.face.ad.KTarAdFacade, u24\\u003cjava.lang.Boolean\\u003e): void\",\"def_pos\":0},{\"name\":\"O\",\"is_constructor\":false,\"dex_descriptor\":\"(Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V\",\"signature\":\"O(java.lang.Integer, java.lang.String, java.lang.String, java.lang.String): void\",\"def_pos\":0},{\"name\":\"c\",\"is_constructor\":false,\"dex_descriptor\":\"(La83;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;\",\"signature\":\"c(a83, kotlin.coroutines.Continuation\\u003c? super kotlin.Unit\\u003e): java.lang.Object\",\"def_pos\":0},{\"name\":\"d\",\"is_constructor\":false,\"dex_descriptor\":\"()V\",\"signature\":\"d(): void\",\"def_pos\":0},{\"name\":\"e\",\"is_constructor\":false,\"dex_descriptor\":\"(La83;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;\",\"signature\":\"e(a83, kotlin.coroutines.Continuation\\u003c? super kotlin.Unit\\u003e): java.lang.Object\",\"def_pos\":0},{\"name\":\"f\",\"is_constructor\":false,\"dex_descriptor\":\"()V\",\"signature\":\"f(): void\",\"def_pos\":0},{\"name\":\"i\",\"is_constructor\":false,\"dex_descriptor\":\"(Ljava/lang/String;)V\",\"signature\":\"i(java.lang.String): void\",\"def_pos\":0},{\"name\":\"o\",\"is_constructor\":false,\"dex_descriptor\":\"()V\",\"signature\":\"o(): void\",\"def_pos\":0}],\"inner_classes\":[],\"inner_class_count\":0,\"name\":\"AnonymousClass1\",\"field_count\":2,\"full_name\":\"com.kingtar.face.ad.KTarAdFacade.AnonymousClass1\"}"
+                }
+              ],
+              "isError": false
+            }
+          },
+          {
+            "operation": "get_method_body",
+            "input": {
+              "class_name": "com.kingtar.face.ad.KTarAdFacade$1",
+              "method_name": "c",
+              "overload_index": 0,
+              "smali_fallback": true
+            },
+            "response": {
+              "content": [
+                {
+                  "type": "text",
+                  "text": "{\"full_name\":\"com.kingtar.face.ad.KTarAdFacade.1.c\",\"overload_index\":0,\"method_name\":\"c\",\"overload_count\":1,\"dex_descriptor\":\"(La83;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;\",\"class_name\":\"com.kingtar.face.ad.KTarAdFacade.AnonymousClass1\",\"mode\":\"java\",\"body\":\"        /* JADX WARN: Code duplicated, block: B:7:0x0013  */\\r\\n        @Override // defpackage.b83\\r\\n        public Object c(KTarAdRespInfo kTarAdRespInfo, Continuation\\u003c? super Unit\\u003e continuation) {\\r\\n            KTarAdFacade$1$onRewardVerify$1 kTarAdFacade$1$onRewardVerify$1;\\r\\n            AnonymousClass1 anonymousClass1;\\r\\n            if (continuation instanceof KTarAdFacade$1$onRewardVerify$1) {\\r\\n                kTarAdFacade$1$onRewardVerify$1 \\u003d (KTarAdFacade$1$onRewardVerify$1) continuation;\\r\\n                int i \\u003d kTarAdFacade$1$onRewardVerify$1.label;\\r\\n                if ((i \\u0026 Integer.MIN_VALUE) !\\u003d 0) {\\r\\n                    kTarAdFacade$1$onRewardVerify$1.label \\u003d i - Integer.MIN_VALUE;\\r\\n                } else {\\r\\n                    kTarAdFacade$1$onRewardVerify$1 \\u003d new KTarAdFacade$1$onRewardVerify$1(this, continuation);\\r\\n                }\\r\\n            } else {\\r\\n                kTarAdFacade$1$onRewardVerify$1 \\u003d new KTarAdFacade$1$onRewardVerify$1(this, continuation);\\r\\n            }\\r\\n            Object objE \\u003d kTarAdFacade$1$onRewardVerify$1.result;\\r\\n            Object coroutine_suspended \\u003d IntrinsicsKt__IntrinsicsKt.getCOROUTINE_SUSPENDED();\\r\\n            int i2 \\u003d kTarAdFacade$1$onRewardVerify$1.label;\\r\\n            if (i2 !\\u003d 0) {\\r\\n                if (i2 \\u003d\\u003d 1) {\\r\\n                    kTarAdRespInfo \\u003d (KTarAdRespInfo) kTarAdFacade$1$onRewardVerify$1.L$1;\\r\\n                    anonymousClass1 \\u003d (AnonymousClass1) kTarAdFacade$1$onRewardVerify$1.L$0;\\r\\n                    ResultKt.throwOnFailure(objE);\\r\\n                } else {\\r\\n                    if (i2 !\\u003d 2) {\\r\\n                        throw new IllegalStateException(\\\"call to \\u0027resume\\u0027 before \\u0027invoke\\u0027 with coroutine\\\");\\r\\n                    }\\r\\n                    ResultKt.throwOnFailure(objE);\\r\\n                }\\r\\n            }\\r\\n            ResultKt.throwOnFailure(objE);\\r\\n            kTarAdFacade$1$onRewardVerify$1.L$0 \\u003d this;\\r\\n            kTarAdFacade$1$onRewardVerify$1.L$1 \\u003d kTarAdRespInfo;\\r\\n            kTarAdFacade$1$onRewardVerify$1.label \\u003d 1;\\r\\n            if (super.c(kTarAdRespInfo, kTarAdFacade$1$onRewardVerify$1) \\u003d\\u003d coroutine_suspended) {\\r\\n                return coroutine_suspended;\\r\\n            }\\r\\n            anonymousClass1 \\u003d this;\\r\\n            pe3.e(anonymousClass1.getF8747a(), \\\"KTarAdSampleListener onRewardVerify\\\");\\r\\n            pe3.e(anonymousClass1.getF8747a(), \\\"callback\\u003d\\\" + KTarAdFacade.this.getO() + \\\" resp\\u003d\\\" + kTarAdRespInfo);\\r\\n            KTarAdFacade.this.f(AdFacadeEnum.AD_AWARD_RESP);\\r\\n            wi3 wi3VarA \\u003d ne1.a();\\r\\n            KTarAdFacade$1$onRewardVerify$2 kTarAdFacade$1$onRewardVerify$2 \\u003d new KTarAdFacade$1$onRewardVerify$2(KTarAdFacade.this, kTarAdRespInfo, null);\\r\\n            kTarAdFacade$1$onRewardVerify$1.L$0 \\u003d null;\\r\\n            kTarAdFacade$1$onRewardVerify$1.L$1 \\u003d null;\\r\\n            kTarAdFacade$1$onRewardVerify$1.label \\u003d 2;\\r\\n            objE \\u003d x10.e(wi3VarA, kTarAdFacade$1$onRewardVerify$2, kTarAdFacade$1$onRewardVerify$1);\\r\\n            return objE \\u003d\\u003d coroutine_suspended ? coroutine_suspended : objE;\\r\\n        }\",\"markers\":[],\"fell_back\":false}"
+                }
+              ],
+              "isError": false
+            }
+          }
+        ]
+      },
+      "normalized_result": {
+        "engine": {
+          "name": "jadx-headless-mcp",
+          "version": "0.7.1",
+          "artifact_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+          "source_revision": "5844800a486d2248fa949b74c9896285f5b54de2",
+          "worker_count": 1,
+          "heap_limit_mib": 3072
+        },
+        "class_name": "com.kingtar.face.ad.KTarAdFacade.AnonymousClass1",
+        "method": {
+          "name": "c",
+          "reported_signature": "c(a83, kotlin.coroutines.Continuation<? super kotlin.Unit>): java.lang.Object",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": "(La83;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+        },
+        "overload_count": 1,
+        "representation": "java",
+        "body_status": "available",
+        "fell_back": false,
+        "markers": [],
+        "source": {
+          "status": "complete",
+          "text": "        /* JADX WARN: Code duplicated, block: B:7:0x0013  */\r\n        @Override // defpackage.b83\r\n        public Object c(KTarAdRespInfo kTarAdRespInfo, Continuation<? super Unit> continuation) {\r\n            KTarAdFacade$1$onRewardVerify$1 kTarAdFacade$1$onRewardVerify$1;\r\n            AnonymousClass1 anonymousClass1;\r\n            if (continuation instanceof KTarAdFacade$1$onRewardVerify$1) {\r\n                kTarAdFacade$1$onRewardVerify$1 = (KTarAdFacade$1$onRewardVerify$1) continuation;\r\n                int i = kTarAdFacade$1$onRewardVerify$1.label;\r\n                if ((i & Integer.MIN_VALUE) != 0) {\r\n                    kTarAdFacade$1$onRewardVerify$1.label = i - Integer.MIN_VALUE;\r\n                } else {\r\n                    kTarAdFacade$1$onRewardVerify$1 = new KTarAdFacade$1$onRewardVerify$1(this, continuation);\r\n                }\r\n            } else {\r\n                kTarAdFacade$1$onRewardVerify$1 = new KTarAdFacade$1$onRewardVerify$1(this, continuation);\r\n            }\r\n            Object objE = kTarAdFacade$1$onRewardVerify$1.result;\r\n            Object coroutine_suspended = IntrinsicsKt__IntrinsicsKt.getCOROUTINE_SUSPENDED();\r\n            int i2 = kTarAdFacade$1$onRewardVerify$1.label;\r\n            if (i2 != 0) {\r\n                if (i2 == 1) {\r\n                    kTarAdRespInfo = (KTarAdRespInfo) kTarAdFacade$1$onRewardVerify$1.L$1;\r\n                    anonymousClass1 = (AnonymousClass1) kTarAdFacade$1$onRewardVerify$1.L$0;\r\n                    ResultKt.throwOnFailure(objE);\r\n                } else {\r\n                    if (i2 != 2) {\r\n                        throw new IllegalStateException(\"call to 'resume' before 'invoke' with coroutine\");\r\n                    }\r\n                    ResultKt.throwOnFailure(objE);\r\n                }\r\n            }\r\n            ResultKt.throwOnFailure(objE);\r\n            kTarAdFacade$1$onRewardVerify$1.L$0 = this;\r\n            kTarAdFacade$1$onRewardVerify$1.L$1 = kTarAdRespInfo;\r\n            kTarAdFacade$1$onRewardVerify$1.label = 1;\r\n            if (super.c(kTarAdRespInfo, kTarAdFacade$1$onRewardVerify$1) == coroutine_suspended) {\r\n                return coroutine_suspended;\r\n            }\r\n            anonymousClass1 = this;\r\n            pe3.e(anonymousClass1.getF8747a(), \"KTarAdSampleListener onRewardVerify\");\r\n            pe3.e(anonymousClass1.getF8747a(), \"callback=\" + KTarAdFacade.this.getO() + \" resp=\" + kTarAdRespInfo);\r\n            KTarAdFacade.this.f(AdFacadeEnum.AD_AWARD_RESP);\r\n            wi3 wi3VarA = ne1.a();\r\n            KTarAdFacade$1$onRewardVerify$2 kTarAdFacade$1$onRewardVerify$2 = new KTarAdFacade$1$onRewardVerify$2(KTarAdFacade.this, kTarAdRespInfo, null);\r\n            kTarAdFacade$1$onRewardVerify$1.L$0 = null;\r\n            kTarAdFacade$1$onRewardVerify$1.L$1 = null;\r\n            kTarAdFacade$1$onRewardVerify$1.label = 2;\r\n            objE = x10.e(wi3VarA, kTarAdFacade$1$onRewardVerify$2, kTarAdFacade$1$onRewardVerify$1);\r\n            return objE == coroutine_suspended ? coroutine_suspended : objE;\r\n        }",
+          "reported_total_bytes": null
+        }
+      },
+      "confidence": "derived",
+      "authority": "shipped-artifact",
+      "environment": null,
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; DEX prototypes come from frozen JADX metadata. Display names may be aliases, and overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Incoming reference totals count JADX using nodes. Direct invoke entries within a using method report raw DEX code-unit offsets and method indexes, but coverage is limited to those nodes and directly matched invokes; it does not establish every possible dynamic or reflective call site.",
+        "Manifest summaries are parsed once by REA's bridge from the exact root AndroidManifest.xml resource, using namespace-aware XML attributes; decoded XML is retained. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ],
+      "relationship_coverage": null,
+      "locations": [],
+      "evidence_links": []
+    }
+  }
+}

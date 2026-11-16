@@ -1,0 +1,160 @@
+{
+  "job": {
+    "id": "064_keyword_set_storage",
+    "package": "com.smartnettools.studio.dramapop",
+    "tool": "inspect_android_method",
+    "args": {
+      "path": "D:\\python daima\\outputs\\apk_extract_20261116\\com.smartnettools.studio.dramapop\\base.apk",
+      "class_name": "com.google.android.gms.ads.internal.client.zzeg",
+      "method_name": "zza",
+      "overload_index": 0
+    }
+  },
+  "start": "2026-11-16T05:07:58.090Z",
+  "end": "2026-11-16T05:07:58.417Z",
+  "result": {
+    "_meta": {
+      "provenance": {
+        "untrusted_content": true,
+        "source": "analysis_target"
+      }
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"evidence_id\":\"ev_0fb7a41680390d0b7578d05f8b7ceade199093c5b99e4bb3d9e53f6fc45f4894\",\"subject\":{\"name\":\"base.apk\",\"digest\":{\"sha256\":\"5b074f04f27d01ddf7816723e192f7b3577f9994bf13a37195869668e9861cf9\"},\"local_path\":\"D:\\\\python daima\\\\outputs\\\\apk_extract_20261116\\\\com.smartnettools.studio.dramapop\\\\base.apk\",\"format\":\"apk\",\"architecture\":null},\"provider\":{\"id\":\"jadx\",\"name\":\"JADX headless\",\"version\":\"0.7.1\"},\"analysis_profile\":null,\"predicate_type\":\"rea.analysis\",\"operation\":\"inspect_android_method\",\"parameters\":{\"path\":\"D:\\\\python daima\\\\outputs\\\\apk_extract_20261116\\\\com.smartnettools.studio.dramapop\\\\base.apk\",\"class_name\":\"com.google.android.gms.ads.internal.client.zzeg\",\"method_name\":\"zza\",\"overload_index\":0},\"raw_result\":{\"server\":{\"name\":\"rea-jadx-bridge\",\"version\":\"7\"},\"bridge_sha256\":\"e5044a8312dd0731f53af3f095508b3e5cff54df6b971c95d4305e2f39b4fa30\",\"jar_sha256\":\"6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75\",\"loaded\":{\"state\":\"LOADED\",\"apk_path\":\"C:\\\\Users\\\\asus\\\\AppData\\\\Local\\\\Temp\\\\rea-android-4ce1afd773a147190ab1b31ff5336d66\\\\target.apk\",\"class_count\":50068,\"resource_count\":2637,\"threads\":1,\"resources\":\"full\"},\"calls\":[{\"operation\":\"rea_jvm_status\",\"input\":{},\"response\":{\"content\":[{\"type\":\"text\",\"text\":\"{\\\"available_processors\\\":3,\\\"java_version\\\":\\\"17.0.12\\\",\\\"max_heap_bytes\\\":3221225472,\\\"metadata_scope\\\":\\\"parsed_members\\\",\\\"engine_reported_version\\\":\\\"0.7.1\\\"}\"}],\"isError\":false}},{\"operation\":\"get_class_summary\",\"input\":{\"class_name\":\"com.google.android.gms.ads.internal.client.zzeg\"},\"response\":{\"content\":[{\"type\":\"text\",\"text\":\"{\\\"raw_name\\\":\\\"com.google.android.gms.ads.internal.client.zzeg\\\",\\\"method_count\\\":33,\\\"full_name\\\":\\\"com.google.android.gms.ads.internal.client.zzeg\\\",\\\"field_count\\\":15,\\\"name\\\":\\\"zzeg\\\",\\\"inner_class_count\\\":0,\\\"inner_classes\\\":[],\\\"methods\\\":[{\\\"def_pos\\\":0,\\\"signature\\\":\\\"\\\\u003cinit\\\\u003e(): void\\\",\\\"dex_descriptor\\\":\\\"()V\\\",\\\"is_constructor\\\":true,\\\"name\\\":\\\"\\\\u003cinit\\\\u003e\\\"},{\\\"def_pos\\\":0,\\\"signature\\\":\\\"zzA(): java.lang.String\\\",\\\"dex_descriptor\\\":\\\"()Ljava/lang/String;\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"zzA\\\"},{\\\"def_pos\\\":0,\\\"signature\\\":\\\"zzB(): int\\\",\\\"dex_descriptor\\\":\\\"()I\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"zzB\\\"},{\\\"def_pos\\\":0,\\\"signature\\\":\\\"zzC(): boolean\\\",\\\"dex_descriptor\\\":\\\"()Z\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"zzC\\\"},{\\\"def_pos\\\":0,\\\"signature\\\":\\\"zzD(): java.lang.String\\\",\\\"dex_descriptor\\\":\\\"()Ljava/lang/String;\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"zzD\\\"},{\\\"def_pos\\\":0,\\\"signature\\\":\\\"zzE(): int\\\",\\\"dex_descriptor\\\":\\\"()I\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"zzE\\\"},{\\\"def_pos\\\":0,\\\"signature\\\":\\\"zzF(): long\\\",\\\"dex_descriptor\\\":\\\"()J\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"zzF\\\"},{\\\"def_pos\\\":0,\\\"signature\\\":\\\"zza(java.lang.String): void\\\",\\\"dex_descriptor\\\":\\\"(Ljava/lang/String;)V\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"zza\\\"},{\\\"def_pos\\\":0,\\\"signature\\\":\\\"zzb(android.os.Bundle): void\\\",\\\"dex_descriptor\\\":\\\"(Landroid/os/Bundle;)V\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"zzb\\\"},{\\\"def_pos\\\":0,\\\"signature\\\":\\\"zzc(java.lang.Class, android.os.Bundle): void\\\",\\\"dex_descriptor\\\":\\\"(Ljava/lang/Class;Landroid/os/Bundle;)V\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"zzc\\\"},{\\\"def_pos\\\":0,\\\"signature\\\":\\\"zzd(java.lang.Class, android.os.Bundle): void\\\",\\\"dex_descriptor\\\":\\\"(Ljava/lang/Class;Landroid/os/Bundle;)V\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"zzd\\\"},{\\\"def_pos\\\":0,\\\"signature\\\":\\\"zze(java.lang.String): void\\\",\\\"dex_descriptor\\\":\\\"(Ljava/lang/String;)V\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"zze\\\"},{\\\"def_pos\\\":0,\\\"signature\\\":\\\"zzf(java.lang.String): void\\\",\\\"dex_descriptor\\\":\\\"(Ljava/lang/String;)V\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"zzf\\\"},{\\\"def_pos\\\":0,\\\"signature\\\":\\\"zzg(java.lang.String): void\\\",\\\"dex_descriptor\\\":\\\"(Ljava/lang/String;)V\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"zzg\\\"},{\\\"def_pos\\\":0,\\\"signature\\\":\\\"zzh(java.util.List): void\\\",\\\"dex_descriptor\\\":\\\"(Ljava/util/List;)V\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"zzh\\\"},{\\\"def_pos\\\":0,\\\"signature\\\":\\\"zzi(java.lang.String): void\\\",\\\"dex_descriptor\\\":\\\"(Ljava/lang/String;)V\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"zzi\\\"},{\\\"def_pos\\\":0,\\\"signature\\\":\\\"zzj(java.lang.String): void\\\",\\\"dex_descriptor\\\":\\\"(Ljava/lang/String;)V\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"zzj\\\"},{\\\"def_pos\\\":0,\\\"signature\\\":\\\"zzk(boolean): void\\\",\\\"dex_descriptor\\\":\\\"(Z)V\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"zzk\\\"},{\\\"def_pos\\\":0,\\\"signature\\\":\\\"zzl(java.lang.String, java.lang.String): void\\\",\\\"dex_descriptor\\\":\\\"(Ljava/lang/String;Ljava/lang/String;)V\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"zzl\\\"},{\\\"def_pos\\\":0,\\\"signature\\\":\\\"zzm(java.lang.String): void\\\",\\\"dex_descriptor\\\":\\\"(Ljava/lang/String;)V\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"zzm\\\"},{\\\"def_pos\\\":0,\\\"signature\\\":\\\"zzn(boolean): void\\\",\\\"dex_descriptor\\\":\\\"(Z)V\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"zzn\\\"},{\\\"def_pos\\\":0,\\\"signature\\\":\\\"zzo(java.lang.String): void\\\",\\\"dex_descriptor\\\":\\\"(Ljava/lang/String;)V\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"zzo\\\"},{\\\"def_pos\\\":0,\\\"signature\\\":\\\"zzp(int): void\\\",\\\"dex_descriptor\\\":\\\"(I)V\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"zzp\\\"},{\\\"def_pos\\\":0,\\\"signature\\\":\\\"zzq(long): void\\\",\\\"dex_descriptor\\\":\\\"(J)V\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"zzq\\\"},{\\\"def_pos\\\":0,\\\"signature\\\":\\\"zzr(): java.util.HashSet\\\",\\\"dex_descriptor\\\":\\\"()Ljava/util/HashSet;\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"zzr\\\"},{\\\"def_pos\\\":0,\\\"signature\\\":\\\"zzs(): android.os.Bundle\\\",\\\"dex_descriptor\\\":\\\"()Landroid/os/Bundle;\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"zzs\\\"},{\\\"def_pos\\\":0,\\\"signature\\\":\\\"zzt(): java.util.HashMap\\\",\\\"dex_descriptor\\\":\\\"()Ljava/util/HashMap;\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"zzt\\\"},{\\\"def_pos\\\":0,\\\"signature\\\":\\\"zzu(): java.util.HashSet\\\",\\\"dex_descriptor\\\":\\\"()Ljava/util/HashSet;\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"zzu\\\"},{\\\"def_pos\\\":0,\\\"signature\\\":\\\"zzv(): android.os.Bundle\\\",\\\"dex_descriptor\\\":\\\"()Landroid/os/Bundle;\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"zzv\\\"},{\\\"def_pos\\\":0,\\\"signature\\\":\\\"zzw(): java.util.HashSet\\\",\\\"dex_descriptor\\\":\\\"()Ljava/util/HashSet;\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"zzw\\\"},{\\\"def_pos\\\":0,\\\"signature\\\":\\\"zzx(): java.lang.String\\\",\\\"dex_descriptor\\\":\\\"()Ljava/lang/String;\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"zzx\\\"},{\\\"def_pos\\\":0,\\\"signature\\\":\\\"zzy(): java.util.List\\\",\\\"dex_descriptor\\\":\\\"()Ljava/util/List;\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"zzy\\\"},{\\\"def_pos\\\":0,\\\"signature\\\":\\\"zzz(): java.lang.String\\\",\\\"dex_descriptor\\\":\\\"()Ljava/lang/String;\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"zzz\\\"}],\\\"fields\\\":[{\\\"type\\\":\\\"java.util.HashSet\\\",\\\"name\\\":\\\"zza\\\",\\\"def_pos\\\":0},{\\\"type\\\":\\\"android.os.Bundle\\\",\\\"name\\\":\\\"zzb\\\",\\\"def_pos\\\":0},{\\\"type\\\":\\\"java.util.HashMap\\\",\\\"name\\\":\\\"zzc\\\",\\\"def_pos\\\":0},{\\\"type\\\":\\\"java.util.HashSet\\\",\\\"name\\\":\\\"zzd\\\",\\\"def_pos\\\":0},{\\\"type\\\":\\\"android.os.Bundle\\\",\\\"name\\\":\\\"zze\\\",\\\"def_pos\\\":0},{\\\"type\\\":\\\"java.util.HashSet\\\",\\\"name\\\":\\\"zzf\\\",\\\"def_pos\\\":0},{\\\"type\\\":\\\"java.lang.String\\\",\\\"name\\\":\\\"zzg\\\",\\\"def_pos\\\":0},{\\\"type\\\":\\\"java.util.List\\\",\\\"name\\\":\\\"zzh\\\",\\\"def_pos\\\":0},{\\\"type\\\":\\\"java.lang.String\\\",\\\"name\\\":\\\"zzi\\\",\\\"def_pos\\\":0},{\\\"type\\\":\\\"java.lang.String\\\",\\\"name\\\":\\\"zzj\\\",\\\"def_pos\\\":0},{\\\"type\\\":\\\"int\\\",\\\"name\\\":\\\"zzk\\\",\\\"def_pos\\\":0},{\\\"type\\\":\\\"boolean\\\",\\\"name\\\":\\\"zzl\\\",\\\"def_pos\\\":0},{\\\"type\\\":\\\"java.lang.String\\\",\\\"name\\\":\\\"zzm\\\",\\\"def_pos\\\":0},{\\\"type\\\":\\\"int\\\",\\\"name\\\":\\\"zzn\\\",\\\"def_pos\\\":0},{\\\"type\\\":\\\"long\\\",\\\"name\\\":\\\"zzo\\\",\\\"def_pos\\\":0}]}\"}],\"isError\":false}},{\"operation\":\"get_method_body\",\"input\":{\"class_name\":\"com.google.android.gms.ads.internal.client.zzeg\",\"method_name\":\"zza\",\"overload_index\":0,\"smali_fallback\":true},\"response\":{\"content\":[{\"type\":\"text\",\"text\":\"{\\\"dex_descriptor\\\":\\\"(Ljava/lang/String;)V\\\",\\\"overload_count\\\":1,\\\"method_name\\\":\\\"zza\\\",\\\"overload_index\\\":0,\\\"full_name\\\":\\\"com.google.android.gms.ads.internal.client.zzeg.zza\\\",\\\"fell_back\\\":false,\\\"markers\\\":[],\\\"body\\\":\\\"    public final void zza(String str) {\\\\r\\\\n        this.zza.add(str);\\\\r\\\\n    }\\\",\\\"mode\\\":\\\"java\\\",\\\"class_name\\\":\\\"com.google.android.gms.ads.internal.client.zzeg\\\"}\"}],\"isError\":false}}]},\"normalized_result\":{\"engine\":{\"name\":\"jadx-headless-mcp\",\"version\":\"0.7.1\",\"artifact_sha256\":\"6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75\",\"source_revision\":\"5844800a486d2248fa949b74c9896285f5b54de2\",\"worker_count\":1,\"heap_limit_mib\":3072},\"class_name\":\"com.google.android.gms.ads.internal.client.zzeg\",\"method\":{\"name\":\"zza\",\"reported_signature\":\"zza(java.lang.String): void\",\"overload_index\":0,\"is_constructor\":false,\"dex_descriptor\":\"(Ljava/lang/String;)V\"},\"overload_count\":1,\"representation\":\"java\",\"body_status\":\"available\",\"fell_back\":false,\"markers\":[],\"source\":{\"status\":\"complete\",\"text\":\"    public final void zza(String str) {\\r\\n        this.zza.add(str);\\r\\n    }\",\"reported_total_bytes\":null}},\"confidence\":\"derived\",\"authority\":\"shipped-artifact\",\"environment\":null,\"limitations\":[\"Static decompiler observations do not establish runtime behavior; the APK is never executed.\",\"Method signatures use provider display types; DEX prototypes come from frozen JADX metadata. Display names may be aliases, and overload indices are local to this engine and artifact.\",\"Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.\",\"Incoming reference totals count JADX using nodes. Direct invoke entries within a using method report raw DEX code-unit offsets and method indexes, but coverage is limited to those nodes and directly matched invokes; it does not establish every possible dynamic or reflective call site.\",\"Manifest summaries are parsed once by REA's bridge from the exact root AndroidManifest.xml resource, using namespace-aware XML attributes; decoded XML is retained. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider.\"],\"relationship_coverage\":null,\"locations\":[],\"evidence_links\":[]}"
+      }
+    ],
+    "structuredContent": {
+      "evidence_id": "ev_0fb7a41680390d0b7578d05f8b7ceade199093c5b99e4bb3d9e53f6fc45f4894",
+      "subject": {
+        "name": "base.apk",
+        "digest": {
+          "sha256": "5b074f04f27d01ddf7816723e192f7b3577f9994bf13a37195869668e9861cf9"
+        },
+        "local_path": "D:\\python daima\\outputs\\apk_extract_20261116\\com.smartnettools.studio.dramapop\\base.apk",
+        "format": "apk",
+        "architecture": null
+      },
+      "provider": {
+        "id": "jadx",
+        "name": "JADX headless",
+        "version": "0.7.1"
+      },
+      "analysis_profile": null,
+      "predicate_type": "rea.analysis",
+      "operation": "inspect_android_method",
+      "parameters": {
+        "path": "D:\\python daima\\outputs\\apk_extract_20261116\\com.smartnettools.studio.dramapop\\base.apk",
+        "class_name": "com.google.android.gms.ads.internal.client.zzeg",
+        "method_name": "zza",
+        "overload_index": 0
+      },
+      "raw_result": {
+        "server": {
+          "name": "rea-jadx-bridge",
+          "version": "7"
+        },
+        "bridge_sha256": "e5044a8312dd0731f53af3f095508b3e5cff54df6b971c95d4305e2f39b4fa30",
+        "jar_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+        "loaded": {
+          "state": "LOADED",
+          "apk_path": "C:\\Users\\asus\\AppData\\Local\\Temp\\rea-android-4ce1afd773a147190ab1b31ff5336d66\\target.apk",
+          "class_count": 50068,
+          "resource_count": 2637,
+          "threads": 1,
+          "resources": "full"
+        },
+        "calls": [
+          {
+            "operation": "rea_jvm_status",
+            "input": {},
+            "response": {
+              "content": [
+                {
+                  "type": "text",
+                  "text": "{\"available_processors\":3,\"java_version\":\"17.0.12\",\"max_heap_bytes\":3221225472,\"metadata_scope\":\"parsed_members\",\"engine_reported_version\":\"0.7.1\"}"
+                }
+              ],
+              "isError": false
+            }
+          },
+          {
+            "operation": "get_class_summary",
+            "input": {
+              "class_name": "com.google.android.gms.ads.internal.client.zzeg"
+            },
+            "response": {
+              "content": [
+                {
+                  "type": "text",
+                  "text": "{\"raw_name\":\"com.google.android.gms.ads.internal.client.zzeg\",\"method_count\":33,\"full_name\":\"com.google.android.gms.ads.internal.client.zzeg\",\"field_count\":15,\"name\":\"zzeg\",\"inner_class_count\":0,\"inner_classes\":[],\"methods\":[{\"def_pos\":0,\"signature\":\"\\u003cinit\\u003e(): void\",\"dex_descriptor\":\"()V\",\"is_constructor\":true,\"name\":\"\\u003cinit\\u003e\"},{\"def_pos\":0,\"signature\":\"zzA(): java.lang.String\",\"dex_descriptor\":\"()Ljava/lang/String;\",\"is_constructor\":false,\"name\":\"zzA\"},{\"def_pos\":0,\"signature\":\"zzB(): int\",\"dex_descriptor\":\"()I\",\"is_constructor\":false,\"name\":\"zzB\"},{\"def_pos\":0,\"signature\":\"zzC(): boolean\",\"dex_descriptor\":\"()Z\",\"is_constructor\":false,\"name\":\"zzC\"},{\"def_pos\":0,\"signature\":\"zzD(): java.lang.String\",\"dex_descriptor\":\"()Ljava/lang/String;\",\"is_constructor\":false,\"name\":\"zzD\"},{\"def_pos\":0,\"signature\":\"zzE(): int\",\"dex_descriptor\":\"()I\",\"is_constructor\":false,\"name\":\"zzE\"},{\"def_pos\":0,\"signature\":\"zzF(): long\",\"dex_descriptor\":\"()J\",\"is_constructor\":false,\"name\":\"zzF\"},{\"def_pos\":0,\"signature\":\"zza(java.lang.String): void\",\"dex_descriptor\":\"(Ljava/lang/String;)V\",\"is_constructor\":false,\"name\":\"zza\"},{\"def_pos\":0,\"signature\":\"zzb(android.os.Bundle): void\",\"dex_descriptor\":\"(Landroid/os/Bundle;)V\",\"is_constructor\":false,\"name\":\"zzb\"},{\"def_pos\":0,\"signature\":\"zzc(java.lang.Class, android.os.Bundle): void\",\"dex_descriptor\":\"(Ljava/lang/Class;Landroid/os/Bundle;)V\",\"is_constructor\":false,\"name\":\"zzc\"},{\"def_pos\":0,\"signature\":\"zzd(java.lang.Class, android.os.Bundle): void\",\"dex_descriptor\":\"(Ljava/lang/Class;Landroid/os/Bundle;)V\",\"is_constructor\":false,\"name\":\"zzd\"},{\"def_pos\":0,\"signature\":\"zze(java.lang.String): void\",\"dex_descriptor\":\"(Ljava/lang/String;)V\",\"is_constructor\":false,\"name\":\"zze\"},{\"def_pos\":0,\"signature\":\"zzf(java.lang.String): void\",\"dex_descriptor\":\"(Ljava/lang/String;)V\",\"is_constructor\":false,\"name\":\"zzf\"},{\"def_pos\":0,\"signature\":\"zzg(java.lang.String): void\",\"dex_descriptor\":\"(Ljava/lang/String;)V\",\"is_constructor\":false,\"name\":\"zzg\"},{\"def_pos\":0,\"signature\":\"zzh(java.util.List): void\",\"dex_descriptor\":\"(Ljava/util/List;)V\",\"is_constructor\":false,\"name\":\"zzh\"},{\"def_pos\":0,\"signature\":\"zzi(java.lang.String): void\",\"dex_descriptor\":\"(Ljava/lang/String;)V\",\"is_constructor\":false,\"name\":\"zzi\"},{\"def_pos\":0,\"signature\":\"zzj(java.lang.String): void\",\"dex_descriptor\":\"(Ljava/lang/String;)V\",\"is_constructor\":false,\"name\":\"zzj\"},{\"def_pos\":0,\"signature\":\"zzk(boolean): void\",\"dex_descriptor\":\"(Z)V\",\"is_constructor\":false,\"name\":\"zzk\"},{\"def_pos\":0,\"signature\":\"zzl(java.lang.String, java.lang.String): void\",\"dex_descriptor\":\"(Ljava/lang/String;Ljava/lang/String;)V\",\"is_constructor\":false,\"name\":\"zzl\"},{\"def_pos\":0,\"signature\":\"zzm(java.lang.String): void\",\"dex_descriptor\":\"(Ljava/lang/String;)V\",\"is_constructor\":false,\"name\":\"zzm\"},{\"def_pos\":0,\"signature\":\"zzn(boolean): void\",\"dex_descriptor\":\"(Z)V\",\"is_constructor\":false,\"name\":\"zzn\"},{\"def_pos\":0,\"signature\":\"zzo(java.lang.String): void\",\"dex_descriptor\":\"(Ljava/lang/String;)V\",\"is_constructor\":false,\"name\":\"zzo\"},{\"def_pos\":0,\"signature\":\"zzp(int): void\",\"dex_descriptor\":\"(I)V\",\"is_constructor\":false,\"name\":\"zzp\"},{\"def_pos\":0,\"signature\":\"zzq(long): void\",\"dex_descriptor\":\"(J)V\",\"is_constructor\":false,\"name\":\"zzq\"},{\"def_pos\":0,\"signature\":\"zzr(): java.util.HashSet\",\"dex_descriptor\":\"()Ljava/util/HashSet;\",\"is_constructor\":false,\"name\":\"zzr\"},{\"def_pos\":0,\"signature\":\"zzs(): android.os.Bundle\",\"dex_descriptor\":\"()Landroid/os/Bundle;\",\"is_constructor\":false,\"name\":\"zzs\"},{\"def_pos\":0,\"signature\":\"zzt(): java.util.HashMap\",\"dex_descriptor\":\"()Ljava/util/HashMap;\",\"is_constructor\":false,\"name\":\"zzt\"},{\"def_pos\":0,\"signature\":\"zzu(): java.util.HashSet\",\"dex_descriptor\":\"()Ljava/util/HashSet;\",\"is_constructor\":false,\"name\":\"zzu\"},{\"def_pos\":0,\"signature\":\"zzv(): android.os.Bundle\",\"dex_descriptor\":\"()Landroid/os/Bundle;\",\"is_constructor\":false,\"name\":\"zzv\"},{\"def_pos\":0,\"signature\":\"zzw(): java.util.HashSet\",\"dex_descriptor\":\"()Ljava/util/HashSet;\",\"is_constructor\":false,\"name\":\"zzw\"},{\"def_pos\":0,\"signature\":\"zzx(): java.lang.String\",\"dex_descriptor\":\"()Ljava/lang/String;\",\"is_constructor\":false,\"name\":\"zzx\"},{\"def_pos\":0,\"signature\":\"zzy(): java.util.List\",\"dex_descriptor\":\"()Ljava/util/List;\",\"is_constructor\":false,\"name\":\"zzy\"},{\"def_pos\":0,\"signature\":\"zzz(): java.lang.String\",\"dex_descriptor\":\"()Ljava/lang/String;\",\"is_constructor\":false,\"name\":\"zzz\"}],\"fields\":[{\"type\":\"java.util.HashSet\",\"name\":\"zza\",\"def_pos\":0},{\"type\":\"android.os.Bundle\",\"name\":\"zzb\",\"def_pos\":0},{\"type\":\"java.util.HashMap\",\"name\":\"zzc\",\"def_pos\":0},{\"type\":\"java.util.HashSet\",\"name\":\"zzd\",\"def_pos\":0},{\"type\":\"android.os.Bundle\",\"name\":\"zze\",\"def_pos\":0},{\"type\":\"java.util.HashSet\",\"name\":\"zzf\",\"def_pos\":0},{\"type\":\"java.lang.String\",\"name\":\"zzg\",\"def_pos\":0},{\"type\":\"java.util.List\",\"name\":\"zzh\",\"def_pos\":0},{\"type\":\"java.lang.String\",\"name\":\"zzi\",\"def_pos\":0},{\"type\":\"java.lang.String\",\"name\":\"zzj\",\"def_pos\":0},{\"type\":\"int\",\"name\":\"zzk\",\"def_pos\":0},{\"type\":\"boolean\",\"name\":\"zzl\",\"def_pos\":0},{\"type\":\"java.lang.String\",\"name\":\"zzm\",\"def_pos\":0},{\"type\":\"int\",\"name\":\"zzn\",\"def_pos\":0},{\"type\":\"long\",\"name\":\"zzo\",\"def_pos\":0}]}"
+                }
+              ],
+              "isError": false
+            }
+          },
+          {
+            "operation": "get_method_body",
+            "input": {
+              "class_name": "com.google.android.gms.ads.internal.client.zzeg",
+              "method_name": "zza",
+              "overload_index": 0,
+              "smali_fallback": true
+            },
+            "response": {
+              "content": [
+                {
+                  "type": "text",
+                  "text": "{\"dex_descriptor\":\"(Ljava/lang/String;)V\",\"overload_count\":1,\"method_name\":\"zza\",\"overload_index\":0,\"full_name\":\"com.google.android.gms.ads.internal.client.zzeg.zza\",\"fell_back\":false,\"markers\":[],\"body\":\"    public final void zza(String str) {\\r\\n        this.zza.add(str);\\r\\n    }\",\"mode\":\"java\",\"class_name\":\"com.google.android.gms.ads.internal.client.zzeg\"}"
+                }
+              ],
+              "isError": false
+            }
+          }
+        ]
+      },
+      "normalized_result": {
+        "engine": {
+          "name": "jadx-headless-mcp",
+          "version": "0.7.1",
+          "artifact_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+          "source_revision": "5844800a486d2248fa949b74c9896285f5b54de2",
+          "worker_count": 1,
+          "heap_limit_mib": 3072
+        },
+        "class_name": "com.google.android.gms.ads.internal.client.zzeg",
+        "method": {
+          "name": "zza",
+          "reported_signature": "zza(java.lang.String): void",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": "(Ljava/lang/String;)V"
+        },
+        "overload_count": 1,
+        "representation": "java",
+        "body_status": "available",
+        "fell_back": false,
+        "markers": [],
+        "source": {
+          "status": "complete",
+          "text": "    public final void zza(String str) {\r\n        this.zza.add(str);\r\n    }",
+          "reported_total_bytes": null
+        }
+      },
+      "confidence": "derived",
+      "authority": "shipped-artifact",
+      "environment": null,
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; DEX prototypes come from frozen JADX metadata. Display names may be aliases, and overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Incoming reference totals count JADX using nodes. Direct invoke entries within a using method report raw DEX code-unit offsets and method indexes, but coverage is limited to those nodes and directly matched invokes; it does not establish every possible dynamic or reflective call site.",
+        "Manifest summaries are parsed once by REA's bridge from the exact root AndroidManifest.xml resource, using namespace-aware XML attributes; decoded XML is retained. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ],
+      "relationship_coverage": null,
+      "locations": [],
+      "evidence_links": []
+    }
+  }
+}

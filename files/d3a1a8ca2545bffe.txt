@@ -1,0 +1,101 @@
+CLASS Lcom/thinkup/core/common/dd/d;
+FIELD d api.robin-flow.com
+FIELD d0 https://api-sec.robin-flow.com/v2/open/app
+FIELD dd https://api.robin-flow.com/v2/open/placement
+FIELD dm https://api-sec.robin-flow.com/v2/open/placement
+FIELD dn https://ssapi.robin-flow.com/sdk/realtime_waterfall
+FIELD do https://api.robin-flow.com/v2/open/pl_wf
+FIELD dq https://da.robin-flow.com/v1/open/da
+FIELD m api-sec.robin-flow.com
+FIELD m0 https://tk.robin-flow.com/v2/open/anr
+FIELD md https://tk.robin-flow.com/v1/open/tk
+FIELD mm None
+FIELD mn None
+FIELD mo None
+FIELD mq None
+FIELD n https://se.rfvtgbyhn.com/v2/open/ns
+FIELD n0 None
+FIELD nd 
+FIELD nm None
+FIELD nn None
+FIELD no None
+FIELD nq None
+FIELD o https://se.rfvtgbyhn.com/v2/open/api_hb
+FIELD o0 https://img.robin-flow.com/gdpr/PrivacyPolicySetting.html
+FIELD q https://api.robin-flow.com/v2/open/app
+
+METHOD <clinit> ()V
+000000: new-instance v0, Ljava/lang/StringBuilder;
+000004: const-string v1, "https://"
+000008: invoke-direct v0, v1, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+00000e: invoke-static Lcom/thinkup/core/api/TUSDK;->isCnSDK()Z
+000014: move-result v1
+000016: if-eqz v1, +005h
+00001a: const-string v1, "api.robin-flow.com"
+00001e: goto +8h
+000020: invoke-static Lcom/thinkup/core/common/dd/n;->d()Lcom/thinkup/core/common/dd/n;
+000026: invoke-static Lcom/thinkup/core/common/dd/n;->q()Ljava/lang/String;
+00002c: move-result-object v1
+00002e: invoke-virtual v0, v1, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+000034: const-string v1, "/v2/open/eu"
+000038: invoke-virtual v0, v1, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+00003e: invoke-virtual v0, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+000044: move-result-object v0
+000046: sput-object v0, Lcom/thinkup/core/common/dd/d;->mm Ljava/lang/String;
+00004a: const-string v0, "https://adx.robin-flow.com/bid"
+00004e: sput-object v0, Lcom/thinkup/core/common/dd/d;->mn Ljava/lang/String;
+000052: const-string v0, "https://adx.robin-flow.com/request"
+000056: sput-object v0, Lcom/thinkup/core/common/dd/d;->mo Ljava/lang/String;
+00005a: const-string v0, "https://adxtk.robin-flow.com/v1"
+00005e: sput-object v0, Lcom/thinkup/core/common/dd/d;->mq Ljava/lang/String;
+000062: const-string v0, "https://adx.robin-flow.com/openapi/req"
+000066: sput-object v0, Lcom/thinkup/core/common/dd/d;->n0 Ljava/lang/String;
+00006a: const-string v0, "https://tk.robin-flow.com/ss/rrd"
+00006e: sput-object v0, Lcom/thinkup/core/common/dd/d;->nm Ljava/lang/String;
+000072: const-string v0, "https://api.robin-flow.com/v2/open/area"
+000076: sput-object v0, Lcom/thinkup/core/common/dd/d;->nn Ljava/lang/String;
+00007a: const-string v0, "https://api.robin-flow.com/v2/open/m_adapter"
+00007e: sput-object v0, Lcom/thinkup/core/common/dd/d;->no Ljava/lang/String;
+000082: const-string v0, "https://api.robin-flow.com/v2/open/dna"
+000086: sput-object v0, Lcom/thinkup/core/common/dd/d;->nq Ljava/lang/String;
+00008a: return-void 
+
+METHOD <init> ()V
+000000: invoke-direct v0, Ljava/lang/Object;-><init>()V
+000006: return-void 
+
+METHOD d ()Ljava/lang/String;
+000000: const-string v0, "api.robin-flow.com"
+000004: return-object v0
+
+METHOD d0 ()Ljava/lang/String;
+000000: invoke-static Lcom/thinkup/core/api/TUSDK;->isCnSDK()Z
+000006: move-result v0
+000008: if-eqz v0, +005h
+00000c: const-string v0, "api.robin-flow.com"
+000010: return-object v0
+000012: invoke-static Lcom/thinkup/core/common/dd/n;->d()Lcom/thinkup/core/common/dd/n;
+000018: invoke-static Lcom/thinkup/core/common/dd/n;->q()Ljava/lang/String;
+00001e: move-result-object v0
+000020: return-object v0
+
+METHOD dd ()Ljava/lang/String;
+000000: const-string/jumbo v0, ssapi.robin-flow.com
+000006: return-object v0
+
+METHOD m ()Ljava/lang/String;
+000000: const-string/jumbo v0, tk.robin-flow.com
+000006: return-object v0
+
+METHOD n ()Ljava/lang/String;
+000000: const-string v0, "api-sec.robin-flow.com"
+000004: return-object v0
+
+METHOD o ()Ljava/lang/String;
+000000: const-string v0, "da.robin-flow.com"
+000004: return-object v0
+
+METHOD q ()Ljava/lang/String;
+000000: const-string v0, "adx.robin-flow.com"
+000004: return-object v0
+

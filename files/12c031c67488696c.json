@@ -1,0 +1,160 @@
+{
+  "job": {
+    "id": "074_bool_defaults",
+    "package": "com.smartnettools.studio.dramapop",
+    "tool": "inspect_android_method",
+    "args": {
+      "path": "D:\\python daima\\outputs\\apk_extract_20261116\\com.smartnettools.studio.dramapop\\base.apk",
+      "class_name": "com.freetools.freereels.data.a",
+      "method_name": "<clinit>"
+    }
+  },
+  "start": "2026-11-16T04:12:10.546Z",
+  "end": "2026-11-16T04:12:11.275Z",
+  "result": {
+    "_meta": {
+      "provenance": {
+        "untrusted_content": true,
+        "source": "analysis_target"
+      }
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"evidence_id\":\"ev_4c56c5998638ca0b90044d74f10873ab845bdcec2a2545c165c1a0e68632a450\",\"subject\":{\"name\":\"base.apk\",\"digest\":{\"sha256\":\"5b074f04f27d01ddf7816723e192f7b3577f9994bf13a37195869668e9861cf9\"},\"local_path\":\"D:\\\\python daima\\\\outputs\\\\apk_extract_20261116\\\\com.smartnettools.studio.dramapop\\\\base.apk\",\"format\":\"apk\",\"architecture\":null},\"provider\":{\"id\":\"jadx\",\"name\":\"JADX headless\",\"version\":\"0.7.1\"},\"analysis_profile\":null,\"predicate_type\":\"rea.analysis\",\"operation\":\"inspect_android_method\",\"parameters\":{\"path\":\"D:\\\\python daima\\\\outputs\\\\apk_extract_20261116\\\\com.smartnettools.studio.dramapop\\\\base.apk\",\"class_name\":\"com.freetools.freereels.data.a\",\"method_name\":\"<clinit>\"},\"raw_result\":{\"server\":{\"name\":\"rea-jadx-bridge\",\"version\":\"7\"},\"bridge_sha256\":\"e5044a8312dd0731f53af3f095508b3e5cff54df6b971c95d4305e2f39b4fa30\",\"jar_sha256\":\"6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75\",\"loaded\":{\"state\":\"LOADED\",\"apk_path\":\"C:\\\\Users\\\\asus\\\\AppData\\\\Local\\\\Temp\\\\rea-android-e07bf9a5b34da5efb956d9f36ad9ad41\\\\target.apk\",\"class_count\":50068,\"resource_count\":2637,\"threads\":1,\"resources\":\"full\"},\"calls\":[{\"operation\":\"rea_jvm_status\",\"input\":{},\"response\":{\"content\":[{\"type\":\"text\",\"text\":\"{\\\"metadata_scope\\\":\\\"parsed_members\\\",\\\"max_heap_bytes\\\":3221225472,\\\"java_version\\\":\\\"17.0.12\\\",\\\"available_processors\\\":3,\\\"engine_reported_version\\\":\\\"0.7.1\\\"}\"}],\"isError\":false}},{\"operation\":\"get_class_summary\",\"input\":{\"class_name\":\"com.freetools.freereels.data.a\"},\"response\":{\"content\":[{\"type\":\"text\",\"text\":\"{\\\"fields\\\":[{\\\"name\\\":\\\"b\\\",\\\"type\\\":\\\"boolean\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"d\\\",\\\"type\\\":\\\"com.freetools.freereels.data.a\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"e\\\",\\\"type\\\":\\\"com.freetools.freereels.data.a\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"f\\\",\\\"type\\\":\\\"com.freetools.freereels.data.a\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"f19451c\\\",\\\"type\\\":\\\"com.freetools.freereels.data.a\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"f19452g\\\",\\\"type\\\":\\\"com.freetools.freereels.data.a\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"f19453h\\\",\\\"type\\\":\\\"com.freetools.freereels.data.a\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"f19454i\\\",\\\"type\\\":\\\"com.freetools.freereels.data.a\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"f19455j\\\",\\\"type\\\":\\\"com.freetools.freereels.data.a[]\\\",\\\"def_pos\\\":0}],\\\"methods\\\":[{\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"()V\\\",\\\"signature\\\":\\\"\\\\u003cclinit\\\\u003e(): void\\\",\\\"def_pos\\\":0,\\\"name\\\":\\\"\\\\u003cclinit\\\\u003e\\\"},{\\\"is_constructor\\\":true,\\\"dex_descriptor\\\":\\\"(Ljava/lang/String;IZ)V\\\",\\\"signature\\\":\\\"\\\\u003cinit\\\\u003e(java.lang.String, int, boolean): void\\\",\\\"def_pos\\\":0,\\\"name\\\":\\\"\\\\u003cinit\\\\u003e\\\"},{\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"()Z\\\",\\\"signature\\\":\\\"d(): boolean\\\",\\\"def_pos\\\":0,\\\"name\\\":\\\"d\\\"},{\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"(Z)V\\\",\\\"signature\\\":\\\"e(boolean): void\\\",\\\"def_pos\\\":0,\\\"name\\\":\\\"e\\\"},{\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"(Ljava/lang/String;)Lcom/freetools/freereels/data/a;\\\",\\\"signature\\\":\\\"valueOf(java.lang.String): com.freetools.freereels.data.a\\\",\\\"def_pos\\\":0,\\\"name\\\":\\\"valueOf\\\"},{\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"()[Lcom/freetools/freereels/data/a;\\\",\\\"signature\\\":\\\"values(): com.freetools.freereels.data.a[]\\\",\\\"def_pos\\\":0,\\\"name\\\":\\\"values\\\"}],\\\"inner_classes\\\":[],\\\"inner_class_count\\\":0,\\\"name\\\":\\\"a\\\",\\\"field_count\\\":9,\\\"full_name\\\":\\\"com.freetools.freereels.data.a\\\",\\\"method_count\\\":6,\\\"raw_name\\\":\\\"com.freetools.freereels.data.a\\\"}\"}],\"isError\":false}},{\"operation\":\"get_method_body\",\"input\":{\"class_name\":\"com.freetools.freereels.data.a\",\"method_name\":\"<clinit>\",\"overload_index\":0,\"smali_fallback\":true},\"response\":{\"content\":[{\"type\":\"text\",\"text\":\"{\\\"class_name\\\":\\\"com.freetools.freereels.data.a\\\",\\\"mode\\\":\\\"smali\\\",\\\"body\\\":\\\".method static constructor \\\\u003cclinit\\\\u003e()V\\\\n    .registers 12\\\\n\\\\n    new-instance v0, Lcom/freetools/freereels/data/a;\\\\n\\\\n    const-string v1, \\\\\\\"RequestedSystemLauncher\\\\\\\"\\\\n\\\\n    const/4 v2, 0x0\\\\n\\\\n    invoke-direct {v0, v1, v2, v2}, Lcom/freetools/freereels/data/a;-\\\\u003e\\\\u003cinit\\\\u003e(Ljava/lang/String;IZ)V\\\\n\\\\n    new-instance v1, Lcom/freetools/freereels/data/a;\\\\n\\\\n    const-string v3, \\\\\\\"ShowFirstRecommendDialog\\\\\\\"\\\\n\\\\n    const/4 v4, 0x1\\\\n\\\\n    invoke-direct {v1, v3, v4, v4}, Lcom/freetools/freereels/data/a;-\\\\u003e\\\\u003cinit\\\\u003e(Ljava/lang/String;IZ)V\\\\n\\\\n    sput-object v1, Lcom/freetools/freereels/data/a;-\\\\u003ec:Lcom/freetools/freereels/data/a;\\\\n\\\\n    move v3, v2\\\\n\\\\n    new-instance v2, Lcom/freetools/freereels/data/a;\\\\n\\\\n    const-string v5, \\\\\\\"WhiteTheme\\\\\\\"\\\\n\\\\n    const/4 v6, 0x2\\\\n\\\\n    invoke-direct {v2, v5, v6, v3}, Lcom/freetools/freereels/data/a;-\\\\u003e\\\\u003cinit\\\\u003e(Ljava/lang/String;IZ)V\\\\n\\\\n    sput-object v2, Lcom/freetools/freereels/data/a;-\\\\u003ed:Lcom/freetools/freereels/data/a;\\\\n\\\\n    move v5, v3\\\\n\\\\n    new-instance v3, Lcom/freetools/freereels/data/a;\\\\n\\\\n    const-string v6, \\\\\\\"ShowBackAd\\\\\\\"\\\\n\\\\n    const/4 v7, 0x3\\\\n\\\\n    invoke-direct {v3, v6, v7, v4}, Lcom/freetools/freereels/data/a;-\\\\u003e\\\\u003cinit\\\\u003e(Ljava/lang/String;IZ)V\\\\n\\\\n    sput-object v3, Lcom/freetools/freereels/data/a;-\\\\u003ee:Lcom/freetools/freereels/data/a;\\\\n\\\\n    move v6, v4\\\\n\\\\n    new-instance v4, Lcom/freetools/freereels/data/a;\\\\n\\\\n    const-string v7, \\\\\\\"IsFirstOpen\\\\\\\"\\\\n\\\\n    const/4 v8, 0x4\\\\n\\\\n    invoke-direct {v4, v7, v8, v6}, Lcom/freetools/freereels/data/a;-\\\\u003e\\\\u003cinit\\\\u003e(Ljava/lang/String;IZ)V\\\\n\\\\n    move v7, v5\\\\n\\\\n    new-instance v5, Lcom/freetools/freereels/data/a;\\\\n\\\\n    const-string v8, \\\\\\\"FirstLaunch\\\\\\\"\\\\n\\\\n    const/4 v9, 0x5\\\\n\\\\n    invoke-direct {v5, v8, v9, v6}, Lcom/freetools/freereels/data/a;-\\\\u003e\\\\u003cinit\\\\u003e(Ljava/lang/String;IZ)V\\\\n\\\\n    sput-object v5, Lcom/freetools/freereels/data/a;-\\\\u003ef:Lcom/freetools/freereels/data/a;\\\\n\\\\n    move v8, v6\\\\n\\\\n    new-instance v6, Lcom/freetools/freereels/data/a;\\\\n\\\\n    const-string v9, \\\\\\\"SplashPopLauncher\\\\\\\"\\\\n\\\\n    const/4 v10, 0x6\\\\n\\\\n    invoke-direct {v6, v9, v10, v7}, Lcom/freetools/freereels/data/a;-\\\\u003e\\\\u003cinit\\\\u003e(Ljava/lang/String;IZ)V\\\\n\\\\n    sput-object v6, Lcom/freetools/freereels/data/a;-\\\\u003eg:Lcom/freetools/freereels/data/a;\\\\n\\\\n    move v9, v7\\\\n\\\\n    new-instance v7, Lcom/freetools/freereels/data/a;\\\\n\\\\n    const-string v10, \\\\\\\"MainPopLauncher\\\\\\\"\\\\n\\\\n    const/4 v11, 0x7\\\\n\\\\n    invoke-direct {v7, v10, v11, v8}, Lcom/freetools/freereels/data/a;-\\\\u003e\\\\u003cinit\\\\u003e(Ljava/lang/String;IZ)V\\\\n\\\\n    sput-object v7, Lcom/freetools/freereels/data/a;-\\\\u003eh:Lcom/freetools/freereels/data/a;\\\\n\\\\n    new-instance v8, Lcom/freetools/freereels/data/a;\\\\n\\\\n    const-string v10, \\\\\\\"DetailPopLauncher\\\\\\\"\\\\n\\\\n    const/16 v11, 0x8\\\\n\\\\n    invoke-direct {v8, v10, v11, v9}, Lcom/freetools/freereels/data/a;-\\\\u003e\\\\u003cinit\\\\u003e(Ljava/lang/String;IZ)V\\\\n\\\\n    sput-object v8, Lcom/freetools/freereels/data/a;-\\\\u003ei:Lcom/freetools/freereels/data/a;\\\\n\\\\n    filled-new-array/range {v0 .. v8}, [Lcom/freetools/freereels/data/a;\\\\n\\\\n    move-result-object v0\\\\n\\\\n    sput-object v0, Lcom/freetools/freereels/data/a;-\\\\u003ej:[Lcom/freetools/freereels/data/a;\\\\n\\\\n    invoke-static {v0}, Lv4/a;-\\\\u003ep([Ljava/lang/Enum;)Lff/b;\\\\n\\\\n    return-void\\\\n.end method\\\",\\\"markers\\\":[\\\"static_initializer_disassembly\\\"],\\\"fell_back\\\":true,\\\"full_name\\\":\\\"com.freetools.freereels.data.a.\\\\u003cclinit\\\\u003e\\\",\\\"overload_index\\\":0,\\\"method_name\\\":\\\"\\\\u003cclinit\\\\u003e\\\",\\\"overload_count\\\":1,\\\"dex_descriptor\\\":\\\"()V\\\"}\"}],\"isError\":false}}]},\"normalized_result\":{\"engine\":{\"name\":\"jadx-headless-mcp\",\"version\":\"0.7.1\",\"artifact_sha256\":\"6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75\",\"source_revision\":\"5844800a486d2248fa949b74c9896285f5b54de2\",\"worker_count\":1,\"heap_limit_mib\":3072},\"class_name\":\"com.freetools.freereels.data.a\",\"method\":{\"name\":\"<clinit>\",\"reported_signature\":\"<clinit>(): void\",\"overload_index\":0,\"is_constructor\":false,\"dex_descriptor\":\"()V\"},\"overload_count\":1,\"representation\":\"smali\",\"body_status\":\"available\",\"fell_back\":true,\"markers\":[\"static_initializer_disassembly\"],\"source\":{\"status\":\"complete\",\"text\":\".method static constructor <clinit>()V\\n    .registers 12\\n\\n    new-instance v0, Lcom/freetools/freereels/data/a;\\n\\n    const-string v1, \\\"RequestedSystemLauncher\\\"\\n\\n    const/4 v2, 0x0\\n\\n    invoke-direct {v0, v1, v2, v2}, Lcom/freetools/freereels/data/a;-><init>(Ljava/lang/String;IZ)V\\n\\n    new-instance v1, Lcom/freetools/freereels/data/a;\\n\\n    const-string v3, \\\"ShowFirstRecommendDialog\\\"\\n\\n    const/4 v4, 0x1\\n\\n    invoke-direct {v1, v3, v4, v4}, Lcom/freetools/freereels/data/a;-><init>(Ljava/lang/String;IZ)V\\n\\n    sput-object v1, Lcom/freetools/freereels/data/a;->c:Lcom/freetools/freereels/data/a;\\n\\n    move v3, v2\\n\\n    new-instance v2, Lcom/freetools/freereels/data/a;\\n\\n    const-string v5, \\\"WhiteTheme\\\"\\n\\n    const/4 v6, 0x2\\n\\n    invoke-direct {v2, v5, v6, v3}, Lcom/freetools/freereels/data/a;-><init>(Ljava/lang/String;IZ)V\\n\\n    sput-object v2, Lcom/freetools/freereels/data/a;->d:Lcom/freetools/freereels/data/a;\\n\\n    move v5, v3\\n\\n    new-instance v3, Lcom/freetools/freereels/data/a;\\n\\n    const-string v6, \\\"ShowBackAd\\\"\\n\\n    const/4 v7, 0x3\\n\\n    invoke-direct {v3, v6, v7, v4}, Lcom/freetools/freereels/data/a;-><init>(Ljava/lang/String;IZ)V\\n\\n    sput-object v3, Lcom/freetools/freereels/data/a;->e:Lcom/freetools/freereels/data/a;\\n\\n    move v6, v4\\n\\n    new-instance v4, Lcom/freetools/freereels/data/a;\\n\\n    const-string v7, \\\"IsFirstOpen\\\"\\n\\n    const/4 v8, 0x4\\n\\n    invoke-direct {v4, v7, v8, v6}, Lcom/freetools/freereels/data/a;-><init>(Ljava/lang/String;IZ)V\\n\\n    move v7, v5\\n\\n    new-instance v5, Lcom/freetools/freereels/data/a;\\n\\n    const-string v8, \\\"FirstLaunch\\\"\\n\\n    const/4 v9, 0x5\\n\\n    invoke-direct {v5, v8, v9, v6}, Lcom/freetools/freereels/data/a;-><init>(Ljava/lang/String;IZ)V\\n\\n    sput-object v5, Lcom/freetools/freereels/data/a;->f:Lcom/freetools/freereels/data/a;\\n\\n    move v8, v6\\n\\n    new-instance v6, Lcom/freetools/freereels/data/a;\\n\\n    const-string v9, \\\"SplashPopLauncher\\\"\\n\\n    const/4 v10, 0x6\\n\\n    invoke-direct {v6, v9, v10, v7}, Lcom/freetools/freereels/data/a;-><init>(Ljava/lang/String;IZ)V\\n\\n    sput-object v6, Lcom/freetools/freereels/data/a;->g:Lcom/freetools/freereels/data/a;\\n\\n    move v9, v7\\n\\n    new-instance v7, Lcom/freetools/freereels/data/a;\\n\\n    const-string v10, \\\"MainPopLauncher\\\"\\n\\n    const/4 v11, 0x7\\n\\n    invoke-direct {v7, v10, v11, v8}, Lcom/freetools/freereels/data/a;-><init>(Ljava/lang/String;IZ)V\\n\\n    sput-object v7, Lcom/freetools/freereels/data/a;->h:Lcom/freetools/freereels/data/a;\\n\\n    new-instance v8, Lcom/freetools/freereels/data/a;\\n\\n    const-string v10, \\\"DetailPopLauncher\\\"\\n\\n    const/16 v11, 0x8\\n\\n    invoke-direct {v8, v10, v11, v9}, Lcom/freetools/freereels/data/a;-><init>(Ljava/lang/String;IZ)V\\n\\n    sput-object v8, Lcom/freetools/freereels/data/a;->i:Lcom/freetools/freereels/data/a;\\n\\n    filled-new-array/range {v0 .. v8}, [Lcom/freetools/freereels/data/a;\\n\\n    move-result-object v0\\n\\n    sput-object v0, Lcom/freetools/freereels/data/a;->j:[Lcom/freetools/freereels/data/a;\\n\\n    invoke-static {v0}, Lv4/a;->p([Ljava/lang/Enum;)Lff/b;\\n\\n    return-void\\n.end method\",\"reported_total_bytes\":null}},\"confidence\":\"derived\",\"authority\":\"shipped-artifact\",\"environment\":null,\"limitations\":[\"Static decompiler observations do not establish runtime behavior; the APK is never executed.\",\"Method signatures use provider display types; DEX prototypes come from frozen JADX metadata. Display names may be aliases, and overload indices are local to this engine and artifact.\",\"Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.\",\"Incoming reference totals count JADX using nodes. Direct invoke entries within a using method report raw DEX code-unit offsets and method indexes, but coverage is limited to those nodes and directly matched invokes; it does not establish every possible dynamic or reflective call site.\",\"Manifest summaries are parsed once by REA's bridge from the exact root AndroidManifest.xml resource, using namespace-aware XML attributes; decoded XML is retained. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider.\"],\"relationship_coverage\":null,\"locations\":[],\"evidence_links\":[]}"
+      }
+    ],
+    "structuredContent": {
+      "evidence_id": "ev_4c56c5998638ca0b90044d74f10873ab845bdcec2a2545c165c1a0e68632a450",
+      "subject": {
+        "name": "base.apk",
+        "digest": {
+          "sha256": "5b074f04f27d01ddf7816723e192f7b3577f9994bf13a37195869668e9861cf9"
+        },
+        "local_path": "D:\\python daima\\outputs\\apk_extract_20261116\\com.smartnettools.studio.dramapop\\base.apk",
+        "format": "apk",
+        "architecture": null
+      },
+      "provider": {
+        "id": "jadx",
+        "name": "JADX headless",
+        "version": "0.7.1"
+      },
+      "analysis_profile": null,
+      "predicate_type": "rea.analysis",
+      "operation": "inspect_android_method",
+      "parameters": {
+        "path": "D:\\python daima\\outputs\\apk_extract_20261116\\com.smartnettools.studio.dramapop\\base.apk",
+        "class_name": "com.freetools.freereels.data.a",
+        "method_name": "<clinit>"
+      },
+      "raw_result": {
+        "server": {
+          "name": "rea-jadx-bridge",
+          "version": "7"
+        },
+        "bridge_sha256": "e5044a8312dd0731f53af3f095508b3e5cff54df6b971c95d4305e2f39b4fa30",
+        "jar_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+        "loaded": {
+          "state": "LOADED",
+          "apk_path": "C:\\Users\\asus\\AppData\\Local\\Temp\\rea-android-e07bf9a5b34da5efb956d9f36ad9ad41\\target.apk",
+          "class_count": 50068,
+          "resource_count": 2637,
+          "threads": 1,
+          "resources": "full"
+        },
+        "calls": [
+          {
+            "operation": "rea_jvm_status",
+            "input": {},
+            "response": {
+              "content": [
+                {
+                  "type": "text",
+                  "text": "{\"metadata_scope\":\"parsed_members\",\"max_heap_bytes\":3221225472,\"java_version\":\"17.0.12\",\"available_processors\":3,\"engine_reported_version\":\"0.7.1\"}"
+                }
+              ],
+              "isError": false
+            }
+          },
+          {
+            "operation": "get_class_summary",
+            "input": {
+              "class_name": "com.freetools.freereels.data.a"
+            },
+            "response": {
+              "content": [
+                {
+                  "type": "text",
+                  "text": "{\"fields\":[{\"name\":\"b\",\"type\":\"boolean\",\"def_pos\":0},{\"name\":\"d\",\"type\":\"com.freetools.freereels.data.a\",\"def_pos\":0},{\"name\":\"e\",\"type\":\"com.freetools.freereels.data.a\",\"def_pos\":0},{\"name\":\"f\",\"type\":\"com.freetools.freereels.data.a\",\"def_pos\":0},{\"name\":\"f19451c\",\"type\":\"com.freetools.freereels.data.a\",\"def_pos\":0},{\"name\":\"f19452g\",\"type\":\"com.freetools.freereels.data.a\",\"def_pos\":0},{\"name\":\"f19453h\",\"type\":\"com.freetools.freereels.data.a\",\"def_pos\":0},{\"name\":\"f19454i\",\"type\":\"com.freetools.freereels.data.a\",\"def_pos\":0},{\"name\":\"f19455j\",\"type\":\"com.freetools.freereels.data.a[]\",\"def_pos\":0}],\"methods\":[{\"is_constructor\":false,\"dex_descriptor\":\"()V\",\"signature\":\"\\u003cclinit\\u003e(): void\",\"def_pos\":0,\"name\":\"\\u003cclinit\\u003e\"},{\"is_constructor\":true,\"dex_descriptor\":\"(Ljava/lang/String;IZ)V\",\"signature\":\"\\u003cinit\\u003e(java.lang.String, int, boolean): void\",\"def_pos\":0,\"name\":\"\\u003cinit\\u003e\"},{\"is_constructor\":false,\"dex_descriptor\":\"()Z\",\"signature\":\"d(): boolean\",\"def_pos\":0,\"name\":\"d\"},{\"is_constructor\":false,\"dex_descriptor\":\"(Z)V\",\"signature\":\"e(boolean): void\",\"def_pos\":0,\"name\":\"e\"},{\"is_constructor\":false,\"dex_descriptor\":\"(Ljava/lang/String;)Lcom/freetools/freereels/data/a;\",\"signature\":\"valueOf(java.lang.String): com.freetools.freereels.data.a\",\"def_pos\":0,\"name\":\"valueOf\"},{\"is_constructor\":false,\"dex_descriptor\":\"()[Lcom/freetools/freereels/data/a;\",\"signature\":\"values(): com.freetools.freereels.data.a[]\",\"def_pos\":0,\"name\":\"values\"}],\"inner_classes\":[],\"inner_class_count\":0,\"name\":\"a\",\"field_count\":9,\"full_name\":\"com.freetools.freereels.data.a\",\"method_count\":6,\"raw_name\":\"com.freetools.freereels.data.a\"}"
+                }
+              ],
+              "isError": false
+            }
+          },
+          {
+            "operation": "get_method_body",
+            "input": {
+              "class_name": "com.freetools.freereels.data.a",
+              "method_name": "<clinit>",
+              "overload_index": 0,
+              "smali_fallback": true
+            },
+            "response": {
+              "content": [
+                {
+                  "type": "text",
+                  "text": "{\"class_name\":\"com.freetools.freereels.data.a\",\"mode\":\"smali\",\"body\":\".method static constructor \\u003cclinit\\u003e()V\\n    .registers 12\\n\\n    new-instance v0, Lcom/freetools/freereels/data/a;\\n\\n    const-string v1, \\\"RequestedSystemLauncher\\\"\\n\\n    const/4 v2, 0x0\\n\\n    invoke-direct {v0, v1, v2, v2}, Lcom/freetools/freereels/data/a;-\\u003e\\u003cinit\\u003e(Ljava/lang/String;IZ)V\\n\\n    new-instance v1, Lcom/freetools/freereels/data/a;\\n\\n    const-string v3, \\\"ShowFirstRecommendDialog\\\"\\n\\n    const/4 v4, 0x1\\n\\n    invoke-direct {v1, v3, v4, v4}, Lcom/freetools/freereels/data/a;-\\u003e\\u003cinit\\u003e(Ljava/lang/String;IZ)V\\n\\n    sput-object v1, Lcom/freetools/freereels/data/a;-\\u003ec:Lcom/freetools/freereels/data/a;\\n\\n    move v3, v2\\n\\n    new-instance v2, Lcom/freetools/freereels/data/a;\\n\\n    const-string v5, \\\"WhiteTheme\\\"\\n\\n    const/4 v6, 0x2\\n\\n    invoke-direct {v2, v5, v6, v3}, Lcom/freetools/freereels/data/a;-\\u003e\\u003cinit\\u003e(Ljava/lang/String;IZ)V\\n\\n    sput-object v2, Lcom/freetools/freereels/data/a;-\\u003ed:Lcom/freetools/freereels/data/a;\\n\\n    move v5, v3\\n\\n    new-instance v3, Lcom/freetools/freereels/data/a;\\n\\n    const-string v6, \\\"ShowBackAd\\\"\\n\\n    const/4 v7, 0x3\\n\\n    invoke-direct {v3, v6, v7, v4}, Lcom/freetools/freereels/data/a;-\\u003e\\u003cinit\\u003e(Ljava/lang/String;IZ)V\\n\\n    sput-object v3, Lcom/freetools/freereels/data/a;-\\u003ee:Lcom/freetools/freereels/data/a;\\n\\n    move v6, v4\\n\\n    new-instance v4, Lcom/freetools/freereels/data/a;\\n\\n    const-string v7, \\\"IsFirstOpen\\\"\\n\\n    const/4 v8, 0x4\\n\\n    invoke-direct {v4, v7, v8, v6}, Lcom/freetools/freereels/data/a;-\\u003e\\u003cinit\\u003e(Ljava/lang/String;IZ)V\\n\\n    move v7, v5\\n\\n    new-instance v5, Lcom/freetools/freereels/data/a;\\n\\n    const-string v8, \\\"FirstLaunch\\\"\\n\\n    const/4 v9, 0x5\\n\\n    invoke-direct {v5, v8, v9, v6}, Lcom/freetools/freereels/data/a;-\\u003e\\u003cinit\\u003e(Ljava/lang/String;IZ)V\\n\\n    sput-object v5, Lcom/freetools/freereels/data/a;-\\u003ef:Lcom/freetools/freereels/data/a;\\n\\n    move v8, v6\\n\\n    new-instance v6, Lcom/freetools/freereels/data/a;\\n\\n    const-string v9, \\\"SplashPopLauncher\\\"\\n\\n    const/4 v10, 0x6\\n\\n    invoke-direct {v6, v9, v10, v7}, Lcom/freetools/freereels/data/a;-\\u003e\\u003cinit\\u003e(Ljava/lang/String;IZ)V\\n\\n    sput-object v6, Lcom/freetools/freereels/data/a;-\\u003eg:Lcom/freetools/freereels/data/a;\\n\\n    move v9, v7\\n\\n    new-instance v7, Lcom/freetools/freereels/data/a;\\n\\n    const-string v10, \\\"MainPopLauncher\\\"\\n\\n    const/4 v11, 0x7\\n\\n    invoke-direct {v7, v10, v11, v8}, Lcom/freetools/freereels/data/a;-\\u003e\\u003cinit\\u003e(Ljava/lang/String;IZ)V\\n\\n    sput-object v7, Lcom/freetools/freereels/data/a;-\\u003eh:Lcom/freetools/freereels/data/a;\\n\\n    new-instance v8, Lcom/freetools/freereels/data/a;\\n\\n    const-string v10, \\\"DetailPopLauncher\\\"\\n\\n    const/16 v11, 0x8\\n\\n    invoke-direct {v8, v10, v11, v9}, Lcom/freetools/freereels/data/a;-\\u003e\\u003cinit\\u003e(Ljava/lang/String;IZ)V\\n\\n    sput-object v8, Lcom/freetools/freereels/data/a;-\\u003ei:Lcom/freetools/freereels/data/a;\\n\\n    filled-new-array/range {v0 .. v8}, [Lcom/freetools/freereels/data/a;\\n\\n    move-result-object v0\\n\\n    sput-object v0, Lcom/freetools/freereels/data/a;-\\u003ej:[Lcom/freetools/freereels/data/a;\\n\\n    invoke-static {v0}, Lv4/a;-\\u003ep([Ljava/lang/Enum;)Lff/b;\\n\\n    return-void\\n.end method\",\"markers\":[\"static_initializer_disassembly\"],\"fell_back\":true,\"full_name\":\"com.freetools.freereels.data.a.\\u003cclinit\\u003e\",\"overload_index\":0,\"method_name\":\"\\u003cclinit\\u003e\",\"overload_count\":1,\"dex_descriptor\":\"()V\"}"
+                }
+              ],
+              "isError": false
+            }
+          }
+        ]
+      },
+      "normalized_result": {
+        "engine": {
+          "name": "jadx-headless-mcp",
+          "version": "0.7.1",
+          "artifact_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+          "source_revision": "5844800a486d2248fa949b74c9896285f5b54de2",
+          "worker_count": 1,
+          "heap_limit_mib": 3072
+        },
+        "class_name": "com.freetools.freereels.data.a",
+        "method": {
+          "name": "<clinit>",
+          "reported_signature": "<clinit>(): void",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": "()V"
+        },
+        "overload_count": 1,
+        "representation": "smali",
+        "body_status": "available",
+        "fell_back": true,
+        "markers": [
+          "static_initializer_disassembly"
+        ],
+        "source": {
+          "status": "complete",
+          "text": ".method static constructor <clinit>()V\n    .registers 12\n\n    new-instance v0, Lcom/freetools/freereels/data/a;\n\n    const-string v1, \"RequestedSystemLauncher\"\n\n    const/4 v2, 0x0\n\n    invoke-direct {v0, v1, v2, v2}, Lcom/freetools/freereels/data/a;-><init>(Ljava/lang/String;IZ)V\n\n    new-instance v1, Lcom/freetools/freereels/data/a;\n\n    const-string v3, \"ShowFirstRecommendDialog\"\n\n    const/4 v4, 0x1\n\n    invoke-direct {v1, v3, v4, v4}, Lcom/freetools/freereels/data/a;-><init>(Ljava/lang/String;IZ)V\n\n    sput-object v1, Lcom/freetools/freereels/data/a;->c:Lcom/freetools/freereels/data/a;\n\n    move v3, v2\n\n    new-instance v2, Lcom/freetools/freereels/data/a;\n\n    const-string v5, \"WhiteTheme\"\n\n    const/4 v6, 0x2\n\n    invoke-direct {v2, v5, v6, v3}, Lcom/freetools/freereels/data/a;-><init>(Ljava/lang/String;IZ)V\n\n    sput-object v2, Lcom/freetools/freereels/data/a;->d:Lcom/freetools/freereels/data/a;\n\n    move v5, v3\n\n    new-instance v3, Lcom/freetools/freereels/data/a;\n\n    const-string v6, \"ShowBackAd\"\n\n    const/4 v7, 0x3\n\n    invoke-direct {v3, v6, v7, v4}, Lcom/freetools/freereels/data/a;-><init>(Ljava/lang/String;IZ)V\n\n    sput-object v3, Lcom/freetools/freereels/data/a;->e:Lcom/freetools/freereels/data/a;\n\n    move v6, v4\n\n    new-instance v4, Lcom/freetools/freereels/data/a;\n\n    const-string v7, \"IsFirstOpen\"\n\n    const/4 v8, 0x4\n\n    invoke-direct {v4, v7, v8, v6}, Lcom/freetools/freereels/data/a;-><init>(Ljava/lang/String;IZ)V\n\n    move v7, v5\n\n    new-instance v5, Lcom/freetools/freereels/data/a;\n\n    const-string v8, \"FirstLaunch\"\n\n    const/4 v9, 0x5\n\n    invoke-direct {v5, v8, v9, v6}, Lcom/freetools/freereels/data/a;-><init>(Ljava/lang/String;IZ)V\n\n    sput-object v5, Lcom/freetools/freereels/data/a;->f:Lcom/freetools/freereels/data/a;\n\n    move v8, v6\n\n    new-instance v6, Lcom/freetools/freereels/data/a;\n\n    const-string v9, \"SplashPopLauncher\"\n\n    const/4 v10, 0x6\n\n    invoke-direct {v6, v9, v10, v7}, Lcom/freetools/freereels/data/a;-><init>(Ljava/lang/String;IZ)V\n\n    sput-object v6, Lcom/freetools/freereels/data/a;->g:Lcom/freetools/freereels/data/a;\n\n    move v9, v7\n\n    new-instance v7, Lcom/freetools/freereels/data/a;\n\n    const-string v10, \"MainPopLauncher\"\n\n    const/4 v11, 0x7\n\n    invoke-direct {v7, v10, v11, v8}, Lcom/freetools/freereels/data/a;-><init>(Ljava/lang/String;IZ)V\n\n    sput-object v7, Lcom/freetools/freereels/data/a;->h:Lcom/freetools/freereels/data/a;\n\n    new-instance v8, Lcom/freetools/freereels/data/a;\n\n    const-string v10, \"DetailPopLauncher\"\n\n    const/16 v11, 0x8\n\n    invoke-direct {v8, v10, v11, v9}, Lcom/freetools/freereels/data/a;-><init>(Ljava/lang/String;IZ)V\n\n    sput-object v8, Lcom/freetools/freereels/data/a;->i:Lcom/freetools/freereels/data/a;\n\n    filled-new-array/range {v0 .. v8}, [Lcom/freetools/freereels/data/a;\n\n    move-result-object v0\n\n    sput-object v0, Lcom/freetools/freereels/data/a;->j:[Lcom/freetools/freereels/data/a;\n\n    invoke-static {v0}, Lv4/a;->p([Ljava/lang/Enum;)Lff/b;\n\n    return-void\n.end method",
+          "reported_total_bytes": null
+        }
+      },
+      "confidence": "derived",
+      "authority": "shipped-artifact",
+      "environment": null,
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; DEX prototypes come from frozen JADX metadata. Display names may be aliases, and overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Incoming reference totals count JADX using nodes. Direct invoke entries within a using method report raw DEX code-unit offsets and method indexes, but coverage is limited to those nodes and directly matched invokes; it does not establish every possible dynamic or reflective call site.",
+        "Manifest summaries are parsed once by REA's bridge from the exact root AndroidManifest.xml resource, using namespace-aware XML attributes; decoded XML is retained. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ],
+      "relationship_coverage": null,
+      "locations": [],
+      "evidence_links": []
+    }
+  }
+}

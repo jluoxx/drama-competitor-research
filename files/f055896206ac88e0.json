@@ -1,0 +1,175 @@
+{
+  "job": {
+    "id": "130_attribution_network",
+    "package": "com.xj.cash.drama",
+    "tool": "inspect_android_method",
+    "args": {
+      "path": "D:\\python daima\\outputs\\apk_extract_20261116\\com.xj.cash.drama\\base.apk",
+      "class_name": "gg8",
+      "method_name": "e"
+    }
+  },
+  "start": "2026-11-16T04:36:45.818Z",
+  "end": "2026-11-16T04:37:55.804Z",
+  "result": {
+    "_meta": {
+      "provenance": {
+        "untrusted_content": true,
+        "source": "analysis_target"
+      }
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"evidence_id\":\"ev_8aa498768aa4dc650f994979bed6ed4ac49db6f28256bd1db21a94a03f76a4eb\",\"subject\":{\"name\":\"base.apk\",\"digest\":{\"sha256\":\"5c21f181b3a5f2632d00dde6a1939d0fddd2bb05869539ca565edec19974f7fd\"},\"local_path\":\"D:\\\\python daima\\\\outputs\\\\apk_extract_20261116\\\\com.xj.cash.drama\\\\base.apk\",\"format\":\"apk\",\"architecture\":null},\"provider\":{\"id\":\"jadx\",\"name\":\"JADX headless\",\"version\":\"0.7.1\"},\"analysis_profile\":null,\"predicate_type\":\"rea.analysis\",\"operation\":\"inspect_android_method\",\"parameters\":{\"path\":\"D:\\\\python daima\\\\outputs\\\\apk_extract_20261116\\\\com.xj.cash.drama\\\\base.apk\",\"class_name\":\"gg8\",\"method_name\":\"e\"},\"raw_result\":{\"server\":{\"name\":\"rea-jadx-bridge\",\"version\":\"7\"},\"bridge_sha256\":\"e5044a8312dd0731f53af3f095508b3e5cff54df6b971c95d4305e2f39b4fa30\",\"jar_sha256\":\"6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75\",\"loaded\":{\"state\":\"LOADED\",\"apk_path\":\"C:\\\\Users\\\\asus\\\\AppData\\\\Local\\\\Temp\\\\rea-android-978f49786fc53e228ea4326043d31632\\\\target.apk\",\"class_count\":61382,\"resource_count\":3256,\"threads\":1,\"resources\":\"full\"},\"calls\":[{\"operation\":\"rea_jvm_status\",\"input\":{},\"response\":{\"content\":[{\"type\":\"text\",\"text\":\"{\\\"engine_reported_version\\\":\\\"0.7.1\\\",\\\"available_processors\\\":3,\\\"java_version\\\":\\\"17.0.12\\\",\\\"max_heap_bytes\\\":3221225472,\\\"metadata_scope\\\":\\\"parsed_members\\\"}\"}],\"isError\":false}},{\"operation\":\"load_apk\",\"input\":{\"path\":\"C:\\\\Users\\\\asus\\\\AppData\\\\Local\\\\Temp\\\\rea-android-978f49786fc53e228ea4326043d31632\\\\target.apk\",\"threads\":1,\"resources\":\"full\"},\"response\":{\"content\":[{\"type\":\"text\",\"text\":\"{\\\"state\\\":\\\"LOADED\\\",\\\"apk_path\\\":\\\"C:\\\\\\\\Users\\\\\\\\asus\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Temp\\\\\\\\rea-android-978f49786fc53e228ea4326043d31632\\\\\\\\target.apk\\\",\\\"class_count\\\":61382,\\\"raw_class_count\\\":61382,\\\"resource_count\\\":3256,\\\"load_duration_ms\\\":59772,\\\"decompile_timeout_ms\\\":90000,\\\"threads\\\":1,\\\"code_cache_size\\\":64,\\\"resources\\\":\\\"full\\\"}\"}],\"isError\":false}},{\"operation\":\"get_class_summary\",\"input\":{\"class_name\":\"gg8\"},\"response\":{\"content\":[{\"type\":\"text\",\"text\":\"{\\\"inner_class_count\\\":0,\\\"inner_classes\\\":[],\\\"methods\\\":[{\\\"dex_descriptor\\\":\\\"()V\\\",\\\"is_constructor\\\":true,\\\"name\\\":\\\"\\\\u003cinit\\\\u003e\\\",\\\"def_pos\\\":0,\\\"signature\\\":\\\"\\\\u003cinit\\\\u003e(): void\\\"},{\\\"dex_descriptor\\\":\\\"()V\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"a\\\",\\\"def_pos\\\":0,\\\"signature\\\":\\\"a(): void\\\"},{\\\"dex_descriptor\\\":\\\"()V\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"b\\\",\\\"def_pos\\\":0,\\\"signature\\\":\\\"b(): void\\\"},{\\\"dex_descriptor\\\":\\\"()V\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"c\\\",\\\"def_pos\\\":0,\\\"signature\\\":\\\"c(): void\\\"},{\\\"dex_descriptor\\\":\\\"()Ljava/lang/String;\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"d\\\",\\\"def_pos\\\":0,\\\"signature\\\":\\\"d(): java.lang.String\\\"},{\\\"dex_descriptor\\\":\\\"(Lcom/adjust/sdk/AdjustAttribution;)V\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"e\\\",\\\"def_pos\\\":0,\\\"signature\\\":\\\"e(com.adjust.sdk.AdjustAttribution): void\\\"},{\\\"dex_descriptor\\\":\\\"(Ljava/lang/String;)V\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"f\\\",\\\"def_pos\\\":0,\\\"signature\\\":\\\"f(java.lang.String): void\\\"}],\\\"fields\\\":[{\\\"name\\\":\\\"b\\\",\\\"def_pos\\\":0,\\\"type\\\":\\\"int\\\"},{\\\"name\\\":\\\"f10719a\\\",\\\"def_pos\\\":0,\\\"type\\\":\\\"java.lang.String\\\"}],\\\"raw_name\\\":\\\"gg8\\\",\\\"method_count\\\":7,\\\"full_name\\\":\\\"defpackage.gg8\\\",\\\"field_count\\\":2,\\\"name\\\":\\\"gg8\\\"}\"}],\"isError\":false}},{\"operation\":\"get_method_body\",\"input\":{\"class_name\":\"gg8\",\"method_name\":\"e\",\"overload_index\":0,\"smali_fallback\":true},\"response\":{\"content\":[{\"type\":\"text\",\"text\":\"{\\\"markers\\\":[],\\\"body\\\":\\\"    public final void e(AdjustAttribution adjustAttribution) {\\\\r\\\\n        String str;\\\\r\\\\n        if (adjustAttribution \\\\u003d\\\\u003d null || (str \\\\u003d adjustAttribution.network) \\\\u003d\\\\u003d null) {\\\\r\\\\n            return;\\\\r\\\\n        }\\\\r\\\\n        String lowerCase \\\\u003d str.toLowerCase(Locale.US);\\\\r\\\\n        ki8.b.d(vf8.a(\\\\\\\"Ge4vzpXF4t43zRbcug\\\\u003d\\\\u003d\\\\\\\\n\\\\\\\", \\\\\\\"WoFft8Oflow\\\\u003d\\\\\\\\n\\\\\\\"), lowerCase);\\\\r\\\\n        pj7.d.getClass();\\\\r\\\\n        pj7.i(lowerCase);\\\\r\\\\n        if (lowerCase.contains(vf8.a(\\\\\\\"XL1lN3O0VrpN\\\\\\\\n\\\\\\\", \\\\\\\"KdMRRQbHIt8\\\\u003d\\\\\\\\n\\\\\\\"))) {\\\\r\\\\n            r84.b.b(vf8.a(\\\\\\\"Gfcn\\\\\\\\n\\\\\\\", \\\\\\\"dJpXYe+9Zbo\\\\u003d\\\\\\\\n\\\\\\\"), vf8.a(\\\\\\\"L4+nSu9TvKM3kaMP/g\\\\u003d\\\\u003d\\\\\\\\n\\\\\\\", \\\\\\\"QuLXapo9yNE\\\\u003d\\\\\\\\n\\\\\\\"));\\\\r\\\\n        } else {\\\\r\\\\n            if (lowerCase.contains(vf8.a(\\\\\\\"/TCg4Te3cg\\\\u003d\\\\u003d\\\\\\\\n\\\\\\\", \\\\\\\"kkLHgFneEUI\\\\u003d\\\\\\\\n\\\\\\\"))) {\\\\r\\\\n                return;\\\\r\\\\n            }\\\\r\\\\n            sw7 sw7Var \\\\u003d sw7.d;\\\\r\\\\n            if ((sw7Var.f16839a \\\\u0026 16) \\\\u003d\\\\u003d 0) {\\\\r\\\\n                sw7Var.a(16);\\\\r\\\\n            }\\\\r\\\\n        }\\\\r\\\\n    }\\\",\\\"mode\\\":\\\"java\\\",\\\"class_name\\\":\\\"defpackage.gg8\\\",\\\"dex_descriptor\\\":\\\"(Lcom/adjust/sdk/AdjustAttribution;)V\\\",\\\"overload_count\\\":1,\\\"method_name\\\":\\\"e\\\",\\\"overload_index\\\":0,\\\"full_name\\\":\\\"gg8.e\\\",\\\"fell_back\\\":false}\"}],\"isError\":false}}]},\"normalized_result\":{\"engine\":{\"name\":\"jadx-headless-mcp\",\"version\":\"0.7.1\",\"artifact_sha256\":\"6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75\",\"source_revision\":\"5844800a486d2248fa949b74c9896285f5b54de2\",\"worker_count\":1,\"heap_limit_mib\":3072},\"class_name\":\"defpackage.gg8\",\"method\":{\"name\":\"e\",\"reported_signature\":\"e(com.adjust.sdk.AdjustAttribution): void\",\"overload_index\":0,\"is_constructor\":false,\"dex_descriptor\":\"(Lcom/adjust/sdk/AdjustAttribution;)V\"},\"overload_count\":1,\"representation\":\"java\",\"body_status\":\"available\",\"fell_back\":false,\"markers\":[],\"source\":{\"status\":\"complete\",\"text\":\"    public final void e(AdjustAttribution adjustAttribution) {\\r\\n        String str;\\r\\n        if (adjustAttribution == null || (str = adjustAttribution.network) == null) {\\r\\n            return;\\r\\n        }\\r\\n        String lowerCase = str.toLowerCase(Locale.US);\\r\\n        ki8.b.d(vf8.a(\\\"Ge4vzpXF4t43zRbcug==\\\\n\\\", \\\"WoFft8Oflow=\\\\n\\\"), lowerCase);\\r\\n        pj7.d.getClass();\\r\\n        pj7.i(lowerCase);\\r\\n        if (lowerCase.contains(vf8.a(\\\"XL1lN3O0VrpN\\\\n\\\", \\\"KdMRRQbHIt8=\\\\n\\\"))) {\\r\\n            r84.b.b(vf8.a(\\\"Gfcn\\\\n\\\", \\\"dJpXYe+9Zbo=\\\\n\\\"), vf8.a(\\\"L4+nSu9TvKM3kaMP/g==\\\\n\\\", \\\"QuLXapo9yNE=\\\\n\\\"));\\r\\n        } else {\\r\\n            if (lowerCase.contains(vf8.a(\\\"/TCg4Te3cg==\\\\n\\\", \\\"kkLHgFneEUI=\\\\n\\\"))) {\\r\\n                return;\\r\\n            }\\r\\n            sw7 sw7Var = sw7.d;\\r\\n            if ((sw7Var.f16839a & 16) == 0) {\\r\\n                sw7Var.a(16);\\r\\n            }\\r\\n        }\\r\\n    }\",\"reported_total_bytes\":null}},\"confidence\":\"derived\",\"authority\":\"shipped-artifact\",\"environment\":null,\"limitations\":[\"Static decompiler observations do not establish runtime behavior; the APK is never executed.\",\"Method signatures use provider display types; DEX prototypes come from frozen JADX metadata. Display names may be aliases, and overload indices are local to this engine and artifact.\",\"Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.\",\"Incoming reference totals count JADX using nodes. Direct invoke entries within a using method report raw DEX code-unit offsets and method indexes, but coverage is limited to those nodes and directly matched invokes; it does not establish every possible dynamic or reflective call site.\",\"Manifest summaries are parsed once by REA's bridge from the exact root AndroidManifest.xml resource, using namespace-aware XML attributes; decoded XML is retained. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider.\"],\"relationship_coverage\":null,\"locations\":[],\"evidence_links\":[]}"
+      }
+    ],
+    "structuredContent": {
+      "evidence_id": "ev_8aa498768aa4dc650f994979bed6ed4ac49db6f28256bd1db21a94a03f76a4eb",
+      "subject": {
+        "name": "base.apk",
+        "digest": {
+          "sha256": "5c21f181b3a5f2632d00dde6a1939d0fddd2bb05869539ca565edec19974f7fd"
+        },
+        "local_path": "D:\\python daima\\outputs\\apk_extract_20261116\\com.xj.cash.drama\\base.apk",
+        "format": "apk",
+        "architecture": null
+      },
+      "provider": {
+        "id": "jadx",
+        "name": "JADX headless",
+        "version": "0.7.1"
+      },
+      "analysis_profile": null,
+      "predicate_type": "rea.analysis",
+      "operation": "inspect_android_method",
+      "parameters": {
+        "path": "D:\\python daima\\outputs\\apk_extract_20261116\\com.xj.cash.drama\\base.apk",
+        "class_name": "gg8",
+        "method_name": "e"
+      },
+      "raw_result": {
+        "server": {
+          "name": "rea-jadx-bridge",
+          "version": "7"
+        },
+        "bridge_sha256": "e5044a8312dd0731f53af3f095508b3e5cff54df6b971c95d4305e2f39b4fa30",
+        "jar_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+        "loaded": {
+          "state": "LOADED",
+          "apk_path": "C:\\Users\\asus\\AppData\\Local\\Temp\\rea-android-978f49786fc53e228ea4326043d31632\\target.apk",
+          "class_count": 61382,
+          "resource_count": 3256,
+          "threads": 1,
+          "resources": "full"
+        },
+        "calls": [
+          {
+            "operation": "rea_jvm_status",
+            "input": {},
+            "response": {
+              "content": [
+                {
+                  "type": "text",
+                  "text": "{\"engine_reported_version\":\"0.7.1\",\"available_processors\":3,\"java_version\":\"17.0.12\",\"max_heap_bytes\":3221225472,\"metadata_scope\":\"parsed_members\"}"
+                }
+              ],
+              "isError": false
+            }
+          },
+          {
+            "operation": "load_apk",
+            "input": {
+              "path": "C:\\Users\\asus\\AppData\\Local\\Temp\\rea-android-978f49786fc53e228ea4326043d31632\\target.apk",
+              "threads": 1,
+              "resources": "full"
+            },
+            "response": {
+              "content": [
+                {
+                  "type": "text",
+                  "text": "{\"state\":\"LOADED\",\"apk_path\":\"C:\\\\Users\\\\asus\\\\AppData\\\\Local\\\\Temp\\\\rea-android-978f49786fc53e228ea4326043d31632\\\\target.apk\",\"class_count\":61382,\"raw_class_count\":61382,\"resource_count\":3256,\"load_duration_ms\":59772,\"decompile_timeout_ms\":90000,\"threads\":1,\"code_cache_size\":64,\"resources\":\"full\"}"
+                }
+              ],
+              "isError": false
+            }
+          },
+          {
+            "operation": "get_class_summary",
+            "input": {
+              "class_name": "gg8"
+            },
+            "response": {
+              "content": [
+                {
+                  "type": "text",
+                  "text": "{\"inner_class_count\":0,\"inner_classes\":[],\"methods\":[{\"dex_descriptor\":\"()V\",\"is_constructor\":true,\"name\":\"\\u003cinit\\u003e\",\"def_pos\":0,\"signature\":\"\\u003cinit\\u003e(): void\"},{\"dex_descriptor\":\"()V\",\"is_constructor\":false,\"name\":\"a\",\"def_pos\":0,\"signature\":\"a(): void\"},{\"dex_descriptor\":\"()V\",\"is_constructor\":false,\"name\":\"b\",\"def_pos\":0,\"signature\":\"b(): void\"},{\"dex_descriptor\":\"()V\",\"is_constructor\":false,\"name\":\"c\",\"def_pos\":0,\"signature\":\"c(): void\"},{\"dex_descriptor\":\"()Ljava/lang/String;\",\"is_constructor\":false,\"name\":\"d\",\"def_pos\":0,\"signature\":\"d(): java.lang.String\"},{\"dex_descriptor\":\"(Lcom/adjust/sdk/AdjustAttribution;)V\",\"is_constructor\":false,\"name\":\"e\",\"def_pos\":0,\"signature\":\"e(com.adjust.sdk.AdjustAttribution): void\"},{\"dex_descriptor\":\"(Ljava/lang/String;)V\",\"is_constructor\":false,\"name\":\"f\",\"def_pos\":0,\"signature\":\"f(java.lang.String): void\"}],\"fields\":[{\"name\":\"b\",\"def_pos\":0,\"type\":\"int\"},{\"name\":\"f10719a\",\"def_pos\":0,\"type\":\"java.lang.String\"}],\"raw_name\":\"gg8\",\"method_count\":7,\"full_name\":\"defpackage.gg8\",\"field_count\":2,\"name\":\"gg8\"}"
+                }
+              ],
+              "isError": false
+            }
+          },
+          {
+            "operation": "get_method_body",
+            "input": {
+              "class_name": "gg8",
+              "method_name": "e",
+              "overload_index": 0,
+              "smali_fallback": true
+            },
+            "response": {
+              "content": [
+                {
+                  "type": "text",
+                  "text": "{\"markers\":[],\"body\":\"    public final void e(AdjustAttribution adjustAttribution) {\\r\\n        String str;\\r\\n        if (adjustAttribution \\u003d\\u003d null || (str \\u003d adjustAttribution.network) \\u003d\\u003d null) {\\r\\n            return;\\r\\n        }\\r\\n        String lowerCase \\u003d str.toLowerCase(Locale.US);\\r\\n        ki8.b.d(vf8.a(\\\"Ge4vzpXF4t43zRbcug\\u003d\\u003d\\\\n\\\", \\\"WoFft8Oflow\\u003d\\\\n\\\"), lowerCase);\\r\\n        pj7.d.getClass();\\r\\n        pj7.i(lowerCase);\\r\\n        if (lowerCase.contains(vf8.a(\\\"XL1lN3O0VrpN\\\\n\\\", \\\"KdMRRQbHIt8\\u003d\\\\n\\\"))) {\\r\\n            r84.b.b(vf8.a(\\\"Gfcn\\\\n\\\", \\\"dJpXYe+9Zbo\\u003d\\\\n\\\"), vf8.a(\\\"L4+nSu9TvKM3kaMP/g\\u003d\\u003d\\\\n\\\", \\\"QuLXapo9yNE\\u003d\\\\n\\\"));\\r\\n        } else {\\r\\n            if (lowerCase.contains(vf8.a(\\\"/TCg4Te3cg\\u003d\\u003d\\\\n\\\", \\\"kkLHgFneEUI\\u003d\\\\n\\\"))) {\\r\\n                return;\\r\\n            }\\r\\n            sw7 sw7Var \\u003d sw7.d;\\r\\n            if ((sw7Var.f16839a \\u0026 16) \\u003d\\u003d 0) {\\r\\n                sw7Var.a(16);\\r\\n            }\\r\\n        }\\r\\n    }\",\"mode\":\"java\",\"class_name\":\"defpackage.gg8\",\"dex_descriptor\":\"(Lcom/adjust/sdk/AdjustAttribution;)V\",\"overload_count\":1,\"method_name\":\"e\",\"overload_index\":0,\"full_name\":\"gg8.e\",\"fell_back\":false}"
+                }
+              ],
+              "isError": false
+            }
+          }
+        ]
+      },
+      "normalized_result": {
+        "engine": {
+          "name": "jadx-headless-mcp",
+          "version": "0.7.1",
+          "artifact_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+          "source_revision": "5844800a486d2248fa949b74c9896285f5b54de2",
+          "worker_count": 1,
+          "heap_limit_mib": 3072
+        },
+        "class_name": "defpackage.gg8",
+        "method": {
+          "name": "e",
+          "reported_signature": "e(com.adjust.sdk.AdjustAttribution): void",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": "(Lcom/adjust/sdk/AdjustAttribution;)V"
+        },
+        "overload_count": 1,
+        "representation": "java",
+        "body_status": "available",
+        "fell_back": false,
+        "markers": [],
+        "source": {
+          "status": "complete",
+          "text": "    public final void e(AdjustAttribution adjustAttribution) {\r\n        String str;\r\n        if (adjustAttribution == null || (str = adjustAttribution.network) == null) {\r\n            return;\r\n        }\r\n        String lowerCase = str.toLowerCase(Locale.US);\r\n        ki8.b.d(vf8.a(\"Ge4vzpXF4t43zRbcug==\\n\", \"WoFft8Oflow=\\n\"), lowerCase);\r\n        pj7.d.getClass();\r\n        pj7.i(lowerCase);\r\n        if (lowerCase.contains(vf8.a(\"XL1lN3O0VrpN\\n\", \"KdMRRQbHIt8=\\n\"))) {\r\n            r84.b.b(vf8.a(\"Gfcn\\n\", \"dJpXYe+9Zbo=\\n\"), vf8.a(\"L4+nSu9TvKM3kaMP/g==\\n\", \"QuLXapo9yNE=\\n\"));\r\n        } else {\r\n            if (lowerCase.contains(vf8.a(\"/TCg4Te3cg==\\n\", \"kkLHgFneEUI=\\n\"))) {\r\n                return;\r\n            }\r\n            sw7 sw7Var = sw7.d;\r\n            if ((sw7Var.f16839a & 16) == 0) {\r\n                sw7Var.a(16);\r\n            }\r\n        }\r\n    }",
+          "reported_total_bytes": null
+        }
+      },
+      "confidence": "derived",
+      "authority": "shipped-artifact",
+      "environment": null,
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; DEX prototypes come from frozen JADX metadata. Display names may be aliases, and overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Incoming reference totals count JADX using nodes. Direct invoke entries within a using method report raw DEX code-unit offsets and method indexes, but coverage is limited to those nodes and directly matched invokes; it does not establish every possible dynamic or reflective call site.",
+        "Manifest summaries are parsed once by REA's bridge from the exact root AndroidManifest.xml resource, using namespace-aware XML attributes; decoded XML is retained. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ],
+      "relationship_coverage": null,
+      "locations": [],
+      "evidence_links": []
+    }
+  }
+}

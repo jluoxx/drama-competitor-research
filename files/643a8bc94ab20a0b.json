@@ -1,0 +1,140 @@
+[
+  {
+    "package": "com.smartnettools.studio.dramapop",
+    "apks": 3,
+    "dexes": 8,
+    "classes": 61070,
+    "libs": 35,
+    "profiles": [
+      {
+        "name": "360加固",
+        "classes": 0,
+        "files": 0
+      },
+      {
+        "name": "爱加密类",
+        "classes": 0,
+        "files": 0
+      },
+      {
+        "name": "梆梆类",
+        "classes": 0,
+        "files": 0
+      },
+      {
+        "name": "腾讯乐固",
+        "classes": 0,
+        "files": 0
+      },
+      {
+        "name": "Pairip",
+        "classes": 37,
+        "files": 0
+      }
+    ],
+    "inheritance": [
+      {
+        "class": "com.pairip.application.Application",
+        "super": "Lcom/freetools/freereels/FreereelsApp;",
+        "dex": "classes.dex"
+      },
+      {
+        "class": "com.pairip.licensecheck.ILicenseV2ResultListener",
+        "super": "Ljava/lang/Object;",
+        "dex": "classes.dex"
+      }
+    ]
+  },
+  {
+    "package": "com.sunriseskywaysnake",
+    "apks": 25,
+    "dexes": 14,
+    "classes": 106748,
+    "libs": 40,
+    "profiles": [
+      {
+        "name": "360加固",
+        "classes": 0,
+        "files": 0
+      },
+      {
+        "name": "爱加密类",
+        "classes": 0,
+        "files": 0
+      },
+      {
+        "name": "梆梆类",
+        "classes": 0,
+        "files": 0
+      },
+      {
+        "name": "腾讯乐固",
+        "classes": 0,
+        "files": 0
+      },
+      {
+        "name": "Pairip",
+        "classes": 38,
+        "files": 0
+      }
+    ],
+    "inheritance": [
+      {
+        "class": "com.pairip.application.Application",
+        "super": "Lcom/kingtar/work/TZApp;",
+        "dex": "classes2.dex"
+      },
+      {
+        "class": "com.pairip.licensecheck.ILicenseV2ResultListener",
+        "super": "Ljava/lang/Object;",
+        "dex": "classes2.dex"
+      }
+    ]
+  },
+  {
+    "package": "com.xj.cash.drama",
+    "apks": 25,
+    "dexes": 13,
+    "classes": 106700,
+    "libs": 40,
+    "profiles": [
+      {
+        "name": "360加固",
+        "classes": 0,
+        "files": 0
+      },
+      {
+        "name": "爱加密类",
+        "classes": 0,
+        "files": 0
+      },
+      {
+        "name": "梆梆类",
+        "classes": 0,
+        "files": 0
+      },
+      {
+        "name": "腾讯乐固",
+        "classes": 0,
+        "files": 0
+      },
+      {
+        "name": "Pairip",
+        "classes": 38,
+        "files": 0
+      }
+    ],
+    "inheritance": [
+      {
+        "class": "com.pairip.application.Application",
+        "super": "Lcom/kingtar/work/TZApp;",
+        "dex": "classes2.dex"
+      },
+      {
+        "class": "com.pairip.licensecheck.ILicenseV2ResultListener",
+        "super": "Ljava/lang/Object;",
+        "dex": "classes2.dex"
+      }
+    ]
+  }
+]

@@ -1,0 +1,1347 @@
+CLASS Ltc2;
+FIELD a 
+FIELD b 
+FIELD c 
+FIELD d 
+FIELD e 
+FIELD f 
+FIELD g 
+FIELD h 
+FIELD i 
+FIELD j 
+FIELD k 
+FIELD l 
+FIELD m 
+FIELD n 
+FIELD o 
+FIELD p 
+FIELD q 
+FIELD r 
+FIELD s 
+FIELD t 
+FIELD u 
+
+METHOD <clinit> ()V
+000000: new-instance v0, Ltc2;
+000004: invoke-direct v0, Ltc2;-><init>()V
+00000a: sput-object v0, Ltc2;->a Ltc2;
+00000e: const-string v0, "{
+    "user_daily_max_ad_count": 100,
+    "drama_priority_interstitial_ad_count": 6,
+    "new_user_reward": 60,
+    "new_user_reward_list": {
+        "BRL": 60,
+        "IDR": 180000,
+        "VND": 300000,
+        "PHP": 600,
+        "MYR": 60,
+        "EUR": 60,
+        "JPY": 1800,
+        "KRW": 12000,
+        "THB": 360,
+        "CNY": 60,
+        "PKR": 3000,
+        "MXN": 60,
+        "CLP": 60,
+        "NGN": 18000,
+        "KZT": 6000,
+        "RUB": 1200
+    },
+    "user_agreement": "https://www.privacypolicies.com/live/e607e87b-08c2-433e-b1eb-5de7b92b51dd",
+    "privacy_policy": "https://www.privacypolicies.com/live/e607e87b-08c2-433e-b1eb-5de7b92b51dd",
+    "home_circle_icon": {
+        "enable": true,
+        "interval": 30,
+        "auto_popup_enable": true,
+        "auto_popup_delay_interval": 0
+    },
+    "super": {
+        "enable": false,
+        "play_seconds": 0
+    },
+    "sign_in": {
+        "first_enable": false,
+        "home_enable": false
+    },
+    "disable_screenshot": false,
+    "ad_incentive": {
+        "interstitial_enable": false,
+        "interstitial_double": false
+    },
+    "ad_splash": {
+        "switch_rate": 100,
+        "switch_sec": 15,
+        "switch_num": 4
+    },
+    "ad_interstitial": {
+        "drama_num": 1
+    }
+}"
+000012: sput-object v0, Ltc2;->b Ljava/lang/String;
+000016: const-string v0, ""
+00001a: sput-object v0, Ltc2;->c Ljava/lang/String;
+00001e: sput-object v0, Ltc2;->d Ljava/lang/String;
+000022: const-string v1, "{
+  "list_br": [
+    {"episodes":2,"rewardAmount":5,"minReward":1,"maxReward":3},
+    {"episodes":3,"rewardAmount":5,"minReward":1,"maxReward":3},
+    {"episodes":6,"rewardAmount":5,"minReward":1,"maxReward":3},
+    {"episodes":9,"rewardAmount":5,"minReward":1,"maxReward":3},
+    {"episodes":12,"rewardAmount":5,"minReward":1,"maxReward":3},
+    {"episodes":15,"rewardAmount":5,"minReward":1,"maxReward":3},
+    {"episodes":18,"rewardAmount":5,"minReward":1,"maxReward":3},
+    {"episodes":24,"rewardAmount":5,"minReward":1,"maxReward":3},
+    {"episodes":30,"rewardAmount":5,"minReward":1,"maxReward":3},
+    {"episodes":36,"rewardAmount":5,"minReward":1,"maxReward":3},
+    {"episodes":42,"rewardAmount":5,"minReward":1,"maxReward":3},
+    {"episodes":48,"rewardAmount":5,"minReward":1,"maxReward":3},
+    {"episodes":54,"rewardAmount":5,"minReward":1,"maxReward":3},
+    {"episodes":60,"rewardAmount":5,"minReward":1,"maxReward":3},
+    {"episodes":66,"rewardAmount":5,"minReward":1,"maxReward":3},
+    {"episodes":72,"rewardAmount":5,"minReward":1,"maxReward":3},
+    {"episodes":78,"rewardAmount":5,"minReward":1,"maxReward":3},
+    {"episodes":84,"rewardAmount":5,"minReward":1,"maxReward":3},
+    {"episodes":90,"rewardAmount":5,"minReward":1,"maxReward":3}
+  ],
+  "list_id": [
+    {"episodes":2,"rewardAmount":5000,"minReward":100,"maxReward":300},
+    {"episodes":3,"rewardAmount":5000,"minReward":100,"maxReward":300},
+    {"episodes":6,"rewardAmount":5000,"minReward":100,"maxReward":300},
+    {"episodes":9,"rewardAmount":5000,"minReward":100,"maxReward":300},
+    {"episodes":12,"rewardAmount":5000,"minReward":100,"maxReward":300},
+    {"episodes":15,"rewardAmount":5000,"minReward":100,"maxReward":300},
+    {"episodes":18,"rewardAmount":5000,"minReward":100,"maxReward":300},
+    {"episodes":24,"rewardAmount":5000,"minReward":100,"maxReward":300},
+    {"episodes":30,"rewardAmount":5000,"minReward":100,"maxReward":300},
+    {"episodes":36,"rewardAmount":5000,"minReward":100,"maxReward":300},
+    {"episodes":42,"rewardAmount":5000,"minReward":100,"maxReward":300},
+    {"episodes":48,"rewardAmount":5000,"minReward":100,"maxReward":300},
+    {"episodes":54,"rewardAmount":5000,"minReward":100,"maxReward":300},
+    {"episodes":60,"rewardAmount":5000,"minReward":100,"maxReward":300},
+    {"episodes":66,"rewardAmount":5000,"minReward":100,"maxReward":300},
+    {"episodes":72,"rewardAmount":5000,"minReward":100,"maxReward":300},
+    {"episodes":78,"rewardAmount":5000,"minReward":100,"maxReward":300},
+    {"episodes":84,"rewardAmount":5000,"minReward":100,"maxReward":300},
+    {"episodes":90,"rewardAmount":5000,"minReward":100,"maxReward":300}
+  ]
+}"
+000026: sput-object v1, Ltc2;->e Ljava/lang/String;
+00002a: sput-object v0, Ltc2;->f Ljava/lang/String;
+00002e: sput-object v0, Ltc2;->g Ljava/lang/String;
+000032: sput-object v0, Ltc2;->h Ljava/lang/String;
+000036: new-instance v0, Lcom/engine/frame/base/SingleLiveEvent;
+00003a: invoke-direct v0, Lcom/engine/frame/base/SingleLiveEvent;-><init>()V
+000040: sput-object v0, Ltc2;->i Lcom/engine/frame/base/SingleLiveEvent;
+000044: new-instance v0, Lcom/engine/frame/base/SingleLiveEvent;
+000048: invoke-direct v0, Lcom/engine/frame/base/SingleLiveEvent;-><init>()V
+00004e: sput-object v0, Ltc2;->j Lcom/engine/frame/base/SingleLiveEvent;
+000052: new-instance v0, Lcom/engine/frame/base/SingleLiveEvent;
+000056: invoke-direct v0, Lcom/engine/frame/base/SingleLiveEvent;-><init>()V
+00005c: sput-object v0, Ltc2;->k Lcom/engine/frame/base/SingleLiveEvent;
+000060: new-instance v0, Lcom/engine/frame/base/SingleLiveEvent;
+000064: invoke-direct v0, Lcom/engine/frame/base/SingleLiveEvent;-><init>()V
+00006a: sput-object v0, Ltc2;->l Lcom/engine/frame/base/SingleLiveEvent;
+00006e: new-instance v0, Lcom/engine/frame/base/SingleLiveEvent;
+000072: invoke-direct v0, Lcom/engine/frame/base/SingleLiveEvent;-><init>()V
+000078: sput-object v0, Ltc2;->m Lcom/engine/frame/base/SingleLiveEvent;
+00007c: new-instance v0, Lcom/engine/frame/base/SingleLiveEvent;
+000080: invoke-direct v0, Lcom/engine/frame/base/SingleLiveEvent;-><init>()V
+000086: sput-object v0, Ltc2;->n Lcom/engine/frame/base/SingleLiveEvent;
+00008a: new-instance v0, Lcom/engine/frame/base/SingleLiveEvent;
+00008e: invoke-direct v0, Lcom/engine/frame/base/SingleLiveEvent;-><init>()V
+000094: sput-object v0, Ltc2;->o Lcom/engine/frame/base/SingleLiveEvent;
+000098: new-instance v0, Lcom/engine/frame/base/SingleLiveEvent;
+00009c: invoke-direct v0, Lcom/engine/frame/base/SingleLiveEvent;-><init>()V
+0000a2: sput-object v0, Ltc2;->p Lcom/engine/frame/base/SingleLiveEvent;
+0000a6: new-instance v0, Lcom/engine/frame/base/SingleLiveEvent;
+0000aa: invoke-direct v0, Lcom/engine/frame/base/SingleLiveEvent;-><init>()V
+0000b0: sput-object v0, Ltc2;->q Lcom/engine/frame/base/SingleLiveEvent;
+0000b4: new-instance v0, Lcom/engine/frame/base/SingleLiveEvent;
+0000b8: invoke-direct v0, Lcom/engine/frame/base/SingleLiveEvent;-><init>()V
+0000be: sput-object v0, Ltc2;->r Lcom/engine/frame/base/SingleLiveEvent;
+0000c2: const/4 v0, 0
+0000c4: invoke-static v0, Lkotlinx/coroutines/flow/u;->a(Ljava/lang/Object;)Li34;
+0000ca: move-result-object v1
+0000cc: sput-object v1, Ltc2;->s Li34;
+0000d0: invoke-static v0, Lkotlinx/coroutines/flow/u;->a(Ljava/lang/Object;)Li34;
+0000d6: move-result-object v0
+0000d8: sput-object v0, Ltc2;->t Li34;
+0000dc: return-void 
+
+METHOD <init> ()V
+000000: invoke-direct v0, Ljava/lang/Object;-><init>()V
+000006: return-void 
+
+METHOD A (Ljava/util/Map; Ljava/lang/String;)Ljava/lang/String;
+000000: invoke-interface v1, v2, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+000006: move-result-object v1
+000008: check-cast v1, Ljava/lang/String;
+00000c: if-nez v1, +003h
+000010: goto +2h
+000012: move-object v2, v1
+000014: new-instance v1, Ljava/lang/StringBuilder;
+000018: invoke-direct v1, Ljava/lang/StringBuilder;-><init>()V
+00001e: const-string v0, "获取realKey "
+000022: invoke-virtual v1, v0, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+000028: invoke-virtual v1, v2, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+00002e: invoke-virtual v1, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+000034: move-result-object v1
+000036: const-string v0, "FirebaseConfigModel"
+00003a: invoke-static v0, v1, Lwe3;->g(Ljava/lang/String; Ljava/lang/String;)V
+000040: return-object v2
+
+METHOD a (Lkotlin/jvm/functions/Function1; Ljava/lang/Object;)V
+000000: invoke-static v0, v1, Ltc2;->w(Lkotlin/jvm/functions/Function1; Ljava/lang/Object;)V
+000006: return-void 
+
+METHOD b (Ljava/lang/Exception;)V
+000000: invoke-static v0, Ltc2;->u(Ljava/lang/Exception;)V
+000006: return-void 
+
+METHOD c (Ljava/lang/Boolean;)Lkotlin/Unit;
+000000: invoke-static v0, Ltc2;->v(Ljava/lang/Boolean;)Lkotlin/Unit;
+000006: move-result-object v0
+000008: return-object v0
+
+METHOD d (Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig; Lcom/google/android/gms/tasks/Task;)V
+000000: invoke-static v0, v1, Ltc2;->x(Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig; Lcom/google/android/gms/tasks/Task;)V
+000006: return-void 
+
+METHOD e (Ltc2; Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;)V
+000000: invoke-direct v0, v1, Ltc2;->z(Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;)V
+000006: return-void 
+
+METHOD f (Lcom/kingtar/work/model/entities/GlobalTaskConfig;)V
+000000: if-eqz v6, +048h
+000004: invoke-virtual v6, Lcom/kingtar/work/model/entities/GlobalTaskConfig;->getList_br()Ljava/util/List;
+00000a: move-result-object v0
+00000c: check-cast v0, Ljava/lang/Iterable;
+000010: invoke-interface v0, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+000016: move-result-object v0
+000018: const/4 v1, 0
+00001a: move v2, v1
+00001c: invoke-interface v0, Ljava/util/Iterator;->hasNext()Z
+000022: move-result v3
+000024: if-eqz v3, +014h
+000028: invoke-interface v0, Ljava/util/Iterator;->next()Ljava/lang/Object;
+00002e: move-result-object v3
+000030: add-int/lit8 v4, v2, 1
+000034: if-gez v2, +005h
+000038: invoke-static Lkotlin/collections/CollectionsKt;->throwIndexOverflow()V
+00003e: check-cast v3, Lcom/kingtar/work/model/entities/TaskItem;
+000042: invoke-virtual v3, v2, Lcom/kingtar/work/model/entities/TaskItem;->setId(I)V
+000048: move v2, v4
+00004a: goto -17h
+00004c: invoke-virtual v6, Lcom/kingtar/work/model/entities/GlobalTaskConfig;->getList_id()Ljava/util/List;
+000052: move-result-object v6
+000054: check-cast v6, Ljava/lang/Iterable;
+000058: invoke-interface v6, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+00005e: move-result-object v6
+000060: invoke-interface v6, Ljava/util/Iterator;->hasNext()Z
+000066: move-result v0
+000068: if-eqz v0, +014h
+00006c: invoke-interface v6, Ljava/util/Iterator;->next()Ljava/lang/Object;
+000072: move-result-object v0
+000074: add-int/lit8 v2, v1, 1
+000078: if-gez v1, +005h
+00007c: invoke-static Lkotlin/collections/CollectionsKt;->throwIndexOverflow()V
+000082: check-cast v0, Lcom/kingtar/work/model/entities/TaskItem;
+000086: invoke-virtual v0, v1, Lcom/kingtar/work/model/entities/TaskItem;->setId(I)V
+00008c: move v1, v2
+00008e: goto -17h
+000090: return-void 
+
+METHOD u (Ljava/lang/Exception;)V
+000000: const-string v0, "it"
+000004: invoke-static v2, v0, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object; Ljava/lang/String;)V
+00000a: const-string v0, "FirebaseConfigModel fetchAndActivate fail"
+00000e: invoke-static v0, Lwe3;->a(Ljava/lang/String;)V
+000014: new-instance v0, Ljava/lang/StringBuilder;
+000018: invoke-direct v0, Ljava/lang/StringBuilder;-><init>()V
+00001e: const-string v1, "fetchAndActivate fail "
+000022: invoke-virtual v0, v1, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+000028: invoke-virtual v2, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+00002e: move-result-object v1
+000030: invoke-virtual v0, v1, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+000036: const/16 v1, 32
+00003a: invoke-virtual v0, v1, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+000040: invoke-virtual v2, Ljava/lang/Throwable;->getCause()Ljava/lang/Throwable;
+000046: move-result-object v2
+000048: invoke-virtual v0, v2, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+00004e: invoke-virtual v0, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+000054: move-result-object v2
+000056: const-string v0, "FirebaseConfigModel"
+00005a: invoke-static v0, v2, Lwe3;->g(Ljava/lang/String; Ljava/lang/String;)V
+000060: return-void 
+
+METHOD v (Ljava/lang/Boolean;)Lkotlin/Unit;
+000000: const-string v1, "FirebaseConfigModel fetchAndActivate suc"
+000004: invoke-static v1, Lwe3;->a(Ljava/lang/String;)V
+00000a: const-string v1, "FirebaseConfigModel"
+00000e: const-string v0, "fetchAndActivate suc"
+000012: invoke-static v1, v0, Lwe3;->g(Ljava/lang/String; Ljava/lang/String;)V
+000018: sget-object v1, Lkotlin/Unit;->INSTANCE Lkotlin/Unit;
+00001c: return-object v1
+
+METHOD w (Lkotlin/jvm/functions/Function1; Ljava/lang/Object;)V
+000000: invoke-interface v0, v1, Lkotlin/jvm/functions/Function1;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+000006: return-void 
+
+METHOD x (Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig; Lcom/google/android/gms/tasks/Task;)V
+000000: const-string v0, "it"
+000004: invoke-static v4, v0, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object; Ljava/lang/String;)V
+00000a: sget-object v0, Lsd2;->a Lsd2;
+00000e: invoke-virtual v4, Lcom/google/android/gms/tasks/Task;->isSuccessful()Z
+000014: move-result v1
+000016: if-eqz v1, +005h
+00001a: const-string v1, "success"
+00001e: goto +3h
+000020: const-string v1, "failed"
+000024: const-string v2, "remote_config_fetch_activate"
+000028: invoke-virtual v0, v2, v1, Lsd2;->k(Ljava/lang/String; Ljava/lang/String;)V
+00002e: const-string v0, "FirebaseConfigModel complete"
+000032: invoke-static v0, Lwe3;->a(Ljava/lang/String;)V
+000038: const-string v0, "fetchAndActivate complete "
+00003c: const-string v1, "FirebaseConfigModel"
+000040: invoke-static v1, v0, Lwe3;->g(Ljava/lang/String; Ljava/lang/String;)V
+000046: invoke-virtual v4, Lcom/google/android/gms/tasks/Task;->isSuccessful()Z
+00004c: move-result v0
+00004e: if-eqz v0, +04ah
+000052: invoke-virtual v4, Lcom/google/android/gms/tasks/Task;->getResult()Ljava/lang/Object;
+000058: move-result-object v4
+00005a: check-cast v4, Ljava/lang/Boolean;
+00005e: new-instance v0, Ljava/lang/StringBuilder;
+000062: invoke-direct v0, Ljava/lang/StringBuilder;-><init>()V
+000068: const-string v2, "配置是否更新 "
+00006c: invoke-virtual v0, v2, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+000072: invoke-virtual v0, v4, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+000078: invoke-virtual v0, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+00007e: move-result-object v4
+000080: invoke-static v1, v4, Lwe3;->g(Ljava/lang/String; Ljava/lang/String;)V
+000086: sget-object v4, Ltc2;->a Ltc2;
+00008a: invoke-direct v4, v3, Ltc2;->z(Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;)V
+000090: sget-object v3, Ltc2;->t Li34;
+000094: sget-object v4, Ljava/lang/Boolean;->TRUE Ljava/lang/Boolean;
+000098: invoke-interface v3, v4, Li34;->setValue(Ljava/lang/Object;)V
+00009e: goto +2eh
+0000a0: move-exception v3
+0000a2: sget-object v4, Ltc2;->t Li34;
+0000a6: sget-object v0, Ljava/lang/Boolean;->FALSE Ljava/lang/Boolean;
+0000aa: invoke-interface v4, v0, Li34;->setValue(Ljava/lang/Object;)V
+0000b0: new-instance v4, Ljava/lang/StringBuilder;
+0000b4: invoke-direct v4, Ljava/lang/StringBuilder;-><init>()V
+0000ba: const-string v0, "Firebase 远程配置处理失败: "
+0000be: invoke-virtual v4, v0, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+0000c4: invoke-virtual v3, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+0000ca: move-result-object v3
+0000cc: invoke-virtual v4, v3, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+0000d2: invoke-virtual v4, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+0000d8: move-result-object v3
+0000da: invoke-static v1, v3, Lwe3;->d(Ljava/lang/String; Ljava/lang/String;)V
+0000e0: goto +dh
+0000e2: sget-object v3, Ltc2;->t Li34;
+0000e6: sget-object v4, Ljava/lang/Boolean;->FALSE Ljava/lang/Boolean;
+0000ea: invoke-interface v3, v4, Li34;->setValue(Ljava/lang/Object;)V
+0000f0: const-string v3, "fetchAndActivate complete but failed"
+0000f4: invoke-static v1, v3, Lwe3;->g(Ljava/lang/String; Ljava/lang/String;)V
+0000fa: return-void 
+
+METHOD z (Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;)V
+000000: move-object/from16 v1, v26
+000004: const-string v2, "success"
+000008: const-string v3, "remote_config_pre_id_json_parse"
+00000c: const-string v4, "配置了，不再从远程读取"
+000010: const-string v5, "从远程读取"
+000014: const-string v6, "本地已经有"
+000018: const-string v7, "FirebaseConfigModel over"
+00001c: sget-wide v8, Ltc2;->u J
+000020: const-wide/16 v10, 0
+000024: cmp-long v0, v8, v10
+000028: const-string v8, "FirebaseConfigModel"
+00002c: if-eqz v0, +016h
+000030: invoke-static Ljava/lang/System;->currentTimeMillis()J
+000036: move-result-wide v9
+000038: sget-wide v11, Ltc2;->u J
+00003c: sub-long/2addr v9, v11
+00003e: const-wide/32 v11, 60000
+000044: cmp-long v0, v9, v11
+000048: if-gez v0, +008h
+00004c: const-string v0, "距离上次读取不超过1min，拒绝二次读取"
+000050: invoke-static v8, v0, Lwe3;->g(Ljava/lang/String; Ljava/lang/String;)V
+000056: return-void 
+000058: invoke-static Ljava/lang/System;->currentTimeMillis()J
+00005e: move-result-wide v9
+000060: sput-wide v9, Ltc2;->u J
+000064: sget-object v0, Lsd2;->a Lsd2;
+000068: const-string v9, "remote_config_read_parse"
+00006c: invoke-virtual v0, v9, Lsd2;->m(Ljava/lang/String;)V
+000072: const-string v0, "abTestGroup"
+000076: invoke-virtual v1, v0, Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;->getString(Ljava/lang/String;)Ljava/lang/String;
+00007c: move-result-object v0
+00007e: const-string v10, "getString(...)"
+000082: invoke-static v0, v10, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object; Ljava/lang/String;)V
+000088: new-instance v11, Ljava/lang/StringBuilder;
+00008c: invoke-direct v11, Ljava/lang/StringBuilder;-><init>()V
+000092: const-string v12, "人群分组 当前设备获取分组 >>> "
+000096: invoke-virtual v11, v12, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+00009c: invoke-virtual v11, v0, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+0000a2: invoke-virtual v11, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+0000a8: move-result-object v11
+0000aa: invoke-static v8, v11, Lwe3;->g(Ljava/lang/String; Ljava/lang/String;)V
+0000b0: sget-object v11, Lbm2;->a Lbm2;
+0000b4: invoke-virtual v11, v0, Lbm2;->t(Ljava/lang/String;)V
+0000ba: invoke-virtual v11, Lbm2;->b()Lcom/kingtar/work/repository/ABTestGroup;
+0000c0: move-result-object v0
+0000c2: new-instance v11, Ljava/util/ArrayList;
+0000c6: invoke-direct v11, Ljava/util/ArrayList;-><init>()V
+0000cc: const-string v12, "defaultConfigJson_v3"
+0000d0: invoke-interface v11, v12, Ljava/util/List;->add(Ljava/lang/Object;)Z
+0000d6: const-string v13, "taskConfigJson"
+0000da: invoke-interface v11, v13, Ljava/util/List;->add(Ljava/lang/Object;)Z
+0000e0: const-string v14, "withdrawConfigJson_v3"
+0000e4: invoke-interface v11, v14, Ljava/util/List;->add(Ljava/lang/Object;)Z
+0000ea: const-string v15, "rewardLevelConfigJson_v3"
+0000ee: invoke-interface v11, v15, Ljava/util/List;->add(Ljava/lang/Object;)Z
+0000f4: move-object/from16 v16, v9
+0000f8: const-string v9, "withdrawChannelConfigJson_v4"
+0000fc: invoke-interface v11, v9, Ljava/util/List;->add(Ljava/lang/Object;)Z
+000102: move-object/from16 v17, v2
+000106: const-string v2, "signListConfigJson_v2"
+00010a: invoke-interface v11, v2, Ljava/util/List;->add(Ljava/lang/Object;)Z
+000110: move-object/from16 v18, v3
+000114: const-string v3, "newUserRewardPopAdForce"
+000118: invoke-interface v11, v3, Ljava/util/List;->add(Ljava/lang/Object;)Z
+00011e: move-object/from16 v19, v3
+000122: const-string v3, "cashSignListConfigJson_v3"
+000126: invoke-interface v11, v3, Ljava/util/List;->add(Ljava/lang/Object;)Z
+00012c: move-object/from16 v20, v3
+000130: const-string v3, "retention_strategy"
+000134: invoke-interface v11, v3, Ljava/util/List;->add(Ljava/lang/Object;)Z
+00013a: move-object/from16 v21, v3
+00013e: new-instance v3, Ljava/util/LinkedHashMap;
+000142: invoke-direct v3, Ljava/util/LinkedHashMap;-><init>()V
+000148: sget-object v22, Ltc2$a;->$EnumSwitchMapping$0 [I
+00014c: invoke-virtual v0, Ljava/lang/Enum;->ordinal()I
+000152: move-result v0
+000154: aget v0, v22, v0
+000158: move-object/from16 v22, v2
+00015c: const-string v2, "getAll(...)"
+000160: packed-switch v0, +0000574h
+000166: move-object/from16 v24, v9
+00016a: invoke-interface v11, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+000170: move-result-object v0
+000172: goto/16 +14ah
+000176: invoke-virtual/range v26, Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;->getAll()Ljava/util/Map;
+00017c: move-result-object v0
+00017e: invoke-static v0, v2, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object; Ljava/lang/String;)V
+000184: invoke-interface v11, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+00018a: move-result-object v2
+00018c: invoke-interface v2, Ljava/util/Iterator;->hasNext()Z
+000192: move-result v11
+000194: if-eqz v11, +02fh
+000198: invoke-interface v2, Ljava/util/Iterator;->next()Ljava/lang/Object;
+00019e: move-result-object v11
+0001a0: check-cast v11, Ljava/lang/String;
+0001a4: move-object/from16 v23, v2
+0001a8: new-instance v2, Ljava/lang/StringBuilder;
+0001ac: invoke-direct v2, Ljava/lang/StringBuilder;-><init>()V
+0001b2: invoke-virtual v2, v11, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+0001b8: move-object/from16 v24, v9
+0001bc: const-string v9, "_F"
+0001c0: invoke-virtual v2, v9, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+0001c6: invoke-virtual v2, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+0001cc: move-result-object v2
+0001ce: invoke-interface v0, v2, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
+0001d4: move-result v9
+0001d6: if-eqz v9, +006h
+0001da: invoke-interface v3, v11, v2, Ljava/util/Map;->put(Ljava/lang/Object; Ljava/lang/Object;)Ljava/lang/Object;
+0001e0: goto +4h
+0001e2: invoke-interface v3, v11, v11, Ljava/util/Map;->put(Ljava/lang/Object; Ljava/lang/Object;)Ljava/lang/Object;
+0001e8: move-object/from16 v2, v23
+0001ec: move-object/from16 v9, v24
+0001f0: goto -32h
+0001f2: move-object/from16 v24, v9
+0001f6: goto/16 +118h
+0001fa: move-object/from16 v24, v9
+0001fe: invoke-virtual/range v26, Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;->getAll()Ljava/util/Map;
+000204: move-result-object v0
+000206: invoke-static v0, v2, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object; Ljava/lang/String;)V
+00020c: invoke-interface v11, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+000212: move-result-object v2
+000214: invoke-interface v2, Ljava/util/Iterator;->hasNext()Z
+00021a: move-result v9
+00021c: if-eqz v9, +105h
+000220: invoke-interface v2, Ljava/util/Iterator;->next()Ljava/lang/Object;
+000226: move-result-object v9
+000228: check-cast v9, Ljava/lang/String;
+00022c: new-instance v11, Ljava/lang/StringBuilder;
+000230: invoke-direct v11, Ljava/lang/StringBuilder;-><init>()V
+000236: invoke-virtual v11, v9, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+00023c: move-object/from16 v23, v2
+000240: const-string v2, "_E"
+000244: invoke-virtual v11, v2, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+00024a: invoke-virtual v11, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+000250: move-result-object v2
+000252: invoke-interface v0, v2, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
+000258: move-result v11
+00025a: if-eqz v11, +006h
+00025e: invoke-interface v3, v9, v2, Ljava/util/Map;->put(Ljava/lang/Object; Ljava/lang/Object;)Ljava/lang/Object;
+000264: goto +4h
+000266: invoke-interface v3, v9, v9, Ljava/util/Map;->put(Ljava/lang/Object; Ljava/lang/Object;)Ljava/lang/Object;
+00026c: move-object/from16 v2, v23
+000270: goto -2eh
+000272: move-object/from16 v24, v9
+000276: invoke-virtual/range v26, Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;->getAll()Ljava/util/Map;
+00027c: move-result-object v0
+00027e: invoke-static v0, v2, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object; Ljava/lang/String;)V
+000284: invoke-interface v11, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+00028a: move-result-object v2
+00028c: invoke-interface v2, Ljava/util/Iterator;->hasNext()Z
+000292: move-result v9
+000294: if-eqz v9, +0c9h
+000298: invoke-interface v2, Ljava/util/Iterator;->next()Ljava/lang/Object;
+00029e: move-result-object v9
+0002a0: check-cast v9, Ljava/lang/String;
+0002a4: new-instance v11, Ljava/lang/StringBuilder;
+0002a8: invoke-direct v11, Ljava/lang/StringBuilder;-><init>()V
+0002ae: invoke-virtual v11, v9, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+0002b4: move-object/from16 v23, v2
+0002b8: const-string v2, "_D"
+0002bc: invoke-virtual v11, v2, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+0002c2: invoke-virtual v11, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+0002c8: move-result-object v2
+0002ca: invoke-interface v0, v2, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
+0002d0: move-result v11
+0002d2: if-eqz v11, +006h
+0002d6: invoke-interface v3, v9, v2, Ljava/util/Map;->put(Ljava/lang/Object; Ljava/lang/Object;)Ljava/lang/Object;
+0002dc: goto +4h
+0002de: invoke-interface v3, v9, v9, Ljava/util/Map;->put(Ljava/lang/Object; Ljava/lang/Object;)Ljava/lang/Object;
+0002e4: move-object/from16 v2, v23
+0002e8: goto -2eh
+0002ea: move-object/from16 v24, v9
+0002ee: invoke-virtual/range v26, Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;->getAll()Ljava/util/Map;
+0002f4: move-result-object v0
+0002f6: invoke-static v0, v2, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object; Ljava/lang/String;)V
+0002fc: invoke-interface v11, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+000302: move-result-object v2
+000304: invoke-interface v2, Ljava/util/Iterator;->hasNext()Z
+00030a: move-result v9
+00030c: if-eqz v9, +08dh
+000310: invoke-interface v2, Ljava/util/Iterator;->next()Ljava/lang/Object;
+000316: move-result-object v9
+000318: check-cast v9, Ljava/lang/String;
+00031c: new-instance v11, Ljava/lang/StringBuilder;
+000320: invoke-direct v11, Ljava/lang/StringBuilder;-><init>()V
+000326: invoke-virtual v11, v9, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+00032c: move-object/from16 v23, v2
+000330: const-string v2, "_C"
+000334: invoke-virtual v11, v2, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+00033a: invoke-virtual v11, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+000340: move-result-object v2
+000342: invoke-interface v0, v2, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
+000348: move-result v11
+00034a: if-eqz v11, +006h
+00034e: invoke-interface v3, v9, v2, Ljava/util/Map;->put(Ljava/lang/Object; Ljava/lang/Object;)Ljava/lang/Object;
+000354: goto +4h
+000356: invoke-interface v3, v9, v9, Ljava/util/Map;->put(Ljava/lang/Object; Ljava/lang/Object;)Ljava/lang/Object;
+00035c: move-object/from16 v2, v23
+000360: goto -2eh
+000362: move-object/from16 v24, v9
+000366: invoke-virtual/range v26, Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;->getAll()Ljava/util/Map;
+00036c: move-result-object v0
+00036e: invoke-static v0, v2, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object; Ljava/lang/String;)V
+000374: invoke-interface v11, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+00037a: move-result-object v2
+00037c: invoke-interface v2, Ljava/util/Iterator;->hasNext()Z
+000382: move-result v9
+000384: if-eqz v9, +051h
+000388: invoke-interface v2, Ljava/util/Iterator;->next()Ljava/lang/Object;
+00038e: move-result-object v9
+000390: check-cast v9, Ljava/lang/String;
+000394: new-instance v11, Ljava/lang/StringBuilder;
+000398: invoke-direct v11, Ljava/lang/StringBuilder;-><init>()V
+00039e: invoke-virtual v11, v9, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+0003a4: move-object/from16 v23, v2
+0003a8: const-string v2, "_B"
+0003ac: invoke-virtual v11, v2, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+0003b2: invoke-virtual v11, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+0003b8: move-result-object v2
+0003ba: invoke-interface v0, v2, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
+0003c0: move-result v11
+0003c2: if-eqz v11, +006h
+0003c6: invoke-interface v3, v9, v2, Ljava/util/Map;->put(Ljava/lang/Object; Ljava/lang/Object;)Ljava/lang/Object;
+0003cc: goto +4h
+0003ce: invoke-interface v3, v9, v9, Ljava/util/Map;->put(Ljava/lang/Object; Ljava/lang/Object;)Ljava/lang/Object;
+0003d4: move-object/from16 v2, v23
+0003d8: goto -2eh
+0003da: move-object/from16 v24, v9
+0003de: invoke-interface v11, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+0003e4: move-result-object v0
+0003e6: invoke-interface v0, Ljava/util/Iterator;->hasNext()Z
+0003ec: move-result v2
+0003ee: if-eqz v2, +01ch
+0003f2: invoke-interface v0, Ljava/util/Iterator;->next()Ljava/lang/Object;
+0003f8: move-result-object v2
+0003fa: check-cast v2, Ljava/lang/String;
+0003fe: invoke-interface v3, v2, v2, Ljava/util/Map;->put(Ljava/lang/Object; Ljava/lang/Object;)Ljava/lang/Object;
+000404: goto -fh
+000406: invoke-interface v0, Ljava/util/Iterator;->hasNext()Z
+00040c: move-result v2
+00040e: if-eqz v2, +00ch
+000412: invoke-interface v0, Ljava/util/Iterator;->next()Ljava/lang/Object;
+000418: move-result-object v2
+00041a: check-cast v2, Ljava/lang/String;
+00041e: invoke-interface v3, v2, v2, Ljava/util/Map;->put(Ljava/lang/Object; Ljava/lang/Object;)Ljava/lang/Object;
+000424: goto -fh
+000426: invoke-static v3, v12, Ltc2;->A(Ljava/util/Map; Ljava/lang/String;)Ljava/lang/String;
+00042c: move-result-object v0
+00042e: invoke-virtual v1, v0, Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;->getString(Ljava/lang/String;)Ljava/lang/String;
+000434: move-result-object v0
+000436: invoke-static v0, v10, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object; Ljava/lang/String;)V
+00043c: new-instance v2, Ljava/lang/StringBuilder;
+000440: invoke-direct v2, Ljava/lang/StringBuilder;-><init>()V
+000446: const-string v9, "读取config "
+00044a: invoke-virtual v2, v9, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+000450: invoke-virtual v2, v0, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+000456: invoke-virtual v2, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+00045c: move-result-object v2
+00045e: invoke-static v8, v2, Lwe3;->g(Ljava/lang/String; Ljava/lang/String;)V
+000464: const-class v2, Lcom/kingtar/work/model/entities/GlobalConfigEntity;
+000468: invoke-static v0, v2, Lcom/blankj/utilcode/util/h;->c(Ljava/lang/String; Ljava/lang/Class;)Ljava/lang/Object;
+00046e: move-result-object v0
+000470: check-cast v0, Lcom/kingtar/work/model/entities/GlobalConfigEntity;
+000474: invoke-static v0, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+00047a: move-result-object v2
+00047c: invoke-static v8, v2, Lwe3;->g(Ljava/lang/String; Ljava/lang/String;)V
+000482: invoke-static v7, Lwe3;->a(Ljava/lang/String;)V
+000488: sget-object v2, Ltc2;->i Lcom/engine/frame/base/SingleLiveEvent;
+00048c: invoke-virtual v2, v0, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
+000492: goto +1ah
+000494: move-exception v0
+000496: new-instance v2, Ljava/lang/StringBuilder;
+00049a: invoke-direct v2, Ljava/lang/StringBuilder;-><init>()V
+0004a0: const-string v9, "setting config parse json err "
+0004a4: invoke-virtual v2, v9, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+0004aa: invoke-virtual v0, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+0004b0: move-result-object v0
+0004b2: invoke-virtual v2, v0, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+0004b8: invoke-virtual v2, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+0004be: move-result-object v0
+0004c0: invoke-static v8, v0, Lwe3;->g(Ljava/lang/String; Ljava/lang/String;)V
+0004c6: invoke-static v3, v13, Ltc2;->A(Ljava/util/Map; Ljava/lang/String;)Ljava/lang/String;
+0004cc: move-result-object v0
+0004ce: invoke-virtual v1, v0, Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;->getString(Ljava/lang/String;)Ljava/lang/String;
+0004d4: move-result-object v0
+0004d6: invoke-static v0, v10, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object; Ljava/lang/String;)V
+0004dc: new-instance v2, Ljava/lang/StringBuilder;
+0004e0: invoke-direct v2, Ljava/lang/StringBuilder;-><init>()V
+0004e6: const-string v9, "读取任务列表config "
+0004ea: invoke-virtual v2, v9, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+0004f0: invoke-virtual v2, v0, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+0004f6: invoke-virtual v2, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+0004fc: move-result-object v2
+0004fe: invoke-static v8, v2, Lwe3;->g(Ljava/lang/String; Ljava/lang/String;)V
+000504: const-class v2, Lcom/kingtar/work/model/entities/GlobalTaskConfig;
+000508: invoke-static v0, v2, Lcom/blankj/utilcode/util/h;->c(Ljava/lang/String; Ljava/lang/Class;)Ljava/lang/Object;
+00050e: move-result-object v0
+000510: move-object v2, v0
+000512: check-cast v2, Lcom/kingtar/work/model/entities/GlobalTaskConfig;
+000516: sget-object v9, Ltc2;->a Ltc2;
+00051a: invoke-direct v9, v2, Ltc2;->f(Lcom/kingtar/work/model/entities/GlobalTaskConfig;)V
+000520: check-cast v0, Lcom/kingtar/work/model/entities/GlobalTaskConfig;
+000524: invoke-static v0, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+00052a: move-result-object v2
+00052c: invoke-static v8, v2, Lwe3;->g(Ljava/lang/String; Ljava/lang/String;)V
+000532: invoke-static v7, Lwe3;->a(Ljava/lang/String;)V
+000538: sget-object v2, Ltc2;->j Lcom/engine/frame/base/SingleLiveEvent;
+00053c: invoke-virtual v2, v0, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
+000542: sget-object v2, Lbm2;->a Lbm2;
+000546: invoke-virtual v2, v0, Lbm2;->B(Lcom/kingtar/work/model/entities/GlobalTaskConfig;)V
+00054c: goto +1ah
+00054e: move-exception v0
+000550: new-instance v2, Ljava/lang/StringBuilder;
+000554: invoke-direct v2, Ljava/lang/StringBuilder;-><init>()V
+00055a: const-string v9, "task config parse json err "
+00055e: invoke-virtual v2, v9, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+000564: invoke-virtual v0, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+00056a: move-result-object v0
+00056c: invoke-virtual v2, v0, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+000572: invoke-virtual v2, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+000578: move-result-object v0
+00057a: invoke-static v8, v0, Lwe3;->g(Ljava/lang/String; Ljava/lang/String;)V
+000580: invoke-static v3, v14, Ltc2;->A(Ljava/util/Map; Ljava/lang/String;)Ljava/lang/String;
+000586: move-result-object v0
+000588: invoke-virtual v1, v0, Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;->getString(Ljava/lang/String;)Ljava/lang/String;
+00058e: move-result-object v0
+000590: invoke-static v0, v10, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object; Ljava/lang/String;)V
+000596: new-instance v2, Ljava/lang/StringBuilder;
+00059a: invoke-direct v2, Ljava/lang/StringBuilder;-><init>()V
+0005a0: const-string v9, "读取提现列表config "
+0005a4: invoke-virtual v2, v9, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+0005aa: invoke-virtual v2, v0, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+0005b0: invoke-virtual v2, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+0005b6: move-result-object v2
+0005b8: invoke-static v8, v2, Lwe3;->g(Ljava/lang/String; Ljava/lang/String;)V
+0005be: sget-object v2, Lbm2;->a Lbm2;
+0005c2: invoke-virtual v2, Lbm2;->o()Lcom/kingtar/work/model/entities/GlobalWithdrawConfig;
+0005c8: move-result-object v9
+0005ca: if-eqz v9, +021h
+0005ce: new-instance v0, Ljava/lang/StringBuilder;
+0005d2: invoke-direct v0, Ljava/lang/StringBuilder;-><init>()V
+0005d8: invoke-virtual v0, v6, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+0005de: invoke-static v3, v14, Ltc2;->A(Ljava/util/Map; Ljava/lang/String;)Ljava/lang/String;
+0005e4: move-result-object v2
+0005e6: invoke-virtual v0, v2, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+0005ec: invoke-virtual v0, v4, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+0005f2: invoke-virtual v0, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+0005f8: move-result-object v0
+0005fa: invoke-static v8, v0, Lwe3;->g(Ljava/lang/String; Ljava/lang/String;)V
+000600: sget-object v0, Ltc2;->k Lcom/engine/frame/base/SingleLiveEvent;
+000604: invoke-virtual v0, v9, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
+00060a: goto +44h
+00060c: const-class v9, Lcom/kingtar/work/model/entities/GlobalWithdrawConfig;
+000610: invoke-static v0, v9, Lcom/blankj/utilcode/util/h;->c(Ljava/lang/String; Ljava/lang/Class;)Ljava/lang/Object;
+000616: move-result-object v0
+000618: check-cast v0, Lcom/kingtar/work/model/entities/GlobalWithdrawConfig;
+00061c: new-instance v9, Ljava/lang/StringBuilder;
+000620: invoke-direct v9, Ljava/lang/StringBuilder;-><init>()V
+000626: invoke-virtual v9, v5, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+00062c: invoke-static v3, v14, Ltc2;->A(Ljava/util/Map; Ljava/lang/String;)Ljava/lang/String;
+000632: move-result-object v11
+000634: invoke-virtual v9, v11, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+00063a: invoke-virtual v9, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+000640: move-result-object v9
+000642: invoke-static v8, v9, Lwe3;->g(Ljava/lang/String; Ljava/lang/String;)V
+000648: invoke-static v7, Lwe3;->a(Ljava/lang/String;)V
+00064e: sget-object v9, Ltc2;->k Lcom/engine/frame/base/SingleLiveEvent;
+000652: invoke-virtual v9, v0, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
+000658: invoke-virtual v2, v0, Lbm2;->D(Lcom/kingtar/work/model/entities/GlobalWithdrawConfig;)V
+00065e: goto +1ah
+000660: move-exception v0
+000662: new-instance v2, Ljava/lang/StringBuilder;
+000666: invoke-direct v2, Ljava/lang/StringBuilder;-><init>()V
+00066c: const-string v9, "withdraw config parse json err "
+000670: invoke-virtual v2, v9, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+000676: invoke-virtual v0, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+00067c: move-result-object v0
+00067e: invoke-virtual v2, v0, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+000684: invoke-virtual v2, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+00068a: move-result-object v0
+00068c: invoke-static v8, v0, Lwe3;->g(Ljava/lang/String; Ljava/lang/String;)V
+000692: invoke-static v3, v15, Ltc2;->A(Ljava/util/Map; Ljava/lang/String;)Ljava/lang/String;
+000698: move-result-object v0
+00069a: invoke-virtual v1, v0, Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;->getString(Ljava/lang/String;)Ljava/lang/String;
+0006a0: move-result-object v0
+0006a2: invoke-static v0, v10, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object; Ljava/lang/String;)V
+0006a8: new-instance v2, Ljava/lang/StringBuilder;
+0006ac: invoke-direct v2, Ljava/lang/StringBuilder;-><init>()V
+0006b2: const-string v9, "读取奖励机制config "
+0006b6: invoke-virtual v2, v9, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+0006bc: invoke-virtual v2, v0, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+0006c2: invoke-virtual v2, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+0006c8: move-result-object v2
+0006ca: invoke-static v8, v2, Lwe3;->g(Ljava/lang/String; Ljava/lang/String;)V
+0006d0: sget-object v2, Lbm2;->a Lbm2;
+0006d4: invoke-virtual v2, Lbm2;->k()Lcom/kingtar/work/model/entities/GlobalRewardLevelEntity;
+0006da: move-result-object v9
+0006dc: if-eqz v9, +021h
+0006e0: new-instance v0, Ljava/lang/StringBuilder;
+0006e4: invoke-direct v0, Ljava/lang/StringBuilder;-><init>()V
+0006ea: invoke-virtual v0, v6, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+0006f0: invoke-static v3, v15, Ltc2;->A(Ljava/util/Map; Ljava/lang/String;)Ljava/lang/String;
+0006f6: move-result-object v2
+0006f8: invoke-virtual v0, v2, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+0006fe: invoke-virtual v0, v4, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+000704: invoke-virtual v0, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+00070a: move-result-object v0
+00070c: invoke-static v8, v0, Lwe3;->g(Ljava/lang/String; Ljava/lang/String;)V
+000712: sget-object v0, Ltc2;->l Lcom/engine/frame/base/SingleLiveEvent;
+000716: invoke-virtual v0, v9, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
+00071c: goto +44h
+00071e: const-class v9, Lcom/kingtar/work/model/entities/GlobalRewardLevelEntity;
+000722: invoke-static v0, v9, Lcom/blankj/utilcode/util/h;->c(Ljava/lang/String; Ljava/lang/Class;)Ljava/lang/Object;
+000728: move-result-object v0
+00072a: check-cast v0, Lcom/kingtar/work/model/entities/GlobalRewardLevelEntity;
+00072e: new-instance v9, Ljava/lang/StringBuilder;
+000732: invoke-direct v9, Ljava/lang/StringBuilder;-><init>()V
+000738: invoke-virtual v9, v5, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+00073e: invoke-static v3, v15, Ltc2;->A(Ljava/util/Map; Ljava/lang/String;)Ljava/lang/String;
+000744: move-result-object v11
+000746: invoke-virtual v9, v11, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+00074c: invoke-virtual v9, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+000752: move-result-object v9
+000754: invoke-static v8, v9, Lwe3;->g(Ljava/lang/String; Ljava/lang/String;)V
+00075a: invoke-static v7, Lwe3;->a(Ljava/lang/String;)V
+000760: sget-object v9, Ltc2;->l Lcom/engine/frame/base/SingleLiveEvent;
+000764: invoke-virtual v9, v0, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
+00076a: invoke-virtual v2, v0, Lbm2;->z(Lcom/kingtar/work/model/entities/GlobalRewardLevelEntity;)V
+000770: goto +1ah
+000772: move-exception v0
+000774: new-instance v2, Ljava/lang/StringBuilder;
+000778: invoke-direct v2, Ljava/lang/StringBuilder;-><init>()V
+00077e: const-string v9, "reward_level config parse json err "
+000782: invoke-virtual v2, v9, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+000788: invoke-virtual v0, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+00078e: move-result-object v0
+000790: invoke-virtual v2, v0, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+000796: invoke-virtual v2, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+00079c: move-result-object v0
+00079e: invoke-static v8, v0, Lwe3;->g(Ljava/lang/String; Ljava/lang/String;)V
+0007a4: move-object/from16 v2, v24
+0007a8: invoke-static v3, v2, Ltc2;->A(Ljava/util/Map; Ljava/lang/String;)Ljava/lang/String;
+0007ae: move-result-object v0
+0007b0: invoke-virtual v1, v0, Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;->getString(Ljava/lang/String;)Ljava/lang/String;
+0007b6: move-result-object v0
+0007b8: invoke-static v0, v10, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object; Ljava/lang/String;)V
+0007be: new-instance v2, Ljava/lang/StringBuilder;
+0007c2: invoke-direct v2, Ljava/lang/StringBuilder;-><init>()V
+0007c8: const-string v9, "提现渠道列表配置 "
+0007cc: invoke-virtual v2, v9, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+0007d2: invoke-virtual v2, v0, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+0007d8: invoke-virtual v2, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+0007de: move-result-object v2
+0007e0: invoke-static v8, v2, Lwe3;->g(Ljava/lang/String; Ljava/lang/String;)V
+0007e6: sget-object v2, Ltc2;->m Lcom/engine/frame/base/SingleLiveEvent;
+0007ea: invoke-virtual v2, v0, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
+0007f0: sget-object v2, Lbm2;->a Lbm2;
+0007f4: invoke-virtual v2, v0, Lbm2;->C(Ljava/lang/String;)V
+0007fa: move-object/from16 v9, v22
+0007fe: invoke-static v3, v9, Ltc2;->A(Ljava/util/Map; Ljava/lang/String;)Ljava/lang/String;
+000804: move-result-object v0
+000806: invoke-virtual v1, v0, Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;->getString(Ljava/lang/String;)Ljava/lang/String;
+00080c: move-result-object v0
+00080e: invoke-static v0, v10, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object; Ljava/lang/String;)V
+000814: new-instance v9, Ljava/lang/StringBuilder;
+000818: invoke-direct v9, Ljava/lang/StringBuilder;-><init>()V
+00081e: const-string v11, "签到列表配置 "
+000822: invoke-virtual v9, v11, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+000828: invoke-virtual v9, v0, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+00082e: invoke-virtual v9, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+000834: move-result-object v9
+000836: invoke-static v8, v9, Lwe3;->g(Ljava/lang/String; Ljava/lang/String;)V
+00083c: const-class v9, Lcom/kingtar/work/model/entities/GlobalSignListEntity;
+000840: invoke-static v0, v9, Lcom/blankj/utilcode/util/h;->c(Ljava/lang/String; Ljava/lang/Class;)Ljava/lang/Object;
+000846: move-result-object v0
+000848: check-cast v0, Lcom/kingtar/work/model/entities/GlobalSignListEntity;
+00084c: invoke-static v0, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+000852: move-result-object v9
+000854: invoke-static v8, v9, Lwe3;->g(Ljava/lang/String; Ljava/lang/String;)V
+00085a: invoke-static v7, Lwe3;->a(Ljava/lang/String;)V
+000860: sget-object v9, Ltc2;->n Lcom/engine/frame/base/SingleLiveEvent;
+000864: invoke-virtual v9, v0, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
+00086a: invoke-virtual v2, v0, Lbm2;->A(Lcom/kingtar/work/model/entities/GlobalSignListEntity;)V
+000870: goto +1ah
+000872: move-exception v0
+000874: new-instance v2, Ljava/lang/StringBuilder;
+000878: invoke-direct v2, Ljava/lang/StringBuilder;-><init>()V
+00087e: const-string v9, "sign_list config parse json err "
+000882: invoke-virtual v2, v9, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+000888: invoke-virtual v0, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+00088e: move-result-object v0
+000890: invoke-virtual v2, v0, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+000896: invoke-virtual v2, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+00089c: move-result-object v0
+00089e: invoke-static v8, v0, Lwe3;->g(Ljava/lang/String; Ljava/lang/String;)V
+0008a4: move-object/from16 v2, v20
+0008a8: invoke-static v3, v2, Ltc2;->A(Ljava/util/Map; Ljava/lang/String;)Ljava/lang/String;
+0008ae: move-result-object v0
+0008b0: invoke-virtual v1, v0, Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;->getString(Ljava/lang/String;)Ljava/lang/String;
+0008b6: move-result-object v0
+0008b8: invoke-static v0, v10, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object; Ljava/lang/String;)V
+0008be: new-instance v9, Ljava/lang/StringBuilder;
+0008c2: invoke-direct v9, Ljava/lang/StringBuilder;-><init>()V
+0008c8: const-string v11, "现金签到列表配置 "
+0008cc: invoke-virtual v9, v11, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+0008d2: invoke-virtual v9, v0, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+0008d8: invoke-virtual v9, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+0008de: move-result-object v9
+0008e0: invoke-static v8, v9, Lwe3;->g(Ljava/lang/String; Ljava/lang/String;)V
+0008e6: sget-object v9, Lbm2;->a Lbm2;
+0008ea: invoke-virtual v9, Lbm2;->e()Lcom/kingtar/work/model/entities/GlobalCashSignListEntity;
+0008f0: move-result-object v11
+0008f2: if-eqz v11, +021h
+0008f6: new-instance v0, Ljava/lang/StringBuilder;
+0008fa: invoke-direct v0, Ljava/lang/StringBuilder;-><init>()V
+000900: invoke-virtual v0, v6, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+000906: invoke-static v3, v2, Ltc2;->A(Ljava/util/Map; Ljava/lang/String;)Ljava/lang/String;
+00090c: move-result-object v2
+00090e: invoke-virtual v0, v2, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+000914: invoke-virtual v0, v4, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+00091a: invoke-virtual v0, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+000920: move-result-object v0
+000922: invoke-static v8, v0, Lwe3;->g(Ljava/lang/String; Ljava/lang/String;)V
+000928: sget-object v0, Ltc2;->o Lcom/engine/frame/base/SingleLiveEvent;
+00092c: invoke-virtual v0, v11, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
+000932: goto +44h
+000934: const-class v4, Lcom/kingtar/work/model/entities/GlobalCashSignListEntity;
+000938: invoke-static v0, v4, Lcom/blankj/utilcode/util/h;->c(Ljava/lang/String; Ljava/lang/Class;)Ljava/lang/Object;
+00093e: move-result-object v0
+000940: check-cast v0, Lcom/kingtar/work/model/entities/GlobalCashSignListEntity;
+000944: new-instance v4, Ljava/lang/StringBuilder;
+000948: invoke-direct v4, Ljava/lang/StringBuilder;-><init>()V
+00094e: invoke-virtual v4, v5, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+000954: invoke-static v3, v2, Ltc2;->A(Ljava/util/Map; Ljava/lang/String;)Ljava/lang/String;
+00095a: move-result-object v2
+00095c: invoke-virtual v4, v2, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+000962: invoke-virtual v4, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+000968: move-result-object v2
+00096a: invoke-static v8, v2, Lwe3;->g(Ljava/lang/String; Ljava/lang/String;)V
+000970: invoke-static v7, Lwe3;->a(Ljava/lang/String;)V
+000976: sget-object v2, Ltc2;->o Lcom/engine/frame/base/SingleLiveEvent;
+00097a: invoke-virtual v2, v0, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
+000980: invoke-virtual v9, v0, Lbm2;->u(Lcom/kingtar/work/model/entities/GlobalCashSignListEntity;)V
+000986: goto +1ah
+000988: move-exception v0
+00098a: new-instance v2, Ljava/lang/StringBuilder;
+00098e: invoke-direct v2, Ljava/lang/StringBuilder;-><init>()V
+000994: const-string v4, "cash_sign_list config parse json err "
+000998: invoke-virtual v2, v4, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+00099e: invoke-virtual v0, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+0009a4: move-result-object v0
+0009a6: invoke-virtual v2, v0, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+0009ac: invoke-virtual v2, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+0009b2: move-result-object v0
+0009b4: invoke-static v8, v0, Lwe3;->g(Ljava/lang/String; Ljava/lang/String;)V
+0009ba: move-object/from16 v2, v19
+0009be: invoke-static v3, v2, Ltc2;->A(Ljava/util/Map; Ljava/lang/String;)Ljava/lang/String;
+0009c4: move-result-object v0
+0009c6: invoke-virtual v1, v0, Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;->getBoolean(Ljava/lang/String;)Z
+0009cc: move-result v0
+0009ce: new-instance v2, Ljava/lang/StringBuilder;
+0009d2: invoke-direct v2, Ljava/lang/StringBuilder;-><init>()V
+0009d8: const-string v4, "新用户新人奖励弹窗是否要求看广告配置 "
+0009dc: invoke-virtual v2, v4, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+0009e2: invoke-virtual v2, v0, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
+0009e8: invoke-virtual v2, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+0009ee: move-result-object v2
+0009f0: invoke-static v8, v2, Lwe3;->g(Ljava/lang/String; Ljava/lang/String;)V
+0009f6: sget-object v2, Ltc2;->p Lcom/engine/frame/base/SingleLiveEvent;
+0009fa: invoke-static v0, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+000a00: move-result-object v4
+000a02: invoke-virtual v2, v4, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
+000a08: sget-object v2, Lbm2;->a Lbm2;
+000a0c: invoke-virtual v2, v0, Lbm2;->v(Z)V
+000a12: const-string v0, "okspin_config"
+000a16: invoke-static v3, v0, Ltc2;->A(Ljava/util/Map; Ljava/lang/String;)Ljava/lang/String;
+000a1c: move-result-object v0
+000a1e: invoke-virtual v1, v0, Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;->getString(Ljava/lang/String;)Ljava/lang/String;
+000a24: move-result-object v0
+000a26: invoke-static v0, v10, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object; Ljava/lang/String;)V
+000a2c: new-instance v4, Ljava/lang/StringBuilder;
+000a30: invoke-direct v4, Ljava/lang/StringBuilder;-><init>()V
+000a36: const-string v5, "okSpin配置 "
+000a3a: invoke-virtual v4, v5, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+000a40: invoke-virtual v4, v0, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+000a46: invoke-virtual v4, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+000a4c: move-result-object v4
+000a4e: invoke-static v8, v4, Lwe3;->g(Ljava/lang/String; Ljava/lang/String;)V
+000a54: const-class v4, Lcom/kingtar/work/model/entities/GlobalOkSpinEntity;
+000a58: invoke-static v0, v4, Lcom/blankj/utilcode/util/h;->c(Ljava/lang/String; Ljava/lang/Class;)Ljava/lang/Object;
+000a5e: move-result-object v0
+000a60: check-cast v0, Lcom/kingtar/work/model/entities/GlobalOkSpinEntity;
+000a64: sget-object v4, Ltc2;->q Lcom/engine/frame/base/SingleLiveEvent;
+000a68: invoke-virtual v4, v0, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
+000a6e: invoke-virtual v2, v0, Lbm2;->w(Lcom/kingtar/work/model/entities/GlobalOkSpinEntity;)V
+000a74: goto +1ah
+000a76: move-exception v0
+000a78: new-instance v2, Ljava/lang/StringBuilder;
+000a7c: invoke-direct v2, Ljava/lang/StringBuilder;-><init>()V
+000a82: const-string v4, "okSpin config parse json err "
+000a86: invoke-virtual v2, v4, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+000a8c: invoke-virtual v0, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+000a92: move-result-object v0
+000a94: invoke-virtual v2, v0, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+000a9a: invoke-virtual v2, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+000aa0: move-result-object v0
+000aa2: invoke-static v8, v0, Lwe3;->g(Ljava/lang/String; Ljava/lang/String;)V
+000aa8: const-string v0, "pangle_pre_id_list"
+000aac: invoke-static v3, v0, Ltc2;->A(Ljava/util/Map; Ljava/lang/String;)Ljava/lang/String;
+000ab2: move-result-object v0
+000ab4: invoke-virtual v1, v0, Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;->getString(Ljava/lang/String;)Ljava/lang/String;
+000aba: move-result-object v0
+000abc: invoke-static v0, v10, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object; Ljava/lang/String;)V
+000ac2: new-instance v2, Ljava/lang/StringBuilder;
+000ac6: invoke-direct v2, Ljava/lang/StringBuilder;-><init>()V
+000acc: const-string v4, "获取pangle优先展示的id列表 "
+000ad0: invoke-virtual v2, v4, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+000ad6: invoke-virtual v2, v0, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+000adc: invoke-virtual v2, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+000ae2: move-result-object v2
+000ae4: invoke-static v8, v2, Lwe3;->g(Ljava/lang/String; Ljava/lang/String;)V
+000aea: sget-object v2, Lsd2;->a Lsd2;
+000aee: const-string v4, "remote_config_pre_id_parse"
+000af2: invoke-virtual v2, v4, Lsd2;->m(Ljava/lang/String;)V
+000af8: move-object/from16 v5, v18
+000afc: invoke-virtual v2, v5, Lsd2;->m(Ljava/lang/String;)V
+000b02: const-class v6, Lcom/kingtar/work/model/entities/PanglePreIdListEntity;
+000b06: invoke-static v0, v6, Lcom/blankj/utilcode/util/h;->c(Ljava/lang/String; Ljava/lang/Class;)Ljava/lang/Object;
+000b0c: move-result-object v0
+000b0e: check-cast v0, Lcom/kingtar/work/model/entities/PanglePreIdListEntity;
+000b12: move-object/from16 v6, v17
+000b16: invoke-virtual v2, v5, v6, Lsd2;->k(Ljava/lang/String; Ljava/lang/String;)V
+000b1c: sget-object v7, Ltc2;->r Lcom/engine/frame/base/SingleLiveEvent;
+000b20: invoke-virtual v7, v0, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
+000b26: sget-object v7, Ltc2;->s Li34;
+000b2a: if-eqz v0, +004h
+000b2e: const/4 v9, 1
+000b30: goto +2h
+000b32: const/4 v9, 0
+000b34: invoke-static v9, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+000b3a: move-result-object v9
+000b3c: invoke-interface v7, v9, Li34;->setValue(Ljava/lang/Object;)V
+000b42: sget-object v7, Lbm2;->a Lbm2;
+000b46: invoke-virtual v7, v0, Lbm2;->x(Lcom/kingtar/work/model/entities/PanglePreIdListEntity;)V
+000b4c: invoke-virtual v2, v4, v6, Lsd2;->k(Ljava/lang/String; Ljava/lang/String;)V
+000b52: goto +2bh
+000b54: move-exception v0
+000b56: sget-object v2, Ltc2;->s Li34;
+000b5a: sget-object v6, Ljava/lang/Boolean;->FALSE Ljava/lang/Boolean;
+000b5e: invoke-interface v2, v6, Li34;->setValue(Ljava/lang/Object;)V
+000b64: sget-object v2, Lsd2;->a Lsd2;
+000b68: const-string v6, "failed"
+000b6c: invoke-virtual v2, v5, v6, Lsd2;->k(Ljava/lang/String; Ljava/lang/String;)V
+000b72: invoke-virtual v2, v4, v6, Lsd2;->k(Ljava/lang/String; Ljava/lang/String;)V
+000b78: new-instance v2, Ljava/lang/StringBuilder;
+000b7c: invoke-direct v2, Ljava/lang/StringBuilder;-><init>()V
+000b82: const-string v4, "pangle pre id list config parse json err "
+000b86: invoke-virtual v2, v4, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+000b8c: invoke-virtual v0, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+000b92: move-result-object v0
+000b94: invoke-virtual v2, v0, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+000b9a: invoke-virtual v2, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+000ba0: move-result-object v0
+000ba2: invoke-static v8, v0, Lwe3;->g(Ljava/lang/String; Ljava/lang/String;)V
+000ba8: sget-object v0, Lsd2;->a Lsd2;
+000bac: const-string v2, "complete"
+000bb0: move-object/from16 v4, v16
+000bb4: invoke-virtual v0, v4, v2, Lsd2;->k(Ljava/lang/String; Ljava/lang/String;)V
+000bba: move-object/from16 v5, v21
+000bbe: invoke-static v3, v5, Ltc2;->A(Ljava/util/Map; Ljava/lang/String;)Ljava/lang/String;
+000bc4: move-result-object v0
+000bc6: invoke-virtual v1, v0, Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;->getString(Ljava/lang/String;)Ljava/lang/String;
+000bcc: move-result-object v0
+000bce: invoke-static v0, v10, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object; Ljava/lang/String;)V
+000bd4: new-instance v1, Ljava/lang/StringBuilder;
+000bd8: invoke-direct v1, Ljava/lang/StringBuilder;-><init>()V
+000bde: const-string v3, "获取留存策略 "
+000be2: invoke-virtual v1, v3, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+000be8: invoke-virtual v1, v0, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+000bee: invoke-virtual v1, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+000bf4: move-result-object v1
+000bf6: invoke-static v8, v1, Lwe3;->g(Ljava/lang/String; Ljava/lang/String;)V
+000bfc: sget-object v1, Lbm2;->a Lbm2;
+000c00: invoke-virtual v1, v0, Lbm2;->y(Ljava/lang/String;)V
+000c06: goto +1ah
+000c08: move-exception v0
+000c0a: new-instance v1, Ljava/lang/StringBuilder;
+000c0e: invoke-direct v1, Ljava/lang/StringBuilder;-><init>()V
+000c14: const-string v3, "putRetentionStrategyJson "
+000c18: invoke-virtual v1, v3, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+000c1e: invoke-virtual v0, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+000c24: move-result-object v0
+000c26: invoke-virtual v1, v0, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+000c2c: invoke-virtual v1, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+000c32: move-result-object v0
+000c34: invoke-static v8, v0, Lwe3;->g(Ljava/lang/String; Ljava/lang/String;)V
+000c3a: sget-object v0, Lsd2;->a Lsd2;
+000c3e: invoke-virtual v0, v4, v2, Lsd2;->k(Ljava/lang/String; Ljava/lang/String;)V
+000c44: return-void 
+000c46: nop 
+000c48: packed-switch-payload 1 2 3 4 5 6
+
+METHOD B (Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+000000: sget-object v2, Ltc2;->b Ljava/lang/String;
+000004: const-class v0, Lcom/kingtar/work/model/entities/GlobalConfigEntity;
+000008: invoke-static v2, v0, Lcom/blankj/utilcode/util/h;->c(Ljava/lang/String; Ljava/lang/Class;)Ljava/lang/Object;
+00000e: move-result-object v2
+000010: check-cast v2, Lcom/kingtar/work/model/entities/GlobalConfigEntity;
+000014: goto +2h
+000016: const/4 v2, 0
+000018: return-object v2
+
+METHOD C ()Lcom/kingtar/work/model/entities/GlobalConfigEntity;
+000000: sget-object v0, Ltc2;->b Ljava/lang/String;
+000004: const-class v1, Lcom/kingtar/work/model/entities/GlobalConfigEntity;
+000008: invoke-static v0, v1, Lcom/blankj/utilcode/util/h;->c(Ljava/lang/String; Ljava/lang/Class;)Ljava/lang/Object;
+00000e: move-result-object v0
+000010: check-cast v0, Lcom/kingtar/work/model/entities/GlobalConfigEntity;
+000014: goto +2h
+000016: const/4 v0, 0
+000018: return-object v0
+
+METHOD D (Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+000000: sget-object v2, Lbm2;->a Lbm2;
+000004: invoke-virtual v2, Lbm2;->k()Lcom/kingtar/work/model/entities/GlobalRewardLevelEntity;
+00000a: move-result-object v2
+00000c: if-eqz v2, +003h
+000010: return-object v2
+000012: sget-object v2, Ltc2;->g Ljava/lang/String;
+000016: const-class v0, Lcom/kingtar/work/model/entities/GlobalRewardLevelEntity;
+00001a: invoke-static v2, v0, Lcom/blankj/utilcode/util/h;->c(Ljava/lang/String; Ljava/lang/Class;)Ljava/lang/Object;
+000020: move-result-object v2
+000022: check-cast v2, Lcom/kingtar/work/model/entities/GlobalRewardLevelEntity;
+000026: goto +2h
+000028: const/4 v2, 0
+00002a: return-object v2
+
+METHOD E ()Lcom/kingtar/work/model/entities/GlobalRewardLevelEntity;
+000000: sget-object v0, Lbm2;->a Lbm2;
+000004: invoke-virtual v0, Lbm2;->k()Lcom/kingtar/work/model/entities/GlobalRewardLevelEntity;
+00000a: move-result-object v0
+00000c: if-eqz v0, +003h
+000010: return-object v0
+000012: sget-object v0, Ltc2;->g Ljava/lang/String;
+000016: const-class v1, Lcom/kingtar/work/model/entities/GlobalRewardLevelEntity;
+00001a: invoke-static v0, v1, Lcom/blankj/utilcode/util/h;->c(Ljava/lang/String; Ljava/lang/Class;)Ljava/lang/Object;
+000020: move-result-object v0
+000022: check-cast v0, Lcom/kingtar/work/model/entities/GlobalRewardLevelEntity;
+000026: goto +2h
+000028: const/4 v0, 0
+00002a: return-object v0
+
+METHOD F ()Lcom/kingtar/work/model/entities/GlobalSignListEntity;
+000000: sget-object v0, Lbm2;->a Lbm2;
+000004: invoke-virtual v0, Lbm2;->l()Lcom/kingtar/work/model/entities/GlobalSignListEntity;
+00000a: move-result-object v0
+00000c: if-eqz v0, +003h
+000010: return-object v0
+000012: sget-object v0, Ltc2;->c Ljava/lang/String;
+000016: const-class v1, Lcom/kingtar/work/model/entities/GlobalSignListEntity;
+00001a: invoke-static v0, v1, Lcom/blankj/utilcode/util/h;->c(Ljava/lang/String; Ljava/lang/Class;)Ljava/lang/Object;
+000020: move-result-object v0
+000022: check-cast v0, Lcom/kingtar/work/model/entities/GlobalSignListEntity;
+000026: goto +2h
+000028: const/4 v0, 0
+00002a: return-object v0
+
+METHOD G (Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+000000: sget-object v3, Lbm2;->a Lbm2;
+000004: invoke-virtual v3, Lbm2;->n()Lcom/kingtar/work/model/entities/GlobalTaskConfig;
+00000a: move-result-object v3
+00000c: if-eqz v3, +003h
+000010: return-object v3
+000012: sget-object v3, Ltc2;->e Ljava/lang/String;
+000016: const-class v0, Lcom/kingtar/work/model/entities/GlobalTaskConfig;
+00001a: invoke-static v3, v0, Lcom/blankj/utilcode/util/h;->c(Ljava/lang/String; Ljava/lang/Class;)Ljava/lang/Object;
+000020: move-result-object v3
+000022: move-object v0, v3
+000024: check-cast v0, Lcom/kingtar/work/model/entities/GlobalTaskConfig;
+000028: sget-object v1, Ltc2;->a Ltc2;
+00002c: invoke-direct v1, v0, Ltc2;->f(Lcom/kingtar/work/model/entities/GlobalTaskConfig;)V
+000032: check-cast v3, Lcom/kingtar/work/model/entities/GlobalTaskConfig;
+000036: goto +2h
+000038: const/4 v3, 0
+00003a: return-object v3
+
+METHOD H ()Lcom/kingtar/work/model/entities/GlobalTaskConfig;
+000000: sget-object v0, Lbm2;->a Lbm2;
+000004: invoke-virtual v0, Lbm2;->n()Lcom/kingtar/work/model/entities/GlobalTaskConfig;
+00000a: move-result-object v0
+00000c: if-eqz v0, +003h
+000010: return-object v0
+000012: sget-object v0, Ltc2;->e Ljava/lang/String;
+000016: const-class v1, Lcom/kingtar/work/model/entities/GlobalTaskConfig;
+00001a: invoke-static v0, v1, Lcom/blankj/utilcode/util/h;->c(Ljava/lang/String; Ljava/lang/Class;)Ljava/lang/Object;
+000020: move-result-object v0
+000022: move-object v1, v0
+000024: check-cast v1, Lcom/kingtar/work/model/entities/GlobalTaskConfig;
+000028: sget-object v2, Ltc2;->a Ltc2;
+00002c: invoke-direct v2, v1, Ltc2;->f(Lcom/kingtar/work/model/entities/GlobalTaskConfig;)V
+000032: check-cast v0, Lcom/kingtar/work/model/entities/GlobalTaskConfig;
+000036: goto +2h
+000038: const/4 v0, 0
+00003a: return-object v0
+
+METHOD I (Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+000000: sget-object v2, Lbm2;->a Lbm2;
+000004: invoke-virtual v2, Lbm2;->o()Lcom/kingtar/work/model/entities/GlobalWithdrawConfig;
+00000a: move-result-object v2
+00000c: if-eqz v2, +003h
+000010: return-object v2
+000012: sget-object v2, Ltc2;->f Ljava/lang/String;
+000016: const-class v0, Lcom/kingtar/work/model/entities/GlobalWithdrawConfig;
+00001a: invoke-static v2, v0, Lcom/blankj/utilcode/util/h;->c(Ljava/lang/String; Ljava/lang/Class;)Ljava/lang/Object;
+000020: move-result-object v2
+000022: check-cast v2, Lcom/kingtar/work/model/entities/GlobalWithdrawConfig;
+000026: goto +2h
+000028: const/4 v2, 0
+00002a: return-object v2
+
+METHOD J ()Lcom/kingtar/work/model/entities/GlobalWithdrawConfig;
+000000: sget-object v0, Lbm2;->a Lbm2;
+000004: invoke-virtual v0, Lbm2;->o()Lcom/kingtar/work/model/entities/GlobalWithdrawConfig;
+00000a: move-result-object v0
+00000c: if-eqz v0, +003h
+000010: return-object v0
+000012: sget-object v0, Lcom/kingtar/work/dao/OVSRewardRecordManager;->INSTANCE Lcom/kingtar/work/dao/OVSRewardRecordManager;
+000016: sget-object v0, Ltc2;->f Ljava/lang/String;
+00001a: const-class v1, Lcom/kingtar/work/model/entities/GlobalWithdrawConfig;
+00001e: invoke-static v0, v1, Lcom/blankj/utilcode/util/h;->c(Ljava/lang/String; Ljava/lang/Class;)Ljava/lang/Object;
+000024: move-result-object v0
+000026: check-cast v0, Lcom/kingtar/work/model/entities/GlobalWithdrawConfig;
+00002a: goto +2h
+00002c: const/4 v0, 0
+00002e: return-object v0
+
+METHOD K (Ljava/lang/String;)V
+000000: const-string v0, "<set-?>"
+000004: invoke-static v2, v0, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object; Ljava/lang/String;)V
+00000a: sput-object v2, Ltc2;->d Ljava/lang/String;
+00000e: return-void 
+
+METHOD L (Ljava/lang/String;)V
+000000: const-string v0, "<set-?>"
+000004: invoke-static v2, v0, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object; Ljava/lang/String;)V
+00000a: sput-object v2, Ltc2;->g Ljava/lang/String;
+00000e: return-void 
+
+METHOD M (Ljava/lang/String;)V
+000000: const-string v0, "<set-?>"
+000004: invoke-static v2, v0, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object; Ljava/lang/String;)V
+00000a: sput-object v2, Ltc2;->c Ljava/lang/String;
+00000e: return-void 
+
+METHOD N (Ljava/lang/String;)V
+000000: const-string v0, "<set-?>"
+000004: invoke-static v2, v0, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object; Ljava/lang/String;)V
+00000a: sput-object v2, Ltc2;->h Ljava/lang/String;
+00000e: return-void 
+
+METHOD O (Ljava/lang/String;)V
+000000: const-string v0, "<set-?>"
+000004: invoke-static v2, v0, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object; Ljava/lang/String;)V
+00000a: sput-object v2, Ltc2;->f Ljava/lang/String;
+00000e: return-void 
+
+METHOD g ()Lcom/engine/frame/base/SingleLiveEvent;
+000000: sget-object v0, Ltc2;->o Lcom/engine/frame/base/SingleLiveEvent;
+000004: return-object v0
+
+METHOD h ()Lcom/engine/frame/base/SingleLiveEvent;
+000000: sget-object v0, Ltc2;->i Lcom/engine/frame/base/SingleLiveEvent;
+000004: return-object v0
+
+METHOD i ()Lcom/engine/frame/base/SingleLiveEvent;
+000000: sget-object v0, Ltc2;->q Lcom/engine/frame/base/SingleLiveEvent;
+000004: return-object v0
+
+METHOD j ()Lcom/engine/frame/base/SingleLiveEvent;
+000000: sget-object v0, Ltc2;->r Lcom/engine/frame/base/SingleLiveEvent;
+000004: return-object v0
+
+METHOD k ()Li34;
+000000: sget-object v0, Ltc2;->t Li34;
+000004: return-object v0
+
+METHOD l ()Lcom/engine/frame/base/SingleLiveEvent;
+000000: sget-object v0, Ltc2;->l Lcom/engine/frame/base/SingleLiveEvent;
+000004: return-object v0
+
+METHOD m ()Ljava/lang/String;
+000000: sget-object v0, Ltc2;->g Ljava/lang/String;
+000004: return-object v0
+
+METHOD n ()Lcom/engine/frame/base/SingleLiveEvent;
+000000: sget-object v0, Ltc2;->n Lcom/engine/frame/base/SingleLiveEvent;
+000004: return-object v0
+
+METHOD o ()Lcom/engine/frame/base/SingleLiveEvent;
+000000: sget-object v0, Ltc2;->j Lcom/engine/frame/base/SingleLiveEvent;
+000004: return-object v0
+
+METHOD p ()Ljava/lang/String;
+000000: sget-object v0, Ltc2;->h Ljava/lang/String;
+000004: return-object v0
+
+METHOD q ()Lcom/engine/frame/base/SingleLiveEvent;
+000000: sget-object v0, Ltc2;->m Lcom/engine/frame/base/SingleLiveEvent;
+000004: return-object v0
+
+METHOD r ()Lcom/engine/frame/base/SingleLiveEvent;
+000000: sget-object v0, Ltc2;->k Lcom/engine/frame/base/SingleLiveEvent;
+000004: return-object v0
+
+METHOD s ()Ljava/lang/String;
+000000: sget-object v0, Ltc2;->f Ljava/lang/String;
+000004: return-object v0
+
+METHOD t ()V
+000000: sget-object v0, Ltc2;->t Li34;
+000004: const/4 v1, 0
+000006: invoke-interface v0, v1, Li34;->setValue(Ljava/lang/Object;)V
+00000c: const-string v0, "FirebaseConfigModelstart init"
+000010: invoke-static v0, Lwe3;->a(Ljava/lang/String;)V
+000016: sget-object v0, Lsd2;->a Lsd2;
+00001a: const-string v1, "remote_config_instance"
+00001e: invoke-virtual v0, v1, Lsd2;->m(Ljava/lang/String;)V
+000024: invoke-static Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;->getInstance()Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;
+00002a: move-result-object v2
+00002c: const-string v3, "getInstance(...)"
+000030: invoke-static v2, v3, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object; Ljava/lang/String;)V
+000036: const-string v3, "ready"
+00003a: invoke-virtual v0, v1, v3, Lsd2;->k(Ljava/lang/String; Ljava/lang/String;)V
+000040: new-instance v1, Lcom/google/firebase/remoteconfig/FirebaseRemoteConfigSettings$Builder;
+000044: invoke-direct v1, Lcom/google/firebase/remoteconfig/FirebaseRemoteConfigSettings$Builder;-><init>()V
+00004a: sget-object v3, Ljava/util/concurrent/TimeUnit;->HOURS Ljava/util/concurrent/TimeUnit;
+00004e: const-wide/16 v4, 24
+000052: invoke-virtual v3, v4, v5, Ljava/util/concurrent/TimeUnit;->toSeconds(J)J
+000058: move-result-wide v3
+00005a: invoke-virtual v1, v3, v4, Lcom/google/firebase/remoteconfig/FirebaseRemoteConfigSettings$Builder;->setMinimumFetchIntervalInSeconds(J)Lcom/google/firebase/remoteconfig/FirebaseRemoteConfigSettings$Builder;
+000060: move-result-object v1
+000062: invoke-virtual v1, Lcom/google/firebase/remoteconfig/FirebaseRemoteConfigSettings$Builder;->build()Lcom/google/firebase/remoteconfig/FirebaseRemoteConfigSettings;
+000068: move-result-object v1
+00006a: const-string v3, "build(...)"
+00006e: invoke-static v1, v3, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object; Ljava/lang/String;)V
+000074: invoke-virtual v2, v1, Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;->setConfigSettingsAsync(Lcom/google/firebase/remoteconfig/FirebaseRemoteConfigSettings;)Lcom/google/android/gms/tasks/Task;
+00007a: new-instance v1, Ljava/util/LinkedHashMap;
+00007e: invoke-direct v1, Ljava/util/LinkedHashMap;-><init>()V
+000084: const-string v3, "defaultConfigJson"
+000088: sget-object v4, Ltc2;->b Ljava/lang/String;
+00008c: invoke-interface v1, v3, v4, Ljava/util/Map;->put(Ljava/lang/Object; Ljava/lang/Object;)Ljava/lang/Object;
+000092: const-string v3, "taskConfigJson"
+000096: sget-object v4, Ltc2;->e Ljava/lang/String;
+00009a: invoke-interface v1, v3, v4, Ljava/util/Map;->put(Ljava/lang/Object; Ljava/lang/Object;)Ljava/lang/Object;
+0000a0: const-string v3, "withdrawConfigJson"
+0000a4: sget-object v4, Ltc2;->f Ljava/lang/String;
+0000a8: invoke-interface v1, v3, v4, Ljava/util/Map;->put(Ljava/lang/Object; Ljava/lang/Object;)Ljava/lang/Object;
+0000ae: const-string v3, "rewardLevelConfigJson"
+0000b2: sget-object v4, Ltc2;->g Ljava/lang/String;
+0000b6: invoke-interface v1, v3, v4, Ljava/util/Map;->put(Ljava/lang/Object; Ljava/lang/Object;)Ljava/lang/Object;
+0000bc: invoke-virtual v2, v1, Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;->setDefaultsAsync(Ljava/util/Map;)Lcom/google/android/gms/tasks/Task;
+0000c2: const-string v1, "remote_config_fetch_activate"
+0000c6: invoke-virtual v0, v1, Lsd2;->m(Ljava/lang/String;)V
+0000cc: invoke-virtual v2, Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;->fetchAndActivate()Lcom/google/android/gms/tasks/Task;
+0000d2: move-result-object v0
+0000d4: new-instance v1, Lpc2;
+0000d8: invoke-direct v1, Lpc2;-><init>()V
+0000de: invoke-virtual v0, v1, Lcom/google/android/gms/tasks/Task;->addOnFailureListener(Lcom/google/android/gms/tasks/OnFailureListener;)Lcom/google/android/gms/tasks/Task;
+0000e4: move-result-object v0
+0000e6: new-instance v1, Lqc2;
+0000ea: invoke-direct v1, Lqc2;-><init>()V
+0000f0: new-instance v3, Lrc2;
+0000f4: invoke-direct v3, v1, Lrc2;-><init>(Lkotlin/jvm/functions/Function1;)V
+0000fa: invoke-virtual v0, v3, Lcom/google/android/gms/tasks/Task;->addOnSuccessListener(Lcom/google/android/gms/tasks/OnSuccessListener;)Lcom/google/android/gms/tasks/Task;
+000100: move-result-object v0
+000102: new-instance v1, Lsc2;
+000106: invoke-direct v1, v2, Lsc2;-><init>(Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;)V
+00010c: invoke-virtual v0, v1, Lcom/google/android/gms/tasks/Task;->addOnCompleteListener(Lcom/google/android/gms/tasks/OnCompleteListener;)Lcom/google/android/gms/tasks/Task;
+000112: new-instance v0, Ltc2$b;
+000116: invoke-direct v0, v2, Ltc2$b;-><init>(Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;)V
+00011c: invoke-virtual v2, v0, Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;->addOnConfigUpdateListener(Lcom/google/firebase/remoteconfig/ConfigUpdateListener;)Lcom/google/firebase/remoteconfig/ConfigUpdateListenerRegistration;
+000122: return-void 
+
+METHOD y ()Lcom/kingtar/work/model/entities/GlobalCashSignListEntity;
+000000: sget-object v0, Lbm2;->a Lbm2;
+000004: invoke-virtual v0, Lbm2;->e()Lcom/kingtar/work/model/entities/GlobalCashSignListEntity;
+00000a: move-result-object v0
+00000c: if-eqz v0, +003h
+000010: return-object v0
+000012: sget-object v0, Ltc2;->d Ljava/lang/String;
+000016: const-class v1, Lcom/kingtar/work/model/entities/GlobalCashSignListEntity;
+00001a: invoke-static v0, v1, Lcom/blankj/utilcode/util/h;->c(Ljava/lang/String; Ljava/lang/Class;)Ljava/lang/Object;
+000020: move-result-object v0
+000022: check-cast v0, Lcom/kingtar/work/model/entities/GlobalCashSignListEntity;
+000026: goto +2h
+000028: const/4 v0, 0
+00002a: return-object v0
+

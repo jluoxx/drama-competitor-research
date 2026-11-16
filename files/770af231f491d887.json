@@ -1,0 +1,158 @@
+{
+  "job": {
+    "id": "113_splash_reentry",
+    "package": "com.sunriseskywaysnake",
+    "tool": "inspect_android_method",
+    "args": {
+      "path": "D:\\python daima\\outputs\\apk_extract_20261116\\com.sunriseskywaysnake\\base.apk",
+      "class_name": "com.kingtar.work.mvvm.ui.AppLifecycleObserver",
+      "method_name": "tryToShowSplashAd"
+    }
+  },
+  "start": "2026-11-16T04:29:52.798Z",
+  "end": "2026-11-16T04:29:54.301Z",
+  "result": {
+    "_meta": {
+      "provenance": {
+        "untrusted_content": true,
+        "source": "analysis_target"
+      }
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"evidence_id\":\"ev_2e16dc00094197fae19a1df16a15016ab52d3b0f78618521eba7a979ad7e1b3c\",\"subject\":{\"name\":\"base.apk\",\"digest\":{\"sha256\":\"e915f5593adc73929b5e8c78707ee921807843521439af862571d05262056f6e\"},\"local_path\":\"D:\\\\python daima\\\\outputs\\\\apk_extract_20261116\\\\com.sunriseskywaysnake\\\\base.apk\",\"format\":\"apk\",\"architecture\":null},\"provider\":{\"id\":\"jadx\",\"name\":\"JADX headless\",\"version\":\"0.7.1\"},\"analysis_profile\":null,\"predicate_type\":\"rea.analysis\",\"operation\":\"inspect_android_method\",\"parameters\":{\"path\":\"D:\\\\python daima\\\\outputs\\\\apk_extract_20261116\\\\com.sunriseskywaysnake\\\\base.apk\",\"class_name\":\"com.kingtar.work.mvvm.ui.AppLifecycleObserver\",\"method_name\":\"tryToShowSplashAd\"},\"raw_result\":{\"server\":{\"name\":\"rea-jadx-bridge\",\"version\":\"7\"},\"bridge_sha256\":\"e5044a8312dd0731f53af3f095508b3e5cff54df6b971c95d4305e2f39b4fa30\",\"jar_sha256\":\"6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75\",\"loaded\":{\"state\":\"LOADED\",\"apk_path\":\"C:\\\\Users\\\\asus\\\\AppData\\\\Local\\\\Temp\\\\rea-android-f639986e8a6d30eb694b3a70bb91ec06\\\\target.apk\",\"class_count\":61349,\"resource_count\":3249,\"threads\":1,\"resources\":\"full\"},\"calls\":[{\"operation\":\"rea_jvm_status\",\"input\":{},\"response\":{\"content\":[{\"type\":\"text\",\"text\":\"{\\\"available_processors\\\":3,\\\"engine_reported_version\\\":\\\"0.7.1\\\",\\\"metadata_scope\\\":\\\"parsed_members\\\",\\\"max_heap_bytes\\\":3221225472,\\\"java_version\\\":\\\"17.0.12\\\"}\"}],\"isError\":false}},{\"operation\":\"get_class_summary\",\"input\":{\"class_name\":\"com.kingtar.work.mvvm.ui.AppLifecycleObserver\"},\"response\":{\"content\":[{\"type\":\"text\",\"text\":\"{\\\"fields\\\":[{\\\"def_pos\\\":0,\\\"name\\\":\\\"application\\\",\\\"type\\\":\\\"android.app.Application\\\"},{\\\"def_pos\\\":0,\\\"name\\\":\\\"currentActivity\\\",\\\"type\\\":\\\"android.app.Activity\\\"},{\\\"def_pos\\\":0,\\\"name\\\":\\\"isAppInForeground\\\",\\\"type\\\":\\\"boolean\\\"},{\\\"def_pos\\\":0,\\\"name\\\":\\\"isColdStart\\\",\\\"type\\\":\\\"boolean\\\"},{\\\"def_pos\\\":0,\\\"name\\\":\\\"isShowingAd\\\",\\\"type\\\":\\\"boolean\\\"}],\\\"methods\\\":[{\\\"name\\\":\\\"\\\\u003cinit\\\\u003e\\\",\\\"is_constructor\\\":true,\\\"dex_descriptor\\\":\\\"(Landroid/app/Application;)V\\\",\\\"signature\\\":\\\"\\\\u003cinit\\\\u003e(android.app.Application): void\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"access$setShowingAd$p\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"(Lcom/kingtar/work/mvvm/ui/AppLifecycleObserver;Z)V\\\",\\\"signature\\\":\\\"access$setShowingAd$p(com.kingtar.work.mvvm.ui.AppLifecycleObserver, boolean): void\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"onActivityCreated\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"(Landroid/app/Activity;Landroid/os/Bundle;)V\\\",\\\"signature\\\":\\\"onActivityCreated(android.app.Activity, android.os.Bundle): void\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"onActivityDestroyed\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"(Landroid/app/Activity;)V\\\",\\\"signature\\\":\\\"onActivityDestroyed(android.app.Activity): void\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"onActivityPaused\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"(Landroid/app/Activity;)V\\\",\\\"signature\\\":\\\"onActivityPaused(android.app.Activity): void\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"onActivityResumed\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"(Landroid/app/Activity;)V\\\",\\\"signature\\\":\\\"onActivityResumed(android.app.Activity): void\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"onActivitySaveInstanceState\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"(Landroid/app/Activity;Landroid/os/Bundle;)V\\\",\\\"signature\\\":\\\"onActivitySaveInstanceState(android.app.Activity, android.os.Bundle): void\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"onActivityStarted\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"(Landroid/app/Activity;)V\\\",\\\"signature\\\":\\\"onActivityStarted(android.app.Activity): void\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"onActivityStopped\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"(Landroid/app/Activity;)V\\\",\\\"signature\\\":\\\"onActivityStopped(android.app.Activity): void\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"onStart\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"(Landroidx/lifecycle/LifecycleOwner;)V\\\",\\\"signature\\\":\\\"onStart(androidx.lifecycle.LifecycleOwner): void\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"onStop\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"(Landroidx/lifecycle/LifecycleOwner;)V\\\",\\\"signature\\\":\\\"onStop(androidx.lifecycle.LifecycleOwner): void\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"register\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"()V\\\",\\\"signature\\\":\\\"register(): void\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"showSplashAd\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"(Landroidx/lifecycle/LifecycleOwner;)V\\\",\\\"signature\\\":\\\"showSplashAd(androidx.lifecycle.LifecycleOwner): void\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"tryToShowSplashAd\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"(Landroidx/lifecycle/LifecycleOwner;)V\\\",\\\"signature\\\":\\\"tryToShowSplashAd(androidx.lifecycle.LifecycleOwner): void\\\",\\\"def_pos\\\":0}],\\\"inner_classes\\\":[\\\"com.kingtar.work.mvvm.ui.AppLifecycleObserver.AnonymousClass1\\\"],\\\"inner_class_count\\\":1,\\\"name\\\":\\\"AppLifecycleObserver\\\",\\\"field_count\\\":5,\\\"full_name\\\":\\\"com.kingtar.work.mvvm.ui.AppLifecycleObserver\\\",\\\"method_count\\\":14,\\\"raw_name\\\":\\\"com.kingtar.work.mvvm.ui.AppLifecycleObserver\\\"}\"}],\"isError\":false}},{\"operation\":\"get_method_body\",\"input\":{\"class_name\":\"com.kingtar.work.mvvm.ui.AppLifecycleObserver\",\"method_name\":\"tryToShowSplashAd\",\"overload_index\":0,\"smali_fallback\":true},\"response\":{\"content\":[{\"type\":\"text\",\"text\":\"{\\\"method_name\\\":\\\"tryToShowSplashAd\\\",\\\"overload_count\\\":1,\\\"dex_descriptor\\\":\\\"(Landroidx/lifecycle/LifecycleOwner;)V\\\",\\\"class_name\\\":\\\"com.kingtar.work.mvvm.ui.AppLifecycleObserver\\\",\\\"mode\\\":\\\"java\\\",\\\"body\\\":\\\"    private final void tryToShowSplashAd(LifecycleOwner owner) {\\\\r\\\\n        AdSplash adSplash;\\\\r\\\\n        Activity activityF;\\\\r\\\\n        Package r3;\\\\r\\\\n        String name;\\\\r\\\\n        GlobalConfigEntity globalConfigEntityD \\\\u003d tk2.o.d();\\\\r\\\\n        if (globalConfigEntityD \\\\u003d\\\\u003d null || (adSplash \\\\u003d globalConfigEntityD.getAdSplash()) \\\\u003d\\\\u003d null) {\\\\r\\\\n            return;\\\\r\\\\n        }\\\\r\\\\n        pe3.e(\\\\\\\"AppLifecycleObserver\\\\\\\", \\\\\\\"Attempting to show splash ad with config: rate\\\\u003d\\\\\\\" + adSplash.getSwitchRate() + \\\\\\\", num\\\\u003d\\\\\\\" + adSplash.getSwitchNum() + \\\\\\\", sec\\\\u003d\\\\\\\" + adSplash.getSwitchSec());\\\\r\\\\n        int iRandom \\\\u003d RangesKt___RangesKt.random(new IntRange(1, 100), Random.INSTANCE);\\\\r\\\\n        if (iRandom \\\\u003e adSplash.getSwitchRate()) {\\\\r\\\\n            pe3.e(\\\\\\\"AppLifecycleObserver\\\\\\\", \\\\\\\"Check failed: Probability miss (random:\\\\\\\" + iRandom + \\\\\\\" \\\\u003e rate:\\\\\\\" + adSplash.getSwitchRate() + \\\\u0027)\\\\u0027);\\\\r\\\\n            return;\\\\r\\\\n        }\\\\r\\\\n        d93 d93Var \\\\u003d d93.o;\\\\r\\\\n        int iO \\\\u003d d93Var.o();\\\\r\\\\n        if (iO \\\\u003e\\\\u003d adSplash.getSwitchNum()) {\\\\r\\\\n            pe3.e(\\\\\\\"AppLifecycleObserver\\\\\\\", \\\\\\\"Check failed: Daily limit reached (count:\\\\\\\" + iO + \\\\\\\" \\\\u003e\\\\u003d limit:\\\\\\\" + adSplash.getSwitchNum() + \\\\u0027)\\\\u0027);\\\\r\\\\n            return;\\\\r\\\\n        }\\\\r\\\\n        long jCurrentTimeMillis \\\\u003d System.currentTimeMillis();\\\\r\\\\n        long jB \\\\u003d d93Var.b();\\\\r\\\\n        long switchSec \\\\u003d ((long) adSplash.getSwitchSec()) * 1000;\\\\r\\\\n        if (jB \\\\u003d\\\\u003d 0) {\\\\r\\\\n            pe3.e(\\\\\\\"AppLifecycleObserver\\\\\\\", \\\\\\\"Skipping ad, lastEventTime is 0 (first run).\\\\\\\");\\\\r\\\\n            return;\\\\r\\\\n        }\\\\r\\\\n        String str \\\\u003d \\\\\\\"\\\\\\\";\\\\r\\\\n        if (o.f() !\\\\u003d null \\\\u0026\\\\u0026 (activityF \\\\u003d o.f()) !\\\\u003d null \\\\u0026\\\\u0026 (r3 \\\\u003d activityF.getClass().getPackage()) !\\\\u003d null \\\\u0026\\\\u0026 (name \\\\u003d r3.getName()) !\\\\u003d null) {\\\\r\\\\n            str \\\\u003d name;\\\\r\\\\n        }\\\\r\\\\n        if (!StringsKt__StringsKt.contains$default((CharSequence) str, (CharSequence) \\\\\\\"com.kingtar.work.mvvm\\\\\\\", false, 2, (Object) null)) {\\\\r\\\\n            pe3.e(\\\\\\\"AppLifecycleObserver\\\\\\\", \\\\\\\"栈顶是广告页面，不要插入splash\\\\\\\");\\\\r\\\\n            return;\\\\r\\\\n        }\\\\r\\\\n        long j \\\\u003d jCurrentTimeMillis - jB;\\\\r\\\\n        if (j \\\\u003c switchSec) {\\\\r\\\\n            pe3.e(\\\\\\\"AppLifecycleObserver\\\\\\\", \\\\\\\"Check SKIPPED: Time interval too short (elapsed:\\\\\\\" + j + \\\\\\\"ms \\\\u003c required:\\\\\\\" + switchSec + \\\\\\\"ms)\\\\\\\");\\\\r\\\\n            return;\\\\r\\\\n        }\\\\r\\\\n        pe3.e(\\\\\\\"AppLifecycleObserver\\\\\\\", \\\\\\\"Check PASSED: Time interval OK (elapsed:\\\\\\\" + j + \\\\\\\"ms \\\\u003e\\\\u003d required:\\\\\\\" + switchSec + \\\\\\\"ms). Showing ad.\\\\\\\");\\\\r\\\\n        showSplashAd(owner);\\\\r\\\\n    }\\\",\\\"markers\\\":[],\\\"fell_back\\\":false,\\\"full_name\\\":\\\"com.kingtar.work.mvvm.ui.AppLifecycleObserver.tryToShowSplashAd\\\",\\\"overload_index\\\":0}\"}],\"isError\":false}}]},\"normalized_result\":{\"engine\":{\"name\":\"jadx-headless-mcp\",\"version\":\"0.7.1\",\"artifact_sha256\":\"6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75\",\"source_revision\":\"5844800a486d2248fa949b74c9896285f5b54de2\",\"worker_count\":1,\"heap_limit_mib\":3072},\"class_name\":\"com.kingtar.work.mvvm.ui.AppLifecycleObserver\",\"method\":{\"name\":\"tryToShowSplashAd\",\"reported_signature\":\"tryToShowSplashAd(androidx.lifecycle.LifecycleOwner): void\",\"overload_index\":0,\"is_constructor\":false,\"dex_descriptor\":\"(Landroidx/lifecycle/LifecycleOwner;)V\"},\"overload_count\":1,\"representation\":\"java\",\"body_status\":\"available\",\"fell_back\":false,\"markers\":[],\"source\":{\"status\":\"complete\",\"text\":\"    private final void tryToShowSplashAd(LifecycleOwner owner) {\\r\\n        AdSplash adSplash;\\r\\n        Activity activityF;\\r\\n        Package r3;\\r\\n        String name;\\r\\n        GlobalConfigEntity globalConfigEntityD = tk2.o.d();\\r\\n        if (globalConfigEntityD == null || (adSplash = globalConfigEntityD.getAdSplash()) == null) {\\r\\n            return;\\r\\n        }\\r\\n        pe3.e(\\\"AppLifecycleObserver\\\", \\\"Attempting to show splash ad with config: rate=\\\" + adSplash.getSwitchRate() + \\\", num=\\\" + adSplash.getSwitchNum() + \\\", sec=\\\" + adSplash.getSwitchSec());\\r\\n        int iRandom = RangesKt___RangesKt.random(new IntRange(1, 100), Random.INSTANCE);\\r\\n        if (iRandom > adSplash.getSwitchRate()) {\\r\\n            pe3.e(\\\"AppLifecycleObserver\\\", \\\"Check failed: Probability miss (random:\\\" + iRandom + \\\" > rate:\\\" + adSplash.getSwitchRate() + ')');\\r\\n            return;\\r\\n        }\\r\\n        d93 d93Var = d93.o;\\r\\n        int iO = d93Var.o();\\r\\n        if (iO >= adSplash.getSwitchNum()) {\\r\\n            pe3.e(\\\"AppLifecycleObserver\\\", \\\"Check failed: Daily limit reached (count:\\\" + iO + \\\" >= limit:\\\" + adSplash.getSwitchNum() + ')');\\r\\n            return;\\r\\n        }\\r\\n        long jCurrentTimeMillis = System.currentTimeMillis();\\r\\n        long jB = d93Var.b();\\r\\n        long switchSec = ((long) adSplash.getSwitchSec()) * 1000;\\r\\n        if (jB == 0) {\\r\\n            pe3.e(\\\"AppLifecycleObserver\\\", \\\"Skipping ad, lastEventTime is 0 (first run).\\\");\\r\\n            return;\\r\\n        }\\r\\n        String str = \\\"\\\";\\r\\n        if (o.f() != null && (activityF = o.f()) != null && (r3 = activityF.getClass().getPackage()) != null && (name = r3.getName()) != null) {\\r\\n            str = name;\\r\\n        }\\r\\n        if (!StringsKt__StringsKt.contains$default((CharSequence) str, (CharSequence) \\\"com.kingtar.work.mvvm\\\", false, 2, (Object) null)) {\\r\\n            pe3.e(\\\"AppLifecycleObserver\\\", \\\"栈顶是广告页面，不要插入splash\\\");\\r\\n            return;\\r\\n        }\\r\\n        long j = jCurrentTimeMillis - jB;\\r\\n        if (j < switchSec) {\\r\\n            pe3.e(\\\"AppLifecycleObserver\\\", \\\"Check SKIPPED: Time interval too short (elapsed:\\\" + j + \\\"ms < required:\\\" + switchSec + \\\"ms)\\\");\\r\\n            return;\\r\\n        }\\r\\n        pe3.e(\\\"AppLifecycleObserver\\\", \\\"Check PASSED: Time interval OK (elapsed:\\\" + j + \\\"ms >= required:\\\" + switchSec + \\\"ms). Showing ad.\\\");\\r\\n        showSplashAd(owner);\\r\\n    }\",\"reported_total_bytes\":null}},\"confidence\":\"derived\",\"authority\":\"shipped-artifact\",\"environment\":null,\"limitations\":[\"Static decompiler observations do not establish runtime behavior; the APK is never executed.\",\"Method signatures use provider display types; DEX prototypes come from frozen JADX metadata. Display names may be aliases, and overload indices are local to this engine and artifact.\",\"Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.\",\"Incoming reference totals count JADX using nodes. Direct invoke entries within a using method report raw DEX code-unit offsets and method indexes, but coverage is limited to those nodes and directly matched invokes; it does not establish every possible dynamic or reflective call site.\",\"Manifest summaries are parsed once by REA's bridge from the exact root AndroidManifest.xml resource, using namespace-aware XML attributes; decoded XML is retained. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider.\"],\"relationship_coverage\":null,\"locations\":[],\"evidence_links\":[]}"
+      }
+    ],
+    "structuredContent": {
+      "evidence_id": "ev_2e16dc00094197fae19a1df16a15016ab52d3b0f78618521eba7a979ad7e1b3c",
+      "subject": {
+        "name": "base.apk",
+        "digest": {
+          "sha256": "e915f5593adc73929b5e8c78707ee921807843521439af862571d05262056f6e"
+        },
+        "local_path": "D:\\python daima\\outputs\\apk_extract_20261116\\com.sunriseskywaysnake\\base.apk",
+        "format": "apk",
+        "architecture": null
+      },
+      "provider": {
+        "id": "jadx",
+        "name": "JADX headless",
+        "version": "0.7.1"
+      },
+      "analysis_profile": null,
+      "predicate_type": "rea.analysis",
+      "operation": "inspect_android_method",
+      "parameters": {
+        "path": "D:\\python daima\\outputs\\apk_extract_20261116\\com.sunriseskywaysnake\\base.apk",
+        "class_name": "com.kingtar.work.mvvm.ui.AppLifecycleObserver",
+        "method_name": "tryToShowSplashAd"
+      },
+      "raw_result": {
+        "server": {
+          "name": "rea-jadx-bridge",
+          "version": "7"
+        },
+        "bridge_sha256": "e5044a8312dd0731f53af3f095508b3e5cff54df6b971c95d4305e2f39b4fa30",
+        "jar_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+        "loaded": {
+          "state": "LOADED",
+          "apk_path": "C:\\Users\\asus\\AppData\\Local\\Temp\\rea-android-f639986e8a6d30eb694b3a70bb91ec06\\target.apk",
+          "class_count": 61349,
+          "resource_count": 3249,
+          "threads": 1,
+          "resources": "full"
+        },
+        "calls": [
+          {
+            "operation": "rea_jvm_status",
+            "input": {},
+            "response": {
+              "content": [
+                {
+                  "type": "text",
+                  "text": "{\"available_processors\":3,\"engine_reported_version\":\"0.7.1\",\"metadata_scope\":\"parsed_members\",\"max_heap_bytes\":3221225472,\"java_version\":\"17.0.12\"}"
+                }
+              ],
+              "isError": false
+            }
+          },
+          {
+            "operation": "get_class_summary",
+            "input": {
+              "class_name": "com.kingtar.work.mvvm.ui.AppLifecycleObserver"
+            },
+            "response": {
+              "content": [
+                {
+                  "type": "text",
+                  "text": "{\"fields\":[{\"def_pos\":0,\"name\":\"application\",\"type\":\"android.app.Application\"},{\"def_pos\":0,\"name\":\"currentActivity\",\"type\":\"android.app.Activity\"},{\"def_pos\":0,\"name\":\"isAppInForeground\",\"type\":\"boolean\"},{\"def_pos\":0,\"name\":\"isColdStart\",\"type\":\"boolean\"},{\"def_pos\":0,\"name\":\"isShowingAd\",\"type\":\"boolean\"}],\"methods\":[{\"name\":\"\\u003cinit\\u003e\",\"is_constructor\":true,\"dex_descriptor\":\"(Landroid/app/Application;)V\",\"signature\":\"\\u003cinit\\u003e(android.app.Application): void\",\"def_pos\":0},{\"name\":\"access$setShowingAd$p\",\"is_constructor\":false,\"dex_descriptor\":\"(Lcom/kingtar/work/mvvm/ui/AppLifecycleObserver;Z)V\",\"signature\":\"access$setShowingAd$p(com.kingtar.work.mvvm.ui.AppLifecycleObserver, boolean): void\",\"def_pos\":0},{\"name\":\"onActivityCreated\",\"is_constructor\":false,\"dex_descriptor\":\"(Landroid/app/Activity;Landroid/os/Bundle;)V\",\"signature\":\"onActivityCreated(android.app.Activity, android.os.Bundle): void\",\"def_pos\":0},{\"name\":\"onActivityDestroyed\",\"is_constructor\":false,\"dex_descriptor\":\"(Landroid/app/Activity;)V\",\"signature\":\"onActivityDestroyed(android.app.Activity): void\",\"def_pos\":0},{\"name\":\"onActivityPaused\",\"is_constructor\":false,\"dex_descriptor\":\"(Landroid/app/Activity;)V\",\"signature\":\"onActivityPaused(android.app.Activity): void\",\"def_pos\":0},{\"name\":\"onActivityResumed\",\"is_constructor\":false,\"dex_descriptor\":\"(Landroid/app/Activity;)V\",\"signature\":\"onActivityResumed(android.app.Activity): void\",\"def_pos\":0},{\"name\":\"onActivitySaveInstanceState\",\"is_constructor\":false,\"dex_descriptor\":\"(Landroid/app/Activity;Landroid/os/Bundle;)V\",\"signature\":\"onActivitySaveInstanceState(android.app.Activity, android.os.Bundle): void\",\"def_pos\":0},{\"name\":\"onActivityStarted\",\"is_constructor\":false,\"dex_descriptor\":\"(Landroid/app/Activity;)V\",\"signature\":\"onActivityStarted(android.app.Activity): void\",\"def_pos\":0},{\"name\":\"onActivityStopped\",\"is_constructor\":false,\"dex_descriptor\":\"(Landroid/app/Activity;)V\",\"signature\":\"onActivityStopped(android.app.Activity): void\",\"def_pos\":0},{\"name\":\"onStart\",\"is_constructor\":false,\"dex_descriptor\":\"(Landroidx/lifecycle/LifecycleOwner;)V\",\"signature\":\"onStart(androidx.lifecycle.LifecycleOwner): void\",\"def_pos\":0},{\"name\":\"onStop\",\"is_constructor\":false,\"dex_descriptor\":\"(Landroidx/lifecycle/LifecycleOwner;)V\",\"signature\":\"onStop(androidx.lifecycle.LifecycleOwner): void\",\"def_pos\":0},{\"name\":\"register\",\"is_constructor\":false,\"dex_descriptor\":\"()V\",\"signature\":\"register(): void\",\"def_pos\":0},{\"name\":\"showSplashAd\",\"is_constructor\":false,\"dex_descriptor\":\"(Landroidx/lifecycle/LifecycleOwner;)V\",\"signature\":\"showSplashAd(androidx.lifecycle.LifecycleOwner): void\",\"def_pos\":0},{\"name\":\"tryToShowSplashAd\",\"is_constructor\":false,\"dex_descriptor\":\"(Landroidx/lifecycle/LifecycleOwner;)V\",\"signature\":\"tryToShowSplashAd(androidx.lifecycle.LifecycleOwner): void\",\"def_pos\":0}],\"inner_classes\":[\"com.kingtar.work.mvvm.ui.AppLifecycleObserver.AnonymousClass1\"],\"inner_class_count\":1,\"name\":\"AppLifecycleObserver\",\"field_count\":5,\"full_name\":\"com.kingtar.work.mvvm.ui.AppLifecycleObserver\",\"method_count\":14,\"raw_name\":\"com.kingtar.work.mvvm.ui.AppLifecycleObserver\"}"
+                }
+              ],
+              "isError": false
+            }
+          },
+          {
+            "operation": "get_method_body",
+            "input": {
+              "class_name": "com.kingtar.work.mvvm.ui.AppLifecycleObserver",
+              "method_name": "tryToShowSplashAd",
+              "overload_index": 0,
+              "smali_fallback": true
+            },
+            "response": {
+              "content": [
+                {
+                  "type": "text",
+                  "text": "{\"method_name\":\"tryToShowSplashAd\",\"overload_count\":1,\"dex_descriptor\":\"(Landroidx/lifecycle/LifecycleOwner;)V\",\"class_name\":\"com.kingtar.work.mvvm.ui.AppLifecycleObserver\",\"mode\":\"java\",\"body\":\"    private final void tryToShowSplashAd(LifecycleOwner owner) {\\r\\n        AdSplash adSplash;\\r\\n        Activity activityF;\\r\\n        Package r3;\\r\\n        String name;\\r\\n        GlobalConfigEntity globalConfigEntityD \\u003d tk2.o.d();\\r\\n        if (globalConfigEntityD \\u003d\\u003d null || (adSplash \\u003d globalConfigEntityD.getAdSplash()) \\u003d\\u003d null) {\\r\\n            return;\\r\\n        }\\r\\n        pe3.e(\\\"AppLifecycleObserver\\\", \\\"Attempting to show splash ad with config: rate\\u003d\\\" + adSplash.getSwitchRate() + \\\", num\\u003d\\\" + adSplash.getSwitchNum() + \\\", sec\\u003d\\\" + adSplash.getSwitchSec());\\r\\n        int iRandom \\u003d RangesKt___RangesKt.random(new IntRange(1, 100), Random.INSTANCE);\\r\\n        if (iRandom \\u003e adSplash.getSwitchRate()) {\\r\\n            pe3.e(\\\"AppLifecycleObserver\\\", \\\"Check failed: Probability miss (random:\\\" + iRandom + \\\" \\u003e rate:\\\" + adSplash.getSwitchRate() + \\u0027)\\u0027);\\r\\n            return;\\r\\n        }\\r\\n        d93 d93Var \\u003d d93.o;\\r\\n        int iO \\u003d d93Var.o();\\r\\n        if (iO \\u003e\\u003d adSplash.getSwitchNum()) {\\r\\n            pe3.e(\\\"AppLifecycleObserver\\\", \\\"Check failed: Daily limit reached (count:\\\" + iO + \\\" \\u003e\\u003d limit:\\\" + adSplash.getSwitchNum() + \\u0027)\\u0027);\\r\\n            return;\\r\\n        }\\r\\n        long jCurrentTimeMillis \\u003d System.currentTimeMillis();\\r\\n        long jB \\u003d d93Var.b();\\r\\n        long switchSec \\u003d ((long) adSplash.getSwitchSec()) * 1000;\\r\\n        if (jB \\u003d\\u003d 0) {\\r\\n            pe3.e(\\\"AppLifecycleObserver\\\", \\\"Skipping ad, lastEventTime is 0 (first run).\\\");\\r\\n            return;\\r\\n        }\\r\\n        String str \\u003d \\\"\\\";\\r\\n        if (o.f() !\\u003d null \\u0026\\u0026 (activityF \\u003d o.f()) !\\u003d null \\u0026\\u0026 (r3 \\u003d activityF.getClass().getPackage()) !\\u003d null \\u0026\\u0026 (name \\u003d r3.getName()) !\\u003d null) {\\r\\n            str \\u003d name;\\r\\n        }\\r\\n        if (!StringsKt__StringsKt.contains$default((CharSequence) str, (CharSequence) \\\"com.kingtar.work.mvvm\\\", false, 2, (Object) null)) {\\r\\n            pe3.e(\\\"AppLifecycleObserver\\\", \\\"栈顶是广告页面，不要插入splash\\\");\\r\\n            return;\\r\\n        }\\r\\n        long j \\u003d jCurrentTimeMillis - jB;\\r\\n        if (j \\u003c switchSec) {\\r\\n            pe3.e(\\\"AppLifecycleObserver\\\", \\\"Check SKIPPED: Time interval too short (elapsed:\\\" + j + \\\"ms \\u003c required:\\\" + switchSec + \\\"ms)\\\");\\r\\n            return;\\r\\n        }\\r\\n        pe3.e(\\\"AppLifecycleObserver\\\", \\\"Check PASSED: Time interval OK (elapsed:\\\" + j + \\\"ms \\u003e\\u003d required:\\\" + switchSec + \\\"ms). Showing ad.\\\");\\r\\n        showSplashAd(owner);\\r\\n    }\",\"markers\":[],\"fell_back\":false,\"full_name\":\"com.kingtar.work.mvvm.ui.AppLifecycleObserver.tryToShowSplashAd\",\"overload_index\":0}"
+                }
+              ],
+              "isError": false
+            }
+          }
+        ]
+      },
+      "normalized_result": {
+        "engine": {
+          "name": "jadx-headless-mcp",
+          "version": "0.7.1",
+          "artifact_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+          "source_revision": "5844800a486d2248fa949b74c9896285f5b54de2",
+          "worker_count": 1,
+          "heap_limit_mib": 3072
+        },
+        "class_name": "com.kingtar.work.mvvm.ui.AppLifecycleObserver",
+        "method": {
+          "name": "tryToShowSplashAd",
+          "reported_signature": "tryToShowSplashAd(androidx.lifecycle.LifecycleOwner): void",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": "(Landroidx/lifecycle/LifecycleOwner;)V"
+        },
+        "overload_count": 1,
+        "representation": "java",
+        "body_status": "available",
+        "fell_back": false,
+        "markers": [],
+        "source": {
+          "status": "complete",
+          "text": "    private final void tryToShowSplashAd(LifecycleOwner owner) {\r\n        AdSplash adSplash;\r\n        Activity activityF;\r\n        Package r3;\r\n        String name;\r\n        GlobalConfigEntity globalConfigEntityD = tk2.o.d();\r\n        if (globalConfigEntityD == null || (adSplash = globalConfigEntityD.getAdSplash()) == null) {\r\n            return;\r\n        }\r\n        pe3.e(\"AppLifecycleObserver\", \"Attempting to show splash ad with config: rate=\" + adSplash.getSwitchRate() + \", num=\" + adSplash.getSwitchNum() + \", sec=\" + adSplash.getSwitchSec());\r\n        int iRandom = RangesKt___RangesKt.random(new IntRange(1, 100), Random.INSTANCE);\r\n        if (iRandom > adSplash.getSwitchRate()) {\r\n            pe3.e(\"AppLifecycleObserver\", \"Check failed: Probability miss (random:\" + iRandom + \" > rate:\" + adSplash.getSwitchRate() + ')');\r\n            return;\r\n        }\r\n        d93 d93Var = d93.o;\r\n        int iO = d93Var.o();\r\n        if (iO >= adSplash.getSwitchNum()) {\r\n            pe3.e(\"AppLifecycleObserver\", \"Check failed: Daily limit reached (count:\" + iO + \" >= limit:\" + adSplash.getSwitchNum() + ')');\r\n            return;\r\n        }\r\n        long jCurrentTimeMillis = System.currentTimeMillis();\r\n        long jB = d93Var.b();\r\n        long switchSec = ((long) adSplash.getSwitchSec()) * 1000;\r\n        if (jB == 0) {\r\n            pe3.e(\"AppLifecycleObserver\", \"Skipping ad, lastEventTime is 0 (first run).\");\r\n            return;\r\n        }\r\n        String str = \"\";\r\n        if (o.f() != null && (activityF = o.f()) != null && (r3 = activityF.getClass().getPackage()) != null && (name = r3.getName()) != null) {\r\n            str = name;\r\n        }\r\n        if (!StringsKt__StringsKt.contains$default((CharSequence) str, (CharSequence) \"com.kingtar.work.mvvm\", false, 2, (Object) null)) {\r\n            pe3.e(\"AppLifecycleObserver\", \"栈顶是广告页面，不要插入splash\");\r\n            return;\r\n        }\r\n        long j = jCurrentTimeMillis - jB;\r\n        if (j < switchSec) {\r\n            pe3.e(\"AppLifecycleObserver\", \"Check SKIPPED: Time interval too short (elapsed:\" + j + \"ms < required:\" + switchSec + \"ms)\");\r\n            return;\r\n        }\r\n        pe3.e(\"AppLifecycleObserver\", \"Check PASSED: Time interval OK (elapsed:\" + j + \"ms >= required:\" + switchSec + \"ms). Showing ad.\");\r\n        showSplashAd(owner);\r\n    }",
+          "reported_total_bytes": null
+        }
+      },
+      "confidence": "derived",
+      "authority": "shipped-artifact",
+      "environment": null,
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; DEX prototypes come from frozen JADX metadata. Display names may be aliases, and overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Incoming reference totals count JADX using nodes. Direct invoke entries within a using method report raw DEX code-unit offsets and method indexes, but coverage is limited to those nodes and directly matched invokes; it does not establish every possible dynamic or reflective call site.",
+        "Manifest summaries are parsed once by REA's bridge from the exact root AndroidManifest.xml resource, using namespace-aware XML attributes; decoded XML is retained. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ],
+      "relationship_coverage": null,
+      "locations": [],
+      "evidence_links": []
+    }
+  }
+}

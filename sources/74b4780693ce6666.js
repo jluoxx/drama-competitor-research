@@ -1,0 +1,1 @@
+window.SOURCE_CONTENT["74b4780693ce6666"]={"text":"{\r\n  \"scope\": \"com.kingtar class descriptor names; excluded /R and /databinding; not implementation equivalence or company ownership\",\r\n  \"cash_count\": 625,\r\n  \"coin_count\": 609,\r\n  \"shared_names\": 547,\r\n  \"jaccard\": 0.7962154294032023\r\n}","html":null};

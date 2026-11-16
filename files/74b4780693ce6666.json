@@ -1,0 +1,7 @@
+{
+  "scope": "com.kingtar class descriptor names; excluded /R and /databinding; not implementation equivalence or company ownership",
+  "cash_count": 625,
+  "coin_count": 609,
+  "shared_names": 547,
+  "jaccard": 0.7962154294032023
+}

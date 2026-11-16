@@ -1,0 +1,158 @@
+{
+  "job": {
+    "id": "152_notification_init",
+    "package": "com.smartnettools.studio.dramapop",
+    "tool": "inspect_android_method",
+    "args": {
+      "path": "D:\\python daima\\outputs\\apk_extract_20261116\\com.smartnettools.studio.dramapop\\base.apk",
+      "class_name": "com.android.launcher3.notification.NotificationListener",
+      "method_name": "<init>"
+    }
+  },
+  "start": "2026-11-16T04:39:21.819Z",
+  "end": "2026-11-16T04:39:22.581Z",
+  "result": {
+    "_meta": {
+      "provenance": {
+        "untrusted_content": true,
+        "source": "analysis_target"
+      }
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"evidence_id\":\"ev_e4264a2f5ecf87e2bc6547ff99028076e26ba2f880afd31cc5c279458ab86891\",\"subject\":{\"name\":\"base.apk\",\"digest\":{\"sha256\":\"5b074f04f27d01ddf7816723e192f7b3577f9994bf13a37195869668e9861cf9\"},\"local_path\":\"D:\\\\python daima\\\\outputs\\\\apk_extract_20261116\\\\com.smartnettools.studio.dramapop\\\\base.apk\",\"format\":\"apk\",\"architecture\":null},\"provider\":{\"id\":\"jadx\",\"name\":\"JADX headless\",\"version\":\"0.7.1\"},\"analysis_profile\":null,\"predicate_type\":\"rea.analysis\",\"operation\":\"inspect_android_method\",\"parameters\":{\"path\":\"D:\\\\python daima\\\\outputs\\\\apk_extract_20261116\\\\com.smartnettools.studio.dramapop\\\\base.apk\",\"class_name\":\"com.android.launcher3.notification.NotificationListener\",\"method_name\":\"<init>\"},\"raw_result\":{\"server\":{\"name\":\"rea-jadx-bridge\",\"version\":\"7\"},\"bridge_sha256\":\"e5044a8312dd0731f53af3f095508b3e5cff54df6b971c95d4305e2f39b4fa30\",\"jar_sha256\":\"6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75\",\"loaded\":{\"state\":\"LOADED\",\"apk_path\":\"C:\\\\Users\\\\asus\\\\AppData\\\\Local\\\\Temp\\\\rea-android-ebe4b535a3958330a9d98b752d539cc4\\\\target.apk\",\"class_count\":50068,\"resource_count\":2637,\"threads\":1,\"resources\":\"full\"},\"calls\":[{\"operation\":\"rea_jvm_status\",\"input\":{},\"response\":{\"content\":[{\"type\":\"text\",\"text\":\"{\\\"java_version\\\":\\\"17.0.12\\\",\\\"available_processors\\\":3,\\\"engine_reported_version\\\":\\\"0.7.1\\\",\\\"metadata_scope\\\":\\\"parsed_members\\\",\\\"max_heap_bytes\\\":3221225472}\"}],\"isError\":false}},{\"operation\":\"get_class_summary\",\"input\":{\"class_name\":\"com.android.launcher3.notification.NotificationListener\"},\"response\":{\"content\":[{\"type\":\"text\",\"text\":\"{\\\"method_count\\\":11,\\\"raw_name\\\":\\\"com.android.launcher3.notification.NotificationListener\\\",\\\"fields\\\":[{\\\"def_pos\\\":0,\\\"name\\\":\\\"b\\\",\\\"type\\\":\\\"android.os.Handler\\\"},{\\\"def_pos\\\":0,\\\"name\\\":\\\"d\\\",\\\"type\\\":\\\"android.service.notification.NotificationListenerService$Ranking\\\"},{\\\"def_pos\\\":0,\\\"name\\\":\\\"e\\\",\\\"type\\\":\\\"java.util.HashMap\\\"},{\\\"def_pos\\\":0,\\\"name\\\":\\\"f\\\",\\\"type\\\":\\\"java.util.HashMap\\\"},{\\\"def_pos\\\":0,\\\"name\\\":\\\"f12663i\\\",\\\"type\\\":\\\"com.android.launcher3.notification.NotificationListener\\\"},{\\\"def_pos\\\":0,\\\"name\\\":\\\"f12664j\\\",\\\"type\\\":\\\"m4.g\\\"},{\\\"def_pos\\\":0,\\\"name\\\":\\\"f12665k\\\",\\\"type\\\":\\\"boolean\\\"},{\\\"def_pos\\\":0,\\\"name\\\":\\\"f12666l\\\",\\\"type\\\":\\\"boolean\\\"},{\\\"def_pos\\\":0,\\\"name\\\":\\\"f12667c\\\",\\\"type\\\":\\\"android.os.Handler\\\"},{\\\"def_pos\\\":0,\\\"name\\\":\\\"f12668g\\\",\\\"type\\\":\\\"java.lang.String\\\"},{\\\"def_pos\\\":0,\\\"name\\\":\\\"f12669h\\\",\\\"type\\\":\\\"com.android.launcher3.l0\\\"}],\\\"methods\\\":[{\\\"name\\\":\\\"\\\\u003cinit\\\\u003e\\\",\\\"is_constructor\\\":true,\\\"dex_descriptor\\\":\\\"()V\\\",\\\"signature\\\":\\\"\\\\u003cinit\\\\u003e(): void\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"a\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"(Lcom/android/launcher3/notification/NotificationListener;[Landroid/service/notification/StatusBarNotification;)Ljava/util/ArrayList;\\\",\\\"signature\\\":\\\"a(com.android.launcher3.notification.NotificationListener, android.service.notification.StatusBarNotification[]): java.util.ArrayList\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"b\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"(Landroid/service/notification/StatusBarNotification;)Z\\\",\\\"signature\\\":\\\"b(android.service.notification.StatusBarNotification): boolean\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"c\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"(Landroid/service/notification/StatusBarNotification;)V\\\",\\\"signature\\\":\\\"c(android.service.notification.StatusBarNotification): void\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"onCreate\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"()V\\\",\\\"signature\\\":\\\"onCreate(): void\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"onDestroy\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"()V\\\",\\\"signature\\\":\\\"onDestroy(): void\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"onListenerConnected\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"()V\\\",\\\"signature\\\":\\\"onListenerConnected(): void\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"onListenerDisconnected\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"()V\\\",\\\"signature\\\":\\\"onListenerDisconnected(): void\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"onNotificationPosted\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"(Landroid/service/notification/StatusBarNotification;)V\\\",\\\"signature\\\":\\\"onNotificationPosted(android.service.notification.StatusBarNotification): void\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"onNotificationRankingUpdate\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"(Landroid/service/notification/NotificationListenerService$RankingMap;)V\\\",\\\"signature\\\":\\\"onNotificationRankingUpdate(android.service.notification.NotificationListenerService$RankingMap): void\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"onNotificationRemoved\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"(Landroid/service/notification/StatusBarNotification;)V\\\",\\\"signature\\\":\\\"onNotificationRemoved(android.service.notification.StatusBarNotification): void\\\",\\\"def_pos\\\":0}],\\\"inner_classes\\\":[],\\\"inner_class_count\\\":0,\\\"name\\\":\\\"NotificationListener\\\",\\\"field_count\\\":11,\\\"full_name\\\":\\\"com.android.launcher3.notification.NotificationListener\\\"}\"}],\"isError\":false}},{\"operation\":\"get_method_body\",\"input\":{\"class_name\":\"com.android.launcher3.notification.NotificationListener\",\"method_name\":\"<init>\",\"overload_index\":0,\"smali_fallback\":true},\"response\":{\"content\":[{\"type\":\"text\",\"text\":\"{\\\"full_name\\\":\\\"com.android.launcher3.notification.NotificationListener.\\\\u003cinit\\\\u003e\\\",\\\"overload_index\\\":0,\\\"method_name\\\":\\\"\\\\u003cinit\\\\u003e\\\",\\\"overload_count\\\":1,\\\"dex_descriptor\\\":\\\"()V\\\",\\\"class_name\\\":\\\"com.android.launcher3.notification.NotificationListener\\\",\\\"mode\\\":\\\"java\\\",\\\"body\\\":\\\"    public NotificationListener() {\\\\r\\\\n        e eVar \\\\u003d new e(this, 3);\\\\r\\\\n        a aVar \\\\u003d new a(2);\\\\r\\\\n        this.b \\\\u003d new Handler(LauncherModel.f12305j.getLooper(), eVar);\\\\r\\\\n        this.f12667c \\\\u003d new Handler(Looper.getMainLooper(), aVar);\\\\r\\\\n        f12663i \\\\u003d this;\\\\r\\\\n    }\\\",\\\"markers\\\":[],\\\"fell_back\\\":false}\"}],\"isError\":false}}]},\"normalized_result\":{\"engine\":{\"name\":\"jadx-headless-mcp\",\"version\":\"0.7.1\",\"artifact_sha256\":\"6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75\",\"source_revision\":\"5844800a486d2248fa949b74c9896285f5b54de2\",\"worker_count\":1,\"heap_limit_mib\":3072},\"class_name\":\"com.android.launcher3.notification.NotificationListener\",\"method\":{\"name\":\"<init>\",\"reported_signature\":\"<init>(): void\",\"overload_index\":0,\"is_constructor\":true,\"dex_descriptor\":\"()V\"},\"overload_count\":1,\"representation\":\"java\",\"body_status\":\"available\",\"fell_back\":false,\"markers\":[],\"source\":{\"status\":\"complete\",\"text\":\"    public NotificationListener() {\\r\\n        e eVar = new e(this, 3);\\r\\n        a aVar = new a(2);\\r\\n        this.b = new Handler(LauncherModel.f12305j.getLooper(), eVar);\\r\\n        this.f12667c = new Handler(Looper.getMainLooper(), aVar);\\r\\n        f12663i = this;\\r\\n    }\",\"reported_total_bytes\":null}},\"confidence\":\"derived\",\"authority\":\"shipped-artifact\",\"environment\":null,\"limitations\":[\"Static decompiler observations do not establish runtime behavior; the APK is never executed.\",\"Method signatures use provider display types; DEX prototypes come from frozen JADX metadata. Display names may be aliases, and overload indices are local to this engine and artifact.\",\"Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.\",\"Incoming reference totals count JADX using nodes. Direct invoke entries within a using method report raw DEX code-unit offsets and method indexes, but coverage is limited to those nodes and directly matched invokes; it does not establish every possible dynamic or reflective call site.\",\"Manifest summaries are parsed once by REA's bridge from the exact root AndroidManifest.xml resource, using namespace-aware XML attributes; decoded XML is retained. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider.\"],\"relationship_coverage\":null,\"locations\":[],\"evidence_links\":[]}"
+      }
+    ],
+    "structuredContent": {
+      "evidence_id": "ev_e4264a2f5ecf87e2bc6547ff99028076e26ba2f880afd31cc5c279458ab86891",
+      "subject": {
+        "name": "base.apk",
+        "digest": {
+          "sha256": "5b074f04f27d01ddf7816723e192f7b3577f9994bf13a37195869668e9861cf9"
+        },
+        "local_path": "D:\\python daima\\outputs\\apk_extract_20261116\\com.smartnettools.studio.dramapop\\base.apk",
+        "format": "apk",
+        "architecture": null
+      },
+      "provider": {
+        "id": "jadx",
+        "name": "JADX headless",
+        "version": "0.7.1"
+      },
+      "analysis_profile": null,
+      "predicate_type": "rea.analysis",
+      "operation": "inspect_android_method",
+      "parameters": {
+        "path": "D:\\python daima\\outputs\\apk_extract_20261116\\com.smartnettools.studio.dramapop\\base.apk",
+        "class_name": "com.android.launcher3.notification.NotificationListener",
+        "method_name": "<init>"
+      },
+      "raw_result": {
+        "server": {
+          "name": "rea-jadx-bridge",
+          "version": "7"
+        },
+        "bridge_sha256": "e5044a8312dd0731f53af3f095508b3e5cff54df6b971c95d4305e2f39b4fa30",
+        "jar_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+        "loaded": {
+          "state": "LOADED",
+          "apk_path": "C:\\Users\\asus\\AppData\\Local\\Temp\\rea-android-ebe4b535a3958330a9d98b752d539cc4\\target.apk",
+          "class_count": 50068,
+          "resource_count": 2637,
+          "threads": 1,
+          "resources": "full"
+        },
+        "calls": [
+          {
+            "operation": "rea_jvm_status",
+            "input": {},
+            "response": {
+              "content": [
+                {
+                  "type": "text",
+                  "text": "{\"java_version\":\"17.0.12\",\"available_processors\":3,\"engine_reported_version\":\"0.7.1\",\"metadata_scope\":\"parsed_members\",\"max_heap_bytes\":3221225472}"
+                }
+              ],
+              "isError": false
+            }
+          },
+          {
+            "operation": "get_class_summary",
+            "input": {
+              "class_name": "com.android.launcher3.notification.NotificationListener"
+            },
+            "response": {
+              "content": [
+                {
+                  "type": "text",
+                  "text": "{\"method_count\":11,\"raw_name\":\"com.android.launcher3.notification.NotificationListener\",\"fields\":[{\"def_pos\":0,\"name\":\"b\",\"type\":\"android.os.Handler\"},{\"def_pos\":0,\"name\":\"d\",\"type\":\"android.service.notification.NotificationListenerService$Ranking\"},{\"def_pos\":0,\"name\":\"e\",\"type\":\"java.util.HashMap\"},{\"def_pos\":0,\"name\":\"f\",\"type\":\"java.util.HashMap\"},{\"def_pos\":0,\"name\":\"f12663i\",\"type\":\"com.android.launcher3.notification.NotificationListener\"},{\"def_pos\":0,\"name\":\"f12664j\",\"type\":\"m4.g\"},{\"def_pos\":0,\"name\":\"f12665k\",\"type\":\"boolean\"},{\"def_pos\":0,\"name\":\"f12666l\",\"type\":\"boolean\"},{\"def_pos\":0,\"name\":\"f12667c\",\"type\":\"android.os.Handler\"},{\"def_pos\":0,\"name\":\"f12668g\",\"type\":\"java.lang.String\"},{\"def_pos\":0,\"name\":\"f12669h\",\"type\":\"com.android.launcher3.l0\"}],\"methods\":[{\"name\":\"\\u003cinit\\u003e\",\"is_constructor\":true,\"dex_descriptor\":\"()V\",\"signature\":\"\\u003cinit\\u003e(): void\",\"def_pos\":0},{\"name\":\"a\",\"is_constructor\":false,\"dex_descriptor\":\"(Lcom/android/launcher3/notification/NotificationListener;[Landroid/service/notification/StatusBarNotification;)Ljava/util/ArrayList;\",\"signature\":\"a(com.android.launcher3.notification.NotificationListener, android.service.notification.StatusBarNotification[]): java.util.ArrayList\",\"def_pos\":0},{\"name\":\"b\",\"is_constructor\":false,\"dex_descriptor\":\"(Landroid/service/notification/StatusBarNotification;)Z\",\"signature\":\"b(android.service.notification.StatusBarNotification): boolean\",\"def_pos\":0},{\"name\":\"c\",\"is_constructor\":false,\"dex_descriptor\":\"(Landroid/service/notification/StatusBarNotification;)V\",\"signature\":\"c(android.service.notification.StatusBarNotification): void\",\"def_pos\":0},{\"name\":\"onCreate\",\"is_constructor\":false,\"dex_descriptor\":\"()V\",\"signature\":\"onCreate(): void\",\"def_pos\":0},{\"name\":\"onDestroy\",\"is_constructor\":false,\"dex_descriptor\":\"()V\",\"signature\":\"onDestroy(): void\",\"def_pos\":0},{\"name\":\"onListenerConnected\",\"is_constructor\":false,\"dex_descriptor\":\"()V\",\"signature\":\"onListenerConnected(): void\",\"def_pos\":0},{\"name\":\"onListenerDisconnected\",\"is_constructor\":false,\"dex_descriptor\":\"()V\",\"signature\":\"onListenerDisconnected(): void\",\"def_pos\":0},{\"name\":\"onNotificationPosted\",\"is_constructor\":false,\"dex_descriptor\":\"(Landroid/service/notification/StatusBarNotification;)V\",\"signature\":\"onNotificationPosted(android.service.notification.StatusBarNotification): void\",\"def_pos\":0},{\"name\":\"onNotificationRankingUpdate\",\"is_constructor\":false,\"dex_descriptor\":\"(Landroid/service/notification/NotificationListenerService$RankingMap;)V\",\"signature\":\"onNotificationRankingUpdate(android.service.notification.NotificationListenerService$RankingMap): void\",\"def_pos\":0},{\"name\":\"onNotificationRemoved\",\"is_constructor\":false,\"dex_descriptor\":\"(Landroid/service/notification/StatusBarNotification;)V\",\"signature\":\"onNotificationRemoved(android.service.notification.StatusBarNotification): void\",\"def_pos\":0}],\"inner_classes\":[],\"inner_class_count\":0,\"name\":\"NotificationListener\",\"field_count\":11,\"full_name\":\"com.android.launcher3.notification.NotificationListener\"}"
+                }
+              ],
+              "isError": false
+            }
+          },
+          {
+            "operation": "get_method_body",
+            "input": {
+              "class_name": "com.android.launcher3.notification.NotificationListener",
+              "method_name": "<init>",
+              "overload_index": 0,
+              "smali_fallback": true
+            },
+            "response": {
+              "content": [
+                {
+                  "type": "text",
+                  "text": "{\"full_name\":\"com.android.launcher3.notification.NotificationListener.\\u003cinit\\u003e\",\"overload_index\":0,\"method_name\":\"\\u003cinit\\u003e\",\"overload_count\":1,\"dex_descriptor\":\"()V\",\"class_name\":\"com.android.launcher3.notification.NotificationListener\",\"mode\":\"java\",\"body\":\"    public NotificationListener() {\\r\\n        e eVar \\u003d new e(this, 3);\\r\\n        a aVar \\u003d new a(2);\\r\\n        this.b \\u003d new Handler(LauncherModel.f12305j.getLooper(), eVar);\\r\\n        this.f12667c \\u003d new Handler(Looper.getMainLooper(), aVar);\\r\\n        f12663i \\u003d this;\\r\\n    }\",\"markers\":[],\"fell_back\":false}"
+                }
+              ],
+              "isError": false
+            }
+          }
+        ]
+      },
+      "normalized_result": {
+        "engine": {
+          "name": "jadx-headless-mcp",
+          "version": "0.7.1",
+          "artifact_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+          "source_revision": "5844800a486d2248fa949b74c9896285f5b54de2",
+          "worker_count": 1,
+          "heap_limit_mib": 3072
+        },
+        "class_name": "com.android.launcher3.notification.NotificationListener",
+        "method": {
+          "name": "<init>",
+          "reported_signature": "<init>(): void",
+          "overload_index": 0,
+          "is_constructor": true,
+          "dex_descriptor": "()V"
+        },
+        "overload_count": 1,
+        "representation": "java",
+        "body_status": "available",
+        "fell_back": false,
+        "markers": [],
+        "source": {
+          "status": "complete",
+          "text": "    public NotificationListener() {\r\n        e eVar = new e(this, 3);\r\n        a aVar = new a(2);\r\n        this.b = new Handler(LauncherModel.f12305j.getLooper(), eVar);\r\n        this.f12667c = new Handler(Looper.getMainLooper(), aVar);\r\n        f12663i = this;\r\n    }",
+          "reported_total_bytes": null
+        }
+      },
+      "confidence": "derived",
+      "authority": "shipped-artifact",
+      "environment": null,
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; DEX prototypes come from frozen JADX metadata. Display names may be aliases, and overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Incoming reference totals count JADX using nodes. Direct invoke entries within a using method report raw DEX code-unit offsets and method indexes, but coverage is limited to those nodes and directly matched invokes; it does not establish every possible dynamic or reflective call site.",
+        "Manifest summaries are parsed once by REA's bridge from the exact root AndroidManifest.xml resource, using namespace-aware XML attributes; decoded XML is retained. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ],
+      "relationship_coverage": null,
+      "locations": [],
+      "evidence_links": []
+    }
+  }
+}

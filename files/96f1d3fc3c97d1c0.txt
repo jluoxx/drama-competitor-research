@@ -1,0 +1,135 @@
+CLASS Lcom/kingtar/work/model/constants/KTarSdkConstants;
+FIELD AD_PLATFORM 0
+FIELD API_ENUM drama_video
+FIELD BASE_URL https://coindrama.balaleek.com
+FIELD DEBUG$delegate None
+FIELD INSTANCE None
+FIELD INTERSTITIAL_PLACEMENT None
+FIELD IS_PURE 0
+FIELD MM_AES_KEY lD8mngieTRGkMEX8BoK7Alx0fa3kEoAMrAHj53PwnLGEzJkH2Yg6yEnLF1V5548x
+FIELD MM_KEY nNTJWhvgqquFSWcjGazWOKhd12EJqe7xd5D6V20IlC4yA5J1JygiFg4xvXLcNr38
+FIELD PANGROWTH_APPID 
+FIELD REWARD_PLACEMENT None
+FIELD TAG KTarSdkConstants
+FIELD TEST_BASE_URL https://coindramatest.balaleek.com
+
+METHOD <clinit> ()V
+000000: new-instance v0, Lcom/kingtar/work/model/constants/KTarSdkConstants;
+000004: invoke-direct v0, Lcom/kingtar/work/model/constants/KTarSdkConstants;-><init>()V
+00000a: sput-object v0, Lcom/kingtar/work/model/constants/KTarSdkConstants;->INSTANCE Lcom/kingtar/work/model/constants/KTarSdkConstants;
+00000e: new-instance v0, Lq93;
+000012: invoke-direct v0, Lq93;-><init>()V
+000018: invoke-static v0, Lkotlin/LazyKt;->lazy(Lkotlin/jvm/functions/Function0;)Lkotlin/Lazy;
+00001e: move-result-object v0
+000020: sput-object v0, Lcom/kingtar/work/model/constants/KTarSdkConstants;->DEBUG$delegate Lkotlin/Lazy;
+000024: const-string v0, "1"
+000028: invoke-static v0, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
+00002e: move-result v0
+000030: sput v0, Lcom/kingtar/work/model/constants/KTarSdkConstants;->AD_PLATFORM I
+000034: const-string v0, "n1hd936s8vfdcl"
+000038: sput-object v0, Lcom/kingtar/work/model/constants/KTarSdkConstants;->REWARD_PLACEMENT Ljava/lang/String;
+00003c: const-string v0, "n1hd936s8vfr9v"
+000040: sput-object v0, Lcom/kingtar/work/model/constants/KTarSdkConstants;->INTERSTITIAL_PLACEMENT Ljava/lang/String;
+000044: return-void 
+
+METHOD <init> ()V
+000000: invoke-direct v0, Ljava/lang/Object;-><init>()V
+000006: return-void 
+
+METHOD DEBUG_delegate$lambda$0 ()Z
+000000: sget-object v0, Lt10;->O Ljava/lang/Boolean;
+000004: invoke-virtual v0, Ljava/lang/Boolean;->booleanValue()Z
+00000a: move-result v0
+00000c: return v0
+
+METHOD o ()Z
+000000: invoke-static Lcom/kingtar/work/model/constants/KTarSdkConstants;->DEBUG_delegate$lambda$0()Z
+000006: move-result v0
+000008: return v0
+
+METHOD getAD_PLATFORM ()I
+000000: sget v0, Lcom/kingtar/work/model/constants/KTarSdkConstants;->AD_PLATFORM I
+000004: return v0
+
+METHOD getDEBUG ()Z
+000000: sget-object v0, Lcom/kingtar/work/model/constants/KTarSdkConstants;->DEBUG$delegate Lkotlin/Lazy;
+000004: invoke-interface v0, Lkotlin/Lazy;->getValue()Ljava/lang/Object;
+00000a: move-result-object v0
+00000c: check-cast v0, Ljava/lang/Boolean;
+000010: invoke-virtual v0, Ljava/lang/Boolean;->booleanValue()Z
+000016: move-result v0
+000018: return v0
+
+METHOD getINTERSTITIAL_PLACEMENT ()Ljava/lang/String;
+000000: sget-object v0, Lcom/kingtar/work/model/constants/KTarSdkConstants;->INTERSTITIAL_PLACEMENT Ljava/lang/String;
+000004: return-object v0
+
+METHOD getREWARD_PLACEMENT ()Ljava/lang/String;
+000000: sget-object v0, Lcom/kingtar/work/model/constants/KTarSdkConstants;->REWARD_PLACEMENT Ljava/lang/String;
+000004: return-object v0
+
+METHOD hideReward ()Z
+000000: const/4 v0, 1
+000002: return v0
+
+METHOD isCheckVersion ()Z
+000000: sget-object v0, Ltk2;->o Ltk2;
+000004: invoke-virtual v0, Ltk2;->d()Lcom/kingtar/work/model/entities/GlobalConfigEntity;
+00000a: move-result-object v0
+00000c: invoke-static Lcom/blankj/utilcode/util/b;->O()I
+000012: move-result v1
+000014: invoke-static v1, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
+00001a: move-result-object v1
+00001c: if-eqz v0, +007h
+000020: invoke-virtual v0, Lcom/kingtar/work/model/entities/GlobalConfigEntity;->getAuditVersionCode()Ljava/lang/String;
+000026: move-result-object v0
+000028: goto +2h
+00002a: const/4 v0, 0
+00002c: invoke-static v0, v1, Lkotlin/jvm/internal/Intrinsics;->areEqual(Ljava/lang/Object; Ljava/lang/Object;)Z
+000032: move-result v0
+000034: const/4 v2, 0
+000036: if-eqz v0, +033h
+00003a: new-instance v0, Ljava/lang/StringBuilder;
+00003e: invoke-direct v0, Ljava/lang/StringBuilder;-><init>()V
+000044: const-string v3, "appCode="
+000048: invoke-virtual v0, v3, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+00004e: invoke-virtual v0, v1, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+000054: const-string v1, " appVersion="
+000058: invoke-virtual v0, v1, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+00005e: invoke-static Lcom/blankj/utilcode/util/b;->b()Ljava/lang/String;
+000064: move-result-object v1
+000066: invoke-virtual v0, v1, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+00006c: invoke-virtual v0, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+000072: move-result-object v0
+000074: const-string v1, "KTarSdkConstants"
+000078: invoke-static v1, v0, Landroid/util/Log;->i(Ljava/lang/String; Ljava/lang/String;)I
+00007e: invoke-virtual v4, Lcom/kingtar/work/model/constants/KTarSdkConstants;->isMain()Z
+000084: move-result v0
+000086: if-eqz v0, +00bh
+00008a: sget-object v0, Luc6;->o Luc6;
+00008e: invoke-virtual v0, Luc6;->s()Z
+000094: move-result v0
+000096: if-eqz v0, +003h
+00009a: const/4 v2, 1
+00009c: return v2
+
+METHOD isDrama2 ()Z
+000000: const/4 v0, 1
+000002: return v0
+
+METHOD isMain ()Z
+000000: const/4 v0, 1
+000002: return v0
+
+METHOD isOVSDrama ()Z
+000000: const/4 v0, 1
+000002: return v0
+
+METHOD isPure ()Z
+000000: const/4 v0, 0
+000002: return v0
+
+METHOD loadTip ()Ljava/lang/String;
+000000: const-string v0, "Loading data..."
+000004: return-object v0
+

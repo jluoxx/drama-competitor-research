@@ -1,0 +1,160 @@
+{
+  "job": {
+    "id": "173_alt_report_body",
+    "package": "com.xj.cash.drama",
+    "tool": "inspect_android_method",
+    "args": {
+      "path": "D:\\python daima\\outputs\\apk_extract_20261116\\com.xj.cash.drama\\base.apk",
+      "class_name": "com.thinkup.core.common.md.o.m",
+      "method_name": "n",
+      "overload_index": 0
+    }
+  },
+  "start": "2026-11-16T05:26:32.999Z",
+  "end": "2026-11-16T05:26:33.452Z",
+  "result": {
+    "_meta": {
+      "provenance": {
+        "untrusted_content": true,
+        "source": "analysis_target"
+      }
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"evidence_id\":\"ev_c77705bf88113740c93b04532bc9dfb12a6f7ca54204ff26988d0c68b77dfbb8\",\"subject\":{\"name\":\"base.apk\",\"digest\":{\"sha256\":\"5c21f181b3a5f2632d00dde6a1939d0fddd2bb05869539ca565edec19974f7fd\"},\"local_path\":\"D:\\\\python daima\\\\outputs\\\\apk_extract_20261116\\\\com.xj.cash.drama\\\\base.apk\",\"format\":\"apk\",\"architecture\":null},\"provider\":{\"id\":\"jadx\",\"name\":\"JADX headless\",\"version\":\"0.7.1\"},\"analysis_profile\":null,\"predicate_type\":\"rea.analysis\",\"operation\":\"inspect_android_method\",\"parameters\":{\"path\":\"D:\\\\python daima\\\\outputs\\\\apk_extract_20261116\\\\com.xj.cash.drama\\\\base.apk\",\"class_name\":\"com.thinkup.core.common.md.o.m\",\"method_name\":\"n\",\"overload_index\":0},\"raw_result\":{\"server\":{\"name\":\"rea-jadx-bridge\",\"version\":\"7\"},\"bridge_sha256\":\"e5044a8312dd0731f53af3f095508b3e5cff54df6b971c95d4305e2f39b4fa30\",\"jar_sha256\":\"6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75\",\"loaded\":{\"state\":\"LOADED\",\"apk_path\":\"C:\\\\Users\\\\asus\\\\AppData\\\\Local\\\\Temp\\\\rea-android-3546768ffa9b882f52d9db953e29791a\\\\target.apk\",\"class_count\":61382,\"resource_count\":3256,\"threads\":1,\"resources\":\"full\"},\"calls\":[{\"operation\":\"rea_jvm_status\",\"input\":{},\"response\":{\"content\":[{\"type\":\"text\",\"text\":\"{\\\"max_heap_bytes\\\":3221225472,\\\"metadata_scope\\\":\\\"parsed_members\\\",\\\"engine_reported_version\\\":\\\"0.7.1\\\",\\\"available_processors\\\":3,\\\"java_version\\\":\\\"17.0.12\\\"}\"}],\"isError\":false}},{\"operation\":\"get_class_summary\",\"input\":{\"class_name\":\"com.thinkup.core.common.md.o.m\"},\"response\":{\"content\":[{\"type\":\"text\",\"text\":\"{\\\"method_count\\\":10,\\\"full_name\\\":\\\"com.thinkup.core.common.md.o.m\\\",\\\"field_count\\\":4,\\\"name\\\":\\\"m\\\",\\\"inner_class_count\\\":0,\\\"inner_classes\\\":[],\\\"methods\\\":[{\\\"def_pos\\\":0,\\\"signature\\\":\\\"\\\\u003cinit\\\\u003e(java.util.List\\\\u003cjava.lang.String\\\\u003e): void\\\",\\\"dex_descriptor\\\":\\\"(Ljava/util/List;)V\\\",\\\"is_constructor\\\":true,\\\"name\\\":\\\"\\\\u003cinit\\\\u003e\\\"},{\\\"def_pos\\\":0,\\\"signature\\\":\\\"d(): int\\\",\\\"dex_descriptor\\\":\\\"()I\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"d\\\"},{\\\"def_pos\\\":0,\\\"signature\\\":\\\"d0(): int\\\",\\\"dex_descriptor\\\":\\\"()I\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"d0\\\"},{\\\"def_pos\\\":0,\\\"signature\\\":\\\"dd(): void\\\",\\\"dex_descriptor\\\":\\\"()V\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"dd\\\"},{\\\"def_pos\\\":0,\\\"signature\\\":\\\"dq(): java.lang.String\\\",\\\"dex_descriptor\\\":\\\"()Ljava/lang/String;\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"dq\\\"},{\\\"def_pos\\\":0,\\\"signature\\\":\\\"m(): int\\\",\\\"dex_descriptor\\\":\\\"()I\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"m\\\"},{\\\"def_pos\\\":0,\\\"signature\\\":\\\"m4742do(): int\\\",\\\"dex_descriptor\\\":\\\"()I\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"m4742do\\\"},{\\\"def_pos\\\":0,\\\"signature\\\":\\\"n(): byte[]\\\",\\\"dex_descriptor\\\":\\\"()[B\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"n\\\"},{\\\"def_pos\\\":0,\\\"signature\\\":\\\"o(): boolean\\\",\\\"dex_descriptor\\\":\\\"()Z\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"o\\\"},{\\\"def_pos\\\":0,\\\"signature\\\":\\\"q(): void\\\",\\\"dex_descriptor\\\":\\\"()V\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"q\\\"}],\\\"fields\\\":[{\\\"type\\\":\\\"java.util.List\\\\u003cjava.lang.String\\\\u003e\\\",\\\"name\\\":\\\"d\\\",\\\"def_pos\\\":0},{\\\"type\\\":\\\"int\\\",\\\"name\\\":\\\"m\\\",\\\"def_pos\\\":0},{\\\"type\\\":\\\"java.lang.String\\\",\\\"name\\\":\\\"mm\\\",\\\"def_pos\\\":0},{\\\"type\\\":\\\"boolean\\\",\\\"name\\\":\\\"n\\\",\\\"def_pos\\\":0}],\\\"raw_name\\\":\\\"com.thinkup.core.common.md.o.m\\\"}\"}],\"isError\":false}},{\"operation\":\"get_method_body\",\"input\":{\"class_name\":\"com.thinkup.core.common.md.o.m\",\"method_name\":\"n\",\"overload_index\":0,\"smali_fallback\":true},\"response\":{\"content\":[{\"type\":\"text\",\"text\":\"{\\\"full_name\\\":\\\"com.thinkup.core.common.md.o.m.n\\\",\\\"fell_back\\\":false,\\\"markers\\\":[],\\\"body\\\":\\\"    @Override // com.thinkup.core.common.md.o.d0\\\\r\\\\n    public final byte[] n() {\\\\r\\\\n        return d0.d(dq());\\\\r\\\\n    }\\\",\\\"mode\\\":\\\"java\\\",\\\"class_name\\\":\\\"com.thinkup.core.common.md.o.m\\\",\\\"dex_descriptor\\\":\\\"()[B\\\",\\\"overload_count\\\":1,\\\"method_name\\\":\\\"n\\\",\\\"overload_index\\\":0}\"}],\"isError\":false}}]},\"normalized_result\":{\"engine\":{\"name\":\"jadx-headless-mcp\",\"version\":\"0.7.1\",\"artifact_sha256\":\"6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75\",\"source_revision\":\"5844800a486d2248fa949b74c9896285f5b54de2\",\"worker_count\":1,\"heap_limit_mib\":3072},\"class_name\":\"com.thinkup.core.common.md.o.m\",\"method\":{\"name\":\"n\",\"reported_signature\":\"n(): byte[]\",\"overload_index\":0,\"is_constructor\":false,\"dex_descriptor\":\"()[B\"},\"overload_count\":1,\"representation\":\"java\",\"body_status\":\"available\",\"fell_back\":false,\"markers\":[],\"source\":{\"status\":\"complete\",\"text\":\"    @Override // com.thinkup.core.common.md.o.d0\\r\\n    public final byte[] n() {\\r\\n        return d0.d(dq());\\r\\n    }\",\"reported_total_bytes\":null}},\"confidence\":\"derived\",\"authority\":\"shipped-artifact\",\"environment\":null,\"limitations\":[\"Static decompiler observations do not establish runtime behavior; the APK is never executed.\",\"Method signatures use provider display types; DEX prototypes come from frozen JADX metadata. Display names may be aliases, and overload indices are local to this engine and artifact.\",\"Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.\",\"Incoming reference totals count JADX using nodes. Direct invoke entries within a using method report raw DEX code-unit offsets and method indexes, but coverage is limited to those nodes and directly matched invokes; it does not establish every possible dynamic or reflective call site.\",\"Manifest summaries are parsed once by REA's bridge from the exact root AndroidManifest.xml resource, using namespace-aware XML attributes; decoded XML is retained. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider.\"],\"relationship_coverage\":null,\"locations\":[],\"evidence_links\":[]}"
+      }
+    ],
+    "structuredContent": {
+      "evidence_id": "ev_c77705bf88113740c93b04532bc9dfb12a6f7ca54204ff26988d0c68b77dfbb8",
+      "subject": {
+        "name": "base.apk",
+        "digest": {
+          "sha256": "5c21f181b3a5f2632d00dde6a1939d0fddd2bb05869539ca565edec19974f7fd"
+        },
+        "local_path": "D:\\python daima\\outputs\\apk_extract_20261116\\com.xj.cash.drama\\base.apk",
+        "format": "apk",
+        "architecture": null
+      },
+      "provider": {
+        "id": "jadx",
+        "name": "JADX headless",
+        "version": "0.7.1"
+      },
+      "analysis_profile": null,
+      "predicate_type": "rea.analysis",
+      "operation": "inspect_android_method",
+      "parameters": {
+        "path": "D:\\python daima\\outputs\\apk_extract_20261116\\com.xj.cash.drama\\base.apk",
+        "class_name": "com.thinkup.core.common.md.o.m",
+        "method_name": "n",
+        "overload_index": 0
+      },
+      "raw_result": {
+        "server": {
+          "name": "rea-jadx-bridge",
+          "version": "7"
+        },
+        "bridge_sha256": "e5044a8312dd0731f53af3f095508b3e5cff54df6b971c95d4305e2f39b4fa30",
+        "jar_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+        "loaded": {
+          "state": "LOADED",
+          "apk_path": "C:\\Users\\asus\\AppData\\Local\\Temp\\rea-android-3546768ffa9b882f52d9db953e29791a\\target.apk",
+          "class_count": 61382,
+          "resource_count": 3256,
+          "threads": 1,
+          "resources": "full"
+        },
+        "calls": [
+          {
+            "operation": "rea_jvm_status",
+            "input": {},
+            "response": {
+              "content": [
+                {
+                  "type": "text",
+                  "text": "{\"max_heap_bytes\":3221225472,\"metadata_scope\":\"parsed_members\",\"engine_reported_version\":\"0.7.1\",\"available_processors\":3,\"java_version\":\"17.0.12\"}"
+                }
+              ],
+              "isError": false
+            }
+          },
+          {
+            "operation": "get_class_summary",
+            "input": {
+              "class_name": "com.thinkup.core.common.md.o.m"
+            },
+            "response": {
+              "content": [
+                {
+                  "type": "text",
+                  "text": "{\"method_count\":10,\"full_name\":\"com.thinkup.core.common.md.o.m\",\"field_count\":4,\"name\":\"m\",\"inner_class_count\":0,\"inner_classes\":[],\"methods\":[{\"def_pos\":0,\"signature\":\"\\u003cinit\\u003e(java.util.List\\u003cjava.lang.String\\u003e): void\",\"dex_descriptor\":\"(Ljava/util/List;)V\",\"is_constructor\":true,\"name\":\"\\u003cinit\\u003e\"},{\"def_pos\":0,\"signature\":\"d(): int\",\"dex_descriptor\":\"()I\",\"is_constructor\":false,\"name\":\"d\"},{\"def_pos\":0,\"signature\":\"d0(): int\",\"dex_descriptor\":\"()I\",\"is_constructor\":false,\"name\":\"d0\"},{\"def_pos\":0,\"signature\":\"dd(): void\",\"dex_descriptor\":\"()V\",\"is_constructor\":false,\"name\":\"dd\"},{\"def_pos\":0,\"signature\":\"dq(): java.lang.String\",\"dex_descriptor\":\"()Ljava/lang/String;\",\"is_constructor\":false,\"name\":\"dq\"},{\"def_pos\":0,\"signature\":\"m(): int\",\"dex_descriptor\":\"()I\",\"is_constructor\":false,\"name\":\"m\"},{\"def_pos\":0,\"signature\":\"m4742do(): int\",\"dex_descriptor\":\"()I\",\"is_constructor\":false,\"name\":\"m4742do\"},{\"def_pos\":0,\"signature\":\"n(): byte[]\",\"dex_descriptor\":\"()[B\",\"is_constructor\":false,\"name\":\"n\"},{\"def_pos\":0,\"signature\":\"o(): boolean\",\"dex_descriptor\":\"()Z\",\"is_constructor\":false,\"name\":\"o\"},{\"def_pos\":0,\"signature\":\"q(): void\",\"dex_descriptor\":\"()V\",\"is_constructor\":false,\"name\":\"q\"}],\"fields\":[{\"type\":\"java.util.List\\u003cjava.lang.String\\u003e\",\"name\":\"d\",\"def_pos\":0},{\"type\":\"int\",\"name\":\"m\",\"def_pos\":0},{\"type\":\"java.lang.String\",\"name\":\"mm\",\"def_pos\":0},{\"type\":\"boolean\",\"name\":\"n\",\"def_pos\":0}],\"raw_name\":\"com.thinkup.core.common.md.o.m\"}"
+                }
+              ],
+              "isError": false
+            }
+          },
+          {
+            "operation": "get_method_body",
+            "input": {
+              "class_name": "com.thinkup.core.common.md.o.m",
+              "method_name": "n",
+              "overload_index": 0,
+              "smali_fallback": true
+            },
+            "response": {
+              "content": [
+                {
+                  "type": "text",
+                  "text": "{\"full_name\":\"com.thinkup.core.common.md.o.m.n\",\"fell_back\":false,\"markers\":[],\"body\":\"    @Override // com.thinkup.core.common.md.o.d0\\r\\n    public final byte[] n() {\\r\\n        return d0.d(dq());\\r\\n    }\",\"mode\":\"java\",\"class_name\":\"com.thinkup.core.common.md.o.m\",\"dex_descriptor\":\"()[B\",\"overload_count\":1,\"method_name\":\"n\",\"overload_index\":0}"
+                }
+              ],
+              "isError": false
+            }
+          }
+        ]
+      },
+      "normalized_result": {
+        "engine": {
+          "name": "jadx-headless-mcp",
+          "version": "0.7.1",
+          "artifact_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+          "source_revision": "5844800a486d2248fa949b74c9896285f5b54de2",
+          "worker_count": 1,
+          "heap_limit_mib": 3072
+        },
+        "class_name": "com.thinkup.core.common.md.o.m",
+        "method": {
+          "name": "n",
+          "reported_signature": "n(): byte[]",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": "()[B"
+        },
+        "overload_count": 1,
+        "representation": "java",
+        "body_status": "available",
+        "fell_back": false,
+        "markers": [],
+        "source": {
+          "status": "complete",
+          "text": "    @Override // com.thinkup.core.common.md.o.d0\r\n    public final byte[] n() {\r\n        return d0.d(dq());\r\n    }",
+          "reported_total_bytes": null
+        }
+      },
+      "confidence": "derived",
+      "authority": "shipped-artifact",
+      "environment": null,
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; DEX prototypes come from frozen JADX metadata. Display names may be aliases, and overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Incoming reference totals count JADX using nodes. Direct invoke entries within a using method report raw DEX code-unit offsets and method indexes, but coverage is limited to those nodes and directly matched invokes; it does not establish every possible dynamic or reflective call site.",
+        "Manifest summaries are parsed once by REA's bridge from the exact root AndroidManifest.xml resource, using namespace-aware XML attributes; decoded XML is retained. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ],
+      "relationship_coverage": null,
+      "locations": [],
+      "evidence_links": []
+    }
+  }
+}

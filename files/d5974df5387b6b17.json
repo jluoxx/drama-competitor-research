@@ -1,0 +1,158 @@
+{
+  "job": {
+    "id": "145_detail_ad_action",
+    "package": "com.smartnettools.studio.dramapop",
+    "tool": "inspect_android_method",
+    "args": {
+      "path": "D:\\python daima\\outputs\\apk_extract_20261116\\com.smartnettools.studio.dramapop\\base.apk",
+      "class_name": "l6.g",
+      "method_name": "invokeSuspend"
+    }
+  },
+  "start": "2026-11-16T04:35:31.625Z",
+  "end": "2026-11-16T04:35:32.353Z",
+  "result": {
+    "_meta": {
+      "provenance": {
+        "untrusted_content": true,
+        "source": "analysis_target"
+      }
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"evidence_id\":\"ev_68473b01b204806c5806a552616b04f7a818aa84e178925022e41cad005d8350\",\"subject\":{\"name\":\"base.apk\",\"digest\":{\"sha256\":\"5b074f04f27d01ddf7816723e192f7b3577f9994bf13a37195869668e9861cf9\"},\"local_path\":\"D:\\\\python daima\\\\outputs\\\\apk_extract_20261116\\\\com.smartnettools.studio.dramapop\\\\base.apk\",\"format\":\"apk\",\"architecture\":null},\"provider\":{\"id\":\"jadx\",\"name\":\"JADX headless\",\"version\":\"0.7.1\"},\"analysis_profile\":null,\"predicate_type\":\"rea.analysis\",\"operation\":\"inspect_android_method\",\"parameters\":{\"path\":\"D:\\\\python daima\\\\outputs\\\\apk_extract_20261116\\\\com.smartnettools.studio.dramapop\\\\base.apk\",\"class_name\":\"l6.g\",\"method_name\":\"invokeSuspend\"},\"raw_result\":{\"server\":{\"name\":\"rea-jadx-bridge\",\"version\":\"7\"},\"bridge_sha256\":\"e5044a8312dd0731f53af3f095508b3e5cff54df6b971c95d4305e2f39b4fa30\",\"jar_sha256\":\"6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75\",\"loaded\":{\"state\":\"LOADED\",\"apk_path\":\"C:\\\\Users\\\\asus\\\\AppData\\\\Local\\\\Temp\\\\rea-android-f731965816a6f7ecfb2072b0642651d2\\\\target.apk\",\"class_count\":50068,\"resource_count\":2637,\"threads\":1,\"resources\":\"full\"},\"calls\":[{\"operation\":\"rea_jvm_status\",\"input\":{},\"response\":{\"content\":[{\"type\":\"text\",\"text\":\"{\\\"metadata_scope\\\":\\\"parsed_members\\\",\\\"max_heap_bytes\\\":3221225472,\\\"java_version\\\":\\\"17.0.12\\\",\\\"available_processors\\\":3,\\\"engine_reported_version\\\":\\\"0.7.1\\\"}\"}],\"isError\":false}},{\"operation\":\"get_class_summary\",\"input\":{\"class_name\":\"l6.g\"},\"response\":{\"content\":[{\"type\":\"text\",\"text\":\"{\\\"inner_class_count\\\":0,\\\"name\\\":\\\"g\\\",\\\"field_count\\\":1,\\\"full_name\\\":\\\"l6.g\\\",\\\"method_count\\\":3,\\\"raw_name\\\":\\\"l6.g\\\",\\\"fields\\\":[{\\\"type\\\":\\\"int\\\",\\\"def_pos\\\":0,\\\"name\\\":\\\"f54607l\\\"}],\\\"methods\\\":[{\\\"signature\\\":\\\"create(java.lang.Object, cf.c): cf.c\\\",\\\"def_pos\\\":0,\\\"name\\\":\\\"create\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"(Ljava/lang/Object;Lcf/c;)Lcf/c;\\\"},{\\\"signature\\\":\\\"invoke(java.lang.Object, java.lang.Object): java.lang.Object\\\",\\\"def_pos\\\":0,\\\"name\\\":\\\"invoke\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;\\\"},{\\\"signature\\\":\\\"invokeSuspend(java.lang.Object): java.lang.Object\\\",\\\"def_pos\\\":0,\\\"name\\\":\\\"invokeSuspend\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"(Ljava/lang/Object;)Ljava/lang/Object;\\\"}],\\\"inner_classes\\\":[]}\"}],\"isError\":false}},{\"operation\":\"get_method_body\",\"input\":{\"class_name\":\"l6.g\",\"method_name\":\"invokeSuspend\",\"overload_index\":0,\"smali_fallback\":true},\"response\":{\"content\":[{\"type\":\"text\",\"text\":\"{\\\"fell_back\\\":false,\\\"full_name\\\":\\\"l6.g.invokeSuspend\\\",\\\"overload_index\\\":0,\\\"method_name\\\":\\\"invokeSuspend\\\",\\\"overload_count\\\":1,\\\"dex_descriptor\\\":\\\"(Ljava/lang/Object;)Ljava/lang/Object;\\\",\\\"class_name\\\":\\\"l6.g\\\",\\\"mode\\\":\\\"java\\\",\\\"body\\\":\\\"    @Override // ef.a\\\\r\\\\n    public final Object invokeSuspend(Object obj) {\\\\r\\\\n        df.a aVar \\\\u003d df.a.b;\\\\r\\\\n        int i5 \\\\u003d this.f54607l;\\\\r\\\\n        if (i5 \\\\u003d\\\\u003d 0) {\\\\r\\\\n            V3.j.r(obj);\\\\r\\\\n            this.f54607l \\\\u003d 1;\\\\r\\\\n            if (xf.C.n(1000L, this) \\\\u003d\\\\u003d aVar) {\\\\r\\\\n                return aVar;\\\\r\\\\n            }\\\\r\\\\n        } else {\\\\r\\\\n            if (i5 !\\\\u003d 1) {\\\\r\\\\n                throw new IllegalStateException(\\\\\\\"call to \\\\u0027resume\\\\u0027 before \\\\u0027invoke\\\\u0027 with coroutine\\\\\\\");\\\\r\\\\n            }\\\\r\\\\n            V3.j.r(obj);\\\\r\\\\n        }\\\\r\\\\n        if (System.currentTimeMillis() - com.freetools.freereels.ad.c.f19443a \\\\u003e\\\\u003d 2000) {\\\\r\\\\n            com.freetools.freereels.ad.c.f19443a \\\\u003d System.currentTimeMillis();\\\\r\\\\n            com.freetools.freereels.ad.a aVar2 \\\\u003d com.freetools.freereels.ad.a.b;\\\\r\\\\n            aVar2.getClass();\\\\r\\\\n            aVar2.f19438a.a(\\\\\\\"detail-inner\\\\\\\");\\\\r\\\\n        }\\\\r\\\\n        return C.f8295a;\\\\r\\\\n    }\\\",\\\"markers\\\":[]}\"}],\"isError\":false}}]},\"normalized_result\":{\"engine\":{\"name\":\"jadx-headless-mcp\",\"version\":\"0.7.1\",\"artifact_sha256\":\"6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75\",\"source_revision\":\"5844800a486d2248fa949b74c9896285f5b54de2\",\"worker_count\":1,\"heap_limit_mib\":3072},\"class_name\":\"l6.g\",\"method\":{\"name\":\"invokeSuspend\",\"reported_signature\":\"invokeSuspend(java.lang.Object): java.lang.Object\",\"overload_index\":0,\"is_constructor\":false,\"dex_descriptor\":\"(Ljava/lang/Object;)Ljava/lang/Object;\"},\"overload_count\":1,\"representation\":\"java\",\"body_status\":\"available\",\"fell_back\":false,\"markers\":[],\"source\":{\"status\":\"complete\",\"text\":\"    @Override // ef.a\\r\\n    public final Object invokeSuspend(Object obj) {\\r\\n        df.a aVar = df.a.b;\\r\\n        int i5 = this.f54607l;\\r\\n        if (i5 == 0) {\\r\\n            V3.j.r(obj);\\r\\n            this.f54607l = 1;\\r\\n            if (xf.C.n(1000L, this) == aVar) {\\r\\n                return aVar;\\r\\n            }\\r\\n        } else {\\r\\n            if (i5 != 1) {\\r\\n                throw new IllegalStateException(\\\"call to 'resume' before 'invoke' with coroutine\\\");\\r\\n            }\\r\\n            V3.j.r(obj);\\r\\n        }\\r\\n        if (System.currentTimeMillis() - com.freetools.freereels.ad.c.f19443a >= 2000) {\\r\\n            com.freetools.freereels.ad.c.f19443a = System.currentTimeMillis();\\r\\n            com.freetools.freereels.ad.a aVar2 = com.freetools.freereels.ad.a.b;\\r\\n            aVar2.getClass();\\r\\n            aVar2.f19438a.a(\\\"detail-inner\\\");\\r\\n        }\\r\\n        return C.f8295a;\\r\\n    }\",\"reported_total_bytes\":null}},\"confidence\":\"derived\",\"authority\":\"shipped-artifact\",\"environment\":null,\"limitations\":[\"Static decompiler observations do not establish runtime behavior; the APK is never executed.\",\"Method signatures use provider display types; DEX prototypes come from frozen JADX metadata. Display names may be aliases, and overload indices are local to this engine and artifact.\",\"Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.\",\"Incoming reference totals count JADX using nodes. Direct invoke entries within a using method report raw DEX code-unit offsets and method indexes, but coverage is limited to those nodes and directly matched invokes; it does not establish every possible dynamic or reflective call site.\",\"Manifest summaries are parsed once by REA's bridge from the exact root AndroidManifest.xml resource, using namespace-aware XML attributes; decoded XML is retained. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider.\"],\"relationship_coverage\":null,\"locations\":[],\"evidence_links\":[]}"
+      }
+    ],
+    "structuredContent": {
+      "evidence_id": "ev_68473b01b204806c5806a552616b04f7a818aa84e178925022e41cad005d8350",
+      "subject": {
+        "name": "base.apk",
+        "digest": {
+          "sha256": "5b074f04f27d01ddf7816723e192f7b3577f9994bf13a37195869668e9861cf9"
+        },
+        "local_path": "D:\\python daima\\outputs\\apk_extract_20261116\\com.smartnettools.studio.dramapop\\base.apk",
+        "format": "apk",
+        "architecture": null
+      },
+      "provider": {
+        "id": "jadx",
+        "name": "JADX headless",
+        "version": "0.7.1"
+      },
+      "analysis_profile": null,
+      "predicate_type": "rea.analysis",
+      "operation": "inspect_android_method",
+      "parameters": {
+        "path": "D:\\python daima\\outputs\\apk_extract_20261116\\com.smartnettools.studio.dramapop\\base.apk",
+        "class_name": "l6.g",
+        "method_name": "invokeSuspend"
+      },
+      "raw_result": {
+        "server": {
+          "name": "rea-jadx-bridge",
+          "version": "7"
+        },
+        "bridge_sha256": "e5044a8312dd0731f53af3f095508b3e5cff54df6b971c95d4305e2f39b4fa30",
+        "jar_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+        "loaded": {
+          "state": "LOADED",
+          "apk_path": "C:\\Users\\asus\\AppData\\Local\\Temp\\rea-android-f731965816a6f7ecfb2072b0642651d2\\target.apk",
+          "class_count": 50068,
+          "resource_count": 2637,
+          "threads": 1,
+          "resources": "full"
+        },
+        "calls": [
+          {
+            "operation": "rea_jvm_status",
+            "input": {},
+            "response": {
+              "content": [
+                {
+                  "type": "text",
+                  "text": "{\"metadata_scope\":\"parsed_members\",\"max_heap_bytes\":3221225472,\"java_version\":\"17.0.12\",\"available_processors\":3,\"engine_reported_version\":\"0.7.1\"}"
+                }
+              ],
+              "isError": false
+            }
+          },
+          {
+            "operation": "get_class_summary",
+            "input": {
+              "class_name": "l6.g"
+            },
+            "response": {
+              "content": [
+                {
+                  "type": "text",
+                  "text": "{\"inner_class_count\":0,\"name\":\"g\",\"field_count\":1,\"full_name\":\"l6.g\",\"method_count\":3,\"raw_name\":\"l6.g\",\"fields\":[{\"type\":\"int\",\"def_pos\":0,\"name\":\"f54607l\"}],\"methods\":[{\"signature\":\"create(java.lang.Object, cf.c): cf.c\",\"def_pos\":0,\"name\":\"create\",\"is_constructor\":false,\"dex_descriptor\":\"(Ljava/lang/Object;Lcf/c;)Lcf/c;\"},{\"signature\":\"invoke(java.lang.Object, java.lang.Object): java.lang.Object\",\"def_pos\":0,\"name\":\"invoke\",\"is_constructor\":false,\"dex_descriptor\":\"(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;\"},{\"signature\":\"invokeSuspend(java.lang.Object): java.lang.Object\",\"def_pos\":0,\"name\":\"invokeSuspend\",\"is_constructor\":false,\"dex_descriptor\":\"(Ljava/lang/Object;)Ljava/lang/Object;\"}],\"inner_classes\":[]}"
+                }
+              ],
+              "isError": false
+            }
+          },
+          {
+            "operation": "get_method_body",
+            "input": {
+              "class_name": "l6.g",
+              "method_name": "invokeSuspend",
+              "overload_index": 0,
+              "smali_fallback": true
+            },
+            "response": {
+              "content": [
+                {
+                  "type": "text",
+                  "text": "{\"fell_back\":false,\"full_name\":\"l6.g.invokeSuspend\",\"overload_index\":0,\"method_name\":\"invokeSuspend\",\"overload_count\":1,\"dex_descriptor\":\"(Ljava/lang/Object;)Ljava/lang/Object;\",\"class_name\":\"l6.g\",\"mode\":\"java\",\"body\":\"    @Override // ef.a\\r\\n    public final Object invokeSuspend(Object obj) {\\r\\n        df.a aVar \\u003d df.a.b;\\r\\n        int i5 \\u003d this.f54607l;\\r\\n        if (i5 \\u003d\\u003d 0) {\\r\\n            V3.j.r(obj);\\r\\n            this.f54607l \\u003d 1;\\r\\n            if (xf.C.n(1000L, this) \\u003d\\u003d aVar) {\\r\\n                return aVar;\\r\\n            }\\r\\n        } else {\\r\\n            if (i5 !\\u003d 1) {\\r\\n                throw new IllegalStateException(\\\"call to \\u0027resume\\u0027 before \\u0027invoke\\u0027 with coroutine\\\");\\r\\n            }\\r\\n            V3.j.r(obj);\\r\\n        }\\r\\n        if (System.currentTimeMillis() - com.freetools.freereels.ad.c.f19443a \\u003e\\u003d 2000) {\\r\\n            com.freetools.freereels.ad.c.f19443a \\u003d System.currentTimeMillis();\\r\\n            com.freetools.freereels.ad.a aVar2 \\u003d com.freetools.freereels.ad.a.b;\\r\\n            aVar2.getClass();\\r\\n            aVar2.f19438a.a(\\\"detail-inner\\\");\\r\\n        }\\r\\n        return C.f8295a;\\r\\n    }\",\"markers\":[]}"
+                }
+              ],
+              "isError": false
+            }
+          }
+        ]
+      },
+      "normalized_result": {
+        "engine": {
+          "name": "jadx-headless-mcp",
+          "version": "0.7.1",
+          "artifact_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+          "source_revision": "5844800a486d2248fa949b74c9896285f5b54de2",
+          "worker_count": 1,
+          "heap_limit_mib": 3072
+        },
+        "class_name": "l6.g",
+        "method": {
+          "name": "invokeSuspend",
+          "reported_signature": "invokeSuspend(java.lang.Object): java.lang.Object",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": "(Ljava/lang/Object;)Ljava/lang/Object;"
+        },
+        "overload_count": 1,
+        "representation": "java",
+        "body_status": "available",
+        "fell_back": false,
+        "markers": [],
+        "source": {
+          "status": "complete",
+          "text": "    @Override // ef.a\r\n    public final Object invokeSuspend(Object obj) {\r\n        df.a aVar = df.a.b;\r\n        int i5 = this.f54607l;\r\n        if (i5 == 0) {\r\n            V3.j.r(obj);\r\n            this.f54607l = 1;\r\n            if (xf.C.n(1000L, this) == aVar) {\r\n                return aVar;\r\n            }\r\n        } else {\r\n            if (i5 != 1) {\r\n                throw new IllegalStateException(\"call to 'resume' before 'invoke' with coroutine\");\r\n            }\r\n            V3.j.r(obj);\r\n        }\r\n        if (System.currentTimeMillis() - com.freetools.freereels.ad.c.f19443a >= 2000) {\r\n            com.freetools.freereels.ad.c.f19443a = System.currentTimeMillis();\r\n            com.freetools.freereels.ad.a aVar2 = com.freetools.freereels.ad.a.b;\r\n            aVar2.getClass();\r\n            aVar2.f19438a.a(\"detail-inner\");\r\n        }\r\n        return C.f8295a;\r\n    }",
+          "reported_total_bytes": null
+        }
+      },
+      "confidence": "derived",
+      "authority": "shipped-artifact",
+      "environment": null,
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; DEX prototypes come from frozen JADX metadata. Display names may be aliases, and overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Incoming reference totals count JADX using nodes. Direct invoke entries within a using method report raw DEX code-unit offsets and method indexes, but coverage is limited to those nodes and directly matched invokes; it does not establish every possible dynamic or reflective call site.",
+        "Manifest summaries are parsed once by REA's bridge from the exact root AndroidManifest.xml resource, using namespace-aware XML attributes; decoded XML is retained. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ],
+      "relationship_coverage": null,
+      "locations": [],
+      "evidence_links": []
+    }
+  }
+}

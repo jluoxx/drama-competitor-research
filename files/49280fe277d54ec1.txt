@@ -1,0 +1,99 @@
+CLASS Lcom/thinkup/core/common/dd/d;
+FIELD d api.robin-flow.com
+FIELD d0 https://api-sec.robin-flow.com/v2/open/app
+FIELD dd https://api.robin-flow.com/v2/open/placement
+FIELD dm https://api-sec.robin-flow.com/v2/open/placement
+FIELD dn https://ssapi.robin-flow.com/sdk/realtime_waterfall
+FIELD do https://api.robin-flow.com/v2/open/pl_wf
+FIELD dq https://da.robin-flow.com/v1/open/da
+FIELD m api-sec.robin-flow.com
+FIELD m0 https://tk.robin-flow.com/v2/open/anr
+FIELD md https://tk.robin-flow.com/v1/open/tk
+FIELD mm None
+FIELD mn None
+FIELD mo None
+FIELD mq None
+FIELD n https://se.rfvtgbyhn.com/v2/open/ns
+FIELD n0 None
+FIELD nd 
+FIELD nm None
+FIELD nn None
+FIELD no None
+FIELD nq None
+FIELD o https://se.rfvtgbyhn.com/v2/open/api_hb
+FIELD o0 https://img.robin-flow.com/gdpr/PrivacyPolicySetting.html
+FIELD q https://api.robin-flow.com/v2/open/app
+
+METHOD <clinit> ()V
+000000: new-instance v0, Ljava/lang/StringBuilder;
+000004: const-string v1, "https://"
+000008: invoke-direct v0, v1, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+00000e: invoke-static Lcom/thinkup/core/api/TUSDK;->isCnSDK()Z
+000014: move-result v1
+000016: if-eqz v1, +005h
+00001a: const-string v1, "api.robin-flow.com"
+00001e: goto +8h
+000020: invoke-static Lcom/thinkup/core/common/dd/n;->d()Lcom/thinkup/core/common/dd/n;
+000026: invoke-static Lcom/thinkup/core/common/dd/n;->q()Ljava/lang/String;
+00002c: move-result-object v1
+00002e: const-string v2, "/v2/open/eu"
+000032: invoke-static v1, v2, v0, Lcom/thinkup/core/basead/d/a;->n(Ljava/lang/String; Ljava/lang/String; Ljava/lang/StringBuilder;)Ljava/lang/String;
+000038: move-result-object v0
+00003a: sput-object v0, Lcom/thinkup/core/common/dd/d;->mm Ljava/lang/String;
+00003e: const-string v0, "https://adx.robin-flow.com/bid"
+000042: sput-object v0, Lcom/thinkup/core/common/dd/d;->mn Ljava/lang/String;
+000046: const-string v0, "https://adx.robin-flow.com/request"
+00004a: sput-object v0, Lcom/thinkup/core/common/dd/d;->mo Ljava/lang/String;
+00004e: const-string v0, "https://adxtk.robin-flow.com/v1"
+000052: sput-object v0, Lcom/thinkup/core/common/dd/d;->mq Ljava/lang/String;
+000056: const-string v0, "https://adx.robin-flow.com/openapi/req"
+00005a: sput-object v0, Lcom/thinkup/core/common/dd/d;->n0 Ljava/lang/String;
+00005e: const-string v0, "https://tk.robin-flow.com/ss/rrd"
+000062: sput-object v0, Lcom/thinkup/core/common/dd/d;->nm Ljava/lang/String;
+000066: const-string v0, "https://api.robin-flow.com/v2/open/area"
+00006a: sput-object v0, Lcom/thinkup/core/common/dd/d;->nn Ljava/lang/String;
+00006e: const-string v0, "https://api.robin-flow.com/v2/open/m_adapter"
+000072: sput-object v0, Lcom/thinkup/core/common/dd/d;->no Ljava/lang/String;
+000076: const-string v0, "https://api.robin-flow.com/v2/open/dna"
+00007a: sput-object v0, Lcom/thinkup/core/common/dd/d;->nq Ljava/lang/String;
+00007e: return-void 
+
+METHOD <init> ()V
+000000: invoke-direct v0, Ljava/lang/Object;-><init>()V
+000006: return-void 
+
+METHOD d ()Ljava/lang/String;
+000000: const-string v0, "api.robin-flow.com"
+000004: return-object v0
+
+METHOD d0 ()Ljava/lang/String;
+000000: invoke-static Lcom/thinkup/core/api/TUSDK;->isCnSDK()Z
+000006: move-result v0
+000008: if-eqz v0, +005h
+00000c: const-string v0, "api.robin-flow.com"
+000010: return-object v0
+000012: invoke-static Lcom/thinkup/core/common/dd/n;->d()Lcom/thinkup/core/common/dd/n;
+000018: invoke-static Lcom/thinkup/core/common/dd/n;->q()Ljava/lang/String;
+00001e: move-result-object v0
+000020: return-object v0
+
+METHOD dd ()Ljava/lang/String;
+000000: const-string v0, "ssapi.robin-flow.com"
+000004: return-object v0
+
+METHOD m ()Ljava/lang/String;
+000000: const-string v0, "tk.robin-flow.com"
+000004: return-object v0
+
+METHOD n ()Ljava/lang/String;
+000000: const-string v0, "api-sec.robin-flow.com"
+000004: return-object v0
+
+METHOD o ()Ljava/lang/String;
+000000: const-string v0, "da.robin-flow.com"
+000004: return-object v0
+
+METHOD q ()Ljava/lang/String;
+000000: const-string v0, "adx.robin-flow.com"
+000004: return-object v0
+

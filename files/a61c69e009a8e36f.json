@@ -1,0 +1,160 @@
+{
+  "job": {
+    "id": "074_neighbor_urls",
+    "package": "com.xj.cash.drama",
+    "tool": "inspect_android_method",
+    "args": {
+      "path": "D:\\python daima\\outputs\\apk_extract_20261116\\com.xj.cash.drama\\base.apk",
+      "class_name": "com.google.android.gms.ads.AbstractAdRequestBuilder",
+      "method_name": "setNeighboringContentUrls",
+      "overload_index": 0
+    }
+  },
+  "start": "2026-11-16T05:10:46.510Z",
+  "end": "2026-11-16T05:10:47.009Z",
+  "result": {
+    "_meta": {
+      "provenance": {
+        "untrusted_content": true,
+        "source": "analysis_target"
+      }
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"evidence_id\":\"ev_c3571e4fd969e3b89ca9e802dc117f59b48e13f17fbb3979c989dc5c6a10201b\",\"subject\":{\"name\":\"base.apk\",\"digest\":{\"sha256\":\"5c21f181b3a5f2632d00dde6a1939d0fddd2bb05869539ca565edec19974f7fd\"},\"local_path\":\"D:\\\\python daima\\\\outputs\\\\apk_extract_20261116\\\\com.xj.cash.drama\\\\base.apk\",\"format\":\"apk\",\"architecture\":null},\"provider\":{\"id\":\"jadx\",\"name\":\"JADX headless\",\"version\":\"0.7.1\"},\"analysis_profile\":null,\"predicate_type\":\"rea.analysis\",\"operation\":\"inspect_android_method\",\"parameters\":{\"path\":\"D:\\\\python daima\\\\outputs\\\\apk_extract_20261116\\\\com.xj.cash.drama\\\\base.apk\",\"class_name\":\"com.google.android.gms.ads.AbstractAdRequestBuilder\",\"method_name\":\"setNeighboringContentUrls\",\"overload_index\":0},\"raw_result\":{\"server\":{\"name\":\"rea-jadx-bridge\",\"version\":\"7\"},\"bridge_sha256\":\"e5044a8312dd0731f53af3f095508b3e5cff54df6b971c95d4305e2f39b4fa30\",\"jar_sha256\":\"6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75\",\"loaded\":{\"state\":\"LOADED\",\"apk_path\":\"C:\\\\Users\\\\asus\\\\AppData\\\\Local\\\\Temp\\\\rea-android-9936e063b1a8784ee56911df5ac9b338\\\\target.apk\",\"class_count\":61382,\"resource_count\":3256,\"threads\":1,\"resources\":\"full\"},\"calls\":[{\"operation\":\"rea_jvm_status\",\"input\":{},\"response\":{\"content\":[{\"type\":\"text\",\"text\":\"{\\\"metadata_scope\\\":\\\"parsed_members\\\",\\\"engine_reported_version\\\":\\\"0.7.1\\\",\\\"available_processors\\\":3,\\\"java_version\\\":\\\"17.0.12\\\",\\\"max_heap_bytes\\\":3221225472}\"}],\"isError\":false}},{\"operation\":\"get_class_summary\",\"input\":{\"class_name\":\"com.google.android.gms.ads.AbstractAdRequestBuilder\"},\"response\":{\"content\":[{\"type\":\"text\",\"text\":\"{\\\"name\\\":\\\"AbstractAdRequestBuilder\\\",\\\"inner_class_count\\\":0,\\\"inner_classes\\\":[],\\\"methods\\\":[{\\\"signature\\\":\\\"\\\\u003cinit\\\\u003e(): void\\\",\\\"dex_descriptor\\\":\\\"()V\\\",\\\"is_constructor\\\":true,\\\"name\\\":\\\"\\\\u003cinit\\\\u003e\\\",\\\"def_pos\\\":0},{\\\"signature\\\":\\\"addCustomEventExtrasBundle(java.lang.Class\\\\u003c? extends com.google.android.gms.ads.mediation.customevent.CustomEvent\\\\u003e, android.os.Bundle): T extends com.google.android.gms.ads.AbstractAdRequestBuilder\\\\u003cT\\\\u003e\\\",\\\"dex_descriptor\\\":\\\"(Ljava/lang/Class;Landroid/os/Bundle;)Lcom/google/android/gms/ads/AbstractAdRequestBuilder;\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"addCustomEventExtrasBundle\\\",\\\"def_pos\\\":0},{\\\"signature\\\":\\\"addCustomTargeting(java.lang.String, java.lang.String): T extends com.google.android.gms.ads.AbstractAdRequestBuilder\\\\u003cT\\\\u003e\\\",\\\"dex_descriptor\\\":\\\"(Ljava/lang/String;Ljava/lang/String;)Lcom/google/android/gms/ads/AbstractAdRequestBuilder;\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"addCustomTargeting\\\",\\\"def_pos\\\":0},{\\\"signature\\\":\\\"addCustomTargeting(java.lang.String, java.util.List\\\\u003cjava.lang.String\\\\u003e): T extends com.google.android.gms.ads.AbstractAdRequestBuilder\\\\u003cT\\\\u003e\\\",\\\"dex_descriptor\\\":\\\"(Ljava/lang/String;Ljava/util/List;)Lcom/google/android/gms/ads/AbstractAdRequestBuilder;\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"addCustomTargeting\\\",\\\"def_pos\\\":0},{\\\"signature\\\":\\\"addKeyword(java.lang.String): T extends com.google.android.gms.ads.AbstractAdRequestBuilder\\\\u003cT\\\\u003e\\\",\\\"dex_descriptor\\\":\\\"(Ljava/lang/String;)Lcom/google/android/gms/ads/AbstractAdRequestBuilder;\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"addKeyword\\\",\\\"def_pos\\\":0},{\\\"signature\\\":\\\"addNetworkExtrasBundle(java.lang.Class\\\\u003c? extends com.google.android.gms.ads.mediation.MediationExtrasReceiver\\\\u003e, android.os.Bundle): T extends com.google.android.gms.ads.AbstractAdRequestBuilder\\\\u003cT\\\\u003e\\\",\\\"dex_descriptor\\\":\\\"(Ljava/lang/Class;Landroid/os/Bundle;)Lcom/google/android/gms/ads/AbstractAdRequestBuilder;\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"addNetworkExtrasBundle\\\",\\\"def_pos\\\":0},{\\\"signature\\\":\\\"self(): T extends com.google.android.gms.ads.AbstractAdRequestBuilder\\\\u003cT\\\\u003e\\\",\\\"dex_descriptor\\\":\\\"()Lcom/google/android/gms/ads/AbstractAdRequestBuilder;\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"self\\\",\\\"def_pos\\\":0},{\\\"signature\\\":\\\"setAdString(java.lang.String): T extends com.google.android.gms.ads.AbstractAdRequestBuilder\\\\u003cT\\\\u003e\\\",\\\"dex_descriptor\\\":\\\"(Ljava/lang/String;)Lcom/google/android/gms/ads/AbstractAdRequestBuilder;\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"setAdString\\\",\\\"def_pos\\\":0},{\\\"signature\\\":\\\"setContentUrl(java.lang.String): T extends com.google.android.gms.ads.AbstractAdRequestBuilder\\\\u003cT\\\\u003e\\\",\\\"dex_descriptor\\\":\\\"(Ljava/lang/String;)Lcom/google/android/gms/ads/AbstractAdRequestBuilder;\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"setContentUrl\\\",\\\"def_pos\\\":0},{\\\"signature\\\":\\\"setHttpTimeoutMillis(int): T extends com.google.android.gms.ads.AbstractAdRequestBuilder\\\\u003cT\\\\u003e\\\",\\\"dex_descriptor\\\":\\\"(I)Lcom/google/android/gms/ads/AbstractAdRequestBuilder;\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"setHttpTimeoutMillis\\\",\\\"def_pos\\\":0},{\\\"signature\\\":\\\"setNeighboringContentUrls(java.util.List\\\\u003cjava.lang.String\\\\u003e): T extends com.google.android.gms.ads.AbstractAdRequestBuilder\\\\u003cT\\\\u003e\\\",\\\"dex_descriptor\\\":\\\"(Ljava/util/List;)Lcom/google/android/gms/ads/AbstractAdRequestBuilder;\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"setNeighboringContentUrls\\\",\\\"def_pos\\\":0},{\\\"signature\\\":\\\"setPlacementId(long): T extends com.google.android.gms.ads.AbstractAdRequestBuilder\\\\u003cT\\\\u003e\\\",\\\"dex_descriptor\\\":\\\"(J)Lcom/google/android/gms/ads/AbstractAdRequestBuilder;\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"setPlacementId\\\",\\\"def_pos\\\":0},{\\\"signature\\\":\\\"setRequestAgent(java.lang.String): T extends com.google.android.gms.ads.AbstractAdRequestBuilder\\\\u003cT\\\\u003e\\\",\\\"dex_descriptor\\\":\\\"(Ljava/lang/String;)Lcom/google/android/gms/ads/AbstractAdRequestBuilder;\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"setRequestAgent\\\",\\\"def_pos\\\":0},{\\\"signature\\\":\\\"zza(android.os.Bundle): com.google.android.gms.ads.AbstractAdRequestBuilder\\\",\\\"dex_descriptor\\\":\\\"(Landroid/os/Bundle;)Lcom/google/android/gms/ads/AbstractAdRequestBuilder;\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"zza\\\",\\\"def_pos\\\":0},{\\\"signature\\\":\\\"zzb(java.lang.String): com.google.android.gms.ads.AbstractAdRequestBuilder\\\",\\\"dex_descriptor\\\":\\\"(Ljava/lang/String;)Lcom/google/android/gms/ads/AbstractAdRequestBuilder;\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"zzb\\\",\\\"def_pos\\\":0},{\\\"signature\\\":\\\"zzc(boolean): com.google.android.gms.ads.AbstractAdRequestBuilder\\\",\\\"dex_descriptor\\\":\\\"(Z)Lcom/google/android/gms/ads/AbstractAdRequestBuilder;\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"zzc\\\",\\\"def_pos\\\":0},{\\\"signature\\\":\\\"zzd(boolean): com.google.android.gms.ads.AbstractAdRequestBuilder\\\",\\\"dex_descriptor\\\":\\\"(Z)Lcom/google/android/gms/ads/AbstractAdRequestBuilder;\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"zzd\\\",\\\"def_pos\\\":0}],\\\"fields\\\":[{\\\"name\\\":\\\"zza\\\",\\\"def_pos\\\":0,\\\"type\\\":\\\"com.google.android.gms.ads.internal.client.zzeg\\\"}],\\\"raw_name\\\":\\\"com.google.android.gms.ads.AbstractAdRequestBuilder\\\",\\\"method_count\\\":17,\\\"full_name\\\":\\\"com.google.android.gms.ads.AbstractAdRequestBuilder\\\",\\\"field_count\\\":1}\"}],\"isError\":false}},{\"operation\":\"get_method_body\",\"input\":{\"class_name\":\"com.google.android.gms.ads.AbstractAdRequestBuilder\",\"method_name\":\"setNeighboringContentUrls\",\"overload_index\":0,\"smali_fallback\":true},\"response\":{\"content\":[{\"type\":\"text\",\"text\":\"{\\\"markers\\\":[],\\\"body\\\":\\\"    public T setNeighboringContentUrls(List\\\\u003cString\\\\u003e list) {\\\\r\\\\n        if (list \\\\u003d\\\\u003d null) {\\\\r\\\\n            zzo.zzi(\\\\\\\"neighboring content URLs list should not be null\\\\\\\");\\\\r\\\\n            return (T) self();\\\\r\\\\n        }\\\\r\\\\n        this.zza.zzh(list);\\\\r\\\\n        return (T) self();\\\\r\\\\n    }\\\",\\\"mode\\\":\\\"java\\\",\\\"class_name\\\":\\\"com.google.android.gms.ads.AbstractAdRequestBuilder\\\",\\\"dex_descriptor\\\":\\\"(Ljava/util/List;)Lcom/google/android/gms/ads/AbstractAdRequestBuilder;\\\",\\\"overload_count\\\":1,\\\"method_name\\\":\\\"setNeighboringContentUrls\\\",\\\"overload_index\\\":0,\\\"full_name\\\":\\\"com.google.android.gms.ads.AbstractAdRequestBuilder.setNeighboringContentUrls\\\",\\\"fell_back\\\":false}\"}],\"isError\":false}}]},\"normalized_result\":{\"engine\":{\"name\":\"jadx-headless-mcp\",\"version\":\"0.7.1\",\"artifact_sha256\":\"6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75\",\"source_revision\":\"5844800a486d2248fa949b74c9896285f5b54de2\",\"worker_count\":1,\"heap_limit_mib\":3072},\"class_name\":\"com.google.android.gms.ads.AbstractAdRequestBuilder\",\"method\":{\"name\":\"setNeighboringContentUrls\",\"reported_signature\":\"setNeighboringContentUrls(java.util.List<java.lang.String>): T extends com.google.android.gms.ads.AbstractAdRequestBuilder<T>\",\"overload_index\":0,\"is_constructor\":false,\"dex_descriptor\":\"(Ljava/util/List;)Lcom/google/android/gms/ads/AbstractAdRequestBuilder;\"},\"overload_count\":1,\"representation\":\"java\",\"body_status\":\"available\",\"fell_back\":false,\"markers\":[],\"source\":{\"status\":\"complete\",\"text\":\"    public T setNeighboringContentUrls(List<String> list) {\\r\\n        if (list == null) {\\r\\n            zzo.zzi(\\\"neighboring content URLs list should not be null\\\");\\r\\n            return (T) self();\\r\\n        }\\r\\n        this.zza.zzh(list);\\r\\n        return (T) self();\\r\\n    }\",\"reported_total_bytes\":null}},\"confidence\":\"derived\",\"authority\":\"shipped-artifact\",\"environment\":null,\"limitations\":[\"Static decompiler observations do not establish runtime behavior; the APK is never executed.\",\"Method signatures use provider display types; DEX prototypes come from frozen JADX metadata. Display names may be aliases, and overload indices are local to this engine and artifact.\",\"Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.\",\"Incoming reference totals count JADX using nodes. Direct invoke entries within a using method report raw DEX code-unit offsets and method indexes, but coverage is limited to those nodes and directly matched invokes; it does not establish every possible dynamic or reflective call site.\",\"Manifest summaries are parsed once by REA's bridge from the exact root AndroidManifest.xml resource, using namespace-aware XML attributes; decoded XML is retained. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider.\"],\"relationship_coverage\":null,\"locations\":[],\"evidence_links\":[]}"
+      }
+    ],
+    "structuredContent": {
+      "evidence_id": "ev_c3571e4fd969e3b89ca9e802dc117f59b48e13f17fbb3979c989dc5c6a10201b",
+      "subject": {
+        "name": "base.apk",
+        "digest": {
+          "sha256": "5c21f181b3a5f2632d00dde6a1939d0fddd2bb05869539ca565edec19974f7fd"
+        },
+        "local_path": "D:\\python daima\\outputs\\apk_extract_20261116\\com.xj.cash.drama\\base.apk",
+        "format": "apk",
+        "architecture": null
+      },
+      "provider": {
+        "id": "jadx",
+        "name": "JADX headless",
+        "version": "0.7.1"
+      },
+      "analysis_profile": null,
+      "predicate_type": "rea.analysis",
+      "operation": "inspect_android_method",
+      "parameters": {
+        "path": "D:\\python daima\\outputs\\apk_extract_20261116\\com.xj.cash.drama\\base.apk",
+        "class_name": "com.google.android.gms.ads.AbstractAdRequestBuilder",
+        "method_name": "setNeighboringContentUrls",
+        "overload_index": 0
+      },
+      "raw_result": {
+        "server": {
+          "name": "rea-jadx-bridge",
+          "version": "7"
+        },
+        "bridge_sha256": "e5044a8312dd0731f53af3f095508b3e5cff54df6b971c95d4305e2f39b4fa30",
+        "jar_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+        "loaded": {
+          "state": "LOADED",
+          "apk_path": "C:\\Users\\asus\\AppData\\Local\\Temp\\rea-android-9936e063b1a8784ee56911df5ac9b338\\target.apk",
+          "class_count": 61382,
+          "resource_count": 3256,
+          "threads": 1,
+          "resources": "full"
+        },
+        "calls": [
+          {
+            "operation": "rea_jvm_status",
+            "input": {},
+            "response": {
+              "content": [
+                {
+                  "type": "text",
+                  "text": "{\"metadata_scope\":\"parsed_members\",\"engine_reported_version\":\"0.7.1\",\"available_processors\":3,\"java_version\":\"17.0.12\",\"max_heap_bytes\":3221225472}"
+                }
+              ],
+              "isError": false
+            }
+          },
+          {
+            "operation": "get_class_summary",
+            "input": {
+              "class_name": "com.google.android.gms.ads.AbstractAdRequestBuilder"
+            },
+            "response": {
+              "content": [
+                {
+                  "type": "text",
+                  "text": "{\"name\":\"AbstractAdRequestBuilder\",\"inner_class_count\":0,\"inner_classes\":[],\"methods\":[{\"signature\":\"\\u003cinit\\u003e(): void\",\"dex_descriptor\":\"()V\",\"is_constructor\":true,\"name\":\"\\u003cinit\\u003e\",\"def_pos\":0},{\"signature\":\"addCustomEventExtrasBundle(java.lang.Class\\u003c? extends com.google.android.gms.ads.mediation.customevent.CustomEvent\\u003e, android.os.Bundle): T extends com.google.android.gms.ads.AbstractAdRequestBuilder\\u003cT\\u003e\",\"dex_descriptor\":\"(Ljava/lang/Class;Landroid/os/Bundle;)Lcom/google/android/gms/ads/AbstractAdRequestBuilder;\",\"is_constructor\":false,\"name\":\"addCustomEventExtrasBundle\",\"def_pos\":0},{\"signature\":\"addCustomTargeting(java.lang.String, java.lang.String): T extends com.google.android.gms.ads.AbstractAdRequestBuilder\\u003cT\\u003e\",\"dex_descriptor\":\"(Ljava/lang/String;Ljava/lang/String;)Lcom/google/android/gms/ads/AbstractAdRequestBuilder;\",\"is_constructor\":false,\"name\":\"addCustomTargeting\",\"def_pos\":0},{\"signature\":\"addCustomTargeting(java.lang.String, java.util.List\\u003cjava.lang.String\\u003e): T extends com.google.android.gms.ads.AbstractAdRequestBuilder\\u003cT\\u003e\",\"dex_descriptor\":\"(Ljava/lang/String;Ljava/util/List;)Lcom/google/android/gms/ads/AbstractAdRequestBuilder;\",\"is_constructor\":false,\"name\":\"addCustomTargeting\",\"def_pos\":0},{\"signature\":\"addKeyword(java.lang.String): T extends com.google.android.gms.ads.AbstractAdRequestBuilder\\u003cT\\u003e\",\"dex_descriptor\":\"(Ljava/lang/String;)Lcom/google/android/gms/ads/AbstractAdRequestBuilder;\",\"is_constructor\":false,\"name\":\"addKeyword\",\"def_pos\":0},{\"signature\":\"addNetworkExtrasBundle(java.lang.Class\\u003c? extends com.google.android.gms.ads.mediation.MediationExtrasReceiver\\u003e, android.os.Bundle): T extends com.google.android.gms.ads.AbstractAdRequestBuilder\\u003cT\\u003e\",\"dex_descriptor\":\"(Ljava/lang/Class;Landroid/os/Bundle;)Lcom/google/android/gms/ads/AbstractAdRequestBuilder;\",\"is_constructor\":false,\"name\":\"addNetworkExtrasBundle\",\"def_pos\":0},{\"signature\":\"self(): T extends com.google.android.gms.ads.AbstractAdRequestBuilder\\u003cT\\u003e\",\"dex_descriptor\":\"()Lcom/google/android/gms/ads/AbstractAdRequestBuilder;\",\"is_constructor\":false,\"name\":\"self\",\"def_pos\":0},{\"signature\":\"setAdString(java.lang.String): T extends com.google.android.gms.ads.AbstractAdRequestBuilder\\u003cT\\u003e\",\"dex_descriptor\":\"(Ljava/lang/String;)Lcom/google/android/gms/ads/AbstractAdRequestBuilder;\",\"is_constructor\":false,\"name\":\"setAdString\",\"def_pos\":0},{\"signature\":\"setContentUrl(java.lang.String): T extends com.google.android.gms.ads.AbstractAdRequestBuilder\\u003cT\\u003e\",\"dex_descriptor\":\"(Ljava/lang/String;)Lcom/google/android/gms/ads/AbstractAdRequestBuilder;\",\"is_constructor\":false,\"name\":\"setContentUrl\",\"def_pos\":0},{\"signature\":\"setHttpTimeoutMillis(int): T extends com.google.android.gms.ads.AbstractAdRequestBuilder\\u003cT\\u003e\",\"dex_descriptor\":\"(I)Lcom/google/android/gms/ads/AbstractAdRequestBuilder;\",\"is_constructor\":false,\"name\":\"setHttpTimeoutMillis\",\"def_pos\":0},{\"signature\":\"setNeighboringContentUrls(java.util.List\\u003cjava.lang.String\\u003e): T extends com.google.android.gms.ads.AbstractAdRequestBuilder\\u003cT\\u003e\",\"dex_descriptor\":\"(Ljava/util/List;)Lcom/google/android/gms/ads/AbstractAdRequestBuilder;\",\"is_constructor\":false,\"name\":\"setNeighboringContentUrls\",\"def_pos\":0},{\"signature\":\"setPlacementId(long): T extends com.google.android.gms.ads.AbstractAdRequestBuilder\\u003cT\\u003e\",\"dex_descriptor\":\"(J)Lcom/google/android/gms/ads/AbstractAdRequestBuilder;\",\"is_constructor\":false,\"name\":\"setPlacementId\",\"def_pos\":0},{\"signature\":\"setRequestAgent(java.lang.String): T extends com.google.android.gms.ads.AbstractAdRequestBuilder\\u003cT\\u003e\",\"dex_descriptor\":\"(Ljava/lang/String;)Lcom/google/android/gms/ads/AbstractAdRequestBuilder;\",\"is_constructor\":false,\"name\":\"setRequestAgent\",\"def_pos\":0},{\"signature\":\"zza(android.os.Bundle): com.google.android.gms.ads.AbstractAdRequestBuilder\",\"dex_descriptor\":\"(Landroid/os/Bundle;)Lcom/google/android/gms/ads/AbstractAdRequestBuilder;\",\"is_constructor\":false,\"name\":\"zza\",\"def_pos\":0},{\"signature\":\"zzb(java.lang.String): com.google.android.gms.ads.AbstractAdRequestBuilder\",\"dex_descriptor\":\"(Ljava/lang/String;)Lcom/google/android/gms/ads/AbstractAdRequestBuilder;\",\"is_constructor\":false,\"name\":\"zzb\",\"def_pos\":0},{\"signature\":\"zzc(boolean): com.google.android.gms.ads.AbstractAdRequestBuilder\",\"dex_descriptor\":\"(Z)Lcom/google/android/gms/ads/AbstractAdRequestBuilder;\",\"is_constructor\":false,\"name\":\"zzc\",\"def_pos\":0},{\"signature\":\"zzd(boolean): com.google.android.gms.ads.AbstractAdRequestBuilder\",\"dex_descriptor\":\"(Z)Lcom/google/android/gms/ads/AbstractAdRequestBuilder;\",\"is_constructor\":false,\"name\":\"zzd\",\"def_pos\":0}],\"fields\":[{\"name\":\"zza\",\"def_pos\":0,\"type\":\"com.google.android.gms.ads.internal.client.zzeg\"}],\"raw_name\":\"com.google.android.gms.ads.AbstractAdRequestBuilder\",\"method_count\":17,\"full_name\":\"com.google.android.gms.ads.AbstractAdRequestBuilder\",\"field_count\":1}"
+                }
+              ],
+              "isError": false
+            }
+          },
+          {
+            "operation": "get_method_body",
+            "input": {
+              "class_name": "com.google.android.gms.ads.AbstractAdRequestBuilder",
+              "method_name": "setNeighboringContentUrls",
+              "overload_index": 0,
+              "smali_fallback": true
+            },
+            "response": {
+              "content": [
+                {
+                  "type": "text",
+                  "text": "{\"markers\":[],\"body\":\"    public T setNeighboringContentUrls(List\\u003cString\\u003e list) {\\r\\n        if (list \\u003d\\u003d null) {\\r\\n            zzo.zzi(\\\"neighboring content URLs list should not be null\\\");\\r\\n            return (T) self();\\r\\n        }\\r\\n        this.zza.zzh(list);\\r\\n        return (T) self();\\r\\n    }\",\"mode\":\"java\",\"class_name\":\"com.google.android.gms.ads.AbstractAdRequestBuilder\",\"dex_descriptor\":\"(Ljava/util/List;)Lcom/google/android/gms/ads/AbstractAdRequestBuilder;\",\"overload_count\":1,\"method_name\":\"setNeighboringContentUrls\",\"overload_index\":0,\"full_name\":\"com.google.android.gms.ads.AbstractAdRequestBuilder.setNeighboringContentUrls\",\"fell_back\":false}"
+                }
+              ],
+              "isError": false
+            }
+          }
+        ]
+      },
+      "normalized_result": {
+        "engine": {
+          "name": "jadx-headless-mcp",
+          "version": "0.7.1",
+          "artifact_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+          "source_revision": "5844800a486d2248fa949b74c9896285f5b54de2",
+          "worker_count": 1,
+          "heap_limit_mib": 3072
+        },
+        "class_name": "com.google.android.gms.ads.AbstractAdRequestBuilder",
+        "method": {
+          "name": "setNeighboringContentUrls",
+          "reported_signature": "setNeighboringContentUrls(java.util.List<java.lang.String>): T extends com.google.android.gms.ads.AbstractAdRequestBuilder<T>",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": "(Ljava/util/List;)Lcom/google/android/gms/ads/AbstractAdRequestBuilder;"
+        },
+        "overload_count": 1,
+        "representation": "java",
+        "body_status": "available",
+        "fell_back": false,
+        "markers": [],
+        "source": {
+          "status": "complete",
+          "text": "    public T setNeighboringContentUrls(List<String> list) {\r\n        if (list == null) {\r\n            zzo.zzi(\"neighboring content URLs list should not be null\");\r\n            return (T) self();\r\n        }\r\n        this.zza.zzh(list);\r\n        return (T) self();\r\n    }",
+          "reported_total_bytes": null
+        }
+      },
+      "confidence": "derived",
+      "authority": "shipped-artifact",
+      "environment": null,
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; DEX prototypes come from frozen JADX metadata. Display names may be aliases, and overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Incoming reference totals count JADX using nodes. Direct invoke entries within a using method report raw DEX code-unit offsets and method indexes, but coverage is limited to those nodes and directly matched invokes; it does not establish every possible dynamic or reflective call site.",
+        "Manifest summaries are parsed once by REA's bridge from the exact root AndroidManifest.xml resource, using namespace-aware XML attributes; decoded XML is retained. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ],
+      "relationship_coverage": null,
+      "locations": [],
+      "evidence_links": []
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "job": {
+    "package": "com.xj.cash.drama",
+    "id": "license",
+    "rea": "inspect_android_method",
+    "craft": "android-method-show",
+    "args": {
+      "path": "D:\\python daima\\outputs\\apk_extract_20261116\\com.xj.cash.drama\\base.apk",
+      "class_name": "com.pairip.licensecheck.LicenseClient",
+      "method_name": "checkLicense"
+    }
+  },
+  "start": "2026-11-16T06:54:35.857Z",
+  "end": "2026-11-16T06:54:36.218Z",
+  "result": {
+    "_meta": {
+      "provenance": {
+        "untrusted_content": true,
+        "source": "analysis_target"
+      }
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"error\":{\"code\":\"capability_unavailable\",\"category\":\"unsupported_provider\",\"message\":\"REA Windows native self-test failed: Open Windows path component failed [C:\\\\Users\\\\asus] (Win32 5): 拒绝访问。\\r\\n\",\"retryable\":false,\"remediation\":{\"action\":\"REA Windows native self-test failed: Open Windows path component failed [C:\\\\Users\\\\asus] (Win32 5): 拒绝访问。\\r\\n\"},\"details\":{\"provider_id\":\"jadx\",\"operation\":\"inspect_android_method\",\"reason\":\"REA Windows native self-test failed: Open Windows path component failed [C:\\\\Users\\\\asus] (Win32 5): 拒绝访问。\\r\\n\",\"diagnostics\":{\"platform\":\"win32\",\"architecture\":\"x64\",\"phase\":\"process-ownership\",\"owned_protocol_stdin\":false,\"failure_stage\":\"self-test\",\"remediation\":\"Inspect the preserved native self-test error. Check that the process's temporary directory is writable local NTFS and that its filesystem, DACL, Job Object, and cleanup operations are permitted. Resolve the reported constraint, then rerun rea doctor; reinstalling Ghidra or Java cannot fix this self-test.\",\"failure_kind\":\"windows_native_runtime\",\"failure_code\":\"runtime_unavailable\"}}}}"
+      }
+    ],
+    "isError": true
+  }
+}

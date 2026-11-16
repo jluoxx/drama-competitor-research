@@ -1,0 +1,267 @@
+CLASS Lgg8;
+FIELD a 
+FIELD b 
+
+METHOD <init> ()V
+000000: invoke-direct v1, Ljava/lang/Object;-><init>()V
+000006: const/4 v0, 0
+000008: iput-object v0, v1, Lgg8;->a Ljava/lang/String;
+00000c: const/4 v0, 0
+00000e: iput v0, v1, Lgg8;->b I
+000012: return-void 
+
+METHOD d ()Ljava/lang/String;
+000000: sget-object v0, Lki8;->b Lki8;
+000004: const-string v1, "fgI8Wt1LpV9QIQVI8g==
+"
+000008: const-string v2, "PW1MI4sR0Q0=
+"
+00000c: invoke-static v1, v2, Lvf8;->a(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+000012: move-result-object v1
+000014: invoke-virtual v0, v1, Lki8;->a(Ljava/lang/String;)Ljava/lang/String;
+00001a: move-result-object v0
+00001c: return-object v0
+
+METHOD a ()V
+000000: invoke-static Lgg8;->d()Ljava/lang/String;
+000006: move-result-object v0
+000008: if-nez v0, +039h
+00000c: sget-object v0, Lsw7;->d Lsw7;
+000010: iget-boolean v1, v0, Lsw7;->b Z
+000014: if-nez v1, +01bh
+000018: if-eqz v1, +003h
+00001c: goto +17h
+00001e: sget-object v1, Lki8;->b Lki8;
+000022: const-string v2, "BSdZf/qXY7In
+"
+000026: const-string v3, "Q18tLYLzAuQ=
+"
+00002a: invoke-static v2, v3, Lvf8;->a(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+000030: move-result-object v2
+000032: const/4 v3, 0
+000034: iget-object v1, v1, Lki8;->a Landroid/content/SharedPreferences;
+000038: invoke-interface v1, v2, v3, Landroid/content/SharedPreferences;->getInt(Ljava/lang/String; I)I
+00003e: move-result v1
+000040: iput v1, v0, Lsw7;->a I
+000044: const/4 v1, 1
+000046: iput-boolean v1, v0, Lsw7;->b Z
+00004a: iget v0, v0, Lsw7;->a I
+00004e: if-lez v0, +003h
+000052: goto +14h
+000054: new-instance v0, Lcom/adjust/sdk/AdjustEvent;
+000058: const-string v1, "cJyewf5L
+"
+00005c: const-string v2, "Q/D/qcwlp8M=
+"
+000060: invoke-static v1, v2, Lvf8;->a(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+000066: move-result-object v1
+000068: invoke-direct v0, v1, Lcom/adjust/sdk/AdjustEvent;-><init>(Ljava/lang/String;)V
+00006e: invoke-static v0, Lcom/adjust/sdk/Adjust;->trackEvent(Lcom/adjust/sdk/AdjustEvent;)V
+000074: invoke-virtual v4, Lgg8;->b()V
+00007a: return-void 
+
+METHOD b ()V
+000000: iget v0, v6, Lgg8;->b I
+000004: const/4 v1, 5
+000006: if-lt v0, v1, +003h
+00000a: return-void 
+00000c: add-int/lit8 v0, v0, 1
+000010: iput v0, v6, Lgg8;->b I
+000014: new-instance v0, Landroid/os/Handler;
+000018: invoke-static Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
+00001e: move-result-object v1
+000020: invoke-direct v0, v1, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
+000026: new-instance v1, Ltf8;
+00002a: invoke-direct v1, v6, Ltf8;-><init>(Lgg8;)V
+000030: iget v2, v6, Lgg8;->b I
+000034: int-to-long v2, v2
+000036: const-wide/16 v4, 2000
+00003a: mul-long/2addr v2, v4
+00003c: invoke-virtual v0, v1, v2, v3, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable; J)Z
+000042: return-void 
+
+METHOD c ()V
+000000: const-string v0, "eU8YHaTDGmhmUw==
+"
+000004: const-string v1, "CT13edGgbgE=
+"
+000008: invoke-static v0, v1, Lvf8;->a(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+00000e: move-result-object v0
+000010: invoke-static Lbg8;->b()Landroid/content/Context;
+000016: move-result-object v1
+000018: new-instance v2, Lcom/adjust/sdk/AdjustConfig;
+00001c: sget-object v3, Lkj7;->a Ljava/lang/String;
+000020: const/4 v4, 1
+000022: invoke-direct v2, v1, v3, v0, v4, Lcom/adjust/sdk/AdjustConfig;-><init>(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String; Z)V
+000028: invoke-static Lgg8;->d()Ljava/lang/String;
+00002e: move-result-object v0
+000030: const/4 v3, 0
+000032: const-string v5, "Q18tLYLzAuQ=
+"
+000036: const-string v6, "BSdZf/qXY7In
+"
+00003a: if-nez v0, +023h
+00003e: sget-object v0, Lsw7;->d Lsw7;
+000042: iget-boolean v7, v0, Lsw7;->b Z
+000046: if-nez v7, +015h
+00004a: if-eqz v7, +003h
+00004e: goto +11h
+000050: sget-object v7, Lki8;->b Lki8;
+000054: invoke-static v6, v5, Lvf8;->a(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+00005a: move-result-object v8
+00005c: iget-object v7, v7, Lki8;->a Landroid/content/SharedPreferences;
+000060: invoke-interface v7, v8, v3, Landroid/content/SharedPreferences;->getInt(Ljava/lang/String; I)I
+000066: move-result v7
+000068: iput v7, v0, Lsw7;->a I
+00006c: iput-boolean v4, v0, Lsw7;->b Z
+000070: iget v0, v0, Lsw7;->a I
+000074: if-lez v0, +003h
+000078: goto +4h
+00007a: invoke-virtual v2, Lcom/adjust/sdk/AdjustConfig;->enableSendingInBackground()V
+000080: new-instance v0, Lnf8;
+000084: invoke-direct v0, v11, Lnf8;-><init>(Lgg8;)V
+00008a: invoke-virtual v2, v0, Lcom/adjust/sdk/AdjustConfig;->setOnAttributionChangedListener(Lcom/adjust/sdk/OnAttributionChangedListener;)V
+000090: const-string v0, "RTXRJtbVlA==
+"
+000094: const-string v7, "MEa0VIm88OI=
+"
+000098: invoke-static v0, v7, Lvf8;->a(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+00009e: move-result-object v0
+0000a0: sget-object v7, Lki8;->b Lki8;
+0000a4: const-string/jumbo v8, z1t2l37THM7BbXOQUg==
+
+0000aa: const-string v9, "hj0Z3DCBcrw=
+"
+0000ae: invoke-static v8, v9, Lvf8;->a(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+0000b4: move-result-object v8
+0000b6: invoke-virtual v7, v8, Lki8;->a(Ljava/lang/String;)Ljava/lang/String;
+0000bc: move-result-object v8
+0000be: if-nez v8, +015h
+0000c2: invoke-static Ljava/util/UUID;->randomUUID()Ljava/util/UUID;
+0000c8: move-result-object v8
+0000ca: invoke-virtual v8, Ljava/util/UUID;->toString()Ljava/lang/String;
+0000d0: move-result-object v8
+0000d2: const-string v9, "bQ9iVKWJRiZjOWdTiQ==
+"
+0000d6: const-string v10, "JGkNH+vbKFQ=
+"
+0000da: invoke-static v9, v10, Lvf8;->a(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+0000e0: move-result-object v9
+0000e2: invoke-virtual v7, v9, v8, Lki8;->d(Ljava/lang/String; Ljava/lang/String;)V
+0000e8: invoke-static v0, v8, Lcom/adjust/sdk/Adjust;->addGlobalCallbackParameter(Ljava/lang/String; Ljava/lang/String;)V
+0000ee: const-string/jumbo v0, t3Po0dfW0kKaYubVwQ==
+
+0000f4: const-string/jumbo v8, xRaPuKSitzA=
+
+0000fa: invoke-static v0, v8, Lvf8;->a(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+000100: move-result-object v0
+000102: invoke-static Lw75;->a()Ljava/lang/String;
+000108: move-result-object v8
+00010a: invoke-static v0, v8, Lcom/adjust/sdk/Adjust;->addGlobalCallbackParameter(Ljava/lang/String; Ljava/lang/String;)V
+000110: const-string v0, "k1J2r4JAePU=
+"
+000114: const-string v8, "8iIG3PYvCpA=
+"
+000118: invoke-static v0, v8, Lvf8;->a(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+00011e: move-result-object v0
+000120: sget-object v8, Lsa2;->a Ljava/lang/String;
+000124: invoke-static v0, v8, Lcom/adjust/sdk/Adjust;->addGlobalCallbackParameter(Ljava/lang/String; Ljava/lang/String;)V
+00012a: invoke-static v2, Lcom/adjust/sdk/Adjust;->initSdk(Lcom/adjust/sdk/AdjustConfig;)V
+000130: new-instance v0, Lpf8;
+000134: invoke-direct v0, v11, Lpf8;-><init>(Lgg8;)V
+00013a: invoke-static v1, v0, Lcom/adjust/sdk/Adjust;->getGoogleAdId(Landroid/content/Context; Lcom/adjust/sdk/OnGoogleAdIdReadListener;)V
+000140: new-instance v0, Lrf8;
+000144: invoke-direct v0, v11, Lrf8;-><init>(Lgg8;)V
+00014a: invoke-static v0, Lcom/adjust/sdk/Adjust;->getAttribution(Lcom/adjust/sdk/OnAttributionReadListener;)V
+000150: invoke-virtual v11, Lgg8;->b()V
+000156: invoke-static Lgg8;->d()Ljava/lang/String;
+00015c: move-result-object v0
+00015e: if-nez v0, +031h
+000162: sget-object v0, Lsw7;->d Lsw7;
+000166: iget-boolean v1, v0, Lsw7;->b Z
+00016a: if-nez v1, +013h
+00016e: if-eqz v1, +003h
+000172: goto +fh
+000174: invoke-static v6, v5, Lvf8;->a(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+00017a: move-result-object v1
+00017c: iget-object v2, v7, Lki8;->a Landroid/content/SharedPreferences;
+000180: invoke-interface v2, v1, v3, Landroid/content/SharedPreferences;->getInt(Ljava/lang/String; I)I
+000186: move-result v1
+000188: iput v1, v0, Lsw7;->a I
+00018c: iput-boolean v4, v0, Lsw7;->b Z
+000190: iget v0, v0, Lsw7;->a I
+000194: if-lez v0, +003h
+000198: goto +14h
+00019a: new-instance v0, Landroid/os/Handler;
+00019e: invoke-static Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
+0001a4: move-result-object v1
+0001a6: invoke-direct v0, v1, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
+0001ac: new-instance v1, Lsf8;
+0001b0: invoke-direct v1, Lsf8;-><init>()V
+0001b6: const-wide/16 v2, 500
+0001ba: invoke-virtual v0, v1, v2, v3, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable; J)Z
+0001c0: return-void 
+
+METHOD e (Lcom/adjust/sdk/AdjustAttribution;)V
+000000: if-eqz v4, +05fh
+000004: iget-object v4, v4, Lcom/adjust/sdk/AdjustAttribution;->network Ljava/lang/String;
+000008: if-eqz v4, +05bh
+00000c: sget-object v0, Ljava/util/Locale;->US Ljava/util/Locale;
+000010: invoke-virtual v4, v0, Ljava/lang/String;->toLowerCase(Ljava/util/Locale;)Ljava/lang/String;
+000016: move-result-object v4
+000018: sget-object v0, Lki8;->b Lki8;
+00001c: const-string v1, "Ge4vzpXF4t43zRbcug==
+"
+000020: const-string v2, "WoFft8Oflow=
+"
+000024: invoke-static v1, v2, Lvf8;->a(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+00002a: move-result-object v1
+00002c: invoke-virtual v0, v1, v4, Lki8;->d(Ljava/lang/String; Ljava/lang/String;)V
+000032: sget-object v0, Lpj7;->d Lpj7;
+000036: invoke-virtual v0, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+00003c: invoke-static v4, Lpj7;->i(Ljava/lang/String;)V
+000042: const-string v0, "XL1lN3O0VrpN
+"
+000046: const-string v1, "KdMRRQbHIt8=
+"
+00004a: invoke-static v0, v1, Lvf8;->a(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+000050: move-result-object v0
+000052: invoke-virtual v4, v0, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+000058: move-result v0
+00005a: if-eqz v0, +018h
+00005e: sget-object v4, Lr84;->b Lr84;
+000062: const-string v0, "Gfcn
+"
+000066: const-string v1, "dJpXYe+9Zbo=
+"
+00006a: invoke-static v0, v1, Lvf8;->a(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+000070: move-result-object v0
+000072: const-string v1, "L4+nSu9TvKM3kaMP/g==
+"
+000076: const-string v2, "QuLXapo9yNE=
+"
+00007a: invoke-static v1, v2, Lvf8;->a(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+000080: move-result-object v1
+000082: invoke-virtual v4, v0, v1, Lr84;->b(Ljava/lang/String; Ljava/lang/String;)V
+000088: goto +1bh
+00008a: const-string v0, "/TCg4Te3cg==
+"
+00008e: const-string v1, "kkLHgFneEUI=
+"
+000092: invoke-static v0, v1, Lvf8;->a(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+000098: move-result-object v0
+00009a: invoke-virtual v4, v0, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+0000a0: move-result v4
+0000a2: if-nez v4, +00eh
+0000a6: sget-object v4, Lsw7;->d Lsw7;
+0000aa: iget v0, v4, Lsw7;->a I
+0000ae: const/16 v1, 16
+0000b2: and-int/2addr v0, v1
+0000b4: if-nez v0, +005h
+0000b8: invoke-virtual v4, v1, Lsw7;->a(I)V
+0000be: return-void 
+
+METHOD f (Ljava/lang/String;)V
+000000: iput-object v1, v0, Lgg8;->a Ljava/lang/String;
+000004: return-void 
+

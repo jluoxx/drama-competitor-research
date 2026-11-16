@@ -1,0 +1,1 @@
+window.SOURCE_CONTENT["12a520d913e95a09"]={"text":"    public NotificationListener() {\r\r\n        e eVar = new e(this, 3);\r\r\n        a aVar = new a(2);\r\r\n        this.b = new Handler(LauncherModel.f12305j.getLooper(), eVar);\r\r\n        this.f12667c = new Handler(Looper.getMainLooper(), aVar);\r\r\n        f12663i = this;\r\r\n    }","html":null};

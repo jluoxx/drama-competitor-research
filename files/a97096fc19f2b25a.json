@@ -1,0 +1,58 @@
+{
+  "engine": {
+    "name": "jadx-headless-mcp",
+    "version": "0.7.1",
+    "artifact_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+    "source_revision": "5844800a486d2248fa949b74c9896285f5b54de2",
+    "worker_count": 1,
+    "heap_limit_mib": 3072
+  },
+  "class_name": "defpackage.bm2",
+  "method_name": "F",
+  "overload_index": 0,
+  "reported_signature": "F(com.kingtar.work.model.entities.GlobalConfigEntity): void",
+  "dex_descriptor": "(Lcom/kingtar/work/model/entities/GlobalConfigEntity;)V",
+  "total": 2,
+  "references": [
+    {
+      "kind": "method",
+      "name": "onCreate$lambda$9",
+      "reported_full_name": "com.kingtar.work.mvvm.ui.activity.Drama2MainActivity.onCreate$lambda$9",
+      "containing_class": "com.kingtar.work.mvvm.ui.activity.Drama2MainActivity",
+      "top_class": "com.kingtar.work.mvvm.ui.activity.Drama2MainActivity",
+      "source_line": null,
+      "dex_offset": null,
+      "direct_invokes_exhaustive": true,
+      "direct_invokes": [
+        {
+          "dex_entry": "classes7.dex",
+          "source_raw_method_id": "com.kingtar.work.mvvm.ui.activity.Drama2MainActivity.onCreate$lambda$9(Lcom/kingtar/work/model/entities/GlobalConfigEntity;)Lkotlin/Unit;",
+          "dex_code_unit_offset": 24,
+          "dex_method_index": 2070,
+          "opcode": "INVOKE_VIRTUAL"
+        }
+      ]
+    },
+    {
+      "kind": "method",
+      "name": "invokeSuspend",
+      "reported_full_name": "com.kingtar.work.mvvm.vm.SplashVm$requestSets$1.invokeSuspend",
+      "containing_class": "com.kingtar.work.mvvm.vm.SplashVm$requestSets$1",
+      "top_class": "com.kingtar.work.mvvm.vm.SplashVm$requestSets$1",
+      "source_line": null,
+      "dex_offset": null,
+      "direct_invokes_exhaustive": true,
+      "direct_invokes": [
+        {
+          "dex_entry": "classes7.dex",
+          "source_raw_method_id": "com.kingtar.work.mvvm.vm.SplashVm$requestSets$1.invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+          "dex_code_unit_offset": 79,
+          "dex_method_index": 2070,
+          "opcode": "INVOKE_VIRTUAL"
+        }
+      ]
+    }
+  ],
+  "coverage": "complete",
+  "reference_unit": "using_node"
+}

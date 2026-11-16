@@ -1,0 +1,158 @@
+{
+  "job": {
+    "id": "112_remote_activate",
+    "package": "com.smartnettools.studio.dramapop",
+    "tool": "inspect_android_method",
+    "args": {
+      "path": "D:\\python daima\\outputs\\apk_extract_20261116\\com.smartnettools.studio.dramapop\\base.apk",
+      "class_name": "zg.c",
+      "method_name": "a"
+    }
+  },
+  "start": "2026-11-16T04:26:55.669Z",
+  "end": "2026-11-16T04:26:57.826Z",
+  "result": {
+    "_meta": {
+      "provenance": {
+        "untrusted_content": true,
+        "source": "analysis_target"
+      }
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"evidence_id\":\"ev_7837e0ee0d4736ab3cdc83e0ebaf16ed7305cf9a8f5a3cb19dac8e41ca698e63\",\"subject\":{\"name\":\"base.apk\",\"digest\":{\"sha256\":\"5b074f04f27d01ddf7816723e192f7b3577f9994bf13a37195869668e9861cf9\"},\"local_path\":\"D:\\\\python daima\\\\outputs\\\\apk_extract_20261116\\\\com.smartnettools.studio.dramapop\\\\base.apk\",\"format\":\"apk\",\"architecture\":null},\"provider\":{\"id\":\"jadx\",\"name\":\"JADX headless\",\"version\":\"0.7.1\"},\"analysis_profile\":null,\"predicate_type\":\"rea.analysis\",\"operation\":\"inspect_android_method\",\"parameters\":{\"path\":\"D:\\\\python daima\\\\outputs\\\\apk_extract_20261116\\\\com.smartnettools.studio.dramapop\\\\base.apk\",\"class_name\":\"zg.c\",\"method_name\":\"a\"},\"raw_result\":{\"server\":{\"name\":\"rea-jadx-bridge\",\"version\":\"7\"},\"bridge_sha256\":\"e5044a8312dd0731f53af3f095508b3e5cff54df6b971c95d4305e2f39b4fa30\",\"jar_sha256\":\"6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75\",\"loaded\":{\"state\":\"LOADED\",\"apk_path\":\"C:\\\\Users\\\\asus\\\\AppData\\\\Local\\\\Temp\\\\rea-android-a717439b66f3cb50d878ec6f13b61bfb\\\\target.apk\",\"class_count\":50068,\"resource_count\":2637,\"threads\":1,\"resources\":\"full\"},\"calls\":[{\"operation\":\"rea_jvm_status\",\"input\":{},\"response\":{\"content\":[{\"type\":\"text\",\"text\":\"{\\\"metadata_scope\\\":\\\"parsed_members\\\",\\\"max_heap_bytes\\\":3221225472,\\\"java_version\\\":\\\"17.0.12\\\",\\\"available_processors\\\":3,\\\"engine_reported_version\\\":\\\"0.7.1\\\"}\"}],\"isError\":false}},{\"operation\":\"get_class_summary\",\"input\":{\"class_name\":\"zg.c\"},\"response\":{\"content\":[{\"type\":\"text\",\"text\":\"{\\\"inner_classes\\\":[],\\\"inner_class_count\\\":0,\\\"name\\\":\\\"c\\\",\\\"field_count\\\":5,\\\"full_name\\\":\\\"zg.c\\\",\\\"method_count\\\":9,\\\"raw_name\\\":\\\"zg.c\\\",\\\"fields\\\":[{\\\"type\\\":\\\"java.util.ArrayList\\\",\\\"def_pos\\\":0,\\\"name\\\":\\\"b\\\"},{\\\"type\\\":\\\"boolean\\\",\\\"def_pos\\\":0,\\\"name\\\":\\\"d\\\"},{\\\"type\\\":\\\"zg.c\\\",\\\"def_pos\\\":0,\\\"name\\\":\\\"e\\\"},{\\\"type\\\":\\\"Ic.e\\\",\\\"def_pos\\\":0,\\\"name\\\":\\\"f72118a\\\"},{\\\"type\\\":\\\"long\\\",\\\"def_pos\\\":0,\\\"name\\\":\\\"f72119c\\\"}],\\\"methods\\\":[{\\\"signature\\\":\\\"\\\\u003cclinit\\\\u003e(): void\\\",\\\"def_pos\\\":0,\\\"name\\\":\\\"\\\\u003cclinit\\\\u003e\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"()V\\\"},{\\\"signature\\\":\\\"\\\\u003cinit\\\\u003e(): void\\\",\\\"def_pos\\\":0,\\\"name\\\":\\\"\\\\u003cinit\\\\u003e\\\",\\\"is_constructor\\\":true,\\\"dex_descriptor\\\":\\\"()V\\\"},{\\\"signature\\\":\\\"a(M9.e, com.google.android.gms.tasks.Task): void\\\",\\\"def_pos\\\":0,\\\"name\\\":\\\"a\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"(LM9/e;Lcom/google/android/gms/tasks/Task;)V\\\"},{\\\"signature\\\":\\\"b(java.lang.Class, java.lang.String, java.lang.Object): java.lang.Object\\\",\\\"def_pos\\\":0,\\\"name\\\":\\\"b\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;\\\"},{\\\"signature\\\":\\\"c(int, java.lang.String, double, java.lang.String, java.lang.String): void\\\",\\\"def_pos\\\":0,\\\"name\\\":\\\"c\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"(ILjava/lang/String;DLjava/lang/String;Ljava/lang/String;)V\\\"},{\\\"signature\\\":\\\"d(int, java.lang.String, java.lang.String, java.lang.String): void\\\",\\\"def_pos\\\":0,\\\"name\\\":\\\"d\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V\\\"},{\\\"signature\\\":\\\"e(M9.e): void\\\",\\\"def_pos\\\":0,\\\"name\\\":\\\"e\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"(LM9/e;)V\\\"},{\\\"signature\\\":\\\"f(android.os.Bundle, java.lang.String): void\\\",\\\"def_pos\\\":0,\\\"name\\\":\\\"f\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"(Landroid/os/Bundle;Ljava/lang/String;)V\\\"},{\\\"signature\\\":\\\"g(java.lang.String): void\\\",\\\"def_pos\\\":0,\\\"name\\\":\\\"g\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"(Ljava/lang/String;)V\\\"}]}\"}],\"isError\":false}},{\"operation\":\"get_method_body\",\"input\":{\"class_name\":\"zg.c\",\"method_name\":\"a\",\"overload_index\":0,\"smali_fallback\":true},\"response\":{\"content\":[{\"type\":\"text\",\"text\":\"{\\\"body\\\":\\\"    public final void a(M9.e eVar, Task task) {\\\\r\\\\n        if (task.isSuccessful()) {\\\\r\\\\n            if (!this.d || Boolean.TRUE.equals(task.getResult())) {\\\\r\\\\n                this.d \\\\u003d true;\\\\r\\\\n                String strF \\\\u003d eVar.f(v4.k.n(R6.a.a(\\\\\\\"xjhtEg3OjDjCO0s+E8+CIvg/XQ8f1Yo\\\\u003d\\\\\\\\n\\\\\\\"), R6.a.a(\\\\\\\"p1wyYXm87Uw\\\\u003d\\\\\\\\n\\\\\\\")));\\\\r\\\\n                yg.b bVar \\\\u003d yg.b.b;\\\\r\\\\n                if (!l4.a.d(strF)) {\\\\r\\\\n                    try {\\\\r\\\\n                        v4.b.d(new yg.a(j.c.a(strF), 0));\\\\r\\\\n                    } catch (Exception unused) {\\\\r\\\\n                    }\\\\r\\\\n                }\\\\r\\\\n                if (eVar.b(v4.k.n(R6.a.a(\\\\\\\"PGkIStJcrp07eAhV1VuFmSs\\\\u003d\\\\\\\\n\\\\\\\"), R6.a.a(\\\\\\\"Twx6PLcu8fw\\\\u003d\\\\\\\\n\\\\\\\")))) {\\\\r\\\\n                    m mVar \\\\u003d m.d;\\\\r\\\\n                    if ((mVar.f72133a \\\\u0026 8) \\\\u003d\\\\u003d 0) {\\\\r\\\\n                        mVar.a(8);\\\\r\\\\n                    }\\\\r\\\\n                }\\\\r\\\\n                v4.b.d(new yg.a(this, 3));\\\\r\\\\n            }\\\\r\\\\n        }\\\\r\\\\n    }\\\",\\\"markers\\\":[],\\\"fell_back\\\":false,\\\"full_name\\\":\\\"zg.c.a\\\",\\\"overload_index\\\":0,\\\"method_name\\\":\\\"a\\\",\\\"overload_count\\\":1,\\\"dex_descriptor\\\":\\\"(LM9/e;Lcom/google/android/gms/tasks/Task;)V\\\",\\\"class_name\\\":\\\"zg.c\\\",\\\"mode\\\":\\\"java\\\"}\"}],\"isError\":false}}]},\"normalized_result\":{\"engine\":{\"name\":\"jadx-headless-mcp\",\"version\":\"0.7.1\",\"artifact_sha256\":\"6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75\",\"source_revision\":\"5844800a486d2248fa949b74c9896285f5b54de2\",\"worker_count\":1,\"heap_limit_mib\":3072},\"class_name\":\"zg.c\",\"method\":{\"name\":\"a\",\"reported_signature\":\"a(M9.e, com.google.android.gms.tasks.Task): void\",\"overload_index\":0,\"is_constructor\":false,\"dex_descriptor\":\"(LM9/e;Lcom/google/android/gms/tasks/Task;)V\"},\"overload_count\":1,\"representation\":\"java\",\"body_status\":\"available\",\"fell_back\":false,\"markers\":[],\"source\":{\"status\":\"complete\",\"text\":\"    public final void a(M9.e eVar, Task task) {\\r\\n        if (task.isSuccessful()) {\\r\\n            if (!this.d || Boolean.TRUE.equals(task.getResult())) {\\r\\n                this.d = true;\\r\\n                String strF = eVar.f(v4.k.n(R6.a.a(\\\"xjhtEg3OjDjCO0s+E8+CIvg/XQ8f1Yo=\\\\n\\\"), R6.a.a(\\\"p1wyYXm87Uw=\\\\n\\\")));\\r\\n                yg.b bVar = yg.b.b;\\r\\n                if (!l4.a.d(strF)) {\\r\\n                    try {\\r\\n                        v4.b.d(new yg.a(j.c.a(strF), 0));\\r\\n                    } catch (Exception unused) {\\r\\n                    }\\r\\n                }\\r\\n                if (eVar.b(v4.k.n(R6.a.a(\\\"PGkIStJcrp07eAhV1VuFmSs=\\\\n\\\"), R6.a.a(\\\"Twx6PLcu8fw=\\\\n\\\")))) {\\r\\n                    m mVar = m.d;\\r\\n                    if ((mVar.f72133a & 8) == 0) {\\r\\n                        mVar.a(8);\\r\\n                    }\\r\\n                }\\r\\n                v4.b.d(new yg.a(this, 3));\\r\\n            }\\r\\n        }\\r\\n    }\",\"reported_total_bytes\":null}},\"confidence\":\"derived\",\"authority\":\"shipped-artifact\",\"environment\":null,\"limitations\":[\"Static decompiler observations do not establish runtime behavior; the APK is never executed.\",\"Method signatures use provider display types; DEX prototypes come from frozen JADX metadata. Display names may be aliases, and overload indices are local to this engine and artifact.\",\"Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.\",\"Incoming reference totals count JADX using nodes. Direct invoke entries within a using method report raw DEX code-unit offsets and method indexes, but coverage is limited to those nodes and directly matched invokes; it does not establish every possible dynamic or reflective call site.\",\"Manifest summaries are parsed once by REA's bridge from the exact root AndroidManifest.xml resource, using namespace-aware XML attributes; decoded XML is retained. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider.\"],\"relationship_coverage\":null,\"locations\":[],\"evidence_links\":[]}"
+      }
+    ],
+    "structuredContent": {
+      "evidence_id": "ev_7837e0ee0d4736ab3cdc83e0ebaf16ed7305cf9a8f5a3cb19dac8e41ca698e63",
+      "subject": {
+        "name": "base.apk",
+        "digest": {
+          "sha256": "5b074f04f27d01ddf7816723e192f7b3577f9994bf13a37195869668e9861cf9"
+        },
+        "local_path": "D:\\python daima\\outputs\\apk_extract_20261116\\com.smartnettools.studio.dramapop\\base.apk",
+        "format": "apk",
+        "architecture": null
+      },
+      "provider": {
+        "id": "jadx",
+        "name": "JADX headless",
+        "version": "0.7.1"
+      },
+      "analysis_profile": null,
+      "predicate_type": "rea.analysis",
+      "operation": "inspect_android_method",
+      "parameters": {
+        "path": "D:\\python daima\\outputs\\apk_extract_20261116\\com.smartnettools.studio.dramapop\\base.apk",
+        "class_name": "zg.c",
+        "method_name": "a"
+      },
+      "raw_result": {
+        "server": {
+          "name": "rea-jadx-bridge",
+          "version": "7"
+        },
+        "bridge_sha256": "e5044a8312dd0731f53af3f095508b3e5cff54df6b971c95d4305e2f39b4fa30",
+        "jar_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+        "loaded": {
+          "state": "LOADED",
+          "apk_path": "C:\\Users\\asus\\AppData\\Local\\Temp\\rea-android-a717439b66f3cb50d878ec6f13b61bfb\\target.apk",
+          "class_count": 50068,
+          "resource_count": 2637,
+          "threads": 1,
+          "resources": "full"
+        },
+        "calls": [
+          {
+            "operation": "rea_jvm_status",
+            "input": {},
+            "response": {
+              "content": [
+                {
+                  "type": "text",
+                  "text": "{\"metadata_scope\":\"parsed_members\",\"max_heap_bytes\":3221225472,\"java_version\":\"17.0.12\",\"available_processors\":3,\"engine_reported_version\":\"0.7.1\"}"
+                }
+              ],
+              "isError": false
+            }
+          },
+          {
+            "operation": "get_class_summary",
+            "input": {
+              "class_name": "zg.c"
+            },
+            "response": {
+              "content": [
+                {
+                  "type": "text",
+                  "text": "{\"inner_classes\":[],\"inner_class_count\":0,\"name\":\"c\",\"field_count\":5,\"full_name\":\"zg.c\",\"method_count\":9,\"raw_name\":\"zg.c\",\"fields\":[{\"type\":\"java.util.ArrayList\",\"def_pos\":0,\"name\":\"b\"},{\"type\":\"boolean\",\"def_pos\":0,\"name\":\"d\"},{\"type\":\"zg.c\",\"def_pos\":0,\"name\":\"e\"},{\"type\":\"Ic.e\",\"def_pos\":0,\"name\":\"f72118a\"},{\"type\":\"long\",\"def_pos\":0,\"name\":\"f72119c\"}],\"methods\":[{\"signature\":\"\\u003cclinit\\u003e(): void\",\"def_pos\":0,\"name\":\"\\u003cclinit\\u003e\",\"is_constructor\":false,\"dex_descriptor\":\"()V\"},{\"signature\":\"\\u003cinit\\u003e(): void\",\"def_pos\":0,\"name\":\"\\u003cinit\\u003e\",\"is_constructor\":true,\"dex_descriptor\":\"()V\"},{\"signature\":\"a(M9.e, com.google.android.gms.tasks.Task): void\",\"def_pos\":0,\"name\":\"a\",\"is_constructor\":false,\"dex_descriptor\":\"(LM9/e;Lcom/google/android/gms/tasks/Task;)V\"},{\"signature\":\"b(java.lang.Class, java.lang.String, java.lang.Object): java.lang.Object\",\"def_pos\":0,\"name\":\"b\",\"is_constructor\":false,\"dex_descriptor\":\"(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;\"},{\"signature\":\"c(int, java.lang.String, double, java.lang.String, java.lang.String): void\",\"def_pos\":0,\"name\":\"c\",\"is_constructor\":false,\"dex_descriptor\":\"(ILjava/lang/String;DLjava/lang/String;Ljava/lang/String;)V\"},{\"signature\":\"d(int, java.lang.String, java.lang.String, java.lang.String): void\",\"def_pos\":0,\"name\":\"d\",\"is_constructor\":false,\"dex_descriptor\":\"(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V\"},{\"signature\":\"e(M9.e): void\",\"def_pos\":0,\"name\":\"e\",\"is_constructor\":false,\"dex_descriptor\":\"(LM9/e;)V\"},{\"signature\":\"f(android.os.Bundle, java.lang.String): void\",\"def_pos\":0,\"name\":\"f\",\"is_constructor\":false,\"dex_descriptor\":\"(Landroid/os/Bundle;Ljava/lang/String;)V\"},{\"signature\":\"g(java.lang.String): void\",\"def_pos\":0,\"name\":\"g\",\"is_constructor\":false,\"dex_descriptor\":\"(Ljava/lang/String;)V\"}]}"
+                }
+              ],
+              "isError": false
+            }
+          },
+          {
+            "operation": "get_method_body",
+            "input": {
+              "class_name": "zg.c",
+              "method_name": "a",
+              "overload_index": 0,
+              "smali_fallback": true
+            },
+            "response": {
+              "content": [
+                {
+                  "type": "text",
+                  "text": "{\"body\":\"    public final void a(M9.e eVar, Task task) {\\r\\n        if (task.isSuccessful()) {\\r\\n            if (!this.d || Boolean.TRUE.equals(task.getResult())) {\\r\\n                this.d \\u003d true;\\r\\n                String strF \\u003d eVar.f(v4.k.n(R6.a.a(\\\"xjhtEg3OjDjCO0s+E8+CIvg/XQ8f1Yo\\u003d\\\\n\\\"), R6.a.a(\\\"p1wyYXm87Uw\\u003d\\\\n\\\")));\\r\\n                yg.b bVar \\u003d yg.b.b;\\r\\n                if (!l4.a.d(strF)) {\\r\\n                    try {\\r\\n                        v4.b.d(new yg.a(j.c.a(strF), 0));\\r\\n                    } catch (Exception unused) {\\r\\n                    }\\r\\n                }\\r\\n                if (eVar.b(v4.k.n(R6.a.a(\\\"PGkIStJcrp07eAhV1VuFmSs\\u003d\\\\n\\\"), R6.a.a(\\\"Twx6PLcu8fw\\u003d\\\\n\\\")))) {\\r\\n                    m mVar \\u003d m.d;\\r\\n                    if ((mVar.f72133a \\u0026 8) \\u003d\\u003d 0) {\\r\\n                        mVar.a(8);\\r\\n                    }\\r\\n                }\\r\\n                v4.b.d(new yg.a(this, 3));\\r\\n            }\\r\\n        }\\r\\n    }\",\"markers\":[],\"fell_back\":false,\"full_name\":\"zg.c.a\",\"overload_index\":0,\"method_name\":\"a\",\"overload_count\":1,\"dex_descriptor\":\"(LM9/e;Lcom/google/android/gms/tasks/Task;)V\",\"class_name\":\"zg.c\",\"mode\":\"java\"}"
+                }
+              ],
+              "isError": false
+            }
+          }
+        ]
+      },
+      "normalized_result": {
+        "engine": {
+          "name": "jadx-headless-mcp",
+          "version": "0.7.1",
+          "artifact_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+          "source_revision": "5844800a486d2248fa949b74c9896285f5b54de2",
+          "worker_count": 1,
+          "heap_limit_mib": 3072
+        },
+        "class_name": "zg.c",
+        "method": {
+          "name": "a",
+          "reported_signature": "a(M9.e, com.google.android.gms.tasks.Task): void",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": "(LM9/e;Lcom/google/android/gms/tasks/Task;)V"
+        },
+        "overload_count": 1,
+        "representation": "java",
+        "body_status": "available",
+        "fell_back": false,
+        "markers": [],
+        "source": {
+          "status": "complete",
+          "text": "    public final void a(M9.e eVar, Task task) {\r\n        if (task.isSuccessful()) {\r\n            if (!this.d || Boolean.TRUE.equals(task.getResult())) {\r\n                this.d = true;\r\n                String strF = eVar.f(v4.k.n(R6.a.a(\"xjhtEg3OjDjCO0s+E8+CIvg/XQ8f1Yo=\\n\"), R6.a.a(\"p1wyYXm87Uw=\\n\")));\r\n                yg.b bVar = yg.b.b;\r\n                if (!l4.a.d(strF)) {\r\n                    try {\r\n                        v4.b.d(new yg.a(j.c.a(strF), 0));\r\n                    } catch (Exception unused) {\r\n                    }\r\n                }\r\n                if (eVar.b(v4.k.n(R6.a.a(\"PGkIStJcrp07eAhV1VuFmSs=\\n\"), R6.a.a(\"Twx6PLcu8fw=\\n\")))) {\r\n                    m mVar = m.d;\r\n                    if ((mVar.f72133a & 8) == 0) {\r\n                        mVar.a(8);\r\n                    }\r\n                }\r\n                v4.b.d(new yg.a(this, 3));\r\n            }\r\n        }\r\n    }",
+          "reported_total_bytes": null
+        }
+      },
+      "confidence": "derived",
+      "authority": "shipped-artifact",
+      "environment": null,
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; DEX prototypes come from frozen JADX metadata. Display names may be aliases, and overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Incoming reference totals count JADX using nodes. Direct invoke entries within a using method report raw DEX code-unit offsets and method indexes, but coverage is limited to those nodes and directly matched invokes; it does not establish every possible dynamic or reflective call site.",
+        "Manifest summaries are parsed once by REA's bridge from the exact root AndroidManifest.xml resource, using namespace-aware XML attributes; decoded XML is retained. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ],
+      "relationship_coverage": null,
+      "locations": [],
+      "evidence_links": []
+    }
+  }
+}

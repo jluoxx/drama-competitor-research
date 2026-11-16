@@ -1,0 +1,148 @@
+{
+  "engine": {
+    "name": "jadx-headless-mcp",
+    "version": "0.7.1",
+    "artifact_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+    "source_revision": "5844800a486d2248fa949b74c9896285f5b54de2",
+    "worker_count": 1,
+    "heap_limit_mib": 3072
+  },
+  "class_name": "com.android.launcher3.notification.NotificationListener",
+  "methods": [
+    {
+      "name": "<init>",
+      "reported_signature": "<init>(): void",
+      "overload_index": 0,
+      "is_constructor": true,
+      "dex_descriptor": "()V"
+    },
+    {
+      "name": "a",
+      "reported_signature": "a(com.android.launcher3.notification.NotificationListener, android.service.notification.StatusBarNotification[]): java.util.ArrayList",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "(Lcom/android/launcher3/notification/NotificationListener;[Landroid/service/notification/StatusBarNotification;)Ljava/util/ArrayList;"
+    },
+    {
+      "name": "b",
+      "reported_signature": "b(android.service.notification.StatusBarNotification): boolean",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "(Landroid/service/notification/StatusBarNotification;)Z"
+    },
+    {
+      "name": "c",
+      "reported_signature": "c(android.service.notification.StatusBarNotification): void",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "(Landroid/service/notification/StatusBarNotification;)V"
+    },
+    {
+      "name": "onCreate",
+      "reported_signature": "onCreate(): void",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "()V"
+    },
+    {
+      "name": "onDestroy",
+      "reported_signature": "onDestroy(): void",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "()V"
+    },
+    {
+      "name": "onListenerConnected",
+      "reported_signature": "onListenerConnected(): void",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "()V"
+    },
+    {
+      "name": "onListenerDisconnected",
+      "reported_signature": "onListenerDisconnected(): void",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "()V"
+    },
+    {
+      "name": "onNotificationPosted",
+      "reported_signature": "onNotificationPosted(android.service.notification.StatusBarNotification): void",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "(Landroid/service/notification/StatusBarNotification;)V"
+    },
+    {
+      "name": "onNotificationRankingUpdate",
+      "reported_signature": "onNotificationRankingUpdate(android.service.notification.NotificationListenerService$RankingMap): void",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "(Landroid/service/notification/NotificationListenerService$RankingMap;)V"
+    },
+    {
+      "name": "onNotificationRemoved",
+      "reported_signature": "onNotificationRemoved(android.service.notification.StatusBarNotification): void",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "(Landroid/service/notification/StatusBarNotification;)V"
+    }
+  ],
+  "fields": [
+    {
+      "name": "b",
+      "reported_type": "android.os.Handler",
+      "dex_static_value": null
+    },
+    {
+      "name": "d",
+      "reported_type": "android.service.notification.NotificationListenerService$Ranking",
+      "dex_static_value": null
+    },
+    {
+      "name": "e",
+      "reported_type": "java.util.HashMap",
+      "dex_static_value": null
+    },
+    {
+      "name": "f",
+      "reported_type": "java.util.HashMap",
+      "dex_static_value": null
+    },
+    {
+      "name": "f12663i",
+      "reported_type": "com.android.launcher3.notification.NotificationListener",
+      "dex_static_value": null
+    },
+    {
+      "name": "f12664j",
+      "reported_type": "m4.g",
+      "dex_static_value": null
+    },
+    {
+      "name": "f12665k",
+      "reported_type": "boolean",
+      "dex_static_value": null
+    },
+    {
+      "name": "f12666l",
+      "reported_type": "boolean",
+      "dex_static_value": null
+    },
+    {
+      "name": "f12667c",
+      "reported_type": "android.os.Handler",
+      "dex_static_value": null
+    },
+    {
+      "name": "f12668g",
+      "reported_type": "java.lang.String",
+      "dex_static_value": null
+    },
+    {
+      "name": "f12669h",
+      "reported_type": "com.android.launcher3.l0",
+      "dex_static_value": null
+    }
+  ],
+  "inner_classes": []
+}

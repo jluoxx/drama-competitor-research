@@ -1,0 +1,1 @@
+window.SOURCE_CONTENT["a644643c904e569e"]={"text":"/* JADX INFO: loaded from: classes.dex */\r\npublic class Application extends FreereelsApp {\r\n    @Override // android.content.ContextWrapper\r\n    protected void attachBaseContext(Context context) {\r\n        LicenseClient.checkLicense(context);\r\n        super.attachBaseContext(context);\r\n    }","html":null};

@@ -1,0 +1,52 @@
+{
+  "user_daily_max_ad_count": 100,
+  "drama_priority_interstitial_ad_count": 6,
+  "new_user_reward": 60,
+  "new_user_reward_list": {
+    "BRL": 60,
+    "IDR": 180000,
+    "VND": 300000,
+    "PHP": 600,
+    "MYR": 60,
+    "EUR": 60,
+    "JPY": 1800,
+    "KRW": 12000,
+    "THB": 360,
+    "CNY": 60,
+    "PKR": 3000,
+    "MXN": 60,
+    "CLP": 60,
+    "NGN": 18000,
+    "KZT": 6000,
+    "RUB": 1200
+  },
+  "user_agreement": "https://www.privacypolicies.com/live/0df4aaf0-c445-46aa-94c6-c5a4619e0a83",
+  "privacy_policy": "https://www.privacypolicies.com/live/0df4aaf0-c445-46aa-94c6-c5a4619e0a83",
+  "home_circle_icon": {
+    "enable": true,
+    "interval": 30,
+    "auto_popup_enable": true,
+    "auto_popup_delay_interval": 0
+  },
+  "super": {
+    "enable": false,
+    "play_seconds": 0
+  },
+  "sign_in": {
+    "first_enable": false,
+    "home_enable": false
+  },
+  "disable_screenshot": false,
+  "ad_incentive": {
+    "interstitial_enable": false,
+    "interstitial_double": false
+  },
+  "ad_splash": {
+    "switch_rate": 100,
+    "switch_sec": 15,
+    "switch_num": 4
+  },
+  "ad_interstitial": {
+    "drama_num": 1
+  }
+}

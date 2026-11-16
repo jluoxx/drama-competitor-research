@@ -1,0 +1,206 @@
+{
+  "job": {
+    "id": "110_config_writer_refs",
+    "package": "com.sunriseskywaysnake",
+    "tool": "trace_android_references",
+    "args": {
+      "path": "D:\\python daima\\outputs\\apk_extract_20261116\\com.sunriseskywaysnake\\base.apk",
+      "class_name": "tk2",
+      "method_name": "E"
+    }
+  },
+  "start": "2026-11-16T04:27:01.101Z",
+  "end": "2026-11-16T04:28:10.588Z",
+  "result": {
+    "_meta": {
+      "provenance": {
+        "untrusted_content": true,
+        "source": "analysis_target"
+      }
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"evidence_id\":\"ev_8058fc4b54ccba6c0fa66c658112990e04290bf68c1ca71a567b1d0d565238e5\",\"subject\":{\"name\":\"base.apk\",\"digest\":{\"sha256\":\"e915f5593adc73929b5e8c78707ee921807843521439af862571d05262056f6e\"},\"local_path\":\"D:\\\\python daima\\\\outputs\\\\apk_extract_20261116\\\\com.sunriseskywaysnake\\\\base.apk\",\"format\":\"apk\",\"architecture\":null},\"provider\":{\"id\":\"jadx\",\"name\":\"JADX headless\",\"version\":\"0.7.1\"},\"analysis_profile\":null,\"predicate_type\":\"rea.analysis\",\"operation\":\"trace_android_references\",\"parameters\":{\"path\":\"D:\\\\python daima\\\\outputs\\\\apk_extract_20261116\\\\com.sunriseskywaysnake\\\\base.apk\",\"class_name\":\"tk2\",\"method_name\":\"E\"},\"raw_result\":{\"server\":{\"name\":\"rea-jadx-bridge\",\"version\":\"7\"},\"bridge_sha256\":\"e5044a8312dd0731f53af3f095508b3e5cff54df6b971c95d4305e2f39b4fa30\",\"jar_sha256\":\"6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75\",\"loaded\":{\"state\":\"LOADED\",\"apk_path\":\"C:\\\\Users\\\\asus\\\\AppData\\\\Local\\\\Temp\\\\rea-android-16c2ec354b77355e0fecbcfbd556092b\\\\target.apk\",\"class_count\":61349,\"resource_count\":3249,\"threads\":1,\"resources\":\"full\"},\"calls\":[{\"operation\":\"rea_jvm_status\",\"input\":{},\"response\":{\"content\":[{\"type\":\"text\",\"text\":\"{\\\"engine_reported_version\\\":\\\"0.7.1\\\",\\\"available_processors\\\":3,\\\"java_version\\\":\\\"17.0.12\\\",\\\"max_heap_bytes\\\":3221225472,\\\"metadata_scope\\\":\\\"parsed_members\\\"}\"}],\"isError\":false}},{\"operation\":\"load_apk\",\"input\":{\"path\":\"C:\\\\Users\\\\asus\\\\AppData\\\\Local\\\\Temp\\\\rea-android-16c2ec354b77355e0fecbcfbd556092b\\\\target.apk\",\"threads\":1,\"resources\":\"full\"},\"response\":{\"content\":[{\"type\":\"text\",\"text\":\"{\\\"state\\\":\\\"LOADED\\\",\\\"apk_path\\\":\\\"C:\\\\\\\\Users\\\\\\\\asus\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Temp\\\\\\\\rea-android-16c2ec354b77355e0fecbcfbd556092b\\\\\\\\target.apk\\\",\\\"class_count\\\":61349,\\\"raw_class_count\\\":61349,\\\"resource_count\\\":3249,\\\"load_duration_ms\\\":60410,\\\"decompile_timeout_ms\\\":90000,\\\"threads\\\":1,\\\"code_cache_size\\\":64,\\\"resources\\\":\\\"full\\\"}\"}],\"isError\":false}},{\"operation\":\"get_class_summary\",\"input\":{\"class_name\":\"tk2\"},\"response\":{\"content\":[{\"type\":\"text\",\"text\":\"{\\\"fields\\\":[{\\\"def_pos\\\":0,\\\"type\\\":\\\"java.util.List\\\\u003cjava.lang.String\\\\u003e\\\",\\\"name\\\":\\\"O\\\"},{\\\"def_pos\\\":0,\\\"type\\\":\\\"kotlin.Lazy\\\",\\\"name\\\":\\\"f13236a\\\"},{\\\"def_pos\\\":0,\\\"type\\\":\\\"tk2\\\",\\\"name\\\":\\\"o\\\"}],\\\"raw_name\\\":\\\"tk2\\\",\\\"method_count\\\":34,\\\"full_name\\\":\\\"defpackage.tk2\\\",\\\"field_count\\\":3,\\\"name\\\":\\\"tk2\\\",\\\"inner_class_count\\\":1,\\\"inner_classes\\\":[\\\"tk2.o\\\"],\\\"methods\\\":[{\\\"is_constructor\\\":false,\\\"name\\\":\\\"\\\\u003cclinit\\\\u003e\\\",\\\"def_pos\\\":0,\\\"signature\\\":\\\"\\\\u003cclinit\\\\u003e(): void\\\",\\\"dex_descriptor\\\":\\\"()V\\\"},{\\\"is_constructor\\\":true,\\\"name\\\":\\\"\\\\u003cinit\\\\u003e\\\",\\\"def_pos\\\":0,\\\"signature\\\":\\\"\\\\u003cinit\\\\u003e(): void\\\",\\\"dex_descriptor\\\":\\\"()V\\\"},{\\\"is_constructor\\\":false,\\\"name\\\":\\\"A\\\",\\\"def_pos\\\":0,\\\"signature\\\":\\\"A(com.kingtar.work.model.entities.GlobalTaskConfig): void\\\",\\\"dex_descriptor\\\":\\\"(Lcom/kingtar/work/model/entities/GlobalTaskConfig;)V\\\"},{\\\"is_constructor\\\":false,\\\"name\\\":\\\"B\\\",\\\"def_pos\\\":0,\\\"signature\\\":\\\"B(java.lang.String): void\\\",\\\"dex_descriptor\\\":\\\"(Ljava/lang/String;)V\\\"},{\\\"is_constructor\\\":false,\\\"name\\\":\\\"C\\\",\\\"def_pos\\\":0,\\\"signature\\\":\\\"C(com.kingtar.work.model.entities.GlobalWithdrawConfig): void\\\",\\\"dex_descriptor\\\":\\\"(Lcom/kingtar/work/model/entities/GlobalWithdrawConfig;)V\\\"},{\\\"is_constructor\\\":false,\\\"name\\\":\\\"D\\\",\\\"def_pos\\\":0,\\\"signature\\\":\\\"D(boolean): void\\\",\\\"dex_descriptor\\\":\\\"(Z)V\\\"},{\\\"is_constructor\\\":false,\\\"name\\\":\\\"E\\\",\\\"def_pos\\\":0,\\\"signature\\\":\\\"E(com.kingtar.work.model.entities.GlobalConfigEntity): void\\\",\\\"dex_descriptor\\\":\\\"(Lcom/kingtar/work/model/entities/GlobalConfigEntity;)V\\\"},{\\\"is_constructor\\\":false,\\\"name\\\":\\\"O\\\",\\\"def_pos\\\":0,\\\"signature\\\":\\\"O(): com.kingtar.work.repository.ABTestGroup\\\",\\\"dex_descriptor\\\":\\\"()Lcom/kingtar/work/repository/ABTestGroup;\\\"},{\\\"is_constructor\\\":false,\\\"name\\\":\\\"a\\\",\\\"def_pos\\\":0,\\\"signature\\\":\\\"a(): com.kingtar.work.model.entities.RespPlatformInfo\\\",\\\"dex_descriptor\\\":\\\"()Lcom/kingtar/work/model/entities/RespPlatformInfo;\\\"},{\\\"is_constructor\\\":false,\\\"name\\\":\\\"b\\\",\\\"def_pos\\\":0,\\\"signature\\\":\\\"b(): com.kingtar.work.model.entities.AppContentInfo\\\",\\\"dex_descriptor\\\":\\\"()Lcom/kingtar/work/model/entities/AppContentInfo;\\\"},{\\\"is_constructor\\\":false,\\\"name\\\":\\\"c\\\",\\\"def_pos\\\":0,\\\"signature\\\":\\\"c(): com.kingtar.work.model.entities.GlobalCashSignListEntity\\\",\\\"dex_descriptor\\\":\\\"()Lcom/kingtar/work/model/entities/GlobalCashSignListEntity;\\\"},{\\\"is_constructor\\\":false,\\\"name\\\":\\\"d\\\",\\\"def_pos\\\":0,\\\"signature\\\":\\\"d(): com.kingtar.work.model.entities.GlobalConfigEntity\\\",\\\"dex_descriptor\\\":\\\"()Lcom/kingtar/work/model/entities/GlobalConfigEntity;\\\"},{\\\"is_constructor\\\":false,\\\"name\\\":\\\"e\\\",\\\"def_pos\\\":0,\\\"signature\\\":\\\"e(): com.kingtar.work.model.entities.GlobalMarieasgameConfig\\\",\\\"dex_descriptor\\\":\\\"()Lcom/kingtar/work/model/entities/GlobalMarieasgameConfig;\\\"},{\\\"is_constructor\\\":false,\\\"name\\\":\\\"f\\\",\\\"def_pos\\\":0,\\\"signature\\\":\\\"f(): boolean\\\",\\\"dex_descriptor\\\":\\\"()Z\\\"},{\\\"is_constructor\\\":false,\\\"name\\\":\\\"g\\\",\\\"def_pos\\\":0,\\\"signature\\\":\\\"g(): com.kingtar.work.model.entities.GlobalOkSpinEntity\\\",\\\"dex_descriptor\\\":\\\"()Lcom/kingtar/work/model/entities/GlobalOkSpinEntity;\\\"},{\\\"is_constructor\\\":false,\\\"name\\\":\\\"h\\\",\\\"def_pos\\\":0,\\\"signature\\\":\\\"h(): com.kingtar.work.model.entities.PanglePreIdListEntity\\\",\\\"dex_descriptor\\\":\\\"()Lcom/kingtar/work/model/entities/PanglePreIdListEntity;\\\"},{\\\"is_constructor\\\":false,\\\"name\\\":\\\"i\\\",\\\"def_pos\\\":0,\\\"signature\\\":\\\"i(): com.kingtar.work.model.entities.GlobalRewardLevelEntity\\\",\\\"dex_descriptor\\\":\\\"()Lcom/kingtar/work/model/entities/GlobalRewardLevelEntity;\\\"},{\\\"is_constructor\\\":false,\\\"name\\\":\\\"j\\\",\\\"def_pos\\\":0,\\\"signature\\\":\\\"j(): com.kingtar.work.model.entities.GlobalSignListEntity\\\",\\\"dex_descriptor\\\":\\\"()Lcom/kingtar/work/model/entities/GlobalSignListEntity;\\\"},{\\\"is_constructor\\\":false,\\\"name\\\":\\\"k\\\",\\\"def_pos\\\":0,\\\"signature\\\":\\\"k(): int\\\",\\\"dex_descriptor\\\":\\\"()I\\\"},{\\\"is_constructor\\\":false,\\\"name\\\":\\\"l\\\",\\\"def_pos\\\":0,\\\"signature\\\":\\\"l(): com.kingtar.work.model.entities.GlobalTaskConfig\\\",\\\"dex_descriptor\\\":\\\"()Lcom/kingtar/work/model/entities/GlobalTaskConfig;\\\"},{\\\"is_constructor\\\":false,\\\"name\\\":\\\"m\\\",\\\"def_pos\\\":0,\\\"signature\\\":\\\"m(): com.kingtar.work.model.entities.GlobalWithdrawConfig\\\",\\\"dex_descriptor\\\":\\\"()Lcom/kingtar/work/model/entities/GlobalWithdrawConfig;\\\"},{\\\"is_constructor\\\":false,\\\"name\\\":\\\"n\\\",\\\"def_pos\\\":0,\\\"signature\\\":\\\"n(): boolean\\\",\\\"dex_descriptor\\\":\\\"()Z\\\"},{\\\"is_constructor\\\":false,\\\"name\\\":\\\"o\\\",\\\"def_pos\\\":0,\\\"signature\\\":\\\"o(): boolean\\\",\\\"dex_descriptor\\\":\\\"()Z\\\"},{\\\"is_constructor\\\":false,\\\"name\\\":\\\"p\\\",\\\"def_pos\\\":0,\\\"signature\\\":\\\"p(): boolean\\\",\\\"dex_descriptor\\\":\\\"()Z\\\"},{\\\"is_constructor\\\":false,\\\"name\\\":\\\"q\\\",\\\"def_pos\\\":0,\\\"signature\\\":\\\"q(): boolean\\\",\\\"dex_descriptor\\\":\\\"()Z\\\"},{\\\"is_constructor\\\":false,\\\"name\\\":\\\"r\\\",\\\"def_pos\\\":0,\\\"signature\\\":\\\"r(): boolean\\\",\\\"dex_descriptor\\\":\\\"()Z\\\"},{\\\"is_constructor\\\":false,\\\"name\\\":\\\"s\\\",\\\"def_pos\\\":0,\\\"signature\\\":\\\"s(java.lang.String): void\\\",\\\"dex_descriptor\\\":\\\"(Ljava/lang/String;)V\\\"},{\\\"is_constructor\\\":false,\\\"name\\\":\\\"t\\\",\\\"def_pos\\\":0,\\\"signature\\\":\\\"t(com.kingtar.work.model.entities.GlobalCashSignListEntity): void\\\",\\\"dex_descriptor\\\":\\\"(Lcom/kingtar/work/model/entities/GlobalCashSignListEntity;)V\\\"},{\\\"is_constructor\\\":false,\\\"name\\\":\\\"u\\\",\\\"def_pos\\\":0,\\\"signature\\\":\\\"u(com.kingtar.work.model.entities.GlobalMarieasgameConfig): void\\\",\\\"dex_descriptor\\\":\\\"(Lcom/kingtar/work/model/entities/GlobalMarieasgameConfig;)V\\\"},{\\\"is_constructor\\\":false,\\\"name\\\":\\\"v\\\",\\\"def_pos\\\":0,\\\"signature\\\":\\\"v(boolean): void\\\",\\\"dex_descriptor\\\":\\\"(Z)V\\\"},{\\\"is_constructor\\\":false,\\\"name\\\":\\\"w\\\",\\\"def_pos\\\":0,\\\"signature\\\":\\\"w(com.kingtar.work.model.entities.GlobalOkSpinEntity): void\\\",\\\"dex_descriptor\\\":\\\"(Lcom/kingtar/work/model/entities/GlobalOkSpinEntity;)V\\\"},{\\\"is_constructor\\\":false,\\\"name\\\":\\\"x\\\",\\\"def_pos\\\":0,\\\"signature\\\":\\\"x(com.kingtar.work.model.entities.PanglePreIdListEntity): void\\\",\\\"dex_descriptor\\\":\\\"(Lcom/kingtar/work/model/entities/PanglePreIdListEntity;)V\\\"},{\\\"is_constructor\\\":false,\\\"name\\\":\\\"y\\\",\\\"def_pos\\\":0,\\\"signature\\\":\\\"y(com.kingtar.work.model.entities.GlobalRewardLevelEntity): void\\\",\\\"dex_descriptor\\\":\\\"(Lcom/kingtar/work/model/entities/GlobalRewardLevelEntity;)V\\\"},{\\\"is_constructor\\\":false,\\\"name\\\":\\\"z\\\",\\\"def_pos\\\":0,\\\"signature\\\":\\\"z(com.kingtar.work.model.entities.GlobalSignListEntity): void\\\",\\\"dex_descriptor\\\":\\\"(Lcom/kingtar/work/model/entities/GlobalSignListEntity;)V\\\"}]}\"}],\"isError\":false}},{\"operation\":\"get_xrefs_to_method\",\"input\":{\"class_name\":\"tk2\",\"method_name\":\"E\",\"overload_index\":0,\"limit\":2147483647,\"resolve_line\":false},\"response\":{\"content\":[{\"type\":\"text\",\"text\":\"{\\\"items\\\":[{\\\"kind\\\":\\\"method\\\",\\\"name\\\":\\\"invokeSuspend\\\",\\\"full_name\\\":\\\"com.kingtar.work.mvvm.vm.SplashVm$requestSets$1.invokeSuspend\\\",\\\"containing_class\\\":\\\"com.kingtar.work.mvvm.vm.SplashVm$requestSets$1\\\",\\\"top_class\\\":\\\"com.kingtar.work.mvvm.vm.SplashVm$requestSets$1\\\",\\\"def_pos\\\":0,\\\"direct_invokes\\\":[{\\\"source_raw_method_id\\\":\\\"com.kingtar.work.mvvm.vm.SplashVm$requestSets$1.invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;\\\",\\\"dex_entry\\\":\\\"classes8.dex\\\",\\\"opcode\\\":\\\"INVOKE_VIRTUAL\\\",\\\"dex_code_unit_offset\\\":67,\\\"dex_method_index\\\":15655}],\\\"direct_invokes_exhaustive\\\":true},{\\\"kind\\\":\\\"method\\\",\\\"name\\\":\\\"z\\\",\\\"full_name\\\":\\\"hb2.z\\\",\\\"containing_class\\\":\\\"defpackage.hb2\\\",\\\"top_class\\\":\\\"defpackage.hb2\\\",\\\"def_pos\\\":0,\\\"direct_invokes\\\":[{\\\"source_raw_method_id\\\":\\\"hb2.z(Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;)V\\\",\\\"dex_entry\\\":\\\"classes7.dex\\\",\\\"opcode\\\":\\\"INVOKE_VIRTUAL\\\",\\\"dex_code_unit_offset\\\":582,\\\"dex_method_index\\\":56077}],\\\"direct_invokes_exhaustive\\\":true}],\\\"total\\\":2,\\\"resolve_line\\\":false,\\\"target\\\":\\\"defpackage.tk2.E\\\",\\\"count\\\":2,\\\"overload_index\\\":0,\\\"reported_signature\\\":\\\"E(com.kingtar.work.model.entities.GlobalConfigEntity): void\\\"}\"}],\"isError\":false}}]},\"normalized_result\":{\"engine\":{\"name\":\"jadx-headless-mcp\",\"version\":\"0.7.1\",\"artifact_sha256\":\"6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75\",\"source_revision\":\"5844800a486d2248fa949b74c9896285f5b54de2\",\"worker_count\":1,\"heap_limit_mib\":3072},\"class_name\":\"defpackage.tk2\",\"method_name\":\"E\",\"overload_index\":0,\"reported_signature\":\"E(com.kingtar.work.model.entities.GlobalConfigEntity): void\",\"dex_descriptor\":\"(Lcom/kingtar/work/model/entities/GlobalConfigEntity;)V\",\"total\":2,\"references\":[{\"kind\":\"method\",\"name\":\"invokeSuspend\",\"reported_full_name\":\"com.kingtar.work.mvvm.vm.SplashVm$requestSets$1.invokeSuspend\",\"containing_class\":\"com.kingtar.work.mvvm.vm.SplashVm$requestSets$1\",\"top_class\":\"com.kingtar.work.mvvm.vm.SplashVm$requestSets$1\",\"source_line\":null,\"dex_offset\":null,\"direct_invokes_exhaustive\":true,\"direct_invokes\":[{\"dex_entry\":\"classes8.dex\",\"source_raw_method_id\":\"com.kingtar.work.mvvm.vm.SplashVm$requestSets$1.invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;\",\"dex_code_unit_offset\":67,\"dex_method_index\":15655,\"opcode\":\"INVOKE_VIRTUAL\"}]},{\"kind\":\"method\",\"name\":\"z\",\"reported_full_name\":\"hb2.z\",\"containing_class\":\"defpackage.hb2\",\"top_class\":\"defpackage.hb2\",\"source_line\":null,\"dex_offset\":null,\"direct_invokes_exhaustive\":true,\"direct_invokes\":[{\"dex_entry\":\"classes7.dex\",\"source_raw_method_id\":\"hb2.z(Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;)V\",\"dex_code_unit_offset\":582,\"dex_method_index\":56077,\"opcode\":\"INVOKE_VIRTUAL\"}]}],\"coverage\":\"complete\",\"reference_unit\":\"using_node\"},\"confidence\":\"observed\",\"authority\":\"shipped-artifact\",\"environment\":null,\"limitations\":[\"Static decompiler observations do not establish runtime behavior; the APK is never executed.\",\"Method signatures use provider display types; DEX prototypes come from frozen JADX metadata. Display names may be aliases, and overload indices are local to this engine and artifact.\",\"Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.\",\"Incoming reference totals count JADX using nodes. Direct invoke entries within a using method report raw DEX code-unit offsets and method indexes, but coverage is limited to those nodes and directly matched invokes; it does not establish every possible dynamic or reflective call site.\",\"Manifest summaries are parsed once by REA's bridge from the exact root AndroidManifest.xml resource, using namespace-aware XML attributes; decoded XML is retained. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider.\"],\"relationship_coverage\":null,\"locations\":[],\"evidence_links\":[]}"
+      }
+    ],
+    "structuredContent": {
+      "evidence_id": "ev_8058fc4b54ccba6c0fa66c658112990e04290bf68c1ca71a567b1d0d565238e5",
+      "subject": {
+        "name": "base.apk",
+        "digest": {
+          "sha256": "e915f5593adc73929b5e8c78707ee921807843521439af862571d05262056f6e"
+        },
+        "local_path": "D:\\python daima\\outputs\\apk_extract_20261116\\com.sunriseskywaysnake\\base.apk",
+        "format": "apk",
+        "architecture": null
+      },
+      "provider": {
+        "id": "jadx",
+        "name": "JADX headless",
+        "version": "0.7.1"
+      },
+      "analysis_profile": null,
+      "predicate_type": "rea.analysis",
+      "operation": "trace_android_references",
+      "parameters": {
+        "path": "D:\\python daima\\outputs\\apk_extract_20261116\\com.sunriseskywaysnake\\base.apk",
+        "class_name": "tk2",
+        "method_name": "E"
+      },
+      "raw_result": {
+        "server": {
+          "name": "rea-jadx-bridge",
+          "version": "7"
+        },
+        "bridge_sha256": "e5044a8312dd0731f53af3f095508b3e5cff54df6b971c95d4305e2f39b4fa30",
+        "jar_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+        "loaded": {
+          "state": "LOADED",
+          "apk_path": "C:\\Users\\asus\\AppData\\Local\\Temp\\rea-android-16c2ec354b77355e0fecbcfbd556092b\\target.apk",
+          "class_count": 61349,
+          "resource_count": 3249,
+          "threads": 1,
+          "resources": "full"
+        },
+        "calls": [
+          {
+            "operation": "rea_jvm_status",
+            "input": {},
+            "response": {
+              "content": [
+                {
+                  "type": "text",
+                  "text": "{\"engine_reported_version\":\"0.7.1\",\"available_processors\":3,\"java_version\":\"17.0.12\",\"max_heap_bytes\":3221225472,\"metadata_scope\":\"parsed_members\"}"
+                }
+              ],
+              "isError": false
+            }
+          },
+          {
+            "operation": "load_apk",
+            "input": {
+              "path": "C:\\Users\\asus\\AppData\\Local\\Temp\\rea-android-16c2ec354b77355e0fecbcfbd556092b\\target.apk",
+              "threads": 1,
+              "resources": "full"
+            },
+            "response": {
+              "content": [
+                {
+                  "type": "text",
+                  "text": "{\"state\":\"LOADED\",\"apk_path\":\"C:\\\\Users\\\\asus\\\\AppData\\\\Local\\\\Temp\\\\rea-android-16c2ec354b77355e0fecbcfbd556092b\\\\target.apk\",\"class_count\":61349,\"raw_class_count\":61349,\"resource_count\":3249,\"load_duration_ms\":60410,\"decompile_timeout_ms\":90000,\"threads\":1,\"code_cache_size\":64,\"resources\":\"full\"}"
+                }
+              ],
+              "isError": false
+            }
+          },
+          {
+            "operation": "get_class_summary",
+            "input": {
+              "class_name": "tk2"
+            },
+            "response": {
+              "content": [
+                {
+                  "type": "text",
+                  "text": "{\"fields\":[{\"def_pos\":0,\"type\":\"java.util.List\\u003cjava.lang.String\\u003e\",\"name\":\"O\"},{\"def_pos\":0,\"type\":\"kotlin.Lazy\",\"name\":\"f13236a\"},{\"def_pos\":0,\"type\":\"tk2\",\"name\":\"o\"}],\"raw_name\":\"tk2\",\"method_count\":34,\"full_name\":\"defpackage.tk2\",\"field_count\":3,\"name\":\"tk2\",\"inner_class_count\":1,\"inner_classes\":[\"tk2.o\"],\"methods\":[{\"is_constructor\":false,\"name\":\"\\u003cclinit\\u003e\",\"def_pos\":0,\"signature\":\"\\u003cclinit\\u003e(): void\",\"dex_descriptor\":\"()V\"},{\"is_constructor\":true,\"name\":\"\\u003cinit\\u003e\",\"def_pos\":0,\"signature\":\"\\u003cinit\\u003e(): void\",\"dex_descriptor\":\"()V\"},{\"is_constructor\":false,\"name\":\"A\",\"def_pos\":0,\"signature\":\"A(com.kingtar.work.model.entities.GlobalTaskConfig): void\",\"dex_descriptor\":\"(Lcom/kingtar/work/model/entities/GlobalTaskConfig;)V\"},{\"is_constructor\":false,\"name\":\"B\",\"def_pos\":0,\"signature\":\"B(java.lang.String): void\",\"dex_descriptor\":\"(Ljava/lang/String;)V\"},{\"is_constructor\":false,\"name\":\"C\",\"def_pos\":0,\"signature\":\"C(com.kingtar.work.model.entities.GlobalWithdrawConfig): void\",\"dex_descriptor\":\"(Lcom/kingtar/work/model/entities/GlobalWithdrawConfig;)V\"},{\"is_constructor\":false,\"name\":\"D\",\"def_pos\":0,\"signature\":\"D(boolean): void\",\"dex_descriptor\":\"(Z)V\"},{\"is_constructor\":false,\"name\":\"E\",\"def_pos\":0,\"signature\":\"E(com.kingtar.work.model.entities.GlobalConfigEntity): void\",\"dex_descriptor\":\"(Lcom/kingtar/work/model/entities/GlobalConfigEntity;)V\"},{\"is_constructor\":false,\"name\":\"O\",\"def_pos\":0,\"signature\":\"O(): com.kingtar.work.repository.ABTestGroup\",\"dex_descriptor\":\"()Lcom/kingtar/work/repository/ABTestGroup;\"},{\"is_constructor\":false,\"name\":\"a\",\"def_pos\":0,\"signature\":\"a(): com.kingtar.work.model.entities.RespPlatformInfo\",\"dex_descriptor\":\"()Lcom/kingtar/work/model/entities/RespPlatformInfo;\"},{\"is_constructor\":false,\"name\":\"b\",\"def_pos\":0,\"signature\":\"b(): com.kingtar.work.model.entities.AppContentInfo\",\"dex_descriptor\":\"()Lcom/kingtar/work/model/entities/AppContentInfo;\"},{\"is_constructor\":false,\"name\":\"c\",\"def_pos\":0,\"signature\":\"c(): com.kingtar.work.model.entities.GlobalCashSignListEntity\",\"dex_descriptor\":\"()Lcom/kingtar/work/model/entities/GlobalCashSignListEntity;\"},{\"is_constructor\":false,\"name\":\"d\",\"def_pos\":0,\"signature\":\"d(): com.kingtar.work.model.entities.GlobalConfigEntity\",\"dex_descriptor\":\"()Lcom/kingtar/work/model/entities/GlobalConfigEntity;\"},{\"is_constructor\":false,\"name\":\"e\",\"def_pos\":0,\"signature\":\"e(): com.kingtar.work.model.entities.GlobalMarieasgameConfig\",\"dex_descriptor\":\"()Lcom/kingtar/work/model/entities/GlobalMarieasgameConfig;\"},{\"is_constructor\":false,\"name\":\"f\",\"def_pos\":0,\"signature\":\"f(): boolean\",\"dex_descriptor\":\"()Z\"},{\"is_constructor\":false,\"name\":\"g\",\"def_pos\":0,\"signature\":\"g(): com.kingtar.work.model.entities.GlobalOkSpinEntity\",\"dex_descriptor\":\"()Lcom/kingtar/work/model/entities/GlobalOkSpinEntity;\"},{\"is_constructor\":false,\"name\":\"h\",\"def_pos\":0,\"signature\":\"h(): com.kingtar.work.model.entities.PanglePreIdListEntity\",\"dex_descriptor\":\"()Lcom/kingtar/work/model/entities/PanglePreIdListEntity;\"},{\"is_constructor\":false,\"name\":\"i\",\"def_pos\":0,\"signature\":\"i(): com.kingtar.work.model.entities.GlobalRewardLevelEntity\",\"dex_descriptor\":\"()Lcom/kingtar/work/model/entities/GlobalRewardLevelEntity;\"},{\"is_constructor\":false,\"name\":\"j\",\"def_pos\":0,\"signature\":\"j(): com.kingtar.work.model.entities.GlobalSignListEntity\",\"dex_descriptor\":\"()Lcom/kingtar/work/model/entities/GlobalSignListEntity;\"},{\"is_constructor\":false,\"name\":\"k\",\"def_pos\":0,\"signature\":\"k(): int\",\"dex_descriptor\":\"()I\"},{\"is_constructor\":false,\"name\":\"l\",\"def_pos\":0,\"signature\":\"l(): com.kingtar.work.model.entities.GlobalTaskConfig\",\"dex_descriptor\":\"()Lcom/kingtar/work/model/entities/GlobalTaskConfig;\"},{\"is_constructor\":false,\"name\":\"m\",\"def_pos\":0,\"signature\":\"m(): com.kingtar.work.model.entities.GlobalWithdrawConfig\",\"dex_descriptor\":\"()Lcom/kingtar/work/model/entities/GlobalWithdrawConfig;\"},{\"is_constructor\":false,\"name\":\"n\",\"def_pos\":0,\"signature\":\"n(): boolean\",\"dex_descriptor\":\"()Z\"},{\"is_constructor\":false,\"name\":\"o\",\"def_pos\":0,\"signature\":\"o(): boolean\",\"dex_descriptor\":\"()Z\"},{\"is_constructor\":false,\"name\":\"p\",\"def_pos\":0,\"signature\":\"p(): boolean\",\"dex_descriptor\":\"()Z\"},{\"is_constructor\":false,\"name\":\"q\",\"def_pos\":0,\"signature\":\"q(): boolean\",\"dex_descriptor\":\"()Z\"},{\"is_constructor\":false,\"name\":\"r\",\"def_pos\":0,\"signature\":\"r(): boolean\",\"dex_descriptor\":\"()Z\"},{\"is_constructor\":false,\"name\":\"s\",\"def_pos\":0,\"signature\":\"s(java.lang.String): void\",\"dex_descriptor\":\"(Ljava/lang/String;)V\"},{\"is_constructor\":false,\"name\":\"t\",\"def_pos\":0,\"signature\":\"t(com.kingtar.work.model.entities.GlobalCashSignListEntity): void\",\"dex_descriptor\":\"(Lcom/kingtar/work/model/entities/GlobalCashSignListEntity;)V\"},{\"is_constructor\":false,\"name\":\"u\",\"def_pos\":0,\"signature\":\"u(com.kingtar.work.model.entities.GlobalMarieasgameConfig): void\",\"dex_descriptor\":\"(Lcom/kingtar/work/model/entities/GlobalMarieasgameConfig;)V\"},{\"is_constructor\":false,\"name\":\"v\",\"def_pos\":0,\"signature\":\"v(boolean): void\",\"dex_descriptor\":\"(Z)V\"},{\"is_constructor\":false,\"name\":\"w\",\"def_pos\":0,\"signature\":\"w(com.kingtar.work.model.entities.GlobalOkSpinEntity): void\",\"dex_descriptor\":\"(Lcom/kingtar/work/model/entities/GlobalOkSpinEntity;)V\"},{\"is_constructor\":false,\"name\":\"x\",\"def_pos\":0,\"signature\":\"x(com.kingtar.work.model.entities.PanglePreIdListEntity): void\",\"dex_descriptor\":\"(Lcom/kingtar/work/model/entities/PanglePreIdListEntity;)V\"},{\"is_constructor\":false,\"name\":\"y\",\"def_pos\":0,\"signature\":\"y(com.kingtar.work.model.entities.GlobalRewardLevelEntity): void\",\"dex_descriptor\":\"(Lcom/kingtar/work/model/entities/GlobalRewardLevelEntity;)V\"},{\"is_constructor\":false,\"name\":\"z\",\"def_pos\":0,\"signature\":\"z(com.kingtar.work.model.entities.GlobalSignListEntity): void\",\"dex_descriptor\":\"(Lcom/kingtar/work/model/entities/GlobalSignListEntity;)V\"}]}"
+                }
+              ],
+              "isError": false
+            }
+          },
+          {
+            "operation": "get_xrefs_to_method",
+            "input": {
+              "class_name": "tk2",
+              "method_name": "E",
+              "overload_index": 0,
+              "limit": 2147483647,
+              "resolve_line": false
+            },
+            "response": {
+              "content": [
+                {
+                  "type": "text",
+                  "text": "{\"items\":[{\"kind\":\"method\",\"name\":\"invokeSuspend\",\"full_name\":\"com.kingtar.work.mvvm.vm.SplashVm$requestSets$1.invokeSuspend\",\"containing_class\":\"com.kingtar.work.mvvm.vm.SplashVm$requestSets$1\",\"top_class\":\"com.kingtar.work.mvvm.vm.SplashVm$requestSets$1\",\"def_pos\":0,\"direct_invokes\":[{\"source_raw_method_id\":\"com.kingtar.work.mvvm.vm.SplashVm$requestSets$1.invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;\",\"dex_entry\":\"classes8.dex\",\"opcode\":\"INVOKE_VIRTUAL\",\"dex_code_unit_offset\":67,\"dex_method_index\":15655}],\"direct_invokes_exhaustive\":true},{\"kind\":\"method\",\"name\":\"z\",\"full_name\":\"hb2.z\",\"containing_class\":\"defpackage.hb2\",\"top_class\":\"defpackage.hb2\",\"def_pos\":0,\"direct_invokes\":[{\"source_raw_method_id\":\"hb2.z(Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;)V\",\"dex_entry\":\"classes7.dex\",\"opcode\":\"INVOKE_VIRTUAL\",\"dex_code_unit_offset\":582,\"dex_method_index\":56077}],\"direct_invokes_exhaustive\":true}],\"total\":2,\"resolve_line\":false,\"target\":\"defpackage.tk2.E\",\"count\":2,\"overload_index\":0,\"reported_signature\":\"E(com.kingtar.work.model.entities.GlobalConfigEntity): void\"}"
+                }
+              ],
+              "isError": false
+            }
+          }
+        ]
+      },
+      "normalized_result": {
+        "engine": {
+          "name": "jadx-headless-mcp",
+          "version": "0.7.1",
+          "artifact_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+          "source_revision": "5844800a486d2248fa949b74c9896285f5b54de2",
+          "worker_count": 1,
+          "heap_limit_mib": 3072
+        },
+        "class_name": "defpackage.tk2",
+        "method_name": "E",
+        "overload_index": 0,
+        "reported_signature": "E(com.kingtar.work.model.entities.GlobalConfigEntity): void",
+        "dex_descriptor": "(Lcom/kingtar/work/model/entities/GlobalConfigEntity;)V",
+        "total": 2,
+        "references": [
+          {
+            "kind": "method",
+            "name": "invokeSuspend",
+            "reported_full_name": "com.kingtar.work.mvvm.vm.SplashVm$requestSets$1.invokeSuspend",
+            "containing_class": "com.kingtar.work.mvvm.vm.SplashVm$requestSets$1",
+            "top_class": "com.kingtar.work.mvvm.vm.SplashVm$requestSets$1",
+            "source_line": null,
+            "dex_offset": null,
+            "direct_invokes_exhaustive": true,
+            "direct_invokes": [
+              {
+                "dex_entry": "classes8.dex",
+                "source_raw_method_id": "com.kingtar.work.mvvm.vm.SplashVm$requestSets$1.invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+                "dex_code_unit_offset": 67,
+                "dex_method_index": 15655,
+                "opcode": "INVOKE_VIRTUAL"
+              }
+            ]
+          },
+          {
+            "kind": "method",
+            "name": "z",
+            "reported_full_name": "hb2.z",
+            "containing_class": "defpackage.hb2",
+            "top_class": "defpackage.hb2",
+            "source_line": null,
+            "dex_offset": null,
+            "direct_invokes_exhaustive": true,
+            "direct_invokes": [
+              {
+                "dex_entry": "classes7.dex",
+                "source_raw_method_id": "hb2.z(Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;)V",
+                "dex_code_unit_offset": 582,
+                "dex_method_index": 56077,
+                "opcode": "INVOKE_VIRTUAL"
+              }
+            ]
+          }
+        ],
+        "coverage": "complete",
+        "reference_unit": "using_node"
+      },
+      "confidence": "observed",
+      "authority": "shipped-artifact",
+      "environment": null,
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; DEX prototypes come from frozen JADX metadata. Display names may be aliases, and overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Incoming reference totals count JADX using nodes. Direct invoke entries within a using method report raw DEX code-unit offsets and method indexes, but coverage is limited to those nodes and directly matched invokes; it does not establish every possible dynamic or reflective call site.",
+        "Manifest summaries are parsed once by REA's bridge from the exact root AndroidManifest.xml resource, using namespace-aware XML attributes; decoded XML is retained. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ],
+      "relationship_coverage": null,
+      "locations": [],
+      "evidence_links": []
+    }
+  }
+}

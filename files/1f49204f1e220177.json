@@ -1,0 +1,274 @@
+{
+  "engine": {
+    "name": "jadx-headless-mcp",
+    "version": "0.7.1",
+    "artifact_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+    "source_revision": "5844800a486d2248fa949b74c9896285f5b54de2",
+    "worker_count": 1,
+    "heap_limit_mib": 3072
+  },
+  "class_name": "com.thinkup.core.common.o.dn.q",
+  "methods": [
+    {
+      "name": "<clinit>",
+      "reported_signature": "<clinit>(): void",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "()V"
+    },
+    {
+      "name": "<init>",
+      "reported_signature": "<init>(): void",
+      "overload_index": 0,
+      "is_constructor": true,
+      "dex_descriptor": "()V"
+    }
+  ],
+  "fields": [
+    {
+      "name": "d",
+      "reported_type": "java.lang.String",
+      "dex_static_value": {
+        "type": "string",
+        "value": "1.0"
+      }
+    },
+    {
+      "name": "d00",
+      "reported_type": "java.lang.String",
+      "dex_static_value": null
+    },
+    {
+      "name": "d0d",
+      "reported_type": "java.lang.String",
+      "dex_static_value": null
+    },
+    {
+      "name": "d0m",
+      "reported_type": "java.lang.String",
+      "dex_static_value": null
+    },
+    {
+      "name": "d0n",
+      "reported_type": "java.lang.String",
+      "dex_static_value": null
+    },
+    {
+      "name": "d0o",
+      "reported_type": "java.lang.String",
+      "dex_static_value": null
+    },
+    {
+      "name": "d0q",
+      "reported_type": "java.lang.String",
+      "dex_static_value": null
+    },
+    {
+      "name": "dd",
+      "reported_type": "java.lang.String",
+      "dex_static_value": null
+    },
+    {
+      "name": "dd0",
+      "reported_type": "java.lang.String",
+      "dex_static_value": null
+    },
+    {
+      "name": "ddd",
+      "reported_type": "java.lang.String",
+      "dex_static_value": null
+    },
+    {
+      "name": "ddm",
+      "reported_type": "java.lang.String",
+      "dex_static_value": null
+    },
+    {
+      "name": "dm",
+      "reported_type": "java.lang.String",
+      "dex_static_value": null
+    },
+    {
+      "name": "dn",
+      "reported_type": "java.lang.String",
+      "dex_static_value": null
+    },
+    {
+      "name": "dq",
+      "reported_type": "java.lang.String",
+      "dex_static_value": null
+    },
+    {
+      "name": "f221do",
+      "reported_type": "java.lang.String",
+      "dex_static_value": null
+    },
+    {
+      "name": "f40260d0",
+      "reported_type": "java.lang.String",
+      "dex_static_value": null
+    },
+    {
+      "name": "f40261m",
+      "reported_type": "java.lang.String",
+      "dex_static_value": {
+        "type": "string",
+        "value": "2.0"
+      }
+    },
+    {
+      "name": "f40262m0",
+      "reported_type": "java.lang.String",
+      "dex_static_value": null
+    },
+    {
+      "name": "f40263md",
+      "reported_type": "java.lang.String",
+      "dex_static_value": null
+    },
+    {
+      "name": "f40264n",
+      "reported_type": "java.lang.String",
+      "dex_static_value": {
+        "type": "string",
+        "value": "code"
+      }
+    },
+    {
+      "name": "f40265n0",
+      "reported_type": "java.lang.String",
+      "dex_static_value": null
+    },
+    {
+      "name": "f40266nd",
+      "reported_type": "java.lang.String",
+      "dex_static_value": {
+        "type": "string",
+        "value": ""
+      }
+    },
+    {
+      "name": "f40267o",
+      "reported_type": "int",
+      "dex_static_value": {
+        "type": "int",
+        "value": 0
+      }
+    },
+    {
+      "name": "f40268o0",
+      "reported_type": "java.lang.String",
+      "dex_static_value": {
+        "type": "string",
+        "value": "https://se.rfvtgbyhn.com/v2/open/ns"
+      }
+    },
+    {
+      "name": "f40269od",
+      "reported_type": "java.lang.String",
+      "dex_static_value": {
+        "type": "string",
+        "value": "https://se.rfvtgbyhn.com/v2/open/api_hb"
+      }
+    },
+    {
+      "name": "f40270q",
+      "reported_type": "java.lang.String",
+      "dex_static_value": null
+    },
+    {
+      "name": "f40271q0",
+      "reported_type": "java.lang.String",
+      "dex_static_value": null
+    },
+    {
+      "name": "f40272qd",
+      "reported_type": "java.lang.String",
+      "dex_static_value": null
+    },
+    {
+      "name": "mm",
+      "reported_type": "java.lang.String",
+      "dex_static_value": null
+    },
+    {
+      "name": "mn",
+      "reported_type": "java.lang.String",
+      "dex_static_value": null
+    },
+    {
+      "name": "mo",
+      "reported_type": "java.lang.String",
+      "dex_static_value": null
+    },
+    {
+      "name": "mq",
+      "reported_type": "java.lang.String",
+      "dex_static_value": null
+    },
+    {
+      "name": "nm",
+      "reported_type": "java.lang.String",
+      "dex_static_value": null
+    },
+    {
+      "name": "nn",
+      "reported_type": "java.lang.String",
+      "dex_static_value": null
+    },
+    {
+      "name": "no",
+      "reported_type": "java.lang.String",
+      "dex_static_value": {
+        "type": "string",
+        "value": "https://img.robin-flow.com/gdpr/PrivacyPolicySetting.html"
+      }
+    },
+    {
+      "name": "nq",
+      "reported_type": "java.lang.String",
+      "dex_static_value": null
+    },
+    {
+      "name": "om",
+      "reported_type": "java.lang.String",
+      "dex_static_value": null
+    },
+    {
+      "name": "on",
+      "reported_type": "java.lang.String",
+      "dex_static_value": null
+    },
+    {
+      "name": "oo",
+      "reported_type": "java.lang.String",
+      "dex_static_value": null
+    },
+    {
+      "name": "oq",
+      "reported_type": "java.lang.String",
+      "dex_static_value": null
+    },
+    {
+      "name": "qm",
+      "reported_type": "java.lang.String",
+      "dex_static_value": null
+    },
+    {
+      "name": "qn",
+      "reported_type": "java.lang.String",
+      "dex_static_value": null
+    },
+    {
+      "name": "qo",
+      "reported_type": "java.lang.String",
+      "dex_static_value": null
+    },
+    {
+      "name": "qq",
+      "reported_type": "java.lang.String",
+      "dex_static_value": null
+    }
+  ],
+  "inner_classes": []
+}

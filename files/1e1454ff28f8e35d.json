@@ -1,0 +1,160 @@
+{
+  "job": {
+    "id": "071_event_queue_add",
+    "package": "com.xj.cash.drama",
+    "tool": "inspect_android_method",
+    "args": {
+      "path": "D:\\python daima\\outputs\\apk_extract_20261116\\com.xj.cash.drama\\base.apk",
+      "class_name": "com.thinkup.core.common.nn.d.d",
+      "method_name": "d",
+      "overload_index": 5
+    }
+  },
+  "start": "2026-11-16T05:10:44.979Z",
+  "end": "2026-11-16T05:10:45.992Z",
+  "result": {
+    "_meta": {
+      "provenance": {
+        "untrusted_content": true,
+        "source": "analysis_target"
+      }
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"evidence_id\":\"ev_1f74e07b4975f9254dd17315e489a7b4d2204bb628ae06b1f5acf6660340328f\",\"subject\":{\"name\":\"base.apk\",\"digest\":{\"sha256\":\"5c21f181b3a5f2632d00dde6a1939d0fddd2bb05869539ca565edec19974f7fd\"},\"local_path\":\"D:\\\\python daima\\\\outputs\\\\apk_extract_20261116\\\\com.xj.cash.drama\\\\base.apk\",\"format\":\"apk\",\"architecture\":null},\"provider\":{\"id\":\"jadx\",\"name\":\"JADX headless\",\"version\":\"0.7.1\"},\"analysis_profile\":null,\"predicate_type\":\"rea.analysis\",\"operation\":\"inspect_android_method\",\"parameters\":{\"path\":\"D:\\\\python daima\\\\outputs\\\\apk_extract_20261116\\\\com.xj.cash.drama\\\\base.apk\",\"class_name\":\"com.thinkup.core.common.nn.d.d\",\"method_name\":\"d\",\"overload_index\":5},\"raw_result\":{\"server\":{\"name\":\"rea-jadx-bridge\",\"version\":\"7\"},\"bridge_sha256\":\"e5044a8312dd0731f53af3f095508b3e5cff54df6b971c95d4305e2f39b4fa30\",\"jar_sha256\":\"6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75\",\"loaded\":{\"state\":\"LOADED\",\"apk_path\":\"C:\\\\Users\\\\asus\\\\AppData\\\\Local\\\\Temp\\\\rea-android-9936e063b1a8784ee56911df5ac9b338\\\\target.apk\",\"class_count\":61382,\"resource_count\":3256,\"threads\":1,\"resources\":\"full\"},\"calls\":[{\"operation\":\"rea_jvm_status\",\"input\":{},\"response\":{\"content\":[{\"type\":\"text\",\"text\":\"{\\\"metadata_scope\\\":\\\"parsed_members\\\",\\\"engine_reported_version\\\":\\\"0.7.1\\\",\\\"available_processors\\\":3,\\\"java_version\\\":\\\"17.0.12\\\",\\\"max_heap_bytes\\\":3221225472}\"}],\"isError\":false}},{\"operation\":\"get_class_summary\",\"input\":{\"class_name\":\"com.thinkup.core.common.nn.d.d\"},\"response\":{\"content\":[{\"type\":\"text\",\"text\":\"{\\\"name\\\":\\\"d\\\",\\\"inner_class_count\\\":8,\\\"inner_classes\\\":[\\\"com.thinkup.core.common.nn.d.d.AnonymousClass1\\\",\\\"com.thinkup.core.common.nn.d.d.AnonymousClass2\\\",\\\"com.thinkup.core.common.nn.d.d.AnonymousClass3\\\",\\\"com.thinkup.core.common.nn.d.d.AnonymousClass4\\\",\\\"com.thinkup.core.common.nn.d.d.AnonymousClass5\\\",\\\"com.thinkup.core.common.nn.d.d.AnonymousClass6\\\",\\\"com.thinkup.core.common.nn.d.d.AnonymousClass7\\\",\\\"com.thinkup.core.common.nn.d.d.C0733d\\\"],\\\"methods\\\":[{\\\"signature\\\":\\\"\\\\u003cclinit\\\\u003e(): void\\\",\\\"dex_descriptor\\\":\\\"()V\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"\\\\u003cclinit\\\\u003e\\\",\\\"def_pos\\\":0},{\\\"signature\\\":\\\"\\\\u003cinit\\\\u003e(): void\\\",\\\"dex_descriptor\\\":\\\"()V\\\",\\\"is_constructor\\\":true,\\\"name\\\":\\\"\\\\u003cinit\\\\u003e\\\",\\\"def_pos\\\":0},{\\\"signature\\\":\\\"d(): com.thinkup.core.common.nn.d.d\\\",\\\"dex_descriptor\\\":\\\"()Lcom/thinkup/core/common/nn/d/d;\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"d\\\",\\\"def_pos\\\":0},{\\\"signature\\\":\\\"d(java.lang.Runnable): void\\\",\\\"dex_descriptor\\\":\\\"(Ljava/lang/Runnable;)V\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"d\\\",\\\"def_pos\\\":0},{\\\"signature\\\":\\\"d(boolean): void\\\",\\\"dex_descriptor\\\":\\\"(Z)V\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"d\\\",\\\"def_pos\\\":0},{\\\"signature\\\":\\\"d(com.thinkup.core.common.nn.d.d): boolean\\\",\\\"dex_descriptor\\\":\\\"(Lcom/thinkup/core/common/nn/d/d;)Z\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"d\\\",\\\"def_pos\\\":0},{\\\"signature\\\":\\\"d(int, com.thinkup.core.common.dm.m0o, com.thinkup.core.common.dm.m0q, long): void\\\",\\\"dex_descriptor\\\":\\\"(ILcom/thinkup/core/common/dm/m0o;Lcom/thinkup/core/common/dm/m0q;J)V\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"d\\\",\\\"def_pos\\\":0},{\\\"signature\\\":\\\"d(com.thinkup.core.common.dm.nd): void\\\",\\\"dex_descriptor\\\":\\\"(Lcom/thinkup/core/common/dm/nd;)V\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"d\\\",\\\"def_pos\\\":0},{\\\"signature\\\":\\\"d0(): void\\\",\\\"dex_descriptor\\\":\\\"()V\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"d0\\\",\\\"def_pos\\\":0},{\\\"signature\\\":\\\"dd(): com.thinkup.core.common.nn.d.d$d\\\",\\\"dex_descriptor\\\":\\\"()Lcom/thinkup/core/common/nn/d/d$d;\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"dd\\\",\\\"def_pos\\\":0},{\\\"signature\\\":\\\"dm(): void\\\",\\\"dex_descriptor\\\":\\\"()V\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"dm\\\",\\\"def_pos\\\":0},{\\\"signature\\\":\\\"dn(): void\\\",\\\"dex_descriptor\\\":\\\"()V\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"dn\\\",\\\"def_pos\\\":0},{\\\"signature\\\":\\\"m(com.thinkup.core.common.nn.d.d): boolean\\\",\\\"dex_descriptor\\\":\\\"(Lcom/thinkup/core/common/nn/d/d;)Z\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"m\\\",\\\"def_pos\\\":0},{\\\"signature\\\":\\\"m(): boolean\\\",\\\"dex_descriptor\\\":\\\"()Z\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"m\\\",\\\"def_pos\\\":0},{\\\"signature\\\":\\\"m4773do(): void\\\",\\\"dex_descriptor\\\":\\\"()V\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"m4773do\\\",\\\"def_pos\\\":0},{\\\"signature\\\":\\\"n(): boolean\\\",\\\"dex_descriptor\\\":\\\"()Z\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"n\\\",\\\"def_pos\\\":0},{\\\"signature\\\":\\\"o(): void\\\",\\\"dex_descriptor\\\":\\\"()V\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"o\\\",\\\"def_pos\\\":0},{\\\"signature\\\":\\\"q(): void\\\",\\\"dex_descriptor\\\":\\\"()V\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"q\\\",\\\"def_pos\\\":0}],\\\"fields\\\":[{\\\"name\\\":\\\"d\\\",\\\"def_pos\\\":0,\\\"type\\\":\\\"java.lang.String\\\"},{\\\"name\\\":\\\"d0\\\",\\\"def_pos\\\":0,\\\"type\\\":\\\"java.util.concurrent.atomic.AtomicBoolean\\\"},{\\\"name\\\":\\\"m\\\",\\\"def_pos\\\":0,\\\"type\\\":\\\"com.thinkup.core.common.nn.d.d$d\\\"},{\\\"name\\\":\\\"n\\\",\\\"def_pos\\\":0,\\\"type\\\":\\\"com.thinkup.core.common.nn.d.d\\\"},{\\\"name\\\":\\\"o\\\",\\\"def_pos\\\":0,\\\"type\\\":\\\"boolean\\\"},{\\\"name\\\":\\\"q\\\",\\\"def_pos\\\":0,\\\"type\\\":\\\"boolean\\\"}],\\\"raw_name\\\":\\\"com.thinkup.core.common.nn.d.d\\\",\\\"method_count\\\":18,\\\"full_name\\\":\\\"com.thinkup.core.common.nn.d.d\\\",\\\"field_count\\\":6}\"}],\"isError\":false}},{\"operation\":\"get_method_body\",\"input\":{\"class_name\":\"com.thinkup.core.common.nn.d.d\",\"method_name\":\"d\",\"overload_index\":5,\"smali_fallback\":true},\"response\":{\"content\":[{\"type\":\"text\",\"text\":\"{\\\"markers\\\":[],\\\"body\\\":\\\"    public final void d(final com.thinkup.core.common.dm.nd ndVar) {\\\\r\\\\n        if (this.q || ndVar \\\\u003d\\\\u003d null) {\\\\r\\\\n            return;\\\\r\\\\n        }\\\\r\\\\n        n.d().q(new com.thinkup.core.common.no.m.o(q.mod, new Runnable() { // from class: com.thinkup.core.common.nn.d.d.3\\\\r\\\\n            @Override // java.lang.Runnable\\\\r\\\\n            public final void run() {\\\\r\\\\n                try {\\\\r\\\\n                    com.thinkup.core.common.nn.d.m.d.d().d(ndVar);\\\\r\\\\n                } catch (Throwable unused) {\\\\r\\\\n                }\\\\r\\\\n            }\\\\r\\\\n        }));\\\\r\\\\n    }\\\",\\\"mode\\\":\\\"java\\\",\\\"class_name\\\":\\\"com.thinkup.core.common.nn.d.d\\\",\\\"dex_descriptor\\\":\\\"(Lcom/thinkup/core/common/dm/nd;)V\\\",\\\"overload_count\\\":6,\\\"method_name\\\":\\\"d\\\",\\\"overload_index\\\":5,\\\"full_name\\\":\\\"com.thinkup.core.common.nn.d.d.d\\\",\\\"fell_back\\\":false}\"}],\"isError\":false}}]},\"normalized_result\":{\"engine\":{\"name\":\"jadx-headless-mcp\",\"version\":\"0.7.1\",\"artifact_sha256\":\"6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75\",\"source_revision\":\"5844800a486d2248fa949b74c9896285f5b54de2\",\"worker_count\":1,\"heap_limit_mib\":3072},\"class_name\":\"com.thinkup.core.common.nn.d.d\",\"method\":{\"name\":\"d\",\"reported_signature\":\"d(com.thinkup.core.common.dm.nd): void\",\"overload_index\":5,\"is_constructor\":false,\"dex_descriptor\":\"(Lcom/thinkup/core/common/dm/nd;)V\"},\"overload_count\":6,\"representation\":\"java\",\"body_status\":\"available\",\"fell_back\":false,\"markers\":[],\"source\":{\"status\":\"complete\",\"text\":\"    public final void d(final com.thinkup.core.common.dm.nd ndVar) {\\r\\n        if (this.q || ndVar == null) {\\r\\n            return;\\r\\n        }\\r\\n        n.d().q(new com.thinkup.core.common.no.m.o(q.mod, new Runnable() { // from class: com.thinkup.core.common.nn.d.d.3\\r\\n            @Override // java.lang.Runnable\\r\\n            public final void run() {\\r\\n                try {\\r\\n                    com.thinkup.core.common.nn.d.m.d.d().d(ndVar);\\r\\n                } catch (Throwable unused) {\\r\\n                }\\r\\n            }\\r\\n        }));\\r\\n    }\",\"reported_total_bytes\":null}},\"confidence\":\"derived\",\"authority\":\"shipped-artifact\",\"environment\":null,\"limitations\":[\"Static decompiler observations do not establish runtime behavior; the APK is never executed.\",\"Method signatures use provider display types; DEX prototypes come from frozen JADX metadata. Display names may be aliases, and overload indices are local to this engine and artifact.\",\"Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.\",\"Incoming reference totals count JADX using nodes. Direct invoke entries within a using method report raw DEX code-unit offsets and method indexes, but coverage is limited to those nodes and directly matched invokes; it does not establish every possible dynamic or reflective call site.\",\"Manifest summaries are parsed once by REA's bridge from the exact root AndroidManifest.xml resource, using namespace-aware XML attributes; decoded XML is retained. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider.\"],\"relationship_coverage\":null,\"locations\":[],\"evidence_links\":[]}"
+      }
+    ],
+    "structuredContent": {
+      "evidence_id": "ev_1f74e07b4975f9254dd17315e489a7b4d2204bb628ae06b1f5acf6660340328f",
+      "subject": {
+        "name": "base.apk",
+        "digest": {
+          "sha256": "5c21f181b3a5f2632d00dde6a1939d0fddd2bb05869539ca565edec19974f7fd"
+        },
+        "local_path": "D:\\python daima\\outputs\\apk_extract_20261116\\com.xj.cash.drama\\base.apk",
+        "format": "apk",
+        "architecture": null
+      },
+      "provider": {
+        "id": "jadx",
+        "name": "JADX headless",
+        "version": "0.7.1"
+      },
+      "analysis_profile": null,
+      "predicate_type": "rea.analysis",
+      "operation": "inspect_android_method",
+      "parameters": {
+        "path": "D:\\python daima\\outputs\\apk_extract_20261116\\com.xj.cash.drama\\base.apk",
+        "class_name": "com.thinkup.core.common.nn.d.d",
+        "method_name": "d",
+        "overload_index": 5
+      },
+      "raw_result": {
+        "server": {
+          "name": "rea-jadx-bridge",
+          "version": "7"
+        },
+        "bridge_sha256": "e5044a8312dd0731f53af3f095508b3e5cff54df6b971c95d4305e2f39b4fa30",
+        "jar_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+        "loaded": {
+          "state": "LOADED",
+          "apk_path": "C:\\Users\\asus\\AppData\\Local\\Temp\\rea-android-9936e063b1a8784ee56911df5ac9b338\\target.apk",
+          "class_count": 61382,
+          "resource_count": 3256,
+          "threads": 1,
+          "resources": "full"
+        },
+        "calls": [
+          {
+            "operation": "rea_jvm_status",
+            "input": {},
+            "response": {
+              "content": [
+                {
+                  "type": "text",
+                  "text": "{\"metadata_scope\":\"parsed_members\",\"engine_reported_version\":\"0.7.1\",\"available_processors\":3,\"java_version\":\"17.0.12\",\"max_heap_bytes\":3221225472}"
+                }
+              ],
+              "isError": false
+            }
+          },
+          {
+            "operation": "get_class_summary",
+            "input": {
+              "class_name": "com.thinkup.core.common.nn.d.d"
+            },
+            "response": {
+              "content": [
+                {
+                  "type": "text",
+                  "text": "{\"name\":\"d\",\"inner_class_count\":8,\"inner_classes\":[\"com.thinkup.core.common.nn.d.d.AnonymousClass1\",\"com.thinkup.core.common.nn.d.d.AnonymousClass2\",\"com.thinkup.core.common.nn.d.d.AnonymousClass3\",\"com.thinkup.core.common.nn.d.d.AnonymousClass4\",\"com.thinkup.core.common.nn.d.d.AnonymousClass5\",\"com.thinkup.core.common.nn.d.d.AnonymousClass6\",\"com.thinkup.core.common.nn.d.d.AnonymousClass7\",\"com.thinkup.core.common.nn.d.d.C0733d\"],\"methods\":[{\"signature\":\"\\u003cclinit\\u003e(): void\",\"dex_descriptor\":\"()V\",\"is_constructor\":false,\"name\":\"\\u003cclinit\\u003e\",\"def_pos\":0},{\"signature\":\"\\u003cinit\\u003e(): void\",\"dex_descriptor\":\"()V\",\"is_constructor\":true,\"name\":\"\\u003cinit\\u003e\",\"def_pos\":0},{\"signature\":\"d(): com.thinkup.core.common.nn.d.d\",\"dex_descriptor\":\"()Lcom/thinkup/core/common/nn/d/d;\",\"is_constructor\":false,\"name\":\"d\",\"def_pos\":0},{\"signature\":\"d(java.lang.Runnable): void\",\"dex_descriptor\":\"(Ljava/lang/Runnable;)V\",\"is_constructor\":false,\"name\":\"d\",\"def_pos\":0},{\"signature\":\"d(boolean): void\",\"dex_descriptor\":\"(Z)V\",\"is_constructor\":false,\"name\":\"d\",\"def_pos\":0},{\"signature\":\"d(com.thinkup.core.common.nn.d.d): boolean\",\"dex_descriptor\":\"(Lcom/thinkup/core/common/nn/d/d;)Z\",\"is_constructor\":false,\"name\":\"d\",\"def_pos\":0},{\"signature\":\"d(int, com.thinkup.core.common.dm.m0o, com.thinkup.core.common.dm.m0q, long): void\",\"dex_descriptor\":\"(ILcom/thinkup/core/common/dm/m0o;Lcom/thinkup/core/common/dm/m0q;J)V\",\"is_constructor\":false,\"name\":\"d\",\"def_pos\":0},{\"signature\":\"d(com.thinkup.core.common.dm.nd): void\",\"dex_descriptor\":\"(Lcom/thinkup/core/common/dm/nd;)V\",\"is_constructor\":false,\"name\":\"d\",\"def_pos\":0},{\"signature\":\"d0(): void\",\"dex_descriptor\":\"()V\",\"is_constructor\":false,\"name\":\"d0\",\"def_pos\":0},{\"signature\":\"dd(): com.thinkup.core.common.nn.d.d$d\",\"dex_descriptor\":\"()Lcom/thinkup/core/common/nn/d/d$d;\",\"is_constructor\":false,\"name\":\"dd\",\"def_pos\":0},{\"signature\":\"dm(): void\",\"dex_descriptor\":\"()V\",\"is_constructor\":false,\"name\":\"dm\",\"def_pos\":0},{\"signature\":\"dn(): void\",\"dex_descriptor\":\"()V\",\"is_constructor\":false,\"name\":\"dn\",\"def_pos\":0},{\"signature\":\"m(com.thinkup.core.common.nn.d.d): boolean\",\"dex_descriptor\":\"(Lcom/thinkup/core/common/nn/d/d;)Z\",\"is_constructor\":false,\"name\":\"m\",\"def_pos\":0},{\"signature\":\"m(): boolean\",\"dex_descriptor\":\"()Z\",\"is_constructor\":false,\"name\":\"m\",\"def_pos\":0},{\"signature\":\"m4773do(): void\",\"dex_descriptor\":\"()V\",\"is_constructor\":false,\"name\":\"m4773do\",\"def_pos\":0},{\"signature\":\"n(): boolean\",\"dex_descriptor\":\"()Z\",\"is_constructor\":false,\"name\":\"n\",\"def_pos\":0},{\"signature\":\"o(): void\",\"dex_descriptor\":\"()V\",\"is_constructor\":false,\"name\":\"o\",\"def_pos\":0},{\"signature\":\"q(): void\",\"dex_descriptor\":\"()V\",\"is_constructor\":false,\"name\":\"q\",\"def_pos\":0}],\"fields\":[{\"name\":\"d\",\"def_pos\":0,\"type\":\"java.lang.String\"},{\"name\":\"d0\",\"def_pos\":0,\"type\":\"java.util.concurrent.atomic.AtomicBoolean\"},{\"name\":\"m\",\"def_pos\":0,\"type\":\"com.thinkup.core.common.nn.d.d$d\"},{\"name\":\"n\",\"def_pos\":0,\"type\":\"com.thinkup.core.common.nn.d.d\"},{\"name\":\"o\",\"def_pos\":0,\"type\":\"boolean\"},{\"name\":\"q\",\"def_pos\":0,\"type\":\"boolean\"}],\"raw_name\":\"com.thinkup.core.common.nn.d.d\",\"method_count\":18,\"full_name\":\"com.thinkup.core.common.nn.d.d\",\"field_count\":6}"
+                }
+              ],
+              "isError": false
+            }
+          },
+          {
+            "operation": "get_method_body",
+            "input": {
+              "class_name": "com.thinkup.core.common.nn.d.d",
+              "method_name": "d",
+              "overload_index": 5,
+              "smali_fallback": true
+            },
+            "response": {
+              "content": [
+                {
+                  "type": "text",
+                  "text": "{\"markers\":[],\"body\":\"    public final void d(final com.thinkup.core.common.dm.nd ndVar) {\\r\\n        if (this.q || ndVar \\u003d\\u003d null) {\\r\\n            return;\\r\\n        }\\r\\n        n.d().q(new com.thinkup.core.common.no.m.o(q.mod, new Runnable() { // from class: com.thinkup.core.common.nn.d.d.3\\r\\n            @Override // java.lang.Runnable\\r\\n            public final void run() {\\r\\n                try {\\r\\n                    com.thinkup.core.common.nn.d.m.d.d().d(ndVar);\\r\\n                } catch (Throwable unused) {\\r\\n                }\\r\\n            }\\r\\n        }));\\r\\n    }\",\"mode\":\"java\",\"class_name\":\"com.thinkup.core.common.nn.d.d\",\"dex_descriptor\":\"(Lcom/thinkup/core/common/dm/nd;)V\",\"overload_count\":6,\"method_name\":\"d\",\"overload_index\":5,\"full_name\":\"com.thinkup.core.common.nn.d.d.d\",\"fell_back\":false}"
+                }
+              ],
+              "isError": false
+            }
+          }
+        ]
+      },
+      "normalized_result": {
+        "engine": {
+          "name": "jadx-headless-mcp",
+          "version": "0.7.1",
+          "artifact_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+          "source_revision": "5844800a486d2248fa949b74c9896285f5b54de2",
+          "worker_count": 1,
+          "heap_limit_mib": 3072
+        },
+        "class_name": "com.thinkup.core.common.nn.d.d",
+        "method": {
+          "name": "d",
+          "reported_signature": "d(com.thinkup.core.common.dm.nd): void",
+          "overload_index": 5,
+          "is_constructor": false,
+          "dex_descriptor": "(Lcom/thinkup/core/common/dm/nd;)V"
+        },
+        "overload_count": 6,
+        "representation": "java",
+        "body_status": "available",
+        "fell_back": false,
+        "markers": [],
+        "source": {
+          "status": "complete",
+          "text": "    public final void d(final com.thinkup.core.common.dm.nd ndVar) {\r\n        if (this.q || ndVar == null) {\r\n            return;\r\n        }\r\n        n.d().q(new com.thinkup.core.common.no.m.o(q.mod, new Runnable() { // from class: com.thinkup.core.common.nn.d.d.3\r\n            @Override // java.lang.Runnable\r\n            public final void run() {\r\n                try {\r\n                    com.thinkup.core.common.nn.d.m.d.d().d(ndVar);\r\n                } catch (Throwable unused) {\r\n                }\r\n            }\r\n        }));\r\n    }",
+          "reported_total_bytes": null
+        }
+      },
+      "confidence": "derived",
+      "authority": "shipped-artifact",
+      "environment": null,
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; DEX prototypes come from frozen JADX metadata. Display names may be aliases, and overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Incoming reference totals count JADX using nodes. Direct invoke entries within a using method report raw DEX code-unit offsets and method indexes, but coverage is limited to those nodes and directly matched invokes; it does not establish every possible dynamic or reflective call site.",
+        "Manifest summaries are parsed once by REA's bridge from the exact root AndroidManifest.xml resource, using namespace-aware XML attributes; decoded XML is retained. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ],
+      "relationship_coverage": null,
+      "locations": [],
+      "evidence_links": []
+    }
+  }
+}
